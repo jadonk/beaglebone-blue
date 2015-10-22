@@ -113,10 +113,8 @@
 <text x="374.520459375" y="306.123340625" size="0.948259375" layer="21" font="vector" ratio="5" rot="SR0">3</text>
 <text x="459.610459375" y="297.233340625" size="1.354659375" layer="21" font="vector" ratio="6" rot="SR90">microSD Card</text>
 <text x="451.736459375" y="274.373340625" size="1.354659375" layer="21" font="vector" ratio="6" rot="SR0">USB Host</text>
-<text x="394.713459375" y="287.581340625" size="1.354659375" layer="21" font="vector" ratio="6" rot="SR90">10/100 Ethernet</text>
 <text x="421.383459375" y="302.313340625" size="1.354659375" layer="21" font="vector" ratio="6" rot="SR0">AM335x</text>
 <text x="374.520459375" y="304.091340625" size="1.354659375" layer="21" font="vector" ratio="6" rot="SR0">USB</text>
-<text x="455.800459375" y="290.438840625" size="1.354659375" layer="21" font="vector" ratio="6" rot="SR0">HDMI</text>
 <text x="381.378459375" y="304.726340625" size="0.948259375" layer="21" font="vector" ratio="5" rot="SR0">POWER</text>
 <wire x1="416.433" y1="316.3062" x2="416.433" y2="317.2714" width="0.127" layer="22"/>
 <wire x1="441.833" y1="316.3062" x2="441.833" y2="317.2714" width="0.127" layer="22"/>
@@ -15581,7 +15579,6 @@
 <text x="408.937459375" y="229.796340625" size="3.386659375" layer="48" font="vector" rot="SR0">3.400</text>
 <text x="339.595459375" y="325.681340625" size="3.386659375" layer="48" font="vector" rot="SR0">R.250 2X</text>
 <text x="850.9" y="45.72" size="2.709340625" layer="48" font="vector" ratio="7">C</text>
-<text x="398.78" y="304.038" size="0.8382" layer="25" font="vector" ratio="14" rot="R90">element14</text>
 </plain>
 <libraries>
 <library name="BeagleBone_Black_RevB4">

@@ -29154,8 +29154,8 @@ Source: www.ti.com .. TI-bq24125.pdf</description>
 <part name="P+23" library="supply1" deviceset="VCC" device="" value="USB_DC"/>
 <part name="R49" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device="" value="DGND"/>
-<part name="R50" library="rcl" deviceset="R-US_" device="R0402"/>
-<part name="R51" library="rcl" deviceset="R-US_" device="R0402"/>
+<part name="R50" library="rcl" deviceset="R-US_" device="R0402" value="DNP"/>
+<part name="R51" library="rcl" deviceset="R-US_" device="R0402" value="DNP"/>
 <part name="U8" library="TPS2051B" deviceset="TPS2051B_D_8" device="" value="TPS2051BD"/>
 <part name="R53" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device="" value="DGND"/>
@@ -29413,7 +29413,7 @@ Source: www.ti.com .. TI-bq24125.pdf</description>
 <part name="P+63" library="supply1" deviceset="VCC" device="" value="VDDS_DDR"/>
 <part name="SUPPLY118" library="supply2" deviceset="GND" device="" value="DGND"/>
 <part name="C107" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="108" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C108" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C109" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C110" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C111" library="rcl" deviceset="C-EU" device="C0402"/>
@@ -29520,7 +29520,7 @@ Source: www.ti.com .. TI-bq24125.pdf</description>
 <part name="R38" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="47k"/>
 <part name="R39" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C108" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
+<part name="C$108" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
 <part name="C174" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
 <part name="C175" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
 <part name="C176" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
@@ -31608,7 +31608,7 @@ BeagleBone Blue Processor 1 of 3 and JTAG</text>
 <label x="528.32" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI1_CS1" class="0">
+<net name="GPIO1_17" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="GPMC_A1/GMII2_RXDV/RGMII2_RCTL/MMC2_DAT0/GPMC_A17/PR1_MII1_TXD3/EHRPWM1_SYNCI_O/GPIO1_17"/>
 <wire x1="353.06" y1="210.82" x2="381" y2="210.82" width="0.1524" layer="91"/>
@@ -31866,8 +31866,6 @@ Serial Cable
 <text x="162.56" y="231.14" size="1.778" layer="96">USB1_ID</text>
 <text x="154.94" y="228.6" size="1.778" layer="96">USB1_DRVVBUS</text>
 <text x="157.48" y="226.06" size="1.778" layer="96">USB1_VBUS</text>
-<text x="152.4" y="210.82" size="1.778" layer="96">GPIO0_7SRC</text>
-<text x="162.56" y="200.66" size="1.778" layer="96">GPIO3_18</text>
 <text x="22.86" y="101.6" size="1.778" layer="96">USB1_DRVVBUS</text>
 <text x="111.76" y="109.22" size="1.778" layer="96">USB1_PWR</text>
 <text x="170.18" y="93.98" size="1.778" layer="96" rot="R90">USB1_DM</text>
@@ -32766,14 +32764,15 @@ Serial Cable
 <pinref part="R49" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$242" class="0">
+<net name="GPIO0_7SRC" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$2" pin="ECAP0_IN_PWM0_OUT/UART3_TXD/SPI1_CS1/PR1_ECAP0_ECAP_CAPIN_APWM_O/SPI1_SCLK/MMC0_SDWP/XDMA_EVENT_INTR2/GPIO0_7"/>
 <wire x1="142.24" y1="210.82" x2="172.72" y2="210.82" width="0.1524" layer="91"/>
+<label x="152.4" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_0A" class="0">
+<net name="P9_42" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="210.82" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
@@ -32785,13 +32784,15 @@ Serial Cable
 <label x="99.06" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$244" class="0">
+<net name="QEP_0A" class="0">
 <segment>
 <pinref part="R51" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="200.66" x2="436.88" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="200.66" x2="436.88" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$2" pin="MCASP0_ACLKR/EQEP0A_IN/MCASP0_AXR2/MCASP1_ACLKX/MMC0_SDWP/PR1_PRU0_PRU_R30_4/PR1_PRU0_PRU_R31_4/GPIO3_18"/>
 <wire x1="436.88" y1="220.98" x2="419.1" y2="220.98" width="0.1524" layer="91"/>
+<label x="167.64" y="200.66" size="1.778" layer="95"/>
+<label x="436.88" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$245" class="0">
@@ -35062,7 +35063,7 @@ Package</text>
 <instance part="P+63" gate="VCC" x="182.88" y="345.44" rot="R90"/>
 <instance part="SUPPLY118" gate="GND" x="182.88" y="355.6" rot="R270"/>
 <instance part="C107" gate="G$1" x="358.14" y="231.14"/>
-<instance part="108" gate="G$1" x="365.76" y="231.14"/>
+<instance part="C108" gate="G$1" x="365.76" y="231.14"/>
 <instance part="C109" gate="G$1" x="373.38" y="231.14"/>
 <instance part="C110" gate="G$1" x="381" y="231.14"/>
 <instance part="C111" gate="G$1" x="388.62" y="231.14"/>
@@ -35399,7 +35400,7 @@ Package</text>
 <wire x1="419.1" y1="215.9" x2="426.72" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="215.9" x2="434.34" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="215.9" x2="434.34" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="108" gate="G$1" pin="2"/>
+<pinref part="C108" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="226.06" x2="365.76" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="C109" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="226.06" x2="373.38" y2="215.9" width="0.1524" layer="91"/>
@@ -35593,7 +35594,7 @@ Package</text>
 <wire x1="381" y1="233.68" x2="381" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="C109" gate="G$1" pin="1"/>
 <wire x1="373.38" y1="233.68" x2="373.38" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="108" gate="G$1" pin="1"/>
+<pinref part="C108" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="233.68" x2="365.76" y2="241.3" width="0.1524" layer="91"/>
 <junction x="365.76" y="241.3"/>
 <junction x="373.38" y="241.3"/>
@@ -36578,7 +36579,7 @@ Style Connector</text>
 <instance part="R38" gate="G$1" x="102.87" y="-88.9" rot="R270"/>
 <instance part="R39" gate="G$1" x="102.87" y="-99.06" rot="R270"/>
 <instance part="GND17" gate="1" x="102.87" y="-107.95"/>
-<instance part="C108" gate="G$1" x="129.54" y="-11.43" smashed="yes">
+<instance part="C$108" gate="G$1" x="129.54" y="-11.43" smashed="yes">
 <attribute name="NAME" x="131.064" y="-8.509" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127.889" y="-17.526" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -37426,7 +37427,7 @@ Style Connector</text>
 <pinref part="5VREG" gate="G$1" pin="VIN"/>
 <pinref part="D11" gate="G$1" pin="C"/>
 <pinref part="D10" gate="G$1" pin="C"/>
-<pinref part="C108" gate="G$1" pin="1"/>
+<pinref part="C$108" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="-1.27" x2="129.54" y2="-1.27" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-1.27" x2="129.54" y2="1.27" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-1.27" x2="123.19" y2="-1.27" width="0.1524" layer="91"/>
@@ -37474,7 +37475,7 @@ Style Connector</text>
 <wire x1="161.29" y1="-19.05" x2="152.4" y2="-19.05" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="A"/>
 <wire x1="161.29" y1="-12.7" x2="161.29" y2="-19.05" width="0.1524" layer="91"/>
-<pinref part="C108" gate="G$1" pin="2"/>
+<pinref part="C$108" gate="G$1" pin="2"/>
 <pinref part="C174" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="-12.7" x2="182.88" y2="-19.05" width="0.1524" layer="91"/>
 <junction x="161.29" y="-19.05"/>
@@ -38078,13 +38079,6 @@ Style Connector</text>
 <pinref part="R182" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SPI1_CS1" class="0">
-<segment>
-<wire x1="236.22" y1="-114.3" x2="222.25" y2="-114.3" width="0.1524" layer="91"/>
-<label x="223.52" y="-114.3" size="1.778" layer="95"/>
-<pinref part="SPI1.2" gate="G$1" pin="6"/>
-</segment>
-</net>
 <net name="IMU_INT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="INT"/>
@@ -38150,15 +38144,6 @@ Style Connector</text>
 <wire x1="102.87" y1="-93.98" x2="87.63" y2="-93.98" width="0.1524" layer="91"/>
 <label x="87.63" y="-93.98" size="1.778" layer="95"/>
 <junction x="102.87" y="-93.98"/>
-</segment>
-</net>
-<net name="QEP_0A" class="0">
-<segment>
-<wire x1="231.14" y1="-54.61" x2="218.44" y2="-54.61" width="0.1524" layer="91"/>
-<label x="232.41" y="-54.61" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R168" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="-50.8" x2="218.44" y2="-54.61" width="0.1524" layer="91"/>
-<pinref part="E1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="UART2_TX" class="0">
@@ -38651,6 +38636,24 @@ Style Connector</text>
 <label x="159.258" y="-79.756" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="GPIO0_7SRC" class="0">
+<segment>
+<pinref part="SPI1.2" gate="G$1" pin="6"/>
+<wire x1="236.22" y1="-114.3" x2="223.52" y2="-114.3" width="0.1524" layer="91"/>
+<label x="223.52" y="-114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="QEP_0A" class="0">
+<segment>
+<pinref part="R168" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="-50.8" x2="220.98" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-50.8" x2="220.98" y2="-54.61" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-54.61" x2="231.14" y2="-54.61" width="0.1524" layer="91"/>
+<wire x1="231.394" y1="-54.61" x2="231.14" y2="-54.61" width="0.1524" layer="91"/>
+<pinref part="E1" gate="G$1" pin="3"/>
+<label x="223.012" y="-54.102" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -38720,12 +38723,9 @@ Style Connector</text>
 <approved hash="104,3,353.06,302.26,U5G$1,TDO,N$92,,,"/>
 <approved hash="104,3,353.06,299.72,U5G$1,EMU0/GPIO3_7,N$93,,,"/>
 <approved hash="104,3,353.06,297.18,U5G$1,EMU1/GPIO3_8,N$94,,,"/>
-<approved hash="104,3,353.06,292.1,U5G$1,GPMC_CLK/LCD_MEM_CLK/GPMC_WAIT1/MMC2_CLK/PRT1_MII1_TXEN/MCASP0_FSR/GPIO2_1,GPIO2_1,,,"/>
-<approved hash="104,3,353.06,289.56,U5G$1,GPMC_CSN0/GPIO1_29,GPIO1_29,,,"/>
 <approved hash="104,3,353.06,287.02,U5G$1,GPMC_CSN1/GPMC_CLK/MMC1_CLK/PRT1EDIO_DATA_IN6/PRT1_EDIO_DATA_OUT6/PR1_PRU1_PRU_R30_12/PR1_PRU1_PRU_R31_12/GPIO1_30,MMC1_CLK,,,"/>
 <approved hash="104,3,353.06,284.48,U5G$1,GPMC_CSN2/GPMC_BE1N/MMC1_CMD/PR1_EDIO_DATA_IN7/PR1_EDIO_DATA_OUT7/PR1_PRU1_PRU_R30_13/PR1_PRU1_PRU_R31_13/GPIO1_31,MMC1_CMD,,,"/>
 <approved hash="104,3,353.06,281.94,U5G$1,GPMC_CSN3/MMC2_CMD/PR1_MDIO_DATA/GPIO2_0,N$123,,,"/>
-<approved hash="104,3,353.06,266.7,U5G$1,GPMC_WAIT0/GM112_CRS/GPMC_CSN4/RMII2_CRS_DV/MMC1_SDCD/PR1_MII1_RXDV/UART4_RXD/GPIO0_30,UART4_RXD,,,"/>
 <approved hash="104,3,353.06,259.08,U5G$1,GPMC_AD0/MMC1_DAT0//////GPIO1_0,MMC1_DAT0,,,"/>
 <approved hash="104,3,353.06,256.54,U5G$1,GPMC_AD1/MMC1_DAT1//////GPIO1_1,MMC1_DAT1,,,"/>
 <approved hash="104,3,353.06,254,U5G$1,GPMC_AD2/MMC1_DAT2//////GPIO1_2,MMC1_DAT2,,,"/>
@@ -38734,13 +38734,7 @@ Style Connector</text>
 <approved hash="104,3,353.06,246.38,U5G$1,GPMC_AD5/MMC1_DAT5//////GPIO1_5,MMC1_DAT5,,,"/>
 <approved hash="104,3,353.06,243.84,U5G$1,GPMC_AD6/MMC1_DAT6//////GPIO1_6,MMC1_DAT6,,,"/>
 <approved hash="104,3,353.06,241.3,U5G$1,GPMC_AD7/MMC1_DAT7//////GPIO1_7,MMC1_DAT7,,,"/>
-<approved hash="104,3,353.06,238.76,U5G$1,GPMC_AD8/LCD_DATA23/MMC1_DAT0/MMC2_DAT4/EHRPWM2A/PR1_MII_MT0_CLK//GPIO0_22,EHRPWM2A,,,"/>
-<approved hash="104,3,353.06,236.22,U5G$1,GPMC_AD9/LCD_DATA22/MMC1_DAT1/MMC2_DAT5/EHRPWM2B/PR1_MII0_CRS//GPIO0_23,EHRPWM2B,,,"/>
-<approved hash="104,3,353.06,233.68,U5G$1,GPMC_AD10/LCD_DATA21/MMC1_DAT2/MMC2_DAT6/EHRPWM2_TRIPZONE_INPUT/PR1_MII0_TXEN//GPIO0_26,GPIO0_26,,,"/>
-<approved hash="104,3,353.06,223.52,U5G$1,GPMC_AD14/LCD_DATA17/MMC1_DAT6/MMC2_DAT2/EQEP2_INDEX/PR1_MII0_TXD0/PR1_PRU0_PRU_R31_14/GPIO1_14,GPIO1_14,,,"/>
 <approved hash="104,3,353.06,213.36,U5G$1,GPMC_A0/GMII2_TXEN/RGMII2_TCTL/RMII2_TXEN/GPMC_A16/PR1_MII_MT1_CLK/EHRPWM1_TRIPZONE_INPUT/GPIO1_16,N$122,,,"/>
-<approved hash="104,3,353.06,208.28,U5G$1,GPMC_A2/GMII2_TXD3/RGMII2_TD3/MMC2_DAT1/GPMC_A18/PR1_MII1_TXD2/EHRPWM1A/GPIO1_18,EHRPWM1A,,,"/>
-<approved hash="104,3,353.06,205.74,U5G$1,GPMC_A3/GMII2_TXD2/RGMII2_TD2/MMC2_DAT2/GPMC_A19/PR1_MII1_TXD1/EHRPWM1B/GPIO1_19,EHRPWM1B,,,"/>
 <approved hash="104,3,353.06,203.2,U5G$1,GPMC_A4/GMII2_TXD1/RGMII2_TD1/RMII2_TXD1/GPMC_A20/PR1_MII1_TXD0/EQEP1A_IN/GPIO1_20,N$143,,,"/>
 <approved hash="104,3,353.06,200.66,U5G$1,GPMC_A5/GMII2_TXD0/RGMII2_TD0/RMII2_TXD0/GPMC_A21/PR1_MII1_RXD3/EQEP1B_IN/GPIO1_21,USR0,,,"/>
 <approved hash="104,3,353.06,198.12,U5G$1,GPMC_A6/GMII2_TXCLK/RGMII2_TCLK/MMC2_DAT4/GPMC_A22/PR1_MII1_RXD2/EQEP1_INDEX/GPIO1_22,USR1,,,"/>
@@ -38807,9 +38801,9 @@ Style Connector</text>
 <approved hash="108,5,378.46,271.78,GND,,,,,"/>
 <approved hash="107,5,27.94,378.46,VCC,N$252,,,,"/>
 <approved hash="107,5,121.92,139.7,VCC,N$253,,,,"/>
+<approved hash="108,5,515.62,294.64,VCC,,,,,"/>
 <approved hash="108,5,358.14,236.22,VCC,,,,,"/>
 <approved hash="108,5,515.62,287.02,VCC,,,,,"/>
-<approved hash="108,5,515.62,294.64,VCC,,,,,"/>
 <approved hash="108,7,200.66,302.26,DDR_D(15\,0),,,,,"/>
 <approved hash="108,7,325.12,325.12,DDR_A(15\,0),,,,,"/>
 <approved hash="108,7,325.12,284.48,DDR_BA(2\,0),,,,,"/>
