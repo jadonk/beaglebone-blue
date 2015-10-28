@@ -29154,8 +29154,7 @@ Source: www.ti.com .. TI-bq24125.pdf</description>
 <part name="P+23" library="supply1" deviceset="VCC" device="" value="USB_DC"/>
 <part name="R49" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device="" value="DGND"/>
-<part name="R50" library="rcl" deviceset="R-US_" device="R0402" value="DNP"/>
-<part name="R51" library="rcl" deviceset="R-US_" device="R0402" value="DNP"/>
+<part name="R50" library="rcl" deviceset="R-US_" device="R0402" value="1k"/>
 <part name="U8" library="TPS2051B" deviceset="TPS2051B_D_8" device="" value="TPS2051BD"/>
 <part name="R53" library="rcl" deviceset="R-US_" device="R0402"/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device="" value="DGND"/>
@@ -31845,7 +31844,6 @@ Serial Cable
 <text x="154.94" y="243.84" size="1.778" layer="96">0,1%</text>
 <text x="154.94" y="231.14" size="1.778" layer="96">0,1%</text>
 <text x="142.24" y="210.82" size="1.778" layer="96">0,1%</text>
-<text x="142.24" y="200.66" size="1.778" layer="96">0,1%</text>
 <text x="139.7" y="119.38" size="1.778" layer="96" rot="R90">10K,1%</text>
 <text x="30.48" y="83.82" size="1.778" layer="96" rot="R90">10K,1%</text>
 <text x="10.16" y="81.28" size="1.778" layer="96" rot="R90">100uF,6.3V</text>
@@ -31921,7 +31919,6 @@ Serial Cable
 <instance part="R49" gate="G$1" x="149.86" y="231.14" rot="R180"/>
 <instance part="SUPPLY41" gate="GND" x="137.16" y="231.14" rot="R270"/>
 <instance part="R50" gate="G$1" x="137.16" y="210.82" rot="R180"/>
-<instance part="R51" gate="G$1" x="137.16" y="200.66" rot="R180"/>
 <instance part="U8" gate="A" x="53.34" y="109.22"/>
 <instance part="R53" gate="G$1" x="33.02" y="86.36" rot="R270"/>
 <instance part="SUPPLY42" gate="GND" x="33.02" y="68.58"/>
@@ -32779,26 +32776,10 @@ Serial Cable
 <pinref part="R50" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$2" pin="ECAP0_IN_PWM0_OUT/UART3_TXD/SPI1_CS1/PR1_ECAP0_ECAP_CAPIN_APWM_O/SPI1_SCLK/MMC0_SDWP/XDMA_EVENT_INTR2/GPIO0_7"/>
 <wire x1="142.24" y1="210.82" x2="172.72" y2="210.82" width="0.1524" layer="91"/>
-<label x="152.4" y="210.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="P9_42" class="0">
-<segment>
-<pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="210.82" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="210.82" x2="119.38" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="200.66" x2="119.38" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="210.82" x2="109.22" y2="210.82" width="0.1524" layer="91"/>
-<junction x="119.38" y="210.82"/>
-<label x="99.06" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="QEP_0A" class="0">
 <segment>
-<pinref part="R51" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="200.66" x2="436.88" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="436.88" y1="200.66" x2="436.88" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$2" pin="MCASP0_ACLKR/EQEP0A_IN/MCASP0_AXR2/MCASP1_ACLKX/MMC0_SDWP/PR1_PRU0_PRU_R30_4/PR1_PRU0_PRU_R31_4/GPIO3_18"/>
 <wire x1="436.88" y1="220.98" x2="419.1" y2="220.98" width="0.1524" layer="91"/>
 <label x="167.64" y="200.66" size="1.778" layer="95"/>
@@ -32922,6 +32903,13 @@ Serial Cable
 <wire x1="386.08" y1="127" x2="386.08" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U10" gate="A" pin="D-"/>
 <wire x1="386.08" y1="101.6" x2="406.4" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPI1_SS2" class="0">
+<segment>
+<pinref part="R50" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="210.82" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
+<label x="118.11" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
