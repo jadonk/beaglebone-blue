@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21048,7 +21048,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="P+63" library="supply1" deviceset="VCC" device="" value="VDDS_DDR"/>
 <part name="SUPPLY118" library="supply2" deviceset="GND" device="" value="DGND"/>
 <part name="C107" library="rcl" deviceset="C-EU" device="C0402"/>
-<part name="108" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C108" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C109" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C110" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C111" library="rcl" deviceset="C-EU" device="C0402"/>
@@ -26650,7 +26650,7 @@ Package</text>
 <instance part="P+63" gate="VCC" x="182.88" y="345.44" rot="R90"/>
 <instance part="SUPPLY118" gate="GND" x="182.88" y="355.6" rot="R270"/>
 <instance part="C107" gate="G$1" x="358.14" y="231.14"/>
-<instance part="108" gate="G$1" x="365.76" y="231.14"/>
+<instance part="C108" gate="G$1" x="365.76" y="231.14"/>
 <instance part="C109" gate="G$1" x="373.38" y="231.14"/>
 <instance part="C110" gate="G$1" x="381" y="231.14"/>
 <instance part="C111" gate="G$1" x="388.62" y="231.14"/>
@@ -26987,7 +26987,7 @@ Package</text>
 <wire x1="419.1" y1="215.9" x2="426.72" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="215.9" x2="434.34" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="215.9" x2="434.34" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="108" gate="G$1" pin="2"/>
+<pinref part="C108" gate="G$1" pin="2"/>
 <wire x1="365.76" y1="226.06" x2="365.76" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="C109" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="226.06" x2="373.38" y2="215.9" width="0.1524" layer="91"/>
@@ -27181,7 +27181,7 @@ Package</text>
 <wire x1="381" y1="233.68" x2="381" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="C109" gate="G$1" pin="1"/>
 <wire x1="373.38" y1="233.68" x2="373.38" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="108" gate="G$1" pin="1"/>
+<pinref part="C108" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="233.68" x2="365.76" y2="241.3" width="0.1524" layer="91"/>
 <junction x="365.76" y="241.3"/>
 <junction x="373.38" y="241.3"/>
@@ -30420,24 +30420,6 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="101,2,146.431,71.12,TP7,TP,,,,"/>
 <approved hash="101,2,148.971,66.04,TP8,TP,,,,"/>
 <approved hash="101,2,200.66,80.391,TP12,TP,,,,"/>
-<approved hash="202,2,66.04,53.34,U2,MUX_IN,,,,"/>
-<approved hash="104,2,66.04,10.16,U2,VIN_DCDC1,VCC,,,"/>
-<approved hash="202,2,66.04,71.12,U2,NC1,,,,"/>
-<approved hash="202,2,66.04,68.58,U2,NC,,,,"/>
-<approved hash="202,2,66.04,45.72,U2,RESET,,,,"/>
-<approved hash="202,2,66.04,27.94,U2,ISET2,,,,"/>
-<approved hash="202,2,66.04,20.32,U2,ISET1,,,,"/>
-<approved hash="202,2,116.84,53.34,U2,MUX_OUT,,,,"/>
-<approved hash="104,2,116.84,-7.62,U2,L3,N$19,,,"/>
-<approved hash="202,2,114.3,-2.54,U2,VDCDC2,,,,"/>
-<approved hash="202,2,114.3,0,U2,L2,,,,"/>
-<approved hash="202,2,114.3,5.08,U2,VDCDC1,,,,"/>
-<approved hash="202,2,114.3,30.48,U2,ISINK2,,,,"/>
-<approved hash="202,2,114.3,33.02,U2,ISINK1,,,,"/>
-<approved hash="202,2,114.3,22.86,U2,FB_WLED,,,,"/>
-<approved hash="202,2,114.3,15.24,U2,L4,,,,"/>
-<approved hash="202,2,114.3,7.62,U2,L1,,,,"/>
-<approved hash="104,2,116.84,-10.16,U2,VDCDC3,VCC,,,"/>
 <approved hash="104,2,-15.24,-53.34,U4,IN,VCC,,,"/>
 <approved hash="104,3,175.26,332.74,U5G$1,OSC0_IN,N$74,,,"/>
 <approved hash="104,3,175.26,327.66,U5G$1,OSC0_OUT,N$76,,,"/>
@@ -30503,7 +30485,6 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="104,3,353.06,287.02,U5G$1,GPMC_CSN1/GPMC_CLK/MMC1_CLK/PRT1EDIO_DATA_IN6/PRT1_EDIO_DATA_OUT6/PR1_PRU1_PRU_R30_12/PR1_PRU1_PRU_R31_12/GPIO1_30,MMC1_CLK,,,"/>
 <approved hash="104,3,353.06,284.48,U5G$1,GPMC_CSN2/GPMC_BE1N/MMC1_CMD/PR1_EDIO_DATA_IN7/PR1_EDIO_DATA_OUT7/PR1_PRU1_PRU_R30_13/PR1_PRU1_PRU_R31_13/GPIO1_31,MMC1_CMD,,,"/>
 <approved hash="104,3,353.06,281.94,U5G$1,GPMC_CSN3/MMC2_CMD/PR1_MDIO_DATA/GPIO2_0,N$123,,,"/>
-<approved hash="104,3,353.06,279.4,U5G$1,GPMC_WEN/TIMER6/GPIO2_4,TIMER8,,,"/>
 <approved hash="104,3,353.06,276.86,U5G$1,GPMC_OEN_REN/TIMER7/EMU4/GPIO2_3,TIMER7,,,"/>
 <approved hash="104,3,353.06,274.32,U5G$1,GPMC_ADVN_ALE/TIMER4/GPIO2_2,TIMER4,,,"/>
 <approved hash="104,3,353.06,271.78,U5G$1,GPMC_BE0N_CLE/TIMER5/GPIO2_5,TIMER5,,,"/>
@@ -30557,9 +30538,8 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="204,10,485.14,256.54,D7,NC3,,,,"/>
 <approved hash="104,10,485.14,251.46,D7,GND1,GND,,,"/>
 <approved hash="106,3,353.06,177.8,MMC0_CLKO,,,,,"/>
-<approved hash="209,2,116.84,73.66,N$5,,,,,"/>
 <approved hash="209,2,116.84,71.12,N$5,,,,,"/>
-<approved hash="106,2,147.32,12.7,N$8,,,,,"/>
+<approved hash="209,2,116.84,73.66,N$5,,,,,"/>
 <approved hash="209,2,116.84,68.58,N$10,,,,,"/>
 <approved hash="106,2,116.84,68.58,N$10,,,,,"/>
 <approved hash="209,2,116.84,66.04,N$11,,,,,"/>
@@ -30599,28 +30579,23 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="106,10,528.32,312.42,N$404,,,,,"/>
 <approved hash="106,10,487.68,406.4,N$406,,,,,"/>
 <approved hash="106,10,203.2,325.12,N$409,,,,,"/>
-<approved hash="106,2,147.32,5.08,N$465,,,,,"/>
 <approved hash="106,7,233.68,287.02,N$484,,,,,"/>
 <approved hash="106,11,203.2,373.38,TIMER6,,,,,"/>
-<approved hash="106,3,353.06,279.4,TIMER8,,,,,"/>
 <approved hash="108,3,111.76,256.54,DDR_D(15\,0),,,,,"/>
 <approved hash="108,3,119.38,266.7,DDR_BA(2\,0),,,,,"/>
 <approved hash="108,3,129.54,307.34,DDR_A(15\,0),,,,,"/>
 <approved hash="108,4,332.74,127,GND,,,,,"/>
-<approved hash="108,5,378.46,271.78,GND,,,,,"/>
 <approved hash="108,5,370.84,271.78,GND,,,,,"/>
+<approved hash="108,5,378.46,271.78,GND,,,,,"/>
 <approved hash="107,5,27.94,378.46,VCC,N$252,,,,"/>
 <approved hash="107,5,121.92,139.7,VCC,N$253,,,,"/>
-<approved hash="108,5,515.62,294.64,VCC,,,,,"/>
-<approved hash="108,5,515.62,287.02,VCC,,,,,"/>
 <approved hash="108,5,358.14,236.22,VCC,,,,,"/>
-<approved hash="108,5,363.22,208.28,VCC,,,,,"/>
-<approved hash="108,6,172.72,335.28,VCC,,,,,"/>
+<approved hash="108,5,515.62,287.02,VCC,,,,,"/>
+<approved hash="108,5,515.62,294.64,VCC,,,,,"/>
 <approved hash="108,6,60.96,284.48,LCD_DATA12,,,,,"/>
 <approved hash="108,7,200.66,302.26,DDR_D(15\,0),,,,,"/>
 <approved hash="108,7,325.12,325.12,DDR_A(15\,0),,,,,"/>
 <approved hash="108,7,325.12,284.48,DDR_BA(2\,0),,,,,"/>
-<approved hash="108,7,218.44,223.52,VCC,,,,,"/>
 <approved hash="107,8,353.06,363.22,VCC,N$467,,,,"/>
 <approved hash="108,10,220.98,403.86,N$408,,,,,"/>
 <approved hash="110,5,497.84,200.66,GND,N$264,,,,"/>
@@ -30640,10 +30615,6 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="110,8,353.06,363.22,N$467,VCC,,,,"/>
 <approved hash="110,8,353.06,363.22,N$467,VCC,,,,"/>
 <approved hash="110,9,147.32,297.18,N$315,N$320,,,,"/>
-<approved hash="111,2,116.84,-2.54,VCC,,,,,"/>
-<approved hash="111,2,116.84,0,N$465,,,,,"/>
-<approved hash="111,2,116.84,5.08,N$464,,,,,"/>
-<approved hash="111,2,116.84,7.62,N$8,,,,,"/>
 <approved hash="111,2,146.876,81.28,N$5,,,,,"/>
 <approved hash="111,2,146.876,76.2,N$10,,,,,"/>
 <approved hash="111,2,146.876,71.12,N$11,,,,,"/>
@@ -30657,38 +30628,27 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="111,10,529.59,353.06,N$401,,,,,"/>
 <approved hash="111,10,529.59,330.2,N$406,,,,,"/>
 <approved hash="111,10,529.59,309.88,GND,,,,,"/>
-<approved hash="113,1,109.392,74.191,FRAME1,,,,,"/>
-<approved hash="113,2,89.0717,8.151,FRAME2,,,,,"/>
 <approved hash="113,2,134.62,-31.4748,R5,,,,,"/>
 <approved hash="113,2,134.62,-36.5548,R8,,,,,"/>
 <approved hash="113,2,134.62,-26.3948,R7,,,,,"/>
 <approved hash="113,3,279.296,215.796,FRAME5,,,,,"/>
 <approved hash="113,4,279.296,215.796,FRAME3,,,,,"/>
 <approved hash="113,5,279.296,215.796,FRAME6,,,,,"/>
-<approved hash="113,3,149.701,151.13,C28,,,,,"/>
-<approved hash="113,3,113.03,378.301,C22,,,,,"/>
 <approved hash="113,3,78.74,384.535,R30,,,,,"/>
-<approved hash="113,3,22.1711,356.87,C25A,,,,,"/>
-<approved hash="113,3,35.7191,341.63,C26,,,,,"/>
 <approved hash="113,3,57.4252,358.14,R17,,,,,"/>
 <approved hash="113,3,35.56,313.965,R29,,,,,"/>
 <approved hash="113,3,166.095,149.86,R22,,,,,"/>
-<approved hash="113,3,523.081,262.89,C27,,,,,"/>
 <approved hash="113,3,530.86,275.315,R21,,,,,"/>
 <approved hash="113,3,373.38,321.035,R18,,,,,"/>
 <approved hash="113,3,474.98,318.495,R19,,,,,"/>
 <approved hash="113,3,492.76,313.415,R20,,,,,"/>
 <approved hash="113,3,452.12,214.355,R160,,,,,"/>
 <approved hash="113,3,452.12,229.595,R161,,,,,"/>
-<approved hash="113,3,500.931,171.45,C159,,,,,"/>
 <approved hash="113,3,505.46,183.875,R167,,,,,"/>
 <approved hash="113,3,500.38,100.055,R162,,,,,"/>
-<approved hash="113,3,494.03,122.471,C158,,,,,"/>
 <approved hash="113,3,333.735,81.28,R24,,,,,"/>
 <approved hash="113,3,315.955,48.26,R25,,,,,"/>
-<approved hash="113,3,241.141,39.37,C29,,,,,"/>
 <approved hash="113,3,204.195,81.28,R23,,,,,"/>
-<approved hash="113,3,205.581,39.37,C30,,,,,"/>
 <approved hash="113,4,444.5,310.875,R28,,,,,"/>
 <approved hash="113,4,436.88,249.915,R45,,,,,"/>
 <approved hash="113,4,449.58,247.375,R46,,,,,"/>
@@ -30697,11 +30657,7 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,4,156.485,373.38,R26,,,,,"/>
 <approved hash="113,4,118.385,378.46,R163,,,,,"/>
 <approved hash="113,4,118.385,355.6,R164,,,,,"/>
-<approved hash="113,4,68.4209,321.31,C31,,,,,"/>
-<approved hash="113,4,81.1209,321.31,C32,,,,,"/>
-<approved hash="113,4,96.3609,328.93,C33,,,,,"/>
 <approved hash="113,4,92.9852,350.52,R27A,,,,,"/>
-<approved hash="113,4,67.31,302.811,C155,,,,,"/>
 <approved hash="113,4,42.1852,269.24,R165,,,,,"/>
 <approved hash="113,4,149.86,242.845,R159,,,,,"/>
 <approved hash="113,4,149.86,230.145,R49,,,,,"/>
@@ -30709,78 +30665,6 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,4,137.16,199.665,R51,,,,,"/>
 <approved hash="113,4,34.0148,86.36,R53,,,,,"/>
 <approved hash="113,4,143.235,121.92,R52,,,,,"/>
-<approved hash="113,4,253.841,92.71,C35,,,,,"/>
-<approved hash="113,4,479.901,100.33,C36,,,,,"/>
-<approved hash="113,5,116.681,135.89,C95,,,,,"/>
-<approved hash="113,5,124.301,135.89,C96,,,,,"/>
-<approved hash="113,5,131.921,135.89,C97,,,,,"/>
-<approved hash="113,5,139.541,135.89,C98,,,,,"/>
-<approved hash="113,5,147.161,135.89,C99,,,,,"/>
-<approved hash="113,5,155.491,135.89,C100,,,,,"/>
-<approved hash="113,5,163.111,135.89,C101,,,,,"/>
-<approved hash="113,5,170.731,135.89,C102,,,,,"/>
-<approved hash="113,5,178.351,135.89,C103,,,,,"/>
-<approved hash="113,5,157.321,184.15,C92,,,,,"/>
-<approved hash="113,5,96.3609,209.55,C86,,,,,"/>
-<approved hash="113,5,106.521,209.55,C87,,,,,"/>
-<approved hash="113,5,116.681,209.55,C88,,,,,"/>
-<approved hash="113,5,129.381,209.55,C89,,,,,"/>
-<approved hash="113,5,139.541,209.55,C90,,,,,"/>
-<approved hash="113,5,149.701,209.55,C91,,,,,"/>
-<approved hash="113,5,32.8609,229.87,C78,,,,,"/>
-<approved hash="113,5,65.8809,229.87,C79,,,,,"/>
-<approved hash="113,5,30.3209,367.03,C39,,,,,"/>
-<approved hash="113,5,40.4809,367.03,C40,,,,,"/>
-<approved hash="113,5,159.861,367.03,C55,,,,,"/>
-<approved hash="113,5,50.6409,367.03,C41,,,,,"/>
-<approved hash="113,5,58.2609,367.03,C42,,,,,"/>
-<approved hash="113,5,65.8809,367.03,C43,,,,,"/>
-<approved hash="113,5,73.5009,367.03,C44,,,,,"/>
-<approved hash="113,5,81.1209,367.03,C45,,,,,"/>
-<approved hash="113,5,88.7409,367.03,C46,,,,,"/>
-<approved hash="113,5,96.3609,367.03,C47,,,,,"/>
-<approved hash="113,5,103.981,367.03,C48,,,,,"/>
-<approved hash="113,5,111.601,367.03,C49,,,,,"/>
-<approved hash="113,5,119.221,367.03,C50,,,,,"/>
-<approved hash="113,5,126.841,367.03,C51,,,,,"/>
-<approved hash="113,5,134.461,367.03,C52,,,,,"/>
-<approved hash="113,5,142.081,367.03,C53,,,,,"/>
-<approved hash="113,5,149.701,367.03,C54,,,,,"/>
-<approved hash="113,5,78.5809,283.21,C62,,,,,"/>
-<approved hash="113,5,88.7409,283.21,C63,,,,,"/>
-<approved hash="113,5,98.9009,283.21,C64,,,,,"/>
-<approved hash="113,5,109.061,283.21,C65,,,,,"/>
-<approved hash="113,5,408.781,356.87,C37,,,,,"/>
-<approved hash="113,5,424.021,356.87,C38,,,,,"/>
-<approved hash="113,5,408.781,341.63,C56,,,,,"/>
-<approved hash="113,5,424.021,341.63,C57,,,,,"/>
-<approved hash="113,5,408.781,313.69,C58,,,,,"/>
-<approved hash="113,5,424.021,313.69,C59,,,,,"/>
-<approved hash="113,5,408.781,298.45,C60,,,,,"/>
-<approved hash="113,5,424.021,298.45,C61,,,,,"/>
-<approved hash="113,5,370.681,280.67,C66,,,,,"/>
-<approved hash="113,5,383.381,280.67,C67,,,,,"/>
-<approved hash="113,5,365.601,265.43,C68,,,,,"/>
-<approved hash="113,5,373.221,265.43,C69,,,,,"/>
-<approved hash="113,5,380.841,265.43,C70,,,,,"/>
-<approved hash="113,5,391.001,265.43,C71,,,,,"/>
-<approved hash="113,5,398.621,265.43,C72,,,,,"/>
-<approved hash="113,5,406.241,265.43,C73,,,,,"/>
-<approved hash="113,5,413.861,265.43,C74,,,,,"/>
-<approved hash="113,5,424.021,265.43,C75,,,,,"/>
-<approved hash="113,5,431.641,265.43,C76,,,,,"/>
-<approved hash="113,5,439.261,265.43,C77,,,,,"/>
-<approved hash="113,5,368.141,232.41,C80,,,,,"/>
-<approved hash="113,5,378.301,232.41,C81,,,,,"/>
-<approved hash="113,5,388.461,232.41,C82,,,,,"/>
-<approved hash="113,5,398.621,232.41,C83,,,,,"/>
-<approved hash="113,5,408.781,232.41,C84,,,,,"/>
-<approved hash="113,5,418.941,232.41,C85,,,,,"/>
-<approved hash="113,5,424.021,184.15,C93,,,,,"/>
-<approved hash="113,5,449.421,184.15,C94,,,,,"/>
-<approved hash="113,5,389.171,143.51,C104,,,,,"/>
-<approved hash="113,5,401.871,143.51,C105,,,,,"/>
-<approved hash="113,5,457.751,143.51,C106,,,,,"/>
 <approved hash="113,5,372.385,137.16,R54,,,,,"/>
 <approved hash="113,6,284.376,218.336,FRAME4,,,,,"/>
 <approved hash="113,6,326.665,261.62,R76,,,,,"/>
@@ -30828,8 +30712,6 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,6,171.725,241.3,R94,,,,,"/>
 <approved hash="113,6,243.84,321.585,R75,,,,,"/>
 <approved hash="113,9,284.376,215.796,FRAME7,,,,,"/>
-<approved hash="113,9,109.771,196.85,C142,,,,,"/>
-<approved hash="113,9,137.711,196.85,C143,,,,,"/>
 <approved hash="113,9,105.685,226.06,R143,,,,,"/>
 <approved hash="113,9,139.7,242.845,R142,,,,,"/>
 <approved hash="113,9,116.84,242.845,R141,,,,,"/>
@@ -30846,18 +30728,8 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,9,116.84,318.495,R124,,,,,"/>
 <approved hash="113,9,154.94,257.535,R140,,,,,"/>
 <approved hash="113,9,164.105,330.2,R119,,,,,"/>
-<approved hash="113,9,147.871,339.09,C135,,,,,"/>
-<approved hash="113,9,231.691,392.43,C131,,,,,"/>
-<approved hash="113,9,241.851,392.43,C132,,,,,"/>
-<approved hash="113,9,252.011,392.43,C133,,,,,"/>
-<approved hash="113,9,241.851,344.17,C136,,,,,"/>
-<approved hash="113,9,252.011,344.17,C134,,,,,"/>
 <approved hash="113,9,265.705,220.98,R144,,,,,"/>
 <approved hash="113,9,280.945,231.14,R145,,,,,"/>
-<approved hash="113,9,277.411,285.75,C137,,,,,"/>
-<approved hash="113,9,287.571,285.75,C138,,,,,"/>
-<approved hash="113,9,297.731,285.75,C139,,,,,"/>
-<approved hash="113,9,307.891,285.75,C140,,,,,"/>
 <approved hash="113,9,316.505,342.9,R120,,,,,"/>
 <approved hash="113,9,321.585,342.9,R121,,,,,"/>
 <approved hash="113,9,326.665,342.9,R122,,,,,"/>
@@ -30865,7 +30737,6 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,9,401.32,295.635,R130,,,,,"/>
 <approved hash="113,9,388.62,290.555,R132,,,,,"/>
 <approved hash="113,9,364.765,276.86,R135,,,,,"/>
-<approved hash="113,9,412.031,273.05,C141,,,,,"/>
 <approved hash="113,9,428.265,271.78,R137,,,,,"/>
 <approved hash="113,9,471.445,279.4,R136,,,,,"/>
 <approved hash="113,9,387.625,386.08,R115,,,,,"/>
@@ -30877,47 +30748,16 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,9,468.905,381,R112,,,,,"/>
 <approved hash="113,10,302.156,220.876,FRAME8,,,,,"/>
 <approved hash="113,10,73.66,272.775,R158,,,,,"/>
-<approved hash="113,10,69.1305,102.87,C156,,,,,"/>
-<approved hash="113,10,76.7505,102.87,C157,,,,,"/>
-<approved hash="113,10,84.3705,102.87,C160,,,,,"/>
-<approved hash="113,10,91.9905,102.87,C161,,,,,"/>
-<approved hash="113,10,99.6105,102.87,C162,,,,,"/>
-<approved hash="113,10,107.231,102.87,C163,,,,,"/>
-<approved hash="113,10,114.851,102.87,C164,,,,,"/>
-<approved hash="113,10,122.471,102.87,C165,,,,,"/>
-<approved hash="113,10,130.091,102.87,C166,,,,,"/>
-<approved hash="113,10,137.711,102.87,C167,,,,,"/>
-<approved hash="113,10,145.331,102.87,C168,,,,,"/>
-<approved hash="113,10,160.571,102.87,C169,,,,,"/>
-<approved hash="113,10,168.191,102.87,C170,,,,,"/>
-<approved hash="113,10,175.811,102.87,C172,,,,,"/>
-<approved hash="113,10,183.431,102.87,C171,,,,,"/>
-<approved hash="113,10,191.051,102.87,C173,,,,,"/>
 <approved hash="113,10,214.905,208.28,R149,,,,,"/>
-<approved hash="113,10,234.231,222.25,C144,,,,,"/>
-<approved hash="113,10,241.851,222.25,C145,,,,,"/>
-<approved hash="113,10,249.471,222.25,C146,,,,,"/>
-<approved hash="113,10,257.091,222.25,C147,,,,,"/>
-<approved hash="113,10,264.711,222.25,C148,,,,,"/>
-<approved hash="113,10,272.331,222.25,C149,,,,,"/>
-<approved hash="113,10,279.951,222.25,C150,,,,,"/>
-<approved hash="113,10,287.571,222.25,C151,,,,,"/>
 <approved hash="113,10,482.6,407.395,RT1,,,,,"/>
 <approved hash="113,10,219.985,393.7,R146,,,,,"/>
 <approved hash="113,10,227.605,393.7,R147,,,,,"/>
 <approved hash="113,10,228.6,300.715,R148,,,,,"/>
 <approved hash="113,11,302.156,223.416,FRAME9,,,,,"/>
-<approved hash="113,11,430.53,252.011,C152,,,,,"/>
 <approved hash="113,11,436.88,254.995,R156,,,,,"/>
 <approved hash="113,2,172.72,11.7052,R6A,,,,,"/>
 <approved hash="113,7,286.916,218.336,FRAME10,,,,,"/>
 <approved hash="113,8,284.376,218.336,FRAME11,,,,,"/>
-<approved hash="113,8,320.591,359.41,C125,,,,,"/>
-<approved hash="113,8,368.851,349.25,C127,,,,,"/>
-<approved hash="113,8,379.011,349.25,C128,,,,,"/>
-<approved hash="113,8,386.631,349.25,C129,,,,,"/>
-<approved hash="113,8,394.251,349.25,C130,,,,,"/>
-<approved hash="113,8,356.151,349.25,C126,,,,,"/>
 <approved hash="113,8,166.645,347.98,R101,,,,,"/>
 <approved hash="113,8,169.185,360.68,R102,,,,,"/>
 <approved hash="113,8,171.725,368.3,R103,,,,,"/>
@@ -30930,30 +30770,11 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,8,197.125,358.14,R110,,,,,"/>
 <approved hash="113,8,199.665,347.98,R111,,,,,"/>
 <approved hash="113,7,320.04,168.635,R99,,,,,"/>
-<approved hash="113,7,226.611,146.05,C124,,,,,"/>
-<approved hash="113,7,203.751,151.13,C123,,,,,"/>
 <approved hash="113,7,209.825,149.86,R100,,,,,"/>
 <approved hash="113,7,198.12,176.255,R98,,,,,"/>
 <approved hash="113,7,205.74,346.435,R97,,,,,"/>
 <approved hash="113,7,210.82,356.595,R96,,,,,"/>
-<approved hash="113,7,361.231,229.87,C107,,,,,"/>
-<approved hash="113,7,367.931,229.87,108,,,,,"/>
-<approved hash="113,7,376.471,229.87,C109,,,,,"/>
-<approved hash="113,7,383.997,229.87,C110,,,,,"/>
-<approved hash="113,7,391.523,229.87,C111,,,,,"/>
-<approved hash="113,7,399.237,229.87,C112,,,,,"/>
-<approved hash="113,7,406.857,229.87,C113,,,,,"/>
-<approved hash="113,7,414.477,229.87,C114,,,,,"/>
-<approved hash="113,7,422.097,229.87,C115,,,,,"/>
-<approved hash="113,7,429.717,229.87,C116,,,,,"/>
-<approved hash="113,7,437.337,229.87,C117,,,,,"/>
-<approved hash="113,7,424.637,181.61,C119,,,,,"/>
-<approved hash="113,7,432.351,181.61,C120,,,,,"/>
-<approved hash="113,7,439.971,181.61,C121,,,,,"/>
-<approved hash="113,7,447.591,181.61,C122,,,,,"/>
-<approved hash="113,7,417.017,181.61,C118,,,,,"/>
 <approved hash="113,3,494.305,396.24,R14A,,,,,"/>
-<approved hash="113,3,492.071,379.73,C24A,,,,,"/>
 <approved hash="113,10,287.02,323.575,R166,,,,,"/>
 <approved hash="113,11,184.425,152.4,R150,,,,,"/>
 <approved hash="113,11,189.505,152.4,R151,,,,,"/>
@@ -30961,11 +30782,9 @@ BLINKS OFF DURING ACTIVITY.</text>
 <approved hash="113,11,199.665,152.4,R153,,,,,"/>
 <approved hash="113,11,204.745,152.4,R154,,,,,"/>
 <approved hash="113,11,209.825,152.4,R155,,,,,"/>
-<approved hash="113,11,259.631,156.21,C153,,,,,"/>
-<approved hash="113,11,267.251,156.21,C154,,,,,"/>
 <approved hash="113,11,314.96,130.535,R157,,,,,"/>
-<approved hash="115,11,212.09,353.06,GPIO1_29,,,,,"/>
 <approved hash="115,3,236.22,60.96,MMC0_CD,,,,,"/>
+<approved hash="115,11,212.09,353.06,GPIO1_29,,,,,"/>
 </errors>
 </schematic>
 </drawing>
