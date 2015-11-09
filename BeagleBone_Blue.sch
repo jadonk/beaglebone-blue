@@ -35866,7 +35866,7 @@ Package</text>
 </sheet>
 <sheet>
 <plain>
-<text x="477.52" y="35.56" size="2.54" layer="95">Title: BeagleBone Blue uSD and EEPROM</text>
+<text x="477.52" y="35.56" size="2.54" layer="95">Title: WiFi &amp; BT Module</text>
 <text x="109.22" y="304.8" size="1.778" layer="96" rot="R90">10K,1%</text>
 <text x="114.3" y="304.8" size="1.778" layer="96" rot="R90">10K,1%</text>
 <text x="119.38" y="304.8" size="1.778" layer="96" rot="R90">10K,1%</text>
