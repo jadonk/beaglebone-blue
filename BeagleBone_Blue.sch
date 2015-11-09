@@ -29239,6 +29239,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="SPI1.2" library="Strawson_Eagle_Lib" deviceset="JST_SH_6" device=""/>
 <part name="GPS" library="Strawson_Eagle_Lib" deviceset="JST_SH_6" device=""/>
 <part name="ADC" library="Strawson_Eagle_Lib" deviceset="JST_SH_6" device=""/>
+<part name="UART5" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
 <part name="UART1" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
 <part name="R187" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
 <part name="R188" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
@@ -31304,7 +31305,7 @@ BeagleBone Blue Processor 1 of 3 and JTAG</text>
 <label x="528.32" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO1_17" class="0">
+<net name="WIFI_EN" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="GPMC_A1/GMII2_RXDV/RGMII2_RCTL/MMC2_DAT0/GPMC_A17/PR1_MII1_TXD3/EHRPWM1_SYNCI_O/GPIO1_17"/>
 <wire x1="353.06" y1="210.82" x2="381" y2="210.82" width="0.1524" layer="91"/>
@@ -31551,8 +31552,6 @@ Serial Cable
 <text x="419.1" y="241.3" size="1.778" layer="96">LCDDE</text>
 <text x="116.84" y="325.12" size="1.778" layer="96">VREFP_ADC</text>
 <text x="116.84" y="322.58" size="1.778" layer="96">VREFN_ADC</text>
-<text x="160.02" y="302.26" size="1.778" layer="96">UART0_TX</text>
-<text x="160.02" y="299.72" size="1.778" layer="96">UART0_RX</text>
 <text x="152.4" y="256.54" size="1.778" layer="96">USB0_DP</text>
 <text x="152.4" y="254" size="1.778" layer="96">USB0_DM</text>
 <text x="152.4" y="248.92" size="1.778" layer="96">USB0_ID</text>
@@ -31570,6 +31569,11 @@ Serial Cable
 <text x="477.52" y="66.04" size="3.81" layer="96">USB PC CONNECTOR</text>
 <text x="50.8" y="55.88" size="5.08" layer="96">USB HOST</text>
 <text x="10.16" y="299.72" size="2.1844" layer="96">Mark pin 1 clearly</text>
+<text x="386.08" y="63.5" size="3.81" layer="95">Board ID</text>
+<text x="350.52" y="50.8" size="1.778" layer="96">10K,1%</text>
+<text x="340.36" y="35.56" size="1.778" layer="96">0.1uf,6.3V</text>
+<text x="360.426" y="36.703" size="1.778" layer="96" rot="R90">4</text>
+<text x="375.92" y="27.94" size="1.778" layer="96">256KX8</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -31630,6 +31634,12 @@ Serial Cable
 <instance part="GND" gate="1" x="525.78" y="81.28"/>
 <instance part="SUPPLY48" gate="GND" x="492.76" y="83.82"/>
 <instance part="P+26" gate="VCC" x="477.52" y="139.7"/>
+<instance part="U7" gate="A" x="363.22" y="53.34"/>
+<instance part="C152" gate="G$1" x="345.44" y="40.64" rot="R90"/>
+<instance part="P+55" gate="VCC" x="337.82" y="60.96"/>
+<instance part="SUPPLY107" gate="GND" x="355.6" y="27.94"/>
+<instance part="R156" gate="G$1" x="353.06" y="45.72"/>
+<instance part="TP4" gate="G$1" x="353.06" y="43.18" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -31977,13 +31987,6 @@ Serial Cable
 <label x="495.3" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GPIO3_20" class="0">
-<segment>
-<pinref part="U5" gate="G$2" pin="MCASP0_AXR1/EQEP0_INDEX//MCASP1_AXR0/EMU3/PR1_PRU0_PRU_R30_6/PR1_PRU0_PRU_R31_6/GPIO3_20"/>
-<wire x1="419.1" y1="215.9" x2="492.76" y2="215.9" width="0.1524" layer="91"/>
-<label x="495.3" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PMIC_POWR_EN" class="0">
 <segment>
 <pinref part="U5" gate="G$2" pin="PMIC_POWER_EN"/>
@@ -32115,6 +32118,21 @@ Serial Cable
 <junction x="477.52" y="104.14"/>
 <pinref part="P+26" gate="VCC" pin="VCC"/>
 <wire x1="477.52" y1="137.16" x2="477.52" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U7" gate="A" pin="VCC"/>
+<pinref part="C152" gate="G$1" pin="1"/>
+<wire x1="342.9" y1="40.64" x2="337.82" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="40.64" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="53.34" x2="345.44" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="P+55" gate="VCC" pin="VCC"/>
+<wire x1="345.44" y1="53.34" x2="363.22" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="58.42" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
+<junction x="337.82" y="53.34"/>
+<pinref part="R156" gate="G$1" pin="1"/>
+<wire x1="347.98" y1="45.72" x2="345.44" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="45.72" x2="345.44" y2="53.34" width="0.1524" layer="91"/>
+<junction x="345.44" y="53.34"/>
 </segment>
 </net>
 <net name="N$216" class="0">
@@ -32263,6 +32281,15 @@ Serial Cable
 <wire x1="492.76" y1="111.76" x2="492.76" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY48" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="SUPPLY107" gate="GND" pin="GND"/>
+<wire x1="355.6" y1="30.48" x2="355.6" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U7" gate="A" pin="VSS"/>
+<wire x1="363.22" y1="40.64" x2="355.6" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C152" gate="G$1" pin="2"/>
+<junction x="355.6" y="40.64"/>
+<wire x1="355.6" y1="40.64" x2="350.52" y2="40.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$218" class="0">
 <segment>
@@ -32321,22 +32348,24 @@ Serial Cable
 <label x="134.62" y="307.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$226" class="0">
+<net name="UART0_RX" class="0">
 <segment>
 <pinref part="U15" gate="A" pin="1Y"/>
 <wire x1="111.76" y1="281.94" x2="154.94" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="281.94" x2="154.94" y2="299.72" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$2" pin="UART0_RXD/SPI1_CS0/DCAN0_TX/I2C2_SDA/ECAP2_IN_PWM2_OUT/PR1_PRU1_PRU_R30_14/PR1_PRU1_PRU_R31_14/GPIO1_10"/>
 <wire x1="154.94" y1="299.72" x2="172.72" y2="299.72" width="0.1524" layer="91"/>
+<label x="157.48" y="299.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$227" class="0">
+<net name="UART0_TX" class="0">
 <segment>
 <pinref part="U5" gate="G$2" pin="UART0_TXD/SPI1_CS1/DCAN0_RX/I2C2_SCL/ECAP1_IN_PWM1_OUT/PR1_PRU1_PRU_R30_15/PR1_PRU1_PRU_R31_15/GPIO1_11"/>
 <wire x1="172.72" y1="302.26" x2="144.78" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="302.26" x2="144.78" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="U15" gate="A" pin="2A"/>
 <wire x1="144.78" y1="279.4" x2="111.76" y2="279.4" width="0.1524" layer="91"/>
+<label x="157.48" y="302.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$228" class="0">
@@ -32400,12 +32429,22 @@ Serial Cable
 <wire x1="172.72" y1="266.7" x2="154.94" y2="266.7" width="0.1524" layer="91"/>
 <label x="142.24" y="266.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U7" gate="A" pin="SCL"/>
+<wire x1="363.22" y1="48.26" x2="330.2" y2="48.26" width="0.1524" layer="91"/>
+<label x="314.96" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C0_SDA" class="0">
 <segment>
 <pinref part="U5" gate="G$2" pin="I2C0_SDA/TIMER4/UART2_CTSN/ECAP2_IN_PWM2_OUT////GPIO3_5"/>
 <wire x1="172.72" y1="264.16" x2="154.94" y2="264.16" width="0.1524" layer="91"/>
 <label x="142.24" y="264.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U7" gate="A" pin="SDA"/>
+<wire x1="398.78" y1="53.34" x2="414.02" y2="53.34" width="0.1524" layer="91"/>
+<label x="419.1" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$235" class="0">
@@ -32597,6 +32636,26 @@ Serial Cable
 <pinref part="R50" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="210.82" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
 <label x="118.11" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$461" class="0">
+<segment>
+<pinref part="U7" gate="A" pin="WP"/>
+<pinref part="R156" gate="G$1" pin="2"/>
+<wire x1="363.22" y1="45.72" x2="360.68" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="45.72" x2="358.14" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="45.72" x2="360.68" y2="36.449" width="0.1524" layer="91"/>
+<junction x="360.68" y="45.72"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="360.68" y1="36.449" x2="360.68" y2="35.56" width="0.1524" layer="91"/>
+<junction x="360.68" y="36.449"/>
+</segment>
+</net>
+<net name="BT_EN" class="0">
+<segment>
+<pinref part="U5" gate="G$2" pin="MCASP0_AXR1/EQEP0_INDEX//MCASP1_AXR0/EMU3/PR1_PRU0_PRU_R30_6/PR1_PRU0_PRU_R31_6/GPIO3_20"/>
+<wire x1="419.1" y1="215.9" x2="492.76" y2="215.9" width="0.1524" layer="91"/>
+<label x="495.3" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -35807,7 +35866,6 @@ Package</text>
 </sheet>
 <sheet>
 <plain>
-<text x="454.66" y="335.28" size="3.81" layer="95">Board ID</text>
 <text x="477.52" y="35.56" size="2.54" layer="95">Title: BeagleBone Blue uSD and EEPROM</text>
 <text x="109.22" y="304.8" size="1.778" layer="96" rot="R90">10K,1%</text>
 <text x="114.3" y="304.8" size="1.778" layer="96" rot="R90">10K,1%</text>
@@ -35818,22 +35876,13 @@ Package</text>
 <text x="177.8" y="314.96" size="1.778" layer="96" rot="R90">10uF,10V</text>
 <text x="190.5" y="317.5" size="1.778" layer="96">0.1uf,6.3V</text>
 <text x="142.24" y="304.8" size="1.778" layer="96" rot="R90">10K,1%</text>
-<text x="419.1" y="322.58" size="1.778" layer="96">10K,1%</text>
-<text x="408.94" y="307.34" size="1.778" layer="96">0.1uf,6.3V</text>
-<text x="429.006" y="308.483" size="1.778" layer="96" rot="R90">4</text>
-<text x="444.5" y="299.72" size="1.778" layer="96">256KX8</text>
 <text x="101.6" y="355.6" size="3.81" layer="95">SDIO lines for WiFi Module</text>
-<text x="86.36" y="175.26" size="3.81" layer="95">UART interface for WiFi Module</text>
+<text x="101.6" y="220.98" size="1.778" layer="91">UART0 for WiLink8
+NOTE: also used for debug header</text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="22.86" y="7.62"/>
 <instance part="FRAME9" gate="G$2" x="474.98" y="7.62"/>
-<instance part="U7" gate="A" x="431.8" y="325.12"/>
-<instance part="C152" gate="G$1" x="414.02" y="312.42" rot="R90"/>
-<instance part="P+55" gate="VCC" x="406.4" y="332.74"/>
-<instance part="SUPPLY107" gate="GND" x="424.18" y="299.72"/>
-<instance part="R156" gate="G$1" x="421.64" y="317.5"/>
-<instance part="TP4" gate="G$1" x="421.64" y="314.96" rot="R270"/>
 <instance part="R150" gate="G$1" x="109.22" y="317.5" rot="R90"/>
 <instance part="R151" gate="G$1" x="114.3" y="317.5" rot="R90"/>
 <instance part="R152" gate="G$1" x="119.38" y="317.5" rot="R90"/>
@@ -35851,15 +35900,6 @@ Package</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="SUPPLY107" gate="GND" pin="GND"/>
-<wire x1="424.18" y1="302.26" x2="424.18" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="U7" gate="A" pin="VSS"/>
-<wire x1="431.8" y1="312.42" x2="424.18" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="C152" gate="G$1" pin="2"/>
-<junction x="424.18" y="312.42"/>
-<wire x1="424.18" y1="312.42" x2="419.1" y2="312.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C153" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="317.5" x2="180.34" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="314.96" x2="187.96" y2="314.96" width="0.1524" layer="91"/>
@@ -35868,41 +35908,8 @@ Package</text>
 <pinref part="SUPPLY130" gate="GND" pin="GND"/>
 <junction x="187.96" y="314.96"/>
 </segment>
-<segment>
-<wire x1="120.65" y1="163.83" x2="107.95" y2="163.83" width="0.1524" layer="91"/>
-<label x="109.22" y="163.83" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="I2C0_SCL" class="0">
-<segment>
-<pinref part="U7" gate="A" pin="SCL"/>
-<wire x1="431.8" y1="320.04" x2="398.78" y2="320.04" width="0.1524" layer="91"/>
-<label x="383.54" y="320.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="I2C0_SDA" class="0">
-<segment>
-<pinref part="U7" gate="A" pin="SDA"/>
-<wire x1="467.36" y1="325.12" x2="482.6" y2="325.12" width="0.1524" layer="91"/>
-<label x="487.68" y="325.12" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="VCC" class="0">
-<segment>
-<pinref part="U7" gate="A" pin="VCC"/>
-<pinref part="C152" gate="G$1" pin="1"/>
-<wire x1="411.48" y1="312.42" x2="406.4" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="312.42" x2="406.4" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="325.12" x2="414.02" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="P+55" gate="VCC" pin="VCC"/>
-<wire x1="414.02" y1="325.12" x2="431.8" y2="325.12" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="330.2" x2="406.4" y2="325.12" width="0.1524" layer="91"/>
-<junction x="406.4" y="325.12"/>
-<pinref part="R156" gate="G$1" pin="1"/>
-<wire x1="416.56" y1="317.5" x2="414.02" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="317.5" x2="414.02" y2="325.12" width="0.1524" layer="91"/>
-<junction x="414.02" y="325.12"/>
-</segment>
 <segment>
 <pinref part="R157" gate="G$1" pin="2"/>
 <pinref part="R150" gate="G$1" pin="2"/>
@@ -35940,19 +35947,6 @@ Package</text>
 <wire x1="109.22" y1="335.28" x2="109.22" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="322.58" x2="142.24" y2="330.2" width="0.1524" layer="91"/>
 <junction x="142.24" y="330.2"/>
-</segment>
-</net>
-<net name="N$461" class="0">
-<segment>
-<pinref part="U7" gate="A" pin="WP"/>
-<pinref part="R156" gate="G$1" pin="2"/>
-<wire x1="431.8" y1="317.5" x2="429.26" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="429.26" y1="317.5" x2="426.72" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="429.26" y1="317.5" x2="429.26" y2="308.229" width="0.1524" layer="91"/>
-<junction x="429.26" y="317.5"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="429.26" y1="308.229" x2="429.26" y2="307.34" width="0.1524" layer="91"/>
-<junction x="429.26" y="308.229"/>
 </segment>
 </net>
 <net name="MMC0_DAT2" class="0">
@@ -36011,22 +36005,28 @@ Package</text>
 <label x="78.74" y="271.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="UART0_RX" class="0">
 <segment>
-<wire x1="120.65" y1="161.29" x2="107.95" y2="161.29" width="0.1524" layer="91"/>
-<label x="109.22" y="161.29" size="1.778" layer="95"/>
+<wire x1="106.68" y1="210.82" x2="132.08" y2="210.82" width="0.1524" layer="91"/>
+<label x="109.22" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UART5_RX" class="0">
+<net name="UART0_TX" class="0">
 <segment>
-<wire x1="120.65" y1="158.75" x2="107.95" y2="158.75" width="0.1524" layer="91"/>
-<label x="109.22" y="158.75" size="1.778" layer="95"/>
+<wire x1="106.68" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
+<label x="109.22" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UART5_TX" class="0">
+<net name="WIFI_EN" class="0">
 <segment>
-<wire x1="120.65" y1="156.21" x2="107.95" y2="156.21" width="0.1524" layer="91"/>
-<label x="109.22" y="156.21" size="1.778" layer="95"/>
+<wire x1="99.06" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
+<label x="104.14" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BT_EN" class="0">
+<segment>
+<wire x1="101.6" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
+<label x="104.14" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -36069,6 +36069,7 @@ Style Connector</text>
 <frame x1="255.27" y1="-64.77" x2="349.25" y2="-6.35" columns="8" rows="5" layer="91" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <text x="148.59" y="-93.98" size="1.778" layer="91" rot="R90">JST-SH</text>
 <text x="182.88" y="-90.17" size="1.778" layer="91" rot="R90">JST-SH</text>
+<text x="148.59" y="-114.3" size="1.778" layer="91" rot="R90">JST-SH</text>
 <text x="182.88" y="-114.3" size="1.778" layer="91" rot="R90">JST-SH</text>
 <text x="215.9" y="-87.63" size="1.778" layer="91" rot="R90">JST-SH</text>
 <text x="69.85" y="-53.34" size="1.778" layer="91" rot="R90">JST-SH</text>
@@ -36315,6 +36316,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <instance part="ADC" gate="G$1" x="172.72" y="-92.71" smashed="yes" rot="R180">
 <attribute name="NAME" x="176.53" y="-76.2" size="2.54" layer="95"/>
 </instance>
+<instance part="UART5" gate="G$1" x="143.51" y="-100.33" rot="MR0"/>
 <instance part="UART1" gate="G$1" x="143.51" y="-80.01" rot="MR0"/>
 <instance part="R187" gate="G$1" x="213.36" y="-3.81" smashed="yes" rot="MR0">
 <attribute name="NAME" x="217.17" y="-2.3114" size="1.778" layer="95" rot="MR0"/>
@@ -36717,6 +36719,11 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <pinref part="UART1" gate="G$1" pin="2"/>
 <wire x1="135.89" y1="-87.63" x2="123.19" y2="-87.63" width="0.1524" layer="91"/>
 <label x="124.46" y="-87.63" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="UART5" gate="G$1" pin="2"/>
+<wire x1="135.89" y1="-107.95" x2="123.19" y2="-107.95" width="0.1524" layer="91"/>
+<label x="124.46" y="-107.95" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="E4" gate="G$1" pin="2"/>
@@ -37271,6 +37278,11 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <pinref part="UART1" gate="G$1" pin="1"/>
 <wire x1="135.89" y1="-85.09" x2="123.19" y2="-85.09" width="0.1524" layer="91"/>
 <label x="124.46" y="-85.09" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="UART5" gate="G$1" pin="1"/>
+<wire x1="135.89" y1="-105.41" x2="123.19" y2="-105.41" width="0.1524" layer="91"/>
+<label x="124.46" y="-105.41" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="E4" gate="G$1" pin="1"/>
@@ -37995,6 +38007,20 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <pinref part="ADC" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="-82.55" x2="158.75" y2="-82.55" width="0.1524" layer="91"/>
 <label x="160.02" y="-82.55" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART5_RX" class="0">
+<segment>
+<pinref part="UART5" gate="G$1" pin="3"/>
+<wire x1="135.89" y1="-110.49" x2="123.19" y2="-110.49" width="0.1524" layer="91"/>
+<label x="124.46" y="-110.49" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART5_TX" class="0">
+<segment>
+<pinref part="UART5" gate="G$1" pin="4"/>
+<wire x1="135.89" y1="-113.03" x2="123.19" y2="-113.03" width="0.1524" layer="91"/>
+<label x="124.46" y="-113.03" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="QEP_4A" class="0">
