@@ -16514,111 +16514,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="PJ-002A">
-<packages>
-<package name="PJ-002A">
-<wire x1="1.95" y1="1.85" x2="1.95" y2="3.15" width="0.1" layer="21"/>
-<wire x1="1.95" y1="3.15" x2="1.95" y2="9.55" width="0.1" layer="21"/>
-<wire x1="1.95" y1="9.55" x2="1.95" y2="10.85" width="0.1" layer="21"/>
-<wire x1="5.45" y1="1.85" x2="5.45" y2="10.35" width="0.1" layer="21"/>
-<wire x1="5.45" y1="10.35" x2="5.45" y2="10.85" width="0.1" layer="21"/>
-<wire x1="5.45" y1="2.35" x2="13.95" y2="2.35" width="0.1" layer="51"/>
-<wire x1="5.45" y1="10.35" x2="13.95" y2="10.35" width="0.1" layer="21"/>
-<wire x1="13.95" y1="2.35" x2="13.95" y2="10.35" width="0.1" layer="51"/>
-<wire x1="13.95" y1="1.85" x2="13.95" y2="2.35" width="0.1" layer="51"/>
-<wire x1="13.95" y1="10.35" x2="13.95" y2="10.85" width="0.1" layer="21"/>
-<wire x1="1.95" y1="10.85" x2="13.95" y2="10.85" width="0.1" layer="21"/>
-<wire x1="1.95" y1="1.85" x2="13.95" y2="1.85" width="0.1" layer="51"/>
-<wire x1="13.95" y1="2.35" x2="15.45" y2="2.35" width="0.1" layer="51"/>
-<wire x1="15.45" y1="2.35" x2="15.95" y2="2.35" width="0.1" layer="51"/>
-<wire x1="13.95" y1="10.35" x2="15.45" y2="10.35" width="0.1" layer="21"/>
-<wire x1="15.45" y1="10.35" x2="15.95" y2="10.35" width="0.1" layer="21"/>
-<wire x1="15.95" y1="2.35" x2="15.95" y2="10.35" width="0.1" layer="51"/>
-<wire x1="15.45" y1="2.35" x2="15.45" y2="10.35" width="0.1" layer="51"/>
-<wire x1="1.95" y1="9.55" x2="10.95" y2="9.55" width="0.1" layer="21" style="shortdash"/>
-<wire x1="1.95" y1="3.15" x2="10.95" y2="3.15" width="0.1" layer="21" style="shortdash"/>
-<wire x1="10.95" y1="3.15" x2="10.95" y2="5.35" width="0.1" layer="21" style="shortdash"/>
-<wire x1="10.95" y1="5.35" x2="10.95" y2="7.35" width="0.1" layer="21" style="shortdash"/>
-<wire x1="10.95" y1="7.35" x2="10.95" y2="9.55" width="0.1" layer="21" style="shortdash"/>
-<wire x1="3.95" y1="5.35" x2="10.95" y2="5.35" width="0.1" layer="51" style="shortdash"/>
-<wire x1="3.95" y1="7.35" x2="10.95" y2="7.35" width="0.1" layer="51" style="shortdash"/>
-<wire x1="3.95" y1="5.35" x2="3.95" y2="7.35" width="0.1" layer="21" curve="-180"/>
-<wire x1="15.2" y1="8.1" x2="16.2" y2="8.1" width="0" layer="46"/>
-<wire x1="16.2" y1="8.1" x2="16.2" y2="4.6" width="0" layer="46"/>
-<wire x1="16.2" y1="4.6" x2="15.2" y2="4.6" width="0" layer="46"/>
-<wire x1="15.2" y1="4.6" x2="15.2" y2="8.1" width="0" layer="46"/>
-<wire x1="9.3" y1="7.85" x2="10.1" y2="7.85" width="0" layer="46"/>
-<wire x1="10.1" y1="7.85" x2="10.1" y2="4.85" width="0" layer="46"/>
-<wire x1="10.1" y1="4.85" x2="9.3" y2="4.85" width="0" layer="46"/>
-<wire x1="9.3" y1="4.85" x2="9.3" y2="7.85" width="0" layer="46"/>
-<wire x1="11.2" y1="1.95" x2="14.2" y2="1.95" width="0" layer="46"/>
-<wire x1="14.2" y1="1.95" x2="14.2" y2="1.15" width="0" layer="46"/>
-<wire x1="14.2" y1="1.15" x2="11.2" y2="1.15" width="0" layer="46"/>
-<wire x1="11.2" y1="1.15" x2="11.2" y2="1.95" width="0" layer="46"/>
-<wire x1="1.95" y1="1.85" x2="10.14" y2="1.85" width="0.1" layer="21"/>
-<wire x1="15.45" y1="2.35" x2="15.95" y2="2.35" width="0.1" layer="21"/>
-<wire x1="15.95" y1="2.35" x2="15.95" y2="4" width="0.1" layer="21"/>
-<wire x1="15.95" y1="8.7" x2="15.95" y2="10.35" width="0.1" layer="21"/>
-<wire x1="13.95" y1="3.62" x2="13.95" y2="10.35" width="0.1" layer="21"/>
-<wire x1="15.45" y1="8.7" x2="15.45" y2="10.35" width="0.1" layer="21"/>
-<wire x1="15.45" y1="2.35" x2="15.45" y2="4" width="0.1" layer="21"/>
-<pad name="3" x="12.7" y="1.55" drill="0.8" diameter="2.1844" shape="long"/>
-<pad name="2" x="9.7" y="6.35" drill="0.8" diameter="2.1844" shape="long" rot="R90"/>
-<pad name="1" x="15.7" y="6.35" drill="1.0287" diameter="2.4384" shape="long" rot="R90"/>
-<text x="2.54" y="11.43" size="1.27" layer="25">P1</text>
-<text x="2.54" y="0" size="1.27" layer="27">PJ-200A</text>
-<rectangle x1="11.45" y1="1.3" x2="13.95" y2="1.8" layer="51"/>
-<rectangle x1="15.45" y1="4.85" x2="15.95" y2="7.85" layer="51"/>
-<rectangle x1="9.6" y1="5.1" x2="9.8" y2="7.6" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PJ-002A">
-<wire x1="6.985" y1="8.89" x2="6.985" y2="11.43" width="0.1524" layer="94" curve="-180"/>
-<wire x1="6.985" y1="11.43" x2="11.43" y2="11.43" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="11.43" x2="11.43" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="8.89" x2="6.985" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="8.89" x2="11.43" y2="8.255" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="8.255" x2="12.7" y2="8.255" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="8.255" x2="12.7" y2="12.065" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="12.065" x2="11.43" y2="12.065" width="0.1524" layer="94"/>
-<wire x1="11.43" y1="12.065" x2="11.43" y2="11.43" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="6.985" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="6.985" y1="5.08" x2="6.35" y2="6.35" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="6.35" x2="5.715" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
-<text x="5.08" y="12.7" size="1.778" layer="95">P1</text>
-<text x="5.08" y="2.54" size="1.778" layer="96">PJ-002A</text>
-<pin name="1" x="17.78" y="10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="17.78" y="7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="17.78" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="12.7" y="5.08"/>
-<vertex x="12.192" y="6.35"/>
-<vertex x="13.208" y="6.35"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PJ-002A">
-<gates>
-<gate name="G$1" symbol="PJ-002A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PJ-002A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TESTPOINT">
 <packages>
 <package name="TESTPOINT">
@@ -19310,8 +19205,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R156" library="resistor" deviceset="R-US_" device="R0402"/>
 <part name="S3" library="KMR231GLFS" deviceset="KMR231GLFS" device=""/>
 <part name="SUPPLY108" library="supply2" deviceset="GND" device="" value="DGND"/>
-<part name="U$1" library="PJ-002A" deviceset="PJ-002A" device=""/>
-<part name="SUPPLY109" library="supply2" deviceset="GND" device="" value="DGND"/>
 <part name="L2" library="LQM2HPN2RMG0L" deviceset="LQM2HPN2RMG0L" device="" value=""/>
 <part name="L3" library="LQM2HPN2RMG0L" deviceset="LQM2HPN2RMG0L" device="" value=""/>
 <part name="R6A" library="rcl" deviceset="R-US_" device="R0402"/>
@@ -19627,8 +19520,6 @@ NECESSARY SERVICING, REPAIR OR CORRECTION.</text>
 <instance part="L1" gate="G$1" x="119.38" y="20.32" rot="R180"/>
 <instance part="S3" gate="G$1" x="20.32" y="7.62"/>
 <instance part="SUPPLY108" gate="GND" x="-22.86" y="-5.08"/>
-<instance part="U$1" gate="G$1" x="-38.1" y="73.66"/>
-<instance part="SUPPLY109" gate="GND" x="-27.94" y="63.5"/>
 <instance part="L2" gate="G$1" x="119.38" y="12.7" rot="R180"/>
 <instance part="L3" gate="G$1" x="119.38" y="2.54" rot="R180"/>
 <instance part="R6A" gate="G$1" x="172.72" y="12.7" rot="R180"/>
@@ -19777,14 +19668,6 @@ NECESSARY SERVICING, REPAIR OR CORRECTION.</text>
 <junction x="-22.86" y="12.7"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="-20.32" y1="78.74" x2="-15.24" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="78.74" x2="-15.24" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="76.2" x2="-27.94" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="76.2" x2="-27.94" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY109" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <wire x1="147.32" y1="-45.72" x2="147.32" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -19850,8 +19733,6 @@ NECESSARY SERVICING, REPAIR OR CORRECTION.</text>
 <wire x1="5.08" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
 <junction x="5.08" y="83.82"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="AC"/>
 </segment>
 <segment>
