@@ -35832,7 +35832,7 @@ for 1A charge</text>
 SEL pin pulled HIGH: charge to 4.1V per cell</text>
 </plain>
 <instances>
-<instance part="R112" gate="G$1" x="-33.274" y="172.72" rot="R180"/>
+<instance part="R112" gate="G$1" x="37.846" y="180.34" rot="R180"/>
 <instance part="H1" gate="G$1" x="143.51" y="186.69" rot="R180"/>
 <instance part="C5" gate="G$1" x="107.95" y="166.37" smashed="yes" rot="MR180">
 <attribute name="NAME" x="109.474" y="168.529" size="1.778" layer="95" rot="MR180"/>
@@ -36343,9 +36343,9 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<label x="-12.7" y="177.8" size="1.778" layer="95"/>
+<label x="53.34" y="180.34" size="1.778" layer="95"/>
 <pinref part="R112" gate="G$1" pin="1"/>
-<wire x1="-28.194" y1="172.72" x2="-7.62" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="42.926" y1="180.34" x2="63.5" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="5VREG" gate="G$1" pin="GND"/>
@@ -36736,8 +36736,8 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 </net>
 <net name="GNDA_ADC" class="0">
 <segment>
-<wire x1="-45.72" y1="172.72" x2="-38.354" y2="172.72" width="0.1524" layer="91"/>
-<label x="-30.48" y="157.48" size="1.778" layer="95"/>
+<wire x1="25.4" y1="180.34" x2="32.766" y2="180.34" width="0.1524" layer="91"/>
+<label x="20.32" y="182.88" size="1.778" layer="95"/>
 <pinref part="R112" gate="G$1" pin="2"/>
 </segment>
 </net>
