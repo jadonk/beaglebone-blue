@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11158,7 +11158,7 @@ Center Positive
 Overcharge timeout td = C19 * 9.0s/uF = 0.9 seconds
 Discharge Protection at 2.5V
 CHG_EN goes HIGH to disable charger</text>
-<text x="185.42" y="365.76" size="1.778" layer="91">I_chg = 1kV / R6 * R4 = 1000mA</text>
+<text x="236.22" y="248.92" size="1.778" layer="91">I_chg = 1kV / R6 * R4 = 1000mA</text>
 <text x="99.06" y="146.05" size="1.778" layer="91">Battery Indicator LEDs</text>
 <text x="99.06" y="252.73" size="1.778" layer="91">MOTOR DRIVERS</text>
 <text x="289.56" y="115.57" size="1.778" layer="91">Servo Connectors &amp; Power Control</text>
@@ -11167,7 +11167,7 @@ CHG_EN goes HIGH to disable charger</text>
 <frame x1="5.08" y1="107.95" x2="95.25" y2="255.27" columns="8" rows="5" layer="91" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="97.79" y1="151.13" x2="181.61" y2="255.27" columns="8" rows="5" layer="91" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <text x="289.56" y="55.88" size="1.778" layer="91" rot="MR0" align="top-right">Barometer</text>
-<text x="185.42" y="369.57" size="1.778" layer="91">Charger</text>
+<text x="236.22" y="252.73" size="1.778" layer="91">Charger</text>
 <text x="163.83" y="242.57" size="1.778" layer="91">JST-ZH
 Connectors</text>
 <frame x1="97.79" y1="96.52" x2="146.05" y2="148.59" columns="8" rows="5" layer="91" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
