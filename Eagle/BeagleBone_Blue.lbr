@@ -1864,7 +1864,7 @@
 <gate name="C" symbol="OSD3358_USB_ADC_LCD_MII" x="58.42" y="86.36"/>
 <gate name="D" symbol="SIP1000-D" x="76.2" y="43.18"/>
 <gate name="E" symbol="SIP1000-E" x="142.24" y="22.86"/>
-<gate name="G$1" symbol="SIP1000-F" x="165.1" y="144.78"/>
+<gate name="F" symbol="SIP1000-F" x="165.1" y="144.78"/>
 </gates>
 <devices>
 <device name="" package="OSD3358">
@@ -2053,7 +2053,7 @@
 <connect gate="C" pin="VSSA_ADC_0" pad="A6"/>
 <connect gate="C" pin="VSSA_ADC_1" pad="A9"/>
 <connect gate="C" pin="VSSA_ADC_2" pad="E8"/>
-<connect gate="D" pin="NC1" pad="A1"/>
+<connect gate="D" pin="NC1" pad="V11"/>
 <connect gate="D" pin="NC104" pad="K4"/>
 <connect gate="D" pin="NC105" pad="L1"/>
 <connect gate="D" pin="NC106" pad="L2"/>
@@ -2186,6 +2186,89 @@
 <connect gate="E" pin="VDD_RTC7" pad="P9"/>
 <connect gate="E" pin="VDD_RTC8" pad="P14"/>
 <connect gate="E" pin="VPP" pad="M5"/>
+<connect gate="F" pin="DGND1" pad="A1"/>
+<connect gate="F" pin="DGND10" pad="G12"/>
+<connect gate="F" pin="DGND11" pad="G19"/>
+<connect gate="F" pin="DGND12" pad="H6"/>
+<connect gate="F" pin="DGND13" pad="H7"/>
+<connect gate="F" pin="DGND14" pad="H8"/>
+<connect gate="F" pin="DGND15" pad="H9"/>
+<connect gate="F" pin="DGND16" pad="H10"/>
+<connect gate="F" pin="DGND17" pad="H12"/>
+<connect gate="F" pin="DGND18" pad="H19"/>
+<connect gate="F" pin="DGND19" pad="J6"/>
+<connect gate="F" pin="DGND2" pad="A18"/>
+<connect gate="F" pin="DGND20" pad="J7"/>
+<connect gate="F" pin="DGND21" pad="J8"/>
+<connect gate="F" pin="DGND22" pad="J9"/>
+<connect gate="F" pin="DGND23" pad="J10"/>
+<connect gate="F" pin="DGND24" pad="J11"/>
+<connect gate="F" pin="DGND25" pad="J19"/>
+<connect gate="F" pin="DGND26" pad="J20"/>
+<connect gate="F" pin="DGND27" pad="K7"/>
+<connect gate="F" pin="DGND28" pad="K9"/>
+<connect gate="F" pin="DGND29" pad="K10"/>
+<connect gate="F" pin="DGND3" pad="E19"/>
+<connect gate="F" pin="DGND30" pad="K11"/>
+<connect gate="F" pin="DGND31" pad="K19"/>
+<connect gate="F" pin="DGND32" pad="L10"/>
+<connect gate="F" pin="DGND33" pad="L11"/>
+<connect gate="F" pin="DGND34" pad="L12"/>
+<connect gate="F" pin="DGND35" pad="L13"/>
+<connect gate="F" pin="DGND36" pad="L19"/>
+<connect gate="F" pin="DGND38" pad="M6"/>
+<connect gate="F" pin="DGND39" pad="M7"/>
+<connect gate="F" pin="DGND4" pad="E20"/>
+<connect gate="F" pin="DGND40" pad="M8"/>
+<connect gate="F" pin="DGND41" pad="M9"/>
+<connect gate="F" pin="DGND42" pad="M10"/>
+<connect gate="F" pin="DGND43" pad="M12"/>
+<connect gate="F" pin="DGND44" pad="M14"/>
+<connect gate="F" pin="DGND45" pad="M19"/>
+<connect gate="F" pin="DGND46" pad="N7"/>
+<connect gate="F" pin="DGND47" pad="N10"/>
+<connect gate="F" pin="DGND48" pad="N11"/>
+<connect gate="F" pin="DGND49" pad="N14"/>
+<connect gate="F" pin="DGND5" pad="F8"/>
+<connect gate="F" pin="DGND50" pad="N19"/>
+<connect gate="F" pin="DGND51" pad="N20"/>
+<connect gate="F" pin="DGND52" pad="P19"/>
+<connect gate="F" pin="DGND53" pad="P20"/>
+<connect gate="F" pin="DGND54" pad="R19"/>
+<connect gate="F" pin="DGND55" pad="R20"/>
+<connect gate="F" pin="DGND56" pad="T19"/>
+<connect gate="F" pin="DGND57" pad="T20"/>
+<connect gate="F" pin="DGND58" pad="U19"/>
+<connect gate="F" pin="DGND59" pad="V1"/>
+<connect gate="F" pin="DGND6" pad="F19"/>
+<connect gate="F" pin="DGND60" pad="V18"/>
+<connect gate="F" pin="DGND61" pad="V19"/>
+<connect gate="F" pin="DGND62" pad="W2"/>
+<connect gate="F" pin="DGND63" pad="W3"/>
+<connect gate="F" pin="DGND65" pad="W5"/>
+<connect gate="F" pin="DGND66" pad="W6"/>
+<connect gate="F" pin="DGND67" pad="W7"/>
+<connect gate="F" pin="DGND68" pad="W8"/>
+<connect gate="F" pin="DGND69" pad="W9"/>
+<connect gate="F" pin="DGND7" pad="G8"/>
+<connect gate="F" pin="DGND70" pad="W10"/>
+<connect gate="F" pin="DGND71" pad="W11"/>
+<connect gate="F" pin="DGND72" pad="W12"/>
+<connect gate="F" pin="DGND73" pad="W13"/>
+<connect gate="F" pin="DGND74" pad="W14"/>
+<connect gate="F" pin="DGND75" pad="W15"/>
+<connect gate="F" pin="DGND76" pad="W16"/>
+<connect gate="F" pin="DGND77" pad="W17"/>
+<connect gate="F" pin="DGND78" pad="W18"/>
+<connect gate="F" pin="DGND79" pad="W19"/>
+<connect gate="F" pin="DGND8" pad="G9"/>
+<connect gate="F" pin="DGND80" pad="W20"/>
+<connect gate="F" pin="DGND82" pad="Y7"/>
+<connect gate="F" pin="DGND83" pad="Y10"/>
+<connect gate="F" pin="DGND84" pad="Y12"/>
+<connect gate="F" pin="DGND85" pad="Y15"/>
+<connect gate="F" pin="DGND86" pad="Y18"/>
+<connect gate="F" pin="DGND9" pad="G11"/>
 </connects>
 <technologies>
 <technology name=""/>
