@@ -580,7 +580,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="A-POWER_MANAGEMENT">
+<symbol name="A">
 <description>Primary PMIC related signals</description>
 <wire x1="0" y1="0" x2="0" y2="63.5" width="0.254" layer="94"/>
 <wire x1="0" y1="63.5" x2="48.26" y2="63.5" width="0.254" layer="94"/>
@@ -622,7 +622,7 @@
 <text x="0" y="66.04" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="C-USB_ADC_LCD_AND_MII">
+<symbol name="C">
 <description>ADC, LCD, MII1 and USB related signals</description>
 <wire x1="0" y1="0" x2="0" y2="101.6" width="0.254" layer="94"/>
 <wire x1="0" y1="101.6" x2="50.8" y2="101.6" width="0.254" layer="94"/>
@@ -699,7 +699,7 @@
 <text x="0" y="104.14" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="B-MAIN_LOGIC">
+<symbol name="B">
 <description>Main ports for OSD3358</description>
 <wire x1="0" y1="0" x2="0" y2="139.7" width="0.254" layer="94"/>
 <wire x1="48.26" y1="139.7" x2="48.26" y2="0" width="0.254" layer="94"/>
@@ -794,7 +794,7 @@
 <text x="0" y="142.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="D-NO_CONNECTS">
+<symbol name="D">
 <wire x1="-15.24" y1="35.56" x2="15.24" y2="35.56" width="0.254" layer="94"/>
 <wire x1="15.24" y1="35.56" x2="15.24" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-38.1" x2="-15.24" y2="-38.1" width="0.254" layer="94"/>
@@ -858,7 +858,7 @@
 <pin name="NC137" x="20.32" y="30.48" length="middle" rot="R180"/>
 <pin name="NC138" x="20.32" y="33.02" length="middle" rot="R180"/>
 </symbol>
-<symbol name="E-POWER_RAILS">
+<symbol name="E">
 <wire x1="-33.02" y1="55.88" x2="17.78" y2="55.88" width="0.254" layer="94"/>
 <wire x1="17.78" y1="55.88" x2="17.78" y2="1.27" width="0.254" layer="94"/>
 <wire x1="17.78" y1="1.27" x2="17.78" y2="-3.81" width="0.254" layer="94"/>
@@ -972,7 +972,7 @@
 <pin name="VDD_RTC8" x="22.86" y="-38.1" length="middle" rot="R180"/>
 <pin name="VDD_MPU6" x="-38.1" y="-20.32" length="middle"/>
 </symbol>
-<symbol name="F-DIGITAL_GROUND">
+<symbol name="F">
 <wire x1="-35.56" y1="33.02" x2="35.56" y2="33.02" width="0.254" layer="94"/>
 <wire x1="35.56" y1="33.02" x2="35.56" y2="-40.64" width="0.254" layer="94"/>
 <wire x1="35.56" y1="-40.64" x2="-35.56" y2="-40.64" width="0.254" layer="94"/>
@@ -1069,12 +1069,12 @@
 <deviceset name="OSD3358">
 <description>Octavo Systems LLC - OSD3358 Rev A</description>
 <gates>
-<gate name="B" symbol="B-MAIN_LOGIC" x="-17.78" y="-25.4"/>
-<gate name="A" symbol="A-POWER_MANAGEMENT" x="-17.78" y="124.46"/>
-<gate name="C" symbol="C-USB_ADC_LCD_AND_MII" x="58.42" y="86.36"/>
-<gate name="D" symbol="D-NO_CONNECTS" x="76.2" y="43.18"/>
-<gate name="E" symbol="E-POWER_RAILS" x="142.24" y="22.86"/>
-<gate name="F" symbol="F-DIGITAL_GROUND" x="165.1" y="144.78"/>
+<gate name="B" symbol="B" x="-17.78" y="-25.4"/>
+<gate name="A" symbol="A" x="-17.78" y="124.46"/>
+<gate name="C" symbol="C" x="58.42" y="86.36"/>
+<gate name="D" symbol="D" x="76.2" y="43.18"/>
+<gate name="E" symbol="E" x="142.24" y="22.86"/>
+<gate name="F" symbol="F" x="165.1" y="144.78"/>
 </gates>
 <devices>
 <device name="" package="OSD3358">
