@@ -1752,7 +1752,6 @@
 <pin name="VDD_3V3A19" x="-38.1" y="7.62" length="middle"/>
 <pin name="VDD_3V3A20" x="-38.1" y="5.08" length="middle"/>
 <pin name="VDD_3V3A21" x="-38.1" y="2.54" length="middle"/>
-<pin name="VDD_3V3A22" x="-38.1" y="0" length="middle"/>
 <pin name="VDD_RTC1" x="22.86" y="-20.32" length="middle" rot="R180"/>
 <pin name="VDD_RTC2" x="22.86" y="-22.86" length="middle" rot="R180"/>
 <pin name="VDD_RTC3" x="22.86" y="-25.4" length="middle" rot="R180"/>
