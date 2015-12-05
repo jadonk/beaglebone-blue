@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -89,7 +91,9 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="114" name="GND" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -98,6 +102,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
@@ -12454,6 +12459,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP3" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP4" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP5" library="testpad" deviceset="TPSQ" device="B1,27"/>
+<part name="R2" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
+<part name="R23" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
 </parts>
 <sheets>
 <sheet>
@@ -14871,6 +14878,8 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <instance part="TP3" gate="G$1" x="137.16" y="228.6" rot="R90"/>
 <instance part="TP4" gate="G$1" x="137.16" y="226.06" rot="R90"/>
 <instance part="TP5" gate="G$1" x="45.72" y="215.9" rot="R270"/>
+<instance part="R2" gate="G$1" x="38.1" y="203.2" rot="R90"/>
+<instance part="R23" gate="G$1" x="48.26" y="203.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -14954,6 +14963,53 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <pinref part="U1" gate="A" pin="PMIC_IN_PB_IN"/>
 <wire x1="66.04" y1="220.98" x2="43.18" y2="220.98" width="0.1524" layer="91"/>
 <label x="43.18" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C0_SCL" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="I2C0_SCL"/>
+<wire x1="66.04" y1="195.58" x2="60.96" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="195.58" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="PMIC_I2C_SCL"/>
+<wire x1="60.96" y1="198.12" x2="60.96" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="205.74" x2="66.04" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="198.12" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
+<junction x="60.96" y="198.12"/>
+<wire x1="48.26" y1="198.12" x2="45.72" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="198.12" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
+<junction x="48.26" y="198.12"/>
+<wire x1="45.72" y1="190.5" x2="20.32" y2="190.5" width="0.1524" layer="91"/>
+<label x="20.32" y="190.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C0_SDA" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PMIC_I2C_SDA"/>
+<wire x1="66.04" y1="203.2" x2="55.88" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="203.2" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="I2C0_SDA"/>
+<wire x1="55.88" y1="195.58" x2="55.88" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="193.04" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="198.12" x2="38.1" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="195.58" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
+<junction x="55.88" y="195.58"/>
+<wire x1="38.1" y1="195.58" x2="20.32" y2="195.58" width="0.1524" layer="91"/>
+<junction x="38.1" y="195.58"/>
+<label x="20.32" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_3V3A" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="208.28" x2="38.1" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="210.82" x2="38.1" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="210.82" x2="48.26" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="210.82" x2="48.26" y2="208.28" width="0.1524" layer="91"/>
+<junction x="38.1" y="210.82"/>
+<label x="20.32" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
