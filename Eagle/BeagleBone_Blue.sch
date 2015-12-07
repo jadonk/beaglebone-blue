@@ -13213,6 +13213,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="C35" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
 <part name="R72" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
 <part name="R73" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
+<part name="R74" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="R75" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -15734,6 +15736,14 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <attribute name="NAME" x="267.97" y="95.4786" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="275.59" y="95.758" size="1.778" layer="96" align="top-left"/>
 </instance>
+<instance part="R74" gate="G$1" x="271.78" y="91.44" smashed="yes">
+<attribute name="NAME" x="267.97" y="92.9386" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="93.218" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R75" gate="G$1" x="271.78" y="88.9" smashed="yes">
+<attribute name="NAME" x="267.97" y="90.3986" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="90.678" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16529,6 +16539,34 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <pinref part="R73" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="93.98" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
 <label x="238.76" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C1_SDA" class="0">
+<segment>
+<pinref part="R74" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="238.76" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C1_SCL" class="0">
+<segment>
+<pinref part="R75" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="88.9" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
+<label x="238.76" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="R74" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="B" pin="I2C1_SDA_B16"/>
+<wire x1="276.86" y1="91.44" x2="281.94" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$78" class="0">
+<segment>
+<pinref part="R75" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="B" pin="I2C1_SCL_A16"/>
+<wire x1="276.86" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
