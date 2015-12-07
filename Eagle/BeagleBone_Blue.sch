@@ -16314,7 +16314,6 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <instances>
 <instance part="SIP" gate="B" x="154.94" y="15.24"/>
 <instance part="SIP" gate="A" x="71.12" y="187.96"/>
-<instance part="SIP" gate="C" x="396.24" y="66.04"/>
 <instance part="TP1" gate="G$1" x="137.16" y="248.92" rot="R90"/>
 <instance part="TP2" gate="G$1" x="45.72" y="228.6" rot="R270"/>
 <instance part="TP3" gate="G$1" x="137.16" y="228.6" rot="R90"/>
@@ -17762,6 +17761,13 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <junction x="266.7" y="81.28"/>
 </segment>
 </net>
+<net name="LED_3" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="GPIO1_29_V6"/>
+<wire x1="208.28" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
+<label x="226.06" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -17769,8 +17775,10 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <frame x1="124.46" y1="-60.96" x2="436.88" y2="142.24" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
-<instance part="SIP" gate="E" x="210.82" y="48.26"/>
-<instance part="SIP" gate="F" x="345.44" y="48.26"/>
+<instance part="SIP" gate="E" x="279.4" y="40.64"/>
+<instance part="SIP" gate="F" x="375.92" y="27.94"/>
+<instance part="SIP" gate="C" x="152.4" y="30.48"/>
+<instance part="SIP" gate="D" x="193.04" y="-12.7"/>
 </instances>
 <busses>
 </busses>
