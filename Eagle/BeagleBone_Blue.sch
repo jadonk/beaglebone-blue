@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13215,6 +13215,13 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R73" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
 <part name="R74" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="R75" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="R76" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
+<part name="R77" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
+<part name="R78" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
+<part name="R79" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
+<part name="R80" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="R81" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="UART0" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13286,6 +13293,7 @@ Style Connector</text>
 for 1A charge</text>
 <text x="208.28" y="154.94" size="1.778" layer="91">CELL pin left open: 2S
 SEL pin pulled HIGH: charge to 4.1V per cell</text>
+<text x="41.91" y="154.94" size="1.778" layer="91" rot="R90">JST-SH</text>
 </plain>
 <instances>
 <instance part="H1" gate="G$1" x="143.51" y="186.69" rot="R180"/>
@@ -13792,6 +13800,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <attribute name="VALUE" x="354.33" y="228.092" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND9" gate="1" x="355.6" y="218.44"/>
+<instance part="UART0" gate="G$1" x="36.83" y="168.91" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -13982,6 +13991,11 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="90.17" y1="43.18" x2="90.17" y2="49.53" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="43.18" x2="90.17" y2="43.18" width="0.1524" layer="91"/>
 <junction x="90.17" y="43.18"/>
+</segment>
+<segment>
+<pinref part="UART0" gate="G$1" pin="2"/>
+<wire x1="29.21" y1="161.29" x2="16.51" y2="161.29" width="0.1524" layer="91"/>
+<label x="17.78" y="161.29" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C1_SDA" class="0">
@@ -14688,6 +14702,11 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="UART0" gate="G$1" pin="1"/>
+<wire x1="29.21" y1="163.83" x2="16.51" y2="163.83" width="0.1524" layer="91"/>
+<label x="17.78" y="163.83" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -15617,6 +15636,20 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <label x="204.47" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="UART0_RX" class="0">
+<segment>
+<pinref part="UART0" gate="G$1" pin="3"/>
+<wire x1="29.21" y1="158.75" x2="16.51" y2="158.75" width="0.1524" layer="91"/>
+<label x="17.78" y="158.75" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART0_TX" class="0">
+<segment>
+<pinref part="UART0" gate="G$1" pin="4"/>
+<wire x1="29.21" y1="156.21" x2="16.51" y2="156.21" width="0.1524" layer="91"/>
+<label x="17.78" y="156.21" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -15743,6 +15776,30 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <instance part="R75" gate="G$1" x="271.78" y="88.9" smashed="yes">
 <attribute name="NAME" x="267.97" y="90.3986" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="275.59" y="90.678" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R76" gate="G$1" x="271.78" y="86.36" smashed="yes">
+<attribute name="NAME" x="267.97" y="87.8586" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="88.138" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R77" gate="G$1" x="271.78" y="83.82" smashed="yes">
+<attribute name="NAME" x="267.97" y="85.3186" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="85.598" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R78" gate="G$1" x="271.78" y="76.2" smashed="yes">
+<attribute name="NAME" x="267.97" y="77.6986" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="77.978" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R79" gate="G$1" x="271.78" y="73.66" smashed="yes">
+<attribute name="NAME" x="267.97" y="75.1586" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="75.438" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R80" gate="G$1" x="271.78" y="71.12" smashed="yes">
+<attribute name="NAME" x="267.97" y="72.6186" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="72.898" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R81" gate="G$1" x="271.78" y="68.58" smashed="yes">
+<attribute name="NAME" x="267.97" y="70.0786" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="70.358" size="1.778" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -16567,6 +16624,97 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <pinref part="R75" gate="G$1" pin="2"/>
 <pinref part="SIP" gate="B" pin="I2C1_SCL_A16"/>
 <wire x1="276.86" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="UART0_TXD_E16"/>
+<pinref part="R76" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="86.36" x2="276.86" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="UART0_RXD_E15"/>
+<pinref part="R77" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="83.82" x2="276.86" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="UART1_TXD_D15"/>
+<pinref part="R78" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="76.2" x2="276.86" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="UART1_RXD_D16"/>
+<pinref part="R79" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="73.66" x2="276.86" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="I2C2_SDA_D18"/>
+<pinref part="R80" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="71.12" x2="276.86" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="I2C2_SCL_D17"/>
+<pinref part="R81" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="68.58" x2="276.86" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="UART0_TX" class="0">
+<segment>
+<pinref part="R76" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
+<label x="238.76" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART0_RX" class="0">
+<segment>
+<pinref part="R77" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
+<label x="238.76" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART1_TX" class="0">
+<segment>
+<pinref part="R78" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
+<label x="238.76" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART1_RX" class="0">
+<segment>
+<pinref part="R79" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
+<label x="238.76" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C2_SDA" class="0">
+<segment>
+<pinref part="R80" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
+<label x="238.76" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C2_SCL" class="0">
+<segment>
+<pinref part="R81" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
+<label x="238.76" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI1_SS2" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="GPIO0_19_A15"/>
+<wire x1="340.36" y1="167.64" x2="365.76" y2="167.64" width="0.1524" layer="91"/>
+<label x="365.76" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
