@@ -13211,6 +13211,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R71" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%"/>
 <part name="C34" library="Strawson_Eagle_Lib" deviceset="CAP" device="0805" value="10UF,10V"/>
 <part name="C35" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
+<part name="R72" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
+<part name="R73" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
 </parts>
 <sheets>
 <sheet>
@@ -15724,6 +15726,14 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 </instance>
 <instance part="C34" gate="G$1" x="152.4" y="81.28"/>
 <instance part="C35" gate="G$1" x="167.64" y="81.28"/>
+<instance part="R72" gate="G$1" x="271.78" y="96.52" smashed="yes">
+<attribute name="NAME" x="267.97" y="98.0186" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="98.298" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R73" gate="G$1" x="271.78" y="93.98" smashed="yes">
+<attribute name="NAME" x="267.97" y="95.4786" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="275.59" y="95.758" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16491,6 +16501,34 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="142.24" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="119.38" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="R72" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="B" pin="UART2_RXD_A17"/>
+<wire x1="276.86" y1="96.52" x2="281.94" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="R73" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="B" pin="UART2_TXD_B17"/>
+<wire x1="276.86" y1="93.98" x2="281.94" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="UART2_RX" class="0">
+<segment>
+<pinref part="R72" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="96.52" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
+<label x="238.76" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART2_TX" class="0">
+<segment>
+<pinref part="R73" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="93.98" x2="266.7" y2="93.98" width="0.1524" layer="91"/>
+<label x="238.76" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
