@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13893,6 +13893,10 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="C39" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
 <part name="C40" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
 <part name="C41" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
+<part name="R105" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="R106" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="R107" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="R108" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -18076,14 +18080,97 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <frame x1="124.46" y1="-60.96" x2="436.88" y2="142.24" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
-<instance part="SIP" gate="E" x="279.4" y="40.64"/>
-<instance part="SIP" gate="F" x="375.92" y="27.94"/>
-<instance part="SIP" gate="C" x="152.4" y="30.48"/>
-<instance part="SIP" gate="D" x="193.04" y="-12.7"/>
+<instance part="SIP" gate="C" x="190.5" y="20.32"/>
+<instance part="R105" gate="G$1" x="175.26" y="119.38" smashed="yes">
+<attribute name="NAME" x="171.45" y="120.8786" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="179.07" y="121.158" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R106" gate="G$1" x="175.26" y="116.84" smashed="yes">
+<attribute name="NAME" x="171.45" y="118.3386" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="179.07" y="118.618" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R107" gate="G$1" x="175.26" y="114.3" smashed="yes">
+<attribute name="NAME" x="171.45" y="115.7986" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="179.07" y="116.078" size="1.778" layer="96" align="top-left"/>
+</instance>
+<instance part="R108" gate="G$1" x="175.26" y="111.76" smashed="yes">
+<attribute name="NAME" x="171.45" y="113.2586" size="1.778" layer="95" align="center-right"/>
+<attribute name="VALUE" x="179.07" y="113.538" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="AIN0" class="0">
+<segment>
+<pinref part="R105" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
+<label x="142.24" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$111" class="0">
+<segment>
+<pinref part="R105" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="C" pin="AIN0"/>
+<wire x1="180.34" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$112" class="0">
+<segment>
+<pinref part="R106" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="C" pin="AIN1"/>
+<wire x1="180.34" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$113" class="0">
+<segment>
+<pinref part="R107" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="C" pin="AIN2"/>
+<wire x1="180.34" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$114" class="0">
+<segment>
+<pinref part="R108" gate="G$1" pin="2"/>
+<pinref part="SIP" gate="C" pin="AIN3"/>
+<wire x1="180.34" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AIN1" class="0">
+<segment>
+<pinref part="R106" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<label x="142.24" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AIN2" class="0">
+<segment>
+<pinref part="R107" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
+<label x="142.24" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AIN3" class="0">
+<segment>
+<pinref part="R108" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<label x="142.24" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V_DIV_DC" class="0">
+<segment>
+<pinref part="SIP" gate="C" pin="AIN5"/>
+<wire x1="185.42" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
+<label x="142.24" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V_DIV_BAT" class="0">
+<segment>
+<pinref part="SIP" gate="C" pin="AIN6"/>
+<wire x1="142.24" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
+<label x="142.24" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
