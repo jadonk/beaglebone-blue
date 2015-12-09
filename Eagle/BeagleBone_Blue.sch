@@ -15363,6 +15363,10 @@ A FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE
 QUALITY AND PERFORMANCE OF THE DESIGN IS WITH YOU. SHOULD 
 THE DESIGN PROVE DEFECTIVE, YOU ASSUME THE COST 
 OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION. </text>
+<text x="5.08" y="182.88" size="1.778" layer="91">This work is licensed under a Creative Commons 
+Attribution-ShareAlike 3.0 United States License.
+
+</text>
 </plain>
 <instances>
 <instance part="H1" gate="G$1" x="143.51" y="186.69" rot="R180"/>
