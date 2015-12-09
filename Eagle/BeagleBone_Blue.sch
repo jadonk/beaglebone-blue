@@ -12483,7 +12483,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pin name="G3" x="10.16" y="-5.08" length="middle" rot="R90"/>
 <pin name="G4" x="10.16" y="27.94" length="middle" rot="R270"/>
 <pin name="G5" x="5.08" y="27.94" length="middle" rot="R270"/>
-<text x="0" y="25.4" size="1.27" layer="95">P4</text>
+<text x="0" y="25.4" size="1.27" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-2.54" size="1.27" layer="95">UX60SC-MB-5ST(80)</text>
 </symbol>
 <symbol name="87520-0010BLF">
@@ -15265,8 +15265,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="U1" library="BeagleBone_Blue" deviceset="TPD4S012_DRY_6" device=""/>
 <part name="U4" library="BeagleBone_Blue" deviceset="TPD4S012_DRY_6" device=""/>
 <part name="U7" library="BeagleBone_Blue" deviceset="TPS2051B_D_8" device=""/>
-<part name="U$4" library="BeagleBone_Blue" deviceset="UX60SC-MB-5ST(80)" device=""/>
-<part name="U$5" library="BeagleBone_Blue" deviceset="87520-0010BLF" device=""/>
+<part name="OTG" library="BeagleBone_Blue" deviceset="UX60SC-MB-5ST(80)" device=""/>
+<part name="HOST" library="BeagleBone_Blue" deviceset="87520-0010BLF" device=""/>
 <part name="R149" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="R150" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="R151" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%"/>
@@ -19654,8 +19654,10 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <instance part="U1" gate="A" x="337.82" y="12.7"/>
 <instance part="U4" gate="A" x="307.34" y="-25.4"/>
 <instance part="U7" gate="A" x="251.46" y="-22.86"/>
-<instance part="U$4" gate="G$1" x="398.78" y="-2.54"/>
-<instance part="U$5" gate="G$1" x="396.24" y="-35.56"/>
+<instance part="OTG" gate="G$1" x="398.78" y="-2.54" smashed="yes">
+<attribute name="NAME" x="396.24" y="22.86" size="1.27" layer="95"/>
+</instance>
+<instance part="HOST" gate="G$1" x="396.24" y="-35.56"/>
 <instance part="R149" gate="G$1" x="281.94" y="33.02" smashed="yes">
 <attribute name="NAME" x="278.13" y="34.5186" size="1.27" layer="95" align="center-right"/>
 <attribute name="VALUE" x="285.75" y="34.798" size="1.27" layer="96" align="center-left"/>
@@ -19874,24 +19876,24 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <label x="411.48" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="G2"/>
+<pinref part="OTG" gate="G$1" pin="G2"/>
 <wire x1="403.86" y1="-7.62" x2="403.86" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-10.16" x2="408.94" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="G3"/>
+<pinref part="OTG" gate="G$1" pin="G3"/>
 <wire x1="408.94" y1="-10.16" x2="421.64" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="-7.62" x2="408.94" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="408.94" y="-10.16"/>
-<pinref part="U$4" gate="G$1" pin="G5"/>
+<pinref part="OTG" gate="G$1" pin="G5"/>
 <wire x1="403.86" y1="25.4" x2="403.86" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="27.94" x2="408.94" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="27.94" x2="416.56" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="27.94" x2="416.56" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="G4"/>
+<pinref part="OTG" gate="G$1" pin="G4"/>
 <wire x1="408.94" y1="25.4" x2="408.94" y2="27.94" width="0.1524" layer="91"/>
 <junction x="408.94" y="27.94"/>
 <wire x1="416.56" y1="-10.16" x2="421.64" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="416.56" y="-10.16"/>
-<pinref part="U$4" gate="G$1" pin="G1"/>
+<pinref part="OTG" gate="G$1" pin="G1"/>
 <wire x1="421.64" y1="-10.16" x2="424.18" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="15.24" x2="391.16" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="15.24" x2="391.16" y2="27.94" width="0.1524" layer="91"/>
@@ -19905,11 +19907,11 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <junction x="403.86" y="-10.16"/>
 <wire x1="421.64" y1="-10.16" x2="421.64" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="421.64" y="-10.16"/>
-<pinref part="U$5" gate="G$1" pin="SH1"/>
+<pinref part="HOST" gate="G$1" pin="SH1"/>
 <wire x1="421.64" y1="-25.4" x2="416.56" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="-25.4" x2="421.64" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="421.64" y="-25.4"/>
-<pinref part="U$5" gate="G$1" pin="SH0"/>
+<pinref part="HOST" gate="G$1" pin="SH0"/>
 <wire x1="421.64" y1="-33.02" x2="416.56" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="-40.64" x2="358.14" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="-40.64" x2="370.84" y2="-40.64" width="0.1524" layer="91"/>
@@ -20358,7 +20360,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="317.5" y1="30.48" x2="386.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="30.48" x2="386.08" y2="10.16" width="0.1524" layer="91"/>
 <junction x="317.5" y="30.48"/>
-<pinref part="U$4" gate="G$1" pin="D+"/>
+<pinref part="OTG" gate="G$1" pin="D+"/>
 <wire x1="386.08" y1="10.16" x2="393.7" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20373,7 +20375,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="314.96" y1="27.94" x2="383.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="27.94" x2="383.54" y2="7.62" width="0.1524" layer="91"/>
 <junction x="314.96" y="27.94"/>
-<pinref part="U$4" gate="G$1" pin="D-"/>
+<pinref part="OTG" gate="G$1" pin="D-"/>
 <wire x1="383.54" y1="7.62" x2="393.7" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20388,7 +20390,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="309.88" y1="25.4" x2="381" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="381" y1="25.4" x2="381" y2="12.7" width="0.1524" layer="91"/>
 <junction x="309.88" y="25.4"/>
-<pinref part="U$4" gate="G$1" pin="ID"/>
+<pinref part="OTG" gate="G$1" pin="ID"/>
 <wire x1="381" y1="12.7" x2="393.7" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20441,7 +20443,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="302.26" y1="27.94" x2="302.26" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-5.08" x2="353.06" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="-5.08" x2="353.06" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="D+"/>
+<pinref part="HOST" gate="G$1" pin="D+"/>
 <wire x1="353.06" y1="-30.48" x2="391.16" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-5.08" x2="302.26" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="302.26" y="-5.08"/>
@@ -20456,7 +20458,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="299.72" y1="25.4" x2="299.72" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="-7.62" x2="345.44" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="-7.62" x2="345.44" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="D-"/>
+<pinref part="HOST" gate="G$1" pin="D-"/>
 <wire x1="345.44" y1="-27.94" x2="391.16" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="-7.62" x2="299.72" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="299.72" y="-7.62"/>
@@ -20529,7 +20531,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <wire x1="370.84" y1="12.7" x2="375.92" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="12.7" x2="375.92" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="5.08" x2="388.62" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="VB"/>
+<pinref part="OTG" gate="G$1" pin="VB"/>
 <wire x1="388.62" y1="5.08" x2="393.7" y2="5.08" width="0.1524" layer="91"/>
 <junction x="388.62" y="5.08"/>
 <pinref part="R149" gate="G$1" pin="2"/>
@@ -20569,7 +20571,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <net name="N$128" class="0">
 <segment>
 <pinref part="L4" gate="L" pin="2"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="HOST" gate="G$1" pin="GND"/>
 <wire x1="388.62" y1="-33.02" x2="391.16" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20583,7 +20585,7 @@ SEL pin pulled HIGH: charge to 4.1V per cell</text>
 <net name="N$130" class="0">
 <segment>
 <pinref part="L5" gate="L" pin="2"/>
-<pinref part="U$5" gate="G$1" pin="VBUS"/>
+<pinref part="HOST" gate="G$1" pin="VBUS"/>
 <wire x1="388.62" y1="-25.4" x2="391.16" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>

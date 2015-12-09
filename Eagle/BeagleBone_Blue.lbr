@@ -2548,7 +2548,7 @@
 <pin name="G3" x="10.16" y="-5.08" length="middle" rot="R90"/>
 <pin name="G4" x="10.16" y="27.94" length="middle" rot="R270"/>
 <pin name="G5" x="5.08" y="27.94" length="middle" rot="R270"/>
-<text x="0" y="25.4" size="1.27" layer="95">P4</text>
+<text x="0" y="25.4" size="1.27" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-2.54" size="1.27" layer="95">UX60SC-MB-5ST(80)</text>
 </symbol>
 <symbol name="87520-0010BLF">
@@ -2562,7 +2562,7 @@
 <pin name="GND" x="-5.08" y="2.54" length="middle"/>
 <pin name="SH0" x="20.32" y="2.54" length="middle" rot="R180"/>
 <pin name="SH1" x="20.32" y="10.16" length="middle" rot="R180"/>
-<text x="2.54" y="15.24" size="1.27" layer="95">P3</text>
+<text x="2.54" y="15.24" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.27" layer="95">87520-0010BLF</text>
 </symbol>
 <symbol name="AVE107M06D16T-F">
