@@ -12497,7 +12497,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pin name="GND" x="-5.08" y="2.54" length="middle"/>
 <pin name="SH0" x="20.32" y="2.54" length="middle" rot="R180"/>
 <pin name="SH1" x="20.32" y="10.16" length="middle" rot="R180"/>
-<text x="2.54" y="15.24" size="1.27" layer="95">P3</text>
+<text x="2.54" y="15.24" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.27" layer="95">87520-0010BLF</text>
 </symbol>
 <symbol name="AVE107M06D16T-F">
