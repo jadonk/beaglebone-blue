@@ -15276,6 +15276,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="FRAME3" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="U6" library="BeagleBone_Blue" deviceset="SN74LVC1G07_DCK_5" device=""/>
+<part name="R158" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%"/>
 </parts>
 <sheets>
 <sheet>
@@ -20612,11 +20613,12 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="SIP" gate="E" x="111.76" y="172.72"/>
 <instance part="SIP" gate="F" x="281.94" y="139.7"/>
+<instance part="R158" gate="G$1" x="149.86" y="157.48"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$131" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="SIP" gate="F" pin="DGND1"/>
 <wire x1="228.6" y1="170.18" x2="233.68" y2="170.18" width="0.1524" layer="91"/>
@@ -20952,6 +20954,330 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="266.7" y1="180.34" x2="264.16" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="180.34" x2="264.16" y2="177.8" width="0.1524" layer="91"/>
 <junction x="266.7" y="180.34"/>
+<label x="228.6" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R158" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="157.48" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
+<label x="172.72" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_3V3A" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDD_3V3A1"/>
+<wire x1="53.34" y1="226.06" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A2"/>
+<wire x1="66.04" y1="226.06" x2="73.66" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="223.52" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="223.52" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
+<junction x="66.04" y="226.06"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A3"/>
+<wire x1="73.66" y1="220.98" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="220.98" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
+<junction x="66.04" y="223.52"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A4"/>
+<wire x1="73.66" y1="218.44" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="218.44" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+<junction x="66.04" y="220.98"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A5"/>
+<wire x1="73.66" y1="215.9" x2="66.04" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="215.9" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
+<junction x="66.04" y="218.44"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A6"/>
+<wire x1="73.66" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="213.36" x2="66.04" y2="215.9" width="0.1524" layer="91"/>
+<junction x="66.04" y="215.9"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A7"/>
+<wire x1="73.66" y1="210.82" x2="66.04" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="210.82" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
+<junction x="66.04" y="213.36"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A8"/>
+<wire x1="73.66" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="208.28" x2="66.04" y2="210.82" width="0.1524" layer="91"/>
+<junction x="66.04" y="210.82"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A9"/>
+<wire x1="73.66" y1="205.74" x2="66.04" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="205.74" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
+<junction x="66.04" y="208.28"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A10"/>
+<wire x1="73.66" y1="203.2" x2="66.04" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="203.2" x2="66.04" y2="205.74" width="0.1524" layer="91"/>
+<junction x="66.04" y="205.74"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A11"/>
+<wire x1="73.66" y1="200.66" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="200.66" x2="66.04" y2="203.2" width="0.1524" layer="91"/>
+<junction x="66.04" y="203.2"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A12"/>
+<wire x1="73.66" y1="198.12" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="198.12" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
+<junction x="66.04" y="200.66"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A13"/>
+<wire x1="73.66" y1="195.58" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="195.58" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
+<junction x="66.04" y="198.12"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A14"/>
+<wire x1="73.66" y1="193.04" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="193.04" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
+<junction x="66.04" y="195.58"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A15"/>
+<wire x1="73.66" y1="190.5" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="190.5" x2="66.04" y2="193.04" width="0.1524" layer="91"/>
+<junction x="66.04" y="193.04"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A16"/>
+<wire x1="73.66" y1="187.96" x2="66.04" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="187.96" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
+<junction x="66.04" y="190.5"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A17"/>
+<wire x1="73.66" y1="185.42" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="185.42" x2="66.04" y2="187.96" width="0.1524" layer="91"/>
+<junction x="66.04" y="187.96"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A18"/>
+<wire x1="73.66" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="182.88" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
+<junction x="66.04" y="185.42"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A19"/>
+<wire x1="73.66" y1="180.34" x2="66.04" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="180.34" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
+<junction x="66.04" y="182.88"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A20"/>
+<wire x1="73.66" y1="177.8" x2="66.04" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="177.8" x2="66.04" y2="180.34" width="0.1524" layer="91"/>
+<junction x="66.04" y="180.34"/>
+<pinref part="SIP" gate="E" pin="VDD_3V3A21"/>
+<wire x1="73.66" y1="175.26" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="175.26" x2="66.04" y2="177.8" width="0.1524" layer="91"/>
+<junction x="66.04" y="177.8"/>
+<label x="53.34" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_CORE" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDD_CORE1"/>
+<wire x1="134.62" y1="226.06" x2="139.7" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE2"/>
+<wire x1="139.7" y1="226.06" x2="152.4" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="223.52" x2="139.7" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="223.52" x2="139.7" y2="226.06" width="0.1524" layer="91"/>
+<junction x="139.7" y="226.06"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE3"/>
+<wire x1="134.62" y1="220.98" x2="139.7" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="220.98" x2="139.7" y2="223.52" width="0.1524" layer="91"/>
+<junction x="139.7" y="223.52"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE4"/>
+<wire x1="134.62" y1="218.44" x2="139.7" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="218.44" x2="139.7" y2="220.98" width="0.1524" layer="91"/>
+<junction x="139.7" y="220.98"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE5"/>
+<wire x1="134.62" y1="215.9" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="215.9" x2="139.7" y2="218.44" width="0.1524" layer="91"/>
+<junction x="139.7" y="218.44"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE6"/>
+<wire x1="134.62" y1="213.36" x2="139.7" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="213.36" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
+<junction x="139.7" y="215.9"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE7"/>
+<wire x1="134.62" y1="210.82" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="210.82" x2="139.7" y2="213.36" width="0.1524" layer="91"/>
+<junction x="139.7" y="213.36"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE8"/>
+<wire x1="134.62" y1="208.28" x2="139.7" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="208.28" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
+<junction x="139.7" y="210.82"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE9"/>
+<wire x1="134.62" y1="205.74" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="205.74" x2="139.7" y2="208.28" width="0.1524" layer="91"/>
+<junction x="139.7" y="208.28"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE10"/>
+<wire x1="134.62" y1="203.2" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="203.2" x2="139.7" y2="205.74" width="0.1524" layer="91"/>
+<junction x="139.7" y="205.74"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE11"/>
+<wire x1="134.62" y1="200.66" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="200.66" x2="139.7" y2="203.2" width="0.1524" layer="91"/>
+<junction x="139.7" y="203.2"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE12"/>
+<wire x1="134.62" y1="198.12" x2="139.7" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="198.12" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
+<junction x="139.7" y="200.66"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE13"/>
+<wire x1="134.62" y1="195.58" x2="139.7" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="195.58" x2="139.7" y2="198.12" width="0.1524" layer="91"/>
+<junction x="139.7" y="198.12"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE14"/>
+<wire x1="134.62" y1="193.04" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="193.04" x2="139.7" y2="195.58" width="0.1524" layer="91"/>
+<junction x="139.7" y="195.58"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE15"/>
+<wire x1="134.62" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="190.5" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
+<junction x="139.7" y="193.04"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE16"/>
+<wire x1="134.62" y1="187.96" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="187.96" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
+<junction x="139.7" y="190.5"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE17"/>
+<wire x1="134.62" y1="185.42" x2="139.7" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="185.42" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
+<junction x="139.7" y="187.96"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE18"/>
+<wire x1="134.62" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="182.88" x2="139.7" y2="185.42" width="0.1524" layer="91"/>
+<junction x="139.7" y="185.42"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE19"/>
+<wire x1="134.62" y1="180.34" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="180.34" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
+<junction x="139.7" y="182.88"/>
+<pinref part="SIP" gate="E" pin="VDD_CORE20"/>
+<wire x1="134.62" y1="177.8" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="177.8" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
+<junction x="139.7" y="180.34"/>
+<label x="152.4" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_MPU" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDD_MPU0"/>
+<wire x1="73.66" y1="167.64" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="E" pin="VDD_MPU1"/>
+<wire x1="66.04" y1="167.64" x2="55.88" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="165.1" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
+<junction x="66.04" y="167.64"/>
+<pinref part="SIP" gate="E" pin="VDD_MPU2"/>
+<wire x1="73.66" y1="162.56" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="162.56" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
+<junction x="66.04" y="165.1"/>
+<pinref part="SIP" gate="E" pin="VDD_MPU3"/>
+<wire x1="73.66" y1="160.02" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="160.02" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
+<junction x="66.04" y="162.56"/>
+<pinref part="SIP" gate="E" pin="VDD_MPU4"/>
+<wire x1="73.66" y1="157.48" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="157.48" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
+<junction x="66.04" y="160.02"/>
+<pinref part="SIP" gate="E" pin="VDD_MPU5"/>
+<wire x1="73.66" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="154.94" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
+<junction x="66.04" y="157.48"/>
+<pinref part="SIP" gate="E" pin="VDD_MPU6"/>
+<wire x1="73.66" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="152.4" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
+<junction x="66.04" y="154.94"/>
+<label x="55.88" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_PLL" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDD_PLL1"/>
+<pinref part="SIP" gate="E" pin="VDD_PLL2"/>
+<wire x1="55.88" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="129.54" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="127" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="66.04" y="129.54"/>
+<pinref part="SIP" gate="E" pin="VDD_PLL3"/>
+<wire x1="73.66" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="66.04" y2="127" width="0.1524" layer="91"/>
+<junction x="66.04" y="127"/>
+<pinref part="SIP" gate="E" pin="VDD_PLL4"/>
+<wire x1="73.66" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="121.92" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<junction x="66.04" y="124.46"/>
+<label x="55.88" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_RTC" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDD_RTC1"/>
+<wire x1="134.62" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="E" pin="VDD_RTC2"/>
+<wire x1="134.62" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="149.86" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
+<junction x="142.24" y="152.4"/>
+<pinref part="SIP" gate="E" pin="VDD_RTC3"/>
+<wire x1="134.62" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="147.32" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
+<junction x="142.24" y="149.86"/>
+<pinref part="SIP" gate="E" pin="VDD_RTC4"/>
+<wire x1="134.62" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="144.78" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
+<junction x="142.24" y="147.32"/>
+<pinref part="SIP" gate="E" pin="VDD_RTC5"/>
+<wire x1="134.62" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="142.24" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<junction x="142.24" y="144.78"/>
+<pinref part="SIP" gate="E" pin="VDD_RTC6"/>
+<wire x1="134.62" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="139.7" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<junction x="142.24" y="142.24"/>
+<pinref part="SIP" gate="E" pin="VDD_RTC7"/>
+<wire x1="134.62" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="137.16" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<junction x="142.24" y="139.7"/>
+<pinref part="SIP" gate="E" pin="VDD_RTC8"/>
+<wire x1="134.62" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="134.62" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+<junction x="142.24" y="137.16"/>
+<label x="149.86" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDS_DDR" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDDS_DDR1"/>
+<wire x1="134.62" y1="129.54" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="E" pin="VDDS_DDR2"/>
+<wire x1="142.24" y1="129.54" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="127" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
+<junction x="142.24" y="129.54"/>
+<pinref part="SIP" gate="E" pin="VDDS_DDR3"/>
+<wire x1="134.62" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="124.46" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<junction x="142.24" y="127"/>
+<pinref part="SIP" gate="E" pin="VDDS_DDR4"/>
+<wire x1="134.62" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="121.92" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<junction x="142.24" y="124.46"/>
+<pinref part="SIP" gate="E" pin="VDDS_DDR5"/>
+<wire x1="134.62" y1="119.38" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="119.38" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<junction x="142.24" y="121.92"/>
+<pinref part="SIP" gate="E" pin="VDDS_DDR6"/>
+<wire x1="134.62" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="116.84" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
+<junction x="142.24" y="119.38"/>
+<pinref part="SIP" gate="E" pin="VDDS_DDR7"/>
+<wire x1="134.62" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="114.3" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<junction x="142.24" y="116.84"/>
+<label x="149.86" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_ADC" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDDA_ADC"/>
+<wire x1="73.66" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
+<label x="55.88" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD_1V8" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="VDD_1V83"/>
+<wire x1="134.62" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="E" pin="VDD_1V84"/>
+<wire x1="142.24" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="160.02" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
+<junction x="142.24" y="162.56"/>
+<label x="149.86" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$131" class="0">
+<segment>
+<pinref part="SIP" gate="E" pin="RTC_KALDO_ENN"/>
+<pinref part="R158" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
