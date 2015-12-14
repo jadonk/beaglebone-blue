@@ -3818,6 +3818,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="MDIR_1A">
 <contactref element="H1" pad="21"/>
+<contactref element="SIP" pad="C12"/>
+<wire x1="40.005" y1="-17.145" x2="77.624" y2="-13.615" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MDIR_2A">
 <contactref element="H1" pad="17"/>
@@ -4887,11 +4889,6 @@ design rules under a new name.</description>
 <contactref element="R103" pad="1"/>
 <wire x1="40.005" y1="-18.415" x2="-34.8488" y2="120.65" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$108">
-<contactref element="SIP" pad="C12"/>
-<contactref element="R104" pad="1"/>
-<wire x1="40.005" y1="-17.145" x2="-37.3888" y2="120.65" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$109">
 <contactref element="C36" pad="2"/>
 <contactref element="U8" pad="C2"/>
@@ -5126,6 +5123,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$135">
 <via x="80.518" y="-48.26" extent="1-16" drill="3.175"/>
+</signal>
+<signal name="N$108">
+<contactref element="R104" pad="1"/>
+<contactref element="SIP" pad="E17"/>
+<wire x1="33.655" y1="-19.685" x2="-37.3888" y2="120.65" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>

@@ -17978,9 +17978,9 @@ Attribution-ShareAlike 3.0 United States License.
 <attribute name="NAME" x="217.17" y="16.7386" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="224.79" y="17.018" size="1.778" layer="96" align="top-left"/>
 </instance>
-<instance part="R104" gate="G$1" x="220.98" y="12.7" smashed="yes">
-<attribute name="NAME" x="217.17" y="14.1986" size="1.778" layer="95" align="center-right"/>
-<attribute name="VALUE" x="224.79" y="14.478" size="1.778" layer="96" align="top-left"/>
+<instance part="R104" gate="G$1" x="133.35" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="137.16" y="44.2214" size="1.778" layer="95" rot="R180" align="center-right"/>
+<attribute name="VALUE" x="129.54" y="43.942" size="1.778" layer="96" rot="R180" align="top-left"/>
 </instance>
 <instance part="C36" gate="G$1" x="287.02" y="73.66"/>
 <instance part="C37" gate="G$1" x="254" y="203.2" smashed="yes">
@@ -19426,13 +19426,6 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="R103" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$108" class="0">
-<segment>
-<pinref part="SIP" gate="B" pin="SPI1_CS0_C12"/>
-<wire x1="208.28" y1="12.7" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="R104" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="SPI1_SCK" class="0">
 <segment>
 <pinref part="R101" gate="G$1" pin="2"/>
@@ -19457,8 +19450,8 @@ Attribution-ShareAlike 3.0 United States License.
 <net name="SPI1_SS1" class="0">
 <segment>
 <pinref part="R104" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="12.7" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
-<label x="231.14" y="12.7" size="1.778" layer="95"/>
+<wire x1="128.27" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<label x="114.3" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$109" class="0">
@@ -19467,6 +19460,22 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="287.02" y1="71.12" x2="287.02" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="VCCI"/>
 <wire x1="287.02" y1="66.04" x2="309.88" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$108" class="0">
+<segment>
+<pinref part="R104" gate="G$1" pin="1"/>
+<wire x1="138.43" y1="45.72" x2="146.05" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="45.72" x2="146.05" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="B" pin="UART0_RTSN_E17"/>
+<wire x1="146.05" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MDIR_1A" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="SPI1_CS0_C12"/>
+<wire x1="208.28" y1="12.7" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
+<label x="231.14" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
