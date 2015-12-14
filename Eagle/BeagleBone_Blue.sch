@@ -9402,22 +9402,6 @@ chip</description>
 <wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
-<symbol name="AP1509">
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
-<text x="-10.16" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="7.62" size="1.778" layer="96">AP1509</text>
-<pin name="VIN" x="-15.24" y="2.54" length="middle" direction="in"/>
-<pin name="GND1" x="0" y="-15.24" length="middle" direction="in" rot="R90"/>
-<pin name="GND2" x="2.54" y="-15.24" length="middle" direction="pas" rot="R90"/>
-<pin name="FB" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="-2.54" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND3" x="5.08" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="OUT" x="12.7" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="SD" x="-7.62" y="-15.24" length="middle" direction="in" rot="R90"/>
-</symbol>
 <symbol name="VDC">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
@@ -9751,49 +9735,6 @@ chip</description>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AP1509" prefix="IC">
-<description>&lt;b&gt;150KHz, 2A PWM BUCK DC/DC CONVERTER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="AP1509" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SO08">
-<connects>
-<connect gate="G$1" pin="FB" pad="3"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="GND1" pad="6"/>
-<connect gate="G$1" pin="GND2" pad="7"/>
-<connect gate="G$1" pin="GND3" pad="8"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-<connect gate="G$1" pin="SD" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SOIC-8-TIGHT" package="SO08-TIGHT">
-<connects>
-<connect gate="G$1" pin="FB" pad="3"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="GND1" pad="6"/>
-<connect gate="G$1" pin="GND2" pad="7"/>
-<connect gate="G$1" pin="GND3" pad="8"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-<connect gate="G$1" pin="SD" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11810,6 +11751,64 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="SO08">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
+<wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
+<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
+<wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
+<circle x="-1.8034" y="-0.9906" radius="0.1436" width="0.2032" layer="21"/>
+<smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="4" x="1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="5" x="1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="6" x="0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="7" x="-0.635" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="8" x="-1.905" y="2.6162" dx="0.6096" dy="2.2098" layer="1"/>
+<text x="-1.27" y="-0.635" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="0" size="0.4064" layer="25">&gt;NAME</text>
+<rectangle x1="-2.0828" y1="-2.8702" x2="-1.7272" y2="-1.8542" layer="51"/>
+<rectangle x1="-0.8128" y1="-2.8702" x2="-0.4572" y2="-1.8542" layer="51"/>
+<rectangle x1="0.4572" y1="-2.8702" x2="0.8128" y2="-1.8542" layer="51"/>
+<rectangle x1="1.7272" y1="-2.8702" x2="2.0828" y2="-1.8542" layer="51"/>
+<rectangle x1="-2.0828" y1="1.8542" x2="-1.7272" y2="2.8702" layer="51"/>
+<rectangle x1="-0.8128" y1="1.8542" x2="-0.4572" y2="2.8702" layer="51"/>
+<rectangle x1="0.4572" y1="1.8542" x2="0.8128" y2="2.8702" layer="51"/>
+<rectangle x1="1.7272" y1="1.8542" x2="2.0828" y2="2.8702" layer="51"/>
+</package>
+<package name="SO08-TIGHT">
+<wire x1="2.159" y1="1.9558" x2="-2.159" y2="1.9558" width="0.2032" layer="21"/>
+<wire x1="2.159" y1="-1.9558" x2="2.54" y2="-1.5748" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.159" y1="1.9558" x2="-2.54" y2="1.5748" width="0.2032" layer="21" curve="90"/>
+<wire x1="2.54" y1="1.5748" x2="2.159" y2="1.9558" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.54" y1="-1.5748" x2="-2.159" y2="-1.9558" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.159" y1="-1.9558" x2="2.159" y2="-1.9558" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.5748" x2="2.54" y2="1.5748" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.5748" x2="-2.54" y2="0.508" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.5748" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="0.508" width="0.2032" layer="21" curve="180"/>
+<wire x1="-2.54" y1="-1.6002" x2="2.54" y2="-1.6002" width="0.2032" layer="21"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<text x="-1.524" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.921" y="-1.778" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
+<rectangle x1="-2.159" y1="-3.0988" x2="-1.651" y2="-1.9558" layer="51"/>
+<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
+<rectangle x1="0.381" y1="-3.0734" x2="0.889" y2="-1.9304" layer="51"/>
+<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
+<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
+<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
+<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="B">
@@ -12501,9 +12500,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pin name="IN" x="0" y="-5.08" direction="in"/>
 <pin name="*EN" x="0" y="-7.62" direction="in"/>
 <pin name="*OC" x="38.1" y="-7.62" direction="out" rot="R180"/>
-<pin name="OUT_2" x="38.1" y="-5.08" direction="out" rot="R180"/>
-<pin name="OUT_3" x="38.1" y="-2.54" direction="out" rot="R180"/>
-<pin name="OUT" x="38.1" y="0" direction="out" rot="R180"/>
+<pin name="OUT_2" x="38.1" y="-5.08" direction="pwr" rot="R180"/>
+<pin name="OUT_3" x="38.1" y="-2.54" direction="pwr" rot="R180"/>
+<pin name="OUT" x="38.1" y="0" direction="pwr" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="30.48" y1="-12.7" x2="30.48" y2="5.08" width="0.1524" layer="94"/>
@@ -12568,6 +12567,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="25.4" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="10.5156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="9.5758" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="AP1509">
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-10.16" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
+<text x="-10.16" y="10.795" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">AP1509</text>
+<pin name="VIN" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="GND1" x="0" y="-15.24" length="middle" direction="in" rot="R90"/>
+<pin name="GND2" x="2.54" y="-15.24" length="middle" direction="pas" rot="R90"/>
+<pin name="FB" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="-2.54" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND3" x="5.08" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+<pin name="OUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="SD" x="-7.62" y="-15.24" length="middle" direction="in" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13399,6 +13414,49 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="PIN_COUNT" value="5" constant="no"/>
 <attribute name="VENDOR" value="Texas Instruments" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP1509" prefix="IC">
+<description>&lt;b&gt;150KHz, 2A PWM BUCK DC/DC CONVERTER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="AP1509" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="GND1" pad="6"/>
+<connect gate="G$1" pin="GND2" pad="7"/>
+<connect gate="G$1" pin="GND3" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="SD" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOIC-8-TIGHT" package="SO08-TIGHT">
+<connects>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="GND1" pad="6"/>
+<connect gate="G$1" pin="GND2" pad="7"/>
+<connect gate="G$1" pin="GND3" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="SD" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14928,7 +14986,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="5VREG" library="Strawson_Eagle_Lib" deviceset="AP1509" device="SOIC-8-TIGHT"/>
 <part name="U$23" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOD-123"/>
 <part name="D2" library="adafruit" deviceset="DIODE" device="SOD-123"/>
@@ -15272,6 +15329,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="U6" library="BeagleBone_Blue" deviceset="SN74LVC1G07_DCK_5" device=""/>
 <part name="R158" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%"/>
+<part name="5VREG" library="BeagleBone_Blue" deviceset="AP1509" device="SOIC-8-TIGHT" value="AP1509SOIC-8-TIGHT"/>
 </parts>
 <sheets>
 <sheet>
@@ -15374,9 +15432,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="GND16" gate="1" x="53.34" y="8.89"/>
 <instance part="GND18" gate="1" x="107.95" y="156.21"/>
 <instance part="GND6" gate="1" x="194.31" y="102.87"/>
-<instance part="5VREG" gate="G$1" x="180.34" y="120.65" smashed="yes">
-<attribute name="NAME" x="175.26" y="131.445" size="1.778" layer="95"/>
-</instance>
 <instance part="U$23" gate="G$1" x="215.9" y="129.54"/>
 <instance part="D1" gate="G$1" x="194.31" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="196.85" y="113.5126" size="1.778" layer="95"/>
@@ -15862,6 +15917,7 @@ Attribution-ShareAlike 3.0 United States License.
 </instance>
 <instance part="GND9" gate="1" x="355.6" y="218.44"/>
 <instance part="UART0" gate="G$1" x="36.83" y="168.91" rot="MR0"/>
+<instance part="5VREG" gate="G$1" x="180.34" y="120.65"/>
 </instances>
 <busses>
 </busses>
@@ -15871,7 +15927,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="215.9" y1="129.54" x2="215.9" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="U$23" gate="G$1" pin="5.0V"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="5VREG" gate="G$1" pin="FB"/>
 <wire x1="193.04" y1="125.73" x2="215.9" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="212.09" y1="123.19" x2="215.9" y2="123.19" width="0.1524" layer="91"/>
@@ -15879,6 +15934,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="215.9" y1="119.38" x2="215.9" y2="123.19" width="0.1524" layer="91"/>
 <junction x="215.9" y="123.19"/>
 <junction x="215.9" y="125.73"/>
+<pinref part="5VREG" gate="G$1" pin="FB"/>
 </segment>
 <segment>
 <wire x1="236.22" y1="38.1" x2="220.98" y2="38.1" width="0.1524" layer="91"/>
@@ -16195,11 +16251,11 @@ Attribution-ShareAlike 3.0 United States License.
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="5VREG" gate="G$1" pin="OUT"/>
 <wire x1="196.85" y1="123.19" x2="194.31" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="123.19" x2="193.04" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="116.84" x2="194.31" y2="123.19" width="0.1524" layer="91"/>
 <junction x="194.31" y="123.19"/>
+<pinref part="5VREG" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="I2C2_SCL" class="0">
@@ -16362,7 +16418,6 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="N$79" class="0">
 <segment>
-<pinref part="5VREG" gate="G$1" pin="VIN"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -16372,6 +16427,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="156.21" y1="123.19" x2="156.21" y2="125.73" width="0.1524" layer="91"/>
 <junction x="162.56" y="123.19"/>
 <wire x1="162.56" y1="118.11" x2="162.56" y2="123.19" width="0.1524" layer="91"/>
+<pinref part="5VREG" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -16384,30 +16440,30 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="5VREG" gate="G$1" pin="GND"/>
-<pinref part="5VREG" gate="G$1" pin="GND1"/>
-<wire x1="177.8" y1="105.41" x2="180.34" y2="105.41" width="0.1524" layer="91"/>
-<pinref part="5VREG" gate="G$1" pin="GND2"/>
-<wire x1="180.34" y1="105.41" x2="182.88" y2="105.41" width="0.1524" layer="91"/>
-<pinref part="5VREG" gate="G$1" pin="GND3"/>
-<wire x1="182.88" y1="105.41" x2="185.42" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="105.41" x2="172.72" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="5VREG" gate="G$1" pin="SD"/>
-<wire x1="177.8" y1="105.41" x2="172.72" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="105.41" x2="162.56" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="105.41" x2="177.8" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="105.41" x2="180.34" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="105.41" x2="182.88" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="105.41" x2="185.42" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="105.41" x2="194.31" y2="105.41" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="105.41" x2="162.56" y2="110.49" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="105.41" x2="194.31" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="194.31" y1="105.41" x2="185.42" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="194.31" y1="111.76" x2="194.31" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="111.76" x2="215.9" y2="105.41" width="0.1524" layer="91"/>
 <junction x="194.31" y="105.41"/>
-<junction x="185.42" y="105.41"/>
-<junction x="182.88" y="105.41"/>
+<pinref part="5VREG" gate="G$1" pin="GND1"/>
 <junction x="180.34" y="105.41"/>
+<pinref part="5VREG" gate="G$1" pin="GND2"/>
+<junction x="182.88" y="105.41"/>
+<pinref part="5VREG" gate="G$1" pin="GND"/>
 <junction x="177.8" y="105.41"/>
+<pinref part="5VREG" gate="G$1" pin="GND3"/>
+<junction x="185.42" y="105.41"/>
+<pinref part="5VREG" gate="G$1" pin="SD"/>
 <junction x="172.72" y="105.41"/>
 </segment>
 <segment>
