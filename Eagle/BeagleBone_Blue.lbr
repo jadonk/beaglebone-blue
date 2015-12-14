@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2566,9 +2566,9 @@
 <pin name="IN" x="0" y="-5.08" direction="in"/>
 <pin name="*EN" x="0" y="-7.62" direction="in"/>
 <pin name="*OC" x="38.1" y="-7.62" direction="out" rot="R180"/>
-<pin name="OUT_2" x="38.1" y="-5.08" direction="out" rot="R180"/>
-<pin name="OUT_3" x="38.1" y="-2.54" direction="out" rot="R180"/>
-<pin name="OUT" x="38.1" y="0" direction="out" rot="R180"/>
+<pin name="OUT_2" x="38.1" y="-5.08" direction="pwr" rot="R180"/>
+<pin name="OUT_3" x="38.1" y="-2.54" direction="pwr" rot="R180"/>
+<pin name="OUT" x="38.1" y="0" direction="pwr" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="30.48" y1="-12.7" x2="30.48" y2="5.08" width="0.1524" layer="94"/>
