@@ -15317,8 +15317,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R153" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0,DNI"/>
 <part name="R154" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="R155" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0,DNI"/>
-<part name="L4" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'"/>
-<part name="L5" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'"/>
+<part name="L4" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'" value="120"/>
+<part name="L5" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'" value="120"/>
 <part name="R156" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
 <part name="C$1" library="BeagleBone_Blue" deviceset="AVE107M06D16T-F" device=""/>
 <part name="R157" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%,DNI"/>
@@ -15451,7 +15451,7 @@ Attribution-ShareAlike 3.0 United States License.
 <attribute name="NAME" x="254" y="227.33" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="262.89" y="227.33" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="271.78" y="223.52" rot="R180"/>
+<instance part="R4" gate="G$1" x="270.51" y="223.52" rot="R180"/>
 <instance part="C10" gate="G$1" x="261.62" y="177.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="260.096" y="174.879" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="260.096" y="177.419" size="1.778" layer="96" rot="R180"/>
@@ -16368,7 +16368,7 @@ Attribution-ShareAlike 3.0 United States License.
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="223.52" x2="278.13" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="275.59" y1="223.52" x2="278.13" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="278.13" y1="223.52" x2="280.67" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="280.67" y1="223.52" x2="280.67" y2="234.95" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="V_BATT"/>
@@ -17692,7 +17692,6 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="223.52" x2="265.43" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="CHGIC" gate="G$1" pin="CSP"/>
-<wire x1="265.43" y1="223.52" x2="266.7" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="208.28" x2="265.43" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="208.28" x2="265.43" y2="223.52" width="0.1524" layer="91"/>
 <junction x="265.43" y="223.52"/>
@@ -21176,6 +21175,40 @@ Attribution-ShareAlike 3.0 United States License.
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,347.98,45.72,BMP,VDD,3.3V,,,"/>
+<approved hash="104,1,347.98,40.64,BMP,VDDIO,3.3V,,,"/>
+<approved hash="104,2,66.04,243.84,SIPA,VIN_AC_0,5.0V,,,"/>
+<approved hash="104,2,66.04,241.3,SIPA,VIN_AC_1,5.0V,,,"/>
+<approved hash="104,2,66.04,233.68,SIPA,VIN_USB_0,USB_DC,,,"/>
+<approved hash="104,2,66.04,231.14,SIPA,VIN_USB_1,USB_DC,,,"/>
+<approved hash="104,2,66.04,223.52,SIPA,VIN_BAT_0,N$5,,,"/>
+<approved hash="104,2,66.04,220.98,SIPA,VIN_BAT_1,N$5,,,"/>
+<approved hash="104,2,124.46,243.84,SIPA,VOUT_SYS_5V_0,SYS_5V,,,"/>
+<approved hash="104,2,124.46,241.3,SIPA,VOUT_SYS_5V_1,SYS_5V,,,"/>
+<approved hash="104,2,124.46,238.76,SIPA,VOUT_USER_3P3V_0,VDD_3V3B,,,"/>
+<approved hash="104,2,124.46,236.22,SIPA,VOUT_USER_3P3V_1,VDD_3V3B,,,"/>
+<approved hash="104,2,124.46,231.14,SIPA,VOUT_LDO3_1P8V_0,VDD_1V8,,,"/>
+<approved hash="104,2,124.46,228.6,SIPA,VOUT_LDO3_1P8V_1,VDD_1V8,,,"/>
+<approved hash="104,2,124.46,233.68,SIPA,VOUT_LDO2_3P3V,VDD_3V3AUX,,,"/>
+<approved hash="104,2,63.5,165.1,U5,VCC,VDD_3V3A,,,"/>
+<approved hash="104,3,210.82,66.04,U7,OUT_2,N$122,,,"/>
+<approved hash="104,3,210.82,68.58,U7,OUT_3,N$122,,,"/>
+<approved hash="104,3,210.82,71.12,U7,OUT,N$122,,,"/>
+<approved hash="104,2,251.46,236.22,U6,VCC,VDD_RTC,,,"/>
+<approved hash="104,1,193.04,125.73,5VREG,FB,5.0V,,,"/>
+<approved hash="104,1,185.42,105.41,5VREG,GND3,GND,,,"/>
+<approved hash="104,1,193.04,123.19,5VREG,OUT,N$16,,,"/>
+<approved hash="113,1,196.574,114.3,D1,,,,,"/>
+<approved hash="113,1,164.457,128.27,D2,,,,,"/>
+<approved hash="113,1,154.264,128.27,D3,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,303.086,132.567,LIPO,,,,,"/>
+<approved hash="113,1,340.084,78.74,D9,,,,,"/>
+<approved hash="113,4,193.571,130.071,FRAME2,,,,,"/>
+<approved hash="113,2,193.571,130.071,FRAME3,,,,,"/>
+<approved hash="113,3,193.571,130.071,FRAME4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
