@@ -1255,22 +1255,6 @@ Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http:/
 <text x="-1.27" y="-0.635" size="1.27" layer="21" rot="R180">BAT</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="21" rot="R180">NC</text>
 </package>
-<package name="JST_ZH_4_SMD">
-<wire x1="0" y1="-1.651" x2="3.048" y2="-1.651" width="0.254" layer="21"/>
-<wire x1="-1.778" y1="0.508" x2="-1.778" y2="1.905" width="0.254" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="4.826" y2="1.905" width="0.254" layer="21"/>
-<wire x1="4.826" y1="1.905" x2="4.826" y2="0.508" width="0.254" layer="21"/>
-<wire x1="-1.778" y1="1.905" x2="-0.762" y2="1.905" width="0.254" layer="21"/>
-<circle x="0" y="2.54" radius="0.1047" width="0.4064" layer="21"/>
-<smd name="P$1" x="-1.3" y="-0.955" dx="1.2" dy="1.8" layer="1"/>
-<smd name="P$2" x="4.268" y="-0.955" dx="1.2" dy="1.8" layer="1"/>
-<smd name="1" x="0" y="1.27" dx="0.6" dy="1.55" layer="1"/>
-<smd name="2" x="1" y="1.27" dx="0.6" dy="1.55" layer="1"/>
-<smd name="3" x="2" y="1.27" dx="0.6" dy="1.55" layer="1"/>
-<smd name="4" x="3" y="1.27" dx="0.6" dy="1.55" layer="1"/>
-<text x="1.27" y="2.54" size="0.4064" layer="25">&gt;Name</text>
-<text x="1.27" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="CRYSTAL-32KHZ-SMD">
 <smd name="X1" x="-0.45" y="0" dx="0.599440625" dy="1.09981875" layer="1"/>
 <smd name="X2" x="0.45" y="0" dx="0.599440625" dy="1.09981875" layer="1"/>
@@ -1730,7 +1714,7 @@ Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http:/
 <wire x1="-22.86" y1="5.08" x2="22.86" y2="5.08" width="0.127" layer="51"/>
 <wire x1="-22.86" y1="-5.08" x2="22.86" y2="-5.08" width="0.127" layer="51"/>
 </package>
-<package name="JST_ZH_3">
+<package name="JST_ZH_3_PTH_TOP">
 <pad name="P$1" x="0" y="0" drill="0.7874" shape="square"/>
 <pad name="P$2" x="1.4986" y="0" drill="0.7874"/>
 <pad name="P$3" x="2.9972" y="0" drill="0.7874"/>
@@ -1742,7 +1726,7 @@ Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http:/
 <wire x1="-1.524" y1="1.397" x2="-0.762" y2="1.397" width="0.254" layer="21"/>
 <wire x1="-1.524" y1="1.397" x2="-1.524" y2="0.508" width="0.254" layer="21"/>
 </package>
-<package name="JST_ZH_2">
+<package name="JST_ZH_2_PTH_TOP">
 <pad name="P$1" x="-0.7493" y="0" drill="0.7874" diameter="1.2192" shape="square" rot="R180"/>
 <pad name="P$2" x="0.7493" y="0" drill="0.7874" diameter="1.2192"/>
 <wire x1="-2.250440625" y1="1.2954" x2="-2.25298125" y2="0.508" width="0.127" layer="21"/>
@@ -3404,6 +3388,38 @@ Source: www.ti.com .. TI-bq24125.pdf</description>
 <smd name="15" x="-0.508" y="1.4478" dx="0.254" dy="0.7112" layer="1" rot="R180"/>
 <smd name="16" x="-1.016" y="1.4478" dx="0.254" dy="0.7112" layer="1" rot="R180"/>
 </package>
+<package name="JST_ZH_3_SMD_TOP">
+<wire x1="-3.7465" y1="-1.8542" x2="3.7465" y2="-1.8542" width="0.254" layer="21"/>
+<wire x1="-3.7465" y1="1.397" x2="-3.7465" y2="1.8542" width="0.254" layer="21"/>
+<wire x1="2.3114" y1="1.8542" x2="3.7465" y2="1.8542" width="0.254" layer="21"/>
+<wire x1="3.7465" y1="1.8542" x2="3.7465" y2="1.397" width="0.254" layer="21"/>
+<wire x1="-3.7465" y1="1.8542" x2="-2.2606" y2="1.8542" width="0.254" layer="21"/>
+<circle x="2.4384" y="2.667" radius="0.1047" width="0.4064" layer="21"/>
+<smd name="P$1" x="-3.5433" y="-0.127" dx="1.4986" dy="2.3114" layer="1"/>
+<smd name="P$2" x="3.5433" y="-0.127" dx="1.4986" dy="2.3114" layer="1"/>
+<smd name="1" x="1.4986" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<smd name="2" x="0" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<smd name="3" x="-1.4986" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<text x="-1.2446" y="-2.667" size="0.4064" layer="25">&gt;Name</text>
+<text x="1.27" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-3.7465" y1="-1.8542" x2="-3.7465" y2="-1.524" width="0.254" layer="21"/>
+<wire x1="3.7465" y1="-1.524" x2="3.7465" y2="-1.8542" width="0.254" layer="21"/>
+</package>
+<package name="JST_ZH_2_SMD_TOP">
+<wire x1="-2.9972" y1="-1.8542" x2="2.9972" y2="-1.8542" width="0.254" layer="21"/>
+<wire x1="-2.9972" y1="1.397" x2="-2.9972" y2="1.8542" width="0.254" layer="21"/>
+<wire x1="1.5621" y1="1.8542" x2="2.9972" y2="1.8542" width="0.254" layer="21"/>
+<wire x1="2.9972" y1="1.8542" x2="2.9972" y2="1.397" width="0.254" layer="21"/>
+<wire x1="-2.9972" y1="1.8542" x2="-1.5113" y2="1.8542" width="0.254" layer="21"/>
+<circle x="1.6891" y="2.667" radius="0.1047" width="0.4064" layer="21"/>
+<smd name="P$1" x="-2.794" y="-0.127" dx="1.4986" dy="2.3114" layer="1"/>
+<smd name="P$2" x="2.794" y="-0.127" dx="1.4986" dy="2.3114" layer="1"/>
+<smd name="1" x="0.7493" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<smd name="2" x="-0.7493" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<text x="-0.4953" y="-2.667" size="0.4064" layer="25">&gt;Name</text>
+<wire x1="-2.9972" y1="-1.8542" x2="-2.9972" y2="-1.524" width="0.254" layer="21"/>
+<wire x1="2.9972" y1="-1.524" x2="2.9972" y2="-1.8542" width="0.254" layer="21"/>
+</package>
 <package name="USB-AB-MICRO-SMD">
 <description>micro USB AB connector for OTG support. 5-pins: USBVCC, GND, D+, D-, USBID. Can act as host or device</description>
 <smd name="D+" x="2.85" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
@@ -4869,10 +4885,19 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.&lt;br&gt;
 <gate name="G$1" symbol="2-PIN_CONNECTOR" x="5.08" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="JST_ZH_2">
+<device name="PTH_TOP" package="JST_ZH_2_PTH_TOP">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_TOP" package="JST_ZH_2_SMD_TOP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4885,11 +4910,21 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.&lt;br&gt;
 <gate name="G$1" symbol="3-PIN_CONNECTOR" x="-7.62" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="JST_ZH_3">
+<device name="PTH_TOP" package="JST_ZH_3_PTH_TOP">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_TOP" package="JST_ZH_3_SMD_TOP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
