@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8501,17 +8501,22 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="2.3495" y1="-7.62" x2="2.3495" y2="2.54" width="0.127" layer="21"/>
 <text x="-3.302" y="2.667" size="0.762" layer="21">&gt;NAME</text>
 </package>
-<package name="JST_ZH_3">
-<pad name="P$1" x="0" y="0" drill="0.7874" shape="square"/>
-<pad name="P$2" x="1.4986" y="0" drill="0.7874"/>
-<pad name="P$3" x="2.9972" y="0" drill="0.7874"/>
-<wire x1="-1.4986" y1="1.2954" x2="-1.4986" y2="-2.2098" width="0.127" layer="21"/>
-<wire x1="-1.4986" y1="-2.2098" x2="4.445" y2="-2.2098" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-2.2098" x2="4.445" y2="1.2954" width="0.127" layer="21"/>
-<wire x1="4.445" y1="1.2954" x2="-1.4986" y2="1.2954" width="0.127" layer="21"/>
-<text x="-1.27" y="2.54" size="0.762" layer="21">&gt;NAME</text>
-<wire x1="-1.524" y1="1.397" x2="-0.762" y2="1.397" width="0.254" layer="21"/>
-<wire x1="-1.524" y1="1.397" x2="-1.524" y2="0.508" width="0.254" layer="21"/>
+<package name="JST_ZH_3_SMD_TOP">
+<wire x1="-3.7465" y1="-1.8542" x2="3.7465" y2="-1.8542" width="0.254" layer="21"/>
+<wire x1="-3.7465" y1="1.397" x2="-3.7465" y2="1.8542" width="0.254" layer="21"/>
+<wire x1="2.3114" y1="1.8542" x2="3.7465" y2="1.8542" width="0.254" layer="21"/>
+<wire x1="3.7465" y1="1.8542" x2="3.7465" y2="1.397" width="0.254" layer="21"/>
+<wire x1="-3.7465" y1="1.8542" x2="-2.2606" y2="1.8542" width="0.254" layer="21"/>
+<circle x="2.4384" y="2.667" radius="0.1047" width="0.4064" layer="21"/>
+<smd name="P$1" x="-3.5433" y="-0.127" dx="1.4986" dy="2.3114" layer="1"/>
+<smd name="P$2" x="3.5433" y="-0.127" dx="1.4986" dy="2.3114" layer="1"/>
+<smd name="1" x="1.4986" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<smd name="2" x="0" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<smd name="3" x="-1.4986" y="1.3716" dx="0.7112" dy="3.9624" layer="1"/>
+<text x="-1.2446" y="-2.667" size="0.4064" layer="25">&gt;Name</text>
+<text x="1.27" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-3.7465" y1="-1.8542" x2="-3.7465" y2="-1.524" width="0.254" layer="21"/>
+<wire x1="3.7465" y1="-1.524" x2="3.7465" y2="-1.8542" width="0.254" layer="21"/>
 </package>
 <package name="SO08-TIGHT">
 <wire x1="2.159" y1="1.9558" x2="-2.159" y2="1.9558" width="0.2032" layer="21"/>
@@ -9380,6 +9385,18 @@ chip</description>
 <smd name="15" x="-0.508" y="1.4478" dx="0.254" dy="0.7112" layer="1" rot="R180"/>
 <smd name="16" x="-1.016" y="1.4478" dx="0.254" dy="0.7112" layer="1" rot="R180"/>
 </package>
+<package name="JST_ZH_3_PTH_TOP">
+<pad name="P$1" x="0" y="0" drill="0.7874" shape="square"/>
+<pad name="P$2" x="1.4986" y="0" drill="0.7874"/>
+<pad name="P$3" x="2.9972" y="0" drill="0.7874"/>
+<wire x1="-1.4986" y1="1.2954" x2="-1.4986" y2="-2.2098" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-2.2098" x2="4.445" y2="-2.2098" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-2.2098" x2="4.445" y2="1.2954" width="0.127" layer="21"/>
+<wire x1="4.445" y1="1.2954" x2="-1.4986" y2="1.2954" width="0.127" layer="21"/>
+<text x="-1.27" y="2.54" size="0.762" layer="21">&gt;NAME</text>
+<wire x1="-1.524" y1="1.397" x2="-0.762" y2="1.397" width="0.254" layer="21"/>
+<wire x1="-1.524" y1="1.397" x2="-1.524" y2="0.508" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JST_XH_3-PIN">
@@ -9730,11 +9747,21 @@ chip</description>
 <gate name="G$1" symbol="3-PIN_CONNECTOR" x="-7.62" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="JST_ZH_3">
+<device name="PTH_TOP" package="JST_ZH_3_PTH_TOP">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD_TOP" package="JST_ZH_3_SMD_TOP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15044,7 +15071,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="V_DC" library="Strawson_Eagle_Lib" deviceset="VDC" device=""/>
 <part name="VCC" library="Strawson_Eagle_Lib" deviceset="VDC" device=""/>
 <part name="LIPO" library="Strawson_Eagle_Lib" deviceset="JST_XH_3-PIN" device=""/>
-<part name="DSM2" library="Strawson_Eagle_Lib" deviceset="JST_ZH_3" device=""/>
+<part name="DSM2" library="Strawson_Eagle_Lib" deviceset="JST_ZH_3" device="SMD_TOP"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
 <part name="R29" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
