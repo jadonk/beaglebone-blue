@@ -15256,7 +15256,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="U6" library="BeagleBone_Blue" deviceset="SN74LVC1G07_DCK_5" device=""/>
 <part name="R158" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%"/>
 <part name="5VREG" library="BeagleBone_Blue" deviceset="AP1509" device="SOIC-8-TIGHT" value="AP1509SOIC-8-TIGHT"/>
-<part name="JP1" library="Strawson_Eagle_Lib" deviceset="USB-AB" device=""/>
+<part name="USB" library="Strawson_Eagle_Lib" deviceset="USB-AB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19640,7 +19640,7 @@ Attribution-ShareAlike 3.0 United States License.
 <attribute name="VALUE" x="275.844" y="48.641" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
-<instance part="JP1" gate="G$1" x="325.12" y="104.14"/>
+<instance part="USB" gate="G$1" x="325.12" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -19840,9 +19840,9 @@ Attribution-ShareAlike 3.0 United States License.
 <junction x="292.1" y="53.34"/>
 <pinref part="C46" gate="G$1" pin="2"/>
 <junction x="279.4" y="53.34"/>
-<pinref part="JP1" gate="G$1" pin="GND"/>
+<pinref part="USB" gate="G$1" pin="GND"/>
 <wire x1="320.04" y1="109.22" x2="312.42" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="SHIELD"/>
+<pinref part="USB" gate="G$1" pin="SHIELD"/>
 <wire x1="320.04" y1="96.52" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="96.52" x2="317.5" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -20177,7 +20177,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="307.34" y1="124.46" x2="307.34" y2="104.14" width="0.1524" layer="91"/>
 <junction x="238.76" y="124.46"/>
 <wire x1="307.34" y1="104.14" x2="320.04" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="D+"/>
+<pinref part="USB" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="N$118" class="0">
@@ -20192,7 +20192,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="304.8" y1="121.92" x2="304.8" y2="101.6" width="0.1524" layer="91"/>
 <junction x="236.22" y="121.92"/>
 <wire x1="304.8" y1="101.6" x2="320.04" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="D-"/>
+<pinref part="USB" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$119" class="0">
@@ -20207,7 +20207,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="302.26" y1="119.38" x2="302.26" y2="106.68" width="0.1524" layer="91"/>
 <junction x="231.14" y="119.38"/>
 <wire x1="302.26" y1="106.68" x2="320.04" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="USBID"/>
+<pinref part="USB" gate="G$1" pin="USBID"/>
 </segment>
 </net>
 <net name="N$121" class="0">
@@ -20353,7 +20353,7 @@ Attribution-ShareAlike 3.0 United States License.
 <junction x="309.88" y="127"/>
 <pinref part="R154" gate="G$1" pin="1"/>
 <wire x1="309.88" y1="129.54" x2="320.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="VBUS"/>
+<pinref part="USB" gate="G$1" pin="VBUS"/>
 <wire x1="309.88" y1="99.06" x2="320.04" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
