@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -16934,7 +16934,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="215.9" y="77.47" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_1B" class="0">
+<net name="QEP_2B" class="0">
 <segment>
 <wire x1="264.16" y1="85.09" x2="251.46" y2="85.09" width="0.1524" layer="91"/>
 <label x="265.43" y="85.09" size="1.778" layer="95" rot="MR0"/>
@@ -16942,30 +16942,13 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="E2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="QEP_2B" class="0">
-<segment>
-<wire x1="264.16" y1="102.87" x2="251.46" y2="102.87" width="0.1524" layer="91"/>
-<label x="265.43" y="102.87" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="E3" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="QEP_1A" class="0">
+<net name="QEP_2A" class="0">
 <segment>
 <wire x1="264.16" y1="87.63" x2="251.46" y2="87.63" width="0.1524" layer="91"/>
 <label x="265.43" y="87.63" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="87.63" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="E2" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="QEP_2A" class="0">
-<segment>
-<wire x1="264.16" y1="105.41" x2="251.46" y2="105.41" width="0.1524" layer="91"/>
-<label x="265.43" y="105.41" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="105.41" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="E3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="MDIR_4A" class="0">
@@ -17034,14 +17017,6 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="IMU" gate="G$1" pin="INT"/>
 </segment>
 </net>
-<net name="QEP_0B" class="0">
-<segment>
-<wire x1="264.16" y1="67.31" x2="251.46" y2="67.31" width="0.1524" layer="91"/>
-<label x="265.43" y="67.31" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="E1" gate="G$1" pin="4"/>
-</segment>
-</net>
 <net name="SPI1_SS1" class="0">
 <segment>
 <wire x1="269.24" y1="35.56" x2="255.27" y2="35.56" width="0.1524" layer="91"/>
@@ -17092,15 +17067,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="135.89" y1="30.48" x2="120.65" y2="30.48" width="0.1524" layer="91"/>
 <label x="120.65" y="30.48" size="1.778" layer="95"/>
 <junction x="135.89" y="30.48"/>
-</segment>
-</net>
-<net name="QEP_0A" class="0">
-<segment>
-<wire x1="264.16" y1="69.85" x2="251.46" y2="69.85" width="0.1524" layer="91"/>
-<label x="265.43" y="69.85" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="73.66" x2="251.46" y2="69.85" width="0.1524" layer="91"/>
-<pinref part="E1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="UART2_TX" class="0">
@@ -17697,6 +17663,40 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="UART0" gate="G$1" pin="4"/>
 <wire x1="29.21" y1="156.21" x2="16.51" y2="156.21" width="0.1524" layer="91"/>
 <label x="17.78" y="156.21" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="QEP_3A" class="0">
+<segment>
+<wire x1="264.16" y1="105.41" x2="251.46" y2="105.41" width="0.1524" layer="91"/>
+<label x="265.43" y="105.41" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="105.41" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="E3" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="QEP_3B" class="0">
+<segment>
+<wire x1="264.16" y1="102.87" x2="251.46" y2="102.87" width="0.1524" layer="91"/>
+<label x="265.43" y="102.87" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="E3" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="QEP_1A" class="0">
+<segment>
+<wire x1="264.16" y1="69.85" x2="251.46" y2="69.85" width="0.1524" layer="91"/>
+<label x="265.43" y="69.85" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="73.66" x2="251.46" y2="69.85" width="0.1524" layer="91"/>
+<pinref part="E1" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="QEP_1B" class="0">
+<segment>
+<wire x1="264.16" y1="67.31" x2="251.46" y2="67.31" width="0.1524" layer="91"/>
+<label x="265.43" y="67.31" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="E1" gate="G$1" pin="4"/>
 </segment>
 </net>
 </nets>
@@ -19303,14 +19303,14 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="208.28" y1="48.26" x2="215.9" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_2B" class="0">
+<net name="QEP_3B" class="0">
 <segment>
 <pinref part="R96" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
 <label x="231.14" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_2A" class="0">
+<net name="QEP_3A" class="0">
 <segment>
 <pinref part="R95" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
@@ -19359,7 +19359,7 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="R99" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="QEP_0A" class="0">
+<net name="QEP_1A" class="0">
 <segment>
 <pinref part="R99" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="30.48" x2="231.14" y2="30.48" width="0.1524" layer="91"/>
@@ -19373,7 +19373,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="208.28" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_0B" class="0">
+<net name="QEP_1B" class="0">
 <segment>
 <pinref part="R100" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="27.94" x2="231.14" y2="27.94" width="0.1524" layer="91"/>
@@ -20116,20 +20116,6 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="327.66" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_1A" class="0">
-<segment>
-<pinref part="R146" gate="G$1" pin="2"/>
-<wire x1="314.96" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
-<label x="327.66" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="QEP_1B" class="0">
-<segment>
-<pinref part="R147" gate="G$1" pin="2"/>
-<wire x1="314.96" y1="165.1" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
-<label x="327.66" y="165.1" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SVO2" class="0">
 <segment>
 <pinref part="SIP" gate="C" pin="LCD_PCLK_V5"/>
@@ -20403,6 +20389,20 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="L5" gate="L" pin="2"/>
 <pinref part="HOST" gate="G$1" pin="VBUS"/>
 <wire x1="309.88" y1="68.58" x2="312.42" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="QEP_2A" class="0">
+<segment>
+<pinref part="R146" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
+<label x="327.66" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="QEP_2B" class="0">
+<segment>
+<pinref part="R147" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="165.1" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
+<label x="327.66" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
