@@ -2521,15 +2521,13 @@ design rules under a new name.</description>
 <element name="R131" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="37.338" y="-68.199" rot="R90"/>
 <element name="R133" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="35.433" y="-68.199" rot="R90"/>
 <element name="R135" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="33.528" y="-68.199" rot="R90"/>
-<element name="R137" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="31.623" y="-68.199" rot="R90"/>
-<element name="R139" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="29.718" y="-68.199" rot="R90"/>
 <element name="R14" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="33.147" y="-6.985" rot="R180"/>
 <element name="R140" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="27.813" y="-68.199" rot="R90"/>
 <element name="R143" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="41.148" y="-65.024" rot="R270"/>
 <element name="R144" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="48.768" y="-71.374" rot="R90"/>
 <element name="R145" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="46.863" y="-71.374" rot="R90"/>
-<element name="R146" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="93.6625" y="-30.1625" rot="R90"/>
-<element name="R147" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="95.885" y="-30.48" rot="R90"/>
+<element name="R146" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="93.6625" y="-30.1625" rot="R90"/>
+<element name="R147" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="95.885" y="-30.48" rot="R90"/>
 <element name="R148" library="Strawson_Eagle_Lib" package="0402-RES" value="100" x="41.148" y="-71.374" rot="R90"/>
 <element name="R149" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="39.243" y="-71.374" rot="R90"/>
 <element name="R15" library="Strawson_Eagle_Lib" package="0402-RES" value="1K" x="87.63" y="-19.05" rot="R270"/>
@@ -3208,8 +3206,6 @@ design rules under a new name.</description>
 <contactref element="R131" pad="1"/>
 <contactref element="R133" pad="1"/>
 <contactref element="R135" pad="1"/>
-<contactref element="R137" pad="1"/>
-<contactref element="R139" pad="1"/>
 <contactref element="R143" pad="1"/>
 <contactref element="BOOT" pad="2"/>
 <contactref element="U1" pad="4"/>
@@ -3567,14 +3563,12 @@ design rules under a new name.</description>
 <wire x1="37.338" y1="-68.7578" x2="39.243" y2="-68.7578" width="0" layer="19" extent="1-1"/>
 <wire x1="35.433" y1="-68.7578" x2="37.338" y2="-68.7578" width="0" layer="19" extent="1-1"/>
 <wire x1="33.528" y1="-68.7578" x2="35.433" y2="-68.7578" width="0" layer="19" extent="1-1"/>
-<wire x1="31.623" y1="-68.7578" x2="33.528" y2="-68.7578" width="0" layer="19" extent="1-1"/>
-<wire x1="29.718" y1="-68.7578" x2="31.623" y2="-68.7578" width="0" layer="19" extent="1-1"/>
 <wire x1="43.053" y1="-68.7578" x2="41.148" y2="-68.7578" width="0" layer="19" extent="1-1"/>
-<wire x1="31.993003125" y1="-71.239" x2="31.623" y2="-68.7578" width="0" layer="19" extent="1-1"/>
-<wire x1="25.908" y1="-67.6402" x2="29.718" y2="-68.7578" width="0" layer="19" extent="1-1"/>
-<wire x1="24.003" y1="-68.7578" x2="25.908" y2="-67.6402" width="0" layer="19" extent="1-1"/>
+<wire x1="31.993003125" y1="-71.239" x2="33.528" y2="-68.7578" width="0" layer="19" extent="1-1"/>
 <wire x1="46.863" y1="-65.5828" x2="43.053" y2="-68.7578" width="0" layer="19" extent="1-1"/>
 <wire x1="48.768" y1="-65.5828" x2="46.863" y2="-65.5828" width="0" layer="19" extent="1-1"/>
+<wire x1="25.908" y1="-67.6402" x2="31.993003125" y2="-71.239" width="0" layer="19" extent="1-1"/>
+<wire x1="24.003" y1="-68.7578" x2="25.908" y2="-67.6402" width="0" layer="19" extent="1-1"/>
 <wire x1="55.7022" y1="9.779" x2="44.6532" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="49.1998" y1="17.399" x2="55.7022" y2="9.779" width="0" layer="19" extent="1-1"/>
 <wire x1="13.451" y1="2.159" x2="18.822" y2="-10.4775" width="0" layer="19" extent="1-1"/>
@@ -4926,18 +4920,14 @@ design rules under a new name.</description>
 <wire x1="55.6895" y1="-36.195" x2="33.528" y2="-67.6402" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$153">
-<contactref element="R137" pad="2"/>
 <contactref element="SIP" pad="V2"/>
 <contactref element="R146" pad="1"/>
 <wire x1="58.2295" y1="-37.465" x2="93.6625" y2="-30.7213" width="0" layer="19" extent="1-16"/>
-<wire x1="31.623" y1="-67.6402" x2="58.2295" y2="-37.465" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$156">
-<contactref element="R139" pad="2"/>
 <contactref element="SIP" pad="V3"/>
 <contactref element="R147" pad="1"/>
 <wire x1="56.9595" y1="-37.465" x2="95.885" y2="-31.0388" width="0" layer="19" extent="1-16"/>
-<wire x1="29.718" y1="-67.6402" x2="56.9595" y2="-37.465" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$116">
 <contactref element="R148" pad="2"/>

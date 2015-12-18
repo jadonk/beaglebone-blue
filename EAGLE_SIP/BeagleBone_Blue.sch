@@ -15221,14 +15221,12 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R131" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R133" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R135" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
-<part name="R137" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
-<part name="R139" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R140" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R143" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R144" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
 <part name="R145" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
-<part name="R146" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
-<part name="R147" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
+<part name="R146" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
+<part name="R147" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
 <part name="BOOT" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE"/>
 <part name="R148" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100"/>
 <part name="U1" library="BeagleBone_Blue" deviceset="TPD4S012_DRY_6" device=""/>
@@ -19463,6 +19461,8 @@ Attribution-ShareAlike 3.0 United States License.
 </sheet>
 <sheet>
 <plain>
+<text x="340.36" y="167.64" size="1.778" layer="91">Pulled down on page 1</text>
+<text x="340.36" y="165.1" size="1.778" layer="91">Pulled down on page 1</text>
 </plain>
 <instances>
 <instance part="SIP" gate="C" x="134.62" y="99.06"/>
@@ -19547,14 +19547,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="R135" gate="G$1" x="289.56" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="288.0614" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
 <attribute name="VALUE" x="287.782" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="R137" gate="G$1" x="292.1" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="290.6014" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
-<attribute name="VALUE" x="290.322" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="R139" gate="G$1" x="294.64" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="293.1414" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
-<attribute name="VALUE" x="292.862" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R140" gate="G$1" x="297.18" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="295.6814" y="207.01" size="1.27" layer="95" rot="R90" align="center-right"/>
@@ -19771,17 +19763,9 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="287.02" y1="132.08" x2="289.56" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="132.08" x2="289.56" y2="137.16" width="0.1524" layer="91"/>
 <junction x="287.02" y="132.08"/>
-<pinref part="R137" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="132.08" x2="292.1" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="132.08" x2="292.1" y2="137.16" width="0.1524" layer="91"/>
 <junction x="289.56" y="132.08"/>
-<pinref part="R139" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="132.08" x2="294.64" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="132.08" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
-<junction x="292.1" y="132.08"/>
-<junction x="294.64" y="132.08"/>
 <pinref part="R143" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="132.08" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="132.08" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="132.08" x2="299.72" y2="137.16" width="0.1524" layer="91"/>
 <label x="246.38" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -20063,24 +20047,16 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="N$153" class="0">
 <segment>
-<pinref part="R137" gate="G$1" pin="2"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA12_V2"/>
-<wire x1="292.1" y1="167.64" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="167.64" x2="292.1" y2="167.64" width="0.1524" layer="91"/>
-<junction x="292.1" y="167.64"/>
-<wire x1="292.1" y1="167.64" x2="304.8" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="167.64" x2="304.8" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R146" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$156" class="0">
 <segment>
-<pinref part="R139" gate="G$1" pin="2"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA13_V3"/>
-<wire x1="294.64" y1="165.1" x2="294.64" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
-<junction x="294.64" y="165.1"/>
+<wire x1="190.5" y1="165.1" x2="304.8" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R147" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="165.1" x2="304.8" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MDIR_2B" class="0">
