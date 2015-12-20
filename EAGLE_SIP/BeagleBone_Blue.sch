@@ -15253,7 +15253,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="U6" library="BeagleBone_Blue" deviceset="SN74LVC1G07_DCK_5" device=""/>
 <part name="R158" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%"/>
 <part name="5VREG" library="BeagleBone_Blue" deviceset="AP1509" device="SOIC-8-TIGHT" value="AP1509SOIC-8-TIGHT"/>
-<part name="USB" library="Strawson_Eagle_Lib" deviceset="USB-AB" device=""/>
+<part name="USB" library="Strawson_Eagle_Lib" deviceset="USB-AB" device="" value="USB-MICRO-SMD"/>
 </parts>
 <sheets>
 <sheet>
