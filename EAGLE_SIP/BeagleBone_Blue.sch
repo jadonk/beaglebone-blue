@@ -19828,6 +19828,7 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="USB" gate="G$1" pin="SHIELD"/>
 <wire x1="320.04" y1="96.52" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="96.52" x2="317.5" y2="83.82" width="0.1524" layer="91"/>
+<junction x="317.5" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R150" gate="G$1" pin="2"/>
