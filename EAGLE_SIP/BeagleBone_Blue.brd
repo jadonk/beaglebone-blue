@@ -2321,7 +2321,7 @@ design rules under a new name.</description>
 <element name="C11" library="adafruit" package="PANASONIC_D" value="100uF 16V" x="59.055" y="-18.542"/>
 <element name="C12" library="SparkFun-Capacitors" package="0805" value="10uF 25V" x="33.147" y="-4.445" rot="R90"/>
 <element name="C13" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="11.811" y="-22.479" rot="R90"/>
-<element name="C14" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="-0.889" y="5.969"/>
+<element name="C14" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="36.83" y="-7.9375"/>
 <element name="C15" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="-3.429" y="5.969"/>
 <element name="C16" library="SparkFun-Capacitors" package="0805" value="10uF 25V" x="24.765" y="-18.288"/>
 <element name="C17" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="49.911" y="-4.191"/>
@@ -2354,7 +2354,7 @@ design rules under a new name.</description>
 <element name="C37" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="52.3875" y="-53.6575"/>
 <element name="C38" library="Strawson_Eagle_Lib" package="0805" value="10UF,10V" x="53.0225" y="-50.165" rot="MR90"/>
 <element name="C39" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="39.0525" y="-43.4975" rot="R90"/>
-<element name="C4" library="Strawson_Eagle_Lib" package="0402-CAP" value="1uF" x="38.735" y="-7.9375"/>
+<element name="C4" library="Strawson_Eagle_Lib" package="0402-CAP" value="1uF" x="39.37" y="-7.9375"/>
 <element name="C40" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="38.735" y="-52.07" rot="R90"/>
 <element name="C41" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="52.705" y="-44.1325" rot="MR90"/>
 <element name="C42" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.001UF,16V" x="43.561" y="9.779"/>
@@ -3493,8 +3493,8 @@ design rules under a new name.</description>
 <wire x1="43.887" y1="-12.7" x2="40.6908" y2="-13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="46.5582" y1="-13.335" x2="43.887" y2="-12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="41.402" y1="-8.9662" x2="43.887" y2="-12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1762" y1="-7.9375" x2="41.402" y2="-8.9662" width="0" layer="19" extent="1-1"/>
-<wire x1="36.2077" y1="-5.969" x2="38.1762" y2="-7.9375" width="0" layer="19" extent="1-1"/>
+<wire x1="38.8112" y1="-7.9375" x2="41.402" y2="-8.9662" width="0" layer="19" extent="1-1"/>
+<wire x1="36.2077" y1="-5.969" x2="38.8112" y2="-7.9375" width="0" layer="19" extent="1-1"/>
 <wire x1="39.1033" y1="-3.937" x2="36.2077" y2="-5.969" width="0" layer="19" extent="1-1"/>
 <wire x1="38.4285" y1="-1.3335" x2="39.1033" y2="-3.937" width="0" layer="19" extent="1-1"/>
 <wire x1="32.5882" y1="-6.985" x2="36.2077" y2="-5.969" width="0" layer="19" extent="1-1"/>
@@ -3553,9 +3553,9 @@ design rules under a new name.</description>
 <wire x1="15.875" y1="-25.146" x2="15.675" y2="-26.746" width="0" layer="19" extent="1-1"/>
 <wire x1="16.475" y1="-23.546" x2="15.875" y2="-25.146" width="0" layer="19" extent="1-1"/>
 <wire x1="17.475" y1="-24.146" x2="16.475" y2="-23.546" width="0" layer="19" extent="1-1"/>
-<wire x1="12.446" y1="-30.353" x2="12.7" y2="-26.9748" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="-25.3238" x2="17.475" y2="-24.146" width="0" layer="19" extent="1-1"/>
 <wire x1="21.1582" y1="-27.94" x2="20.32" y2="-25.3238" width="0" layer="19" extent="1-1"/>
+<wire x1="12.446" y1="-30.353" x2="12.7" y2="-26.9748" width="0" layer="19" extent="1-1"/>
 <wire x1="56.261" y1="-7.487" x2="54.2798" y2="-14.732" width="0" layer="19" extent="1-1"/>
 <wire x1="57.531" y1="-7.487" x2="56.261" y2="-7.487" width="0" layer="19" extent="1-1"/>
 <wire x1="58.801" y1="-7.487" x2="57.531" y2="-7.487" width="0" layer="19" extent="1-1"/>
@@ -4137,14 +4137,14 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="CHGIC" pad="15"/>
 <contactref element="C14" pad="1"/>
-<wire x1="-1.4478" y1="5.969" x2="36.2077" y2="-5.461" width="0" layer="19" extent="1-1"/>
+<wire x1="36.2712" y1="-7.9375" x2="36.2077" y2="-5.461" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$55">
 <contactref element="CHGIC" pad="1"/>
 <contactref element="C14" pad="2"/>
 <contactref element="L2" pad="1"/>
 <wire x1="37.1475" y1="-6.0452" x2="44.625" y2="-5.858" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.3302" y1="5.969" x2="37.1475" y2="-6.0452" width="0" layer="19" extent="1-1"/>
+<wire x1="37.3888" y1="-7.9375" x2="37.1475" y2="-6.0452" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$67">
 <contactref element="R4" pad="2"/>
@@ -4165,8 +4165,8 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="CHGIC" pad="5"/>
 <wire x1="39.1033" y1="-5.461" x2="38.1635" y2="-6.0452" width="0" layer="19" extent="1-1"/>
-<wire x1="39.2938" y1="-7.9375" x2="38.1635" y2="-6.0452" width="0" layer="19" extent="1-1"/>
-<wire x1="37.5158" y1="-13.97" x2="39.2938" y2="-7.9375" width="0" layer="19" extent="1-1"/>
+<wire x1="39.9288" y1="-7.9375" x2="38.1635" y2="-6.0452" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5158" y1="-13.97" x2="39.9288" y2="-7.9375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$71">
 <contactref element="R5" pad="1"/>
