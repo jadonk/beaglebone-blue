@@ -2776,7 +2776,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DATASHEETURL" value="http://www.ti.com/lit/gpn/SN74LVC1G07" x="15.875" y="-38.608" size="1.778" layer="27" display="off"/>
 <attribute name="INDUSTRY_STD_PKG_TYPE" value="SC70" x="15.875" y="-38.608" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.1638" y="-37.338" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="12.4206" y="-39.243" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="15.9131" y="-39.878" size="1.27" layer="27" ratio="6" rot="SR0"/>
 </element>
 <element name="U7" library="BeagleBone_Blue" package="D8" value="TPS2051B_D_8" x="13.716" y="-43.688" smashed="yes" rot="R90">
 <attribute name="FAMILY_NAME" value="USB POWER SWITCH" x="13.716" y="-43.688" size="1.778" layer="27" rot="R90" display="off"/>
