@@ -2635,9 +2635,9 @@ design rules under a new name.</description>
 <element name="R73" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="29.972" y="-26.035" rot="R90"/>
 <element name="R74" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="32.639" y="-23.749" rot="R180"/>
 <element name="R75" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="46.609" y="-15.494" rot="R180"/>
-<element name="R76" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="43.434" y="-22.225"/>
-<element name="R77" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="73.914" y="-53.34" smashed="yes">
-<attribute name="NAME" x="75.057" y="-53.5305" size="0.4064" layer="25"/>
+<element name="R76" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="69.215" y="-51.1175" rot="MR90"/>
+<element name="R77" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="68.2625" y="-51.1175" smashed="yes" rot="MR90">
+<attribute name="NAME" x="68.072" y="-49.9745" size="0.4064" layer="26" rot="MR90"/>
 </element>
 <element name="R78" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="44.958" y="-65.024" rot="R270"/>
 <element name="R79" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="43.053" y="-65.024" rot="R270"/>
@@ -4190,12 +4190,12 @@ design rules under a new name.</description>
 <signal name="UART0_RX">
 <contactref element="UART0" pad="3"/>
 <contactref element="R77" pad="1"/>
-<wire x1="68.215" y1="-53.2765" x2="73.3552" y2="-53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="68.215" y1="-53.2765" x2="68.2625" y2="-51.6763" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART0_TX">
 <contactref element="UART0" pad="4"/>
 <contactref element="R76" pad="1"/>
-<wire x1="69.215" y1="-53.2765" x2="42.8752" y2="-22.225" width="0" layer="19" extent="1-1"/>
+<wire x1="69.215" y1="-53.2765" x2="69.215" y2="-51.6763" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYS_5V">
 <contactref element="SIP" pad="Y4"/>
@@ -4690,12 +4690,12 @@ design rules under a new name.</description>
 <signal name="N$80">
 <contactref element="SIP" pad="E16"/>
 <contactref element="R76" pad="2"/>
-<wire x1="40.4495" y1="-20.955" x2="43.9928" y2="-22.225" width="0" layer="19" extent="1-16"/>
+<wire x1="40.4495" y1="-20.955" x2="69.215" y2="-50.5587" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$81">
 <contactref element="SIP" pad="E15"/>
 <contactref element="R77" pad="2"/>
-<wire x1="74.4728" y1="-53.34" x2="41.7195" y2="-20.955" width="0" layer="19" extent="1-16"/>
+<wire x1="68.2625" y1="-50.5587" x2="41.7195" y2="-20.955" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$82">
 <contactref element="SIP" pad="D15"/>
