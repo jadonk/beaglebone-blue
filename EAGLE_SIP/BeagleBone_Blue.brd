@@ -2502,10 +2502,10 @@ design rules under a new name.</description>
 <element name="R102" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="68.961" y="17.399"/>
 <element name="R103" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="66.421" y="17.399"/>
 <element name="R104" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="63.881" y="17.399"/>
-<element name="R105" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="61.341" y="17.399"/>
-<element name="R106" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="58.801" y="17.399"/>
-<element name="R107" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="56.261" y="17.399"/>
-<element name="R108" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="53.721" y="17.399"/>
+<element name="R105" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="56.1975" y="-50.4825" rot="MR90"/>
+<element name="R106" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="57.4675" y="-50.4825" rot="MR90"/>
+<element name="R107" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="58.7375" y="-50.4825" rot="MR90"/>
+<element name="R108" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="60.0075" y="-50.4825" rot="MR90"/>
 <element name="R109" library="Strawson_Eagle_Lib" package="0402-RES" value="4.75K,1%" x="51.181" y="17.399"/>
 <element name="R11" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="16.891" y="-21.971" rot="R180"/>
 <element name="R110" library="Strawson_Eagle_Lib" package="0402-RES" value="4.75K,1%" x="48.641" y="17.399"/>
@@ -3936,22 +3936,22 @@ design rules under a new name.</description>
 <signal name="AIN0">
 <contactref element="ADC" pad="3"/>
 <contactref element="R105" pad="1"/>
-<wire x1="57.071" y1="-53.1495" x2="60.7822" y2="17.399" width="0" layer="19" extent="1-1"/>
+<wire x1="57.071" y1="-53.1495" x2="56.1975" y2="-51.0413" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AIN1">
 <contactref element="ADC" pad="4"/>
 <contactref element="R106" pad="1"/>
-<wire x1="58.071" y1="-53.1495" x2="58.2422" y2="17.399" width="0" layer="19" extent="1-1"/>
+<wire x1="58.071" y1="-53.1495" x2="57.4675" y2="-51.0413" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AIN2">
 <contactref element="ADC" pad="5"/>
 <contactref element="R107" pad="1"/>
-<wire x1="59.071" y1="-53.1495" x2="55.7022" y2="17.399" width="0" layer="19" extent="1-1"/>
+<wire x1="59.071" y1="-53.1495" x2="58.7375" y2="-51.0413" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AIN3">
 <contactref element="ADC" pad="6"/>
 <contactref element="R108" pad="1"/>
-<wire x1="60.071" y1="-53.1495" x2="53.1622" y2="17.399" width="0" layer="19" extent="1-1"/>
+<wire x1="60.071" y1="-53.1495" x2="60.0075" y2="-51.0413" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_ADC">
 <contactref element="ADC" pad="2"/>
@@ -4857,22 +4857,22 @@ design rules under a new name.</description>
 <signal name="N$111">
 <contactref element="R105" pad="2"/>
 <contactref element="SIP" pad="B6"/>
-<wire x1="53.1495" y1="-17.145" x2="61.8998" y2="17.399" width="0" layer="19" extent="1-16"/>
+<wire x1="53.1495" y1="-17.145" x2="56.1975" y2="-49.9237" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$112">
 <contactref element="R106" pad="2"/>
 <contactref element="SIP" pad="C7"/>
-<wire x1="51.8795" y1="-18.415" x2="59.3598" y2="17.399" width="0" layer="19" extent="1-16"/>
+<wire x1="51.8795" y1="-18.415" x2="57.4675" y2="-49.9237" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$113">
 <contactref element="R107" pad="2"/>
 <contactref element="SIP" pad="B7"/>
-<wire x1="51.8795" y1="-17.145" x2="56.8198" y2="17.399" width="0" layer="19" extent="1-16"/>
+<wire x1="51.8795" y1="-17.145" x2="58.7375" y2="-49.9237" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$114">
 <contactref element="R108" pad="2"/>
 <contactref element="SIP" pad="A7"/>
-<wire x1="51.8795" y1="-15.875" x2="54.2798" y2="17.399" width="0" layer="19" extent="1-16"/>
+<wire x1="51.8795" y1="-15.875" x2="60.0075" y2="-49.9237" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$115">
 <contactref element="R109" pad="2"/>
