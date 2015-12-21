@@ -2653,7 +2653,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R91" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="48.514" y="-36.449" rot="R180"/>
 <element name="R92" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="40.386" y="-38.7985"/>
 <element name="R93" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="40.259" y="-35.179" rot="R180"/>
-<element name="R94" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="41.2115" y="-33.274" rot="R180"/>
+<element name="R94" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="40.894" y="-33.274" rot="R180"/>
 <element name="R95" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="77.7875" y="-20.955" rot="R90"/>
 <element name="R96" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="77.7875" y="-16.51" rot="R90"/>
 <element name="R97" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="78.4225" y="-9.525"/>
@@ -2733,17 +2733,17 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="35.687" y="-46.99" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$1" library="Strawson_Eagle_Lib" package="3X8_0.1&quot;_HEADER" value="SERVO_HEADERS_8X" x="72.263" y="-3.937" smashed="yes"/>
-<element name="U1" library="BeagleBone_Blue" package="DRY6" value="TPD4S012_DRY_6" x="41.783" y="-47.5615">
-<attribute name="FAMILY_NAME" value="ESD Solution" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE_DESIGNATOR" value="DRY" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="4-Channel USB ESD Solution with Power Clamp" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="tpd4s012_dry_6" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Texas Instruments" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="GENERIC_PART_NUMBER" value="TPD4S012" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="PIN_COUNT" value="6" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEETURL" value="http://www.ti.com/lit/gpn/TPD4S012" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
-<attribute name="INDUSTRY_STD_PKG_TYPE" value="SON" x="41.783" y="-47.5615" size="1.778" layer="27" display="off"/>
+<element name="U1" library="BeagleBone_Blue" package="DRY6" value="TPD4S012_DRY_6" x="42.672" y="-47.6885" rot="R180">
+<attribute name="FAMILY_NAME" value="ESD Solution" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE_DESIGNATOR" value="DRY" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="4-Channel USB ESD Solution with Power Clamp" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="tpd4s012_dry_6" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Texas Instruments" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="GENERIC_PART_NUMBER" value="TPD4S012" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PIN_COUNT" value="6" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEETURL" value="http://www.ti.com/lit/gpn/TPD4S012" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INDUSTRY_STD_PKG_TYPE" value="SON" x="42.672" y="-47.6885" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="BeagleBone_Blue" package="DRY6" value="TPD4S012_DRY_6" x="24.892" y="-38.735" rot="MR0">
 <attribute name="FAMILY_NAME" value="ESD Solution" x="24.892" y="-38.735" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3412,8 +3412,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="39.0525" y1="-42.9387" x2="37.9095" y2="-40.005" width="0" layer="19" extent="1-16"/>
 <wire x1="54.944" y1="-35.3695" x2="54.4195" y2="-38.735" width="0" layer="19" extent="1-16"/>
 <wire x1="39.0525" y1="-46.9138" x2="39.0525" y2="-42.9387" width="0" layer="19" extent="1-1"/>
-<wire x1="42.153003125" y1="-48.0615" x2="39.0525" y2="-46.9138" width="0" layer="19" extent="1-1"/>
-<wire x1="43.327" y1="-47.6925" x2="42.153003125" y2="-48.0615" width="0" layer="19" extent="1-16"/>
+<wire x1="42.301996875" y1="-47.1885" x2="39.0525" y2="-46.9138" width="0" layer="19" extent="1-1"/>
+<wire x1="43.327" y1="-47.6925" x2="42.301996875" y2="-47.1885" width="0" layer="19" extent="1-16"/>
 <wire x1="44.327" y1="-46.6925" x2="43.327" y2="-47.6925" width="0" layer="19" extent="16-16"/>
 <wire x1="42.327" y1="-46.1925" x2="43.327" y2="-47.6925" width="0" layer="19" extent="16-16"/>
 <wire x1="44.827" y1="-49.1925" x2="43.327" y2="-47.6925" width="0" layer="19" extent="16-16"/>
@@ -4353,8 +4353,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="47.9552" y1="-36.449" x2="48.2727" y2="-34.544" width="0" layer="19" extent="1-1"/>
 <wire x1="45.0723" y1="-34.3535" x2="48.2727" y2="-34.544" width="0" layer="19" extent="1-1"/>
 <wire x1="45.0723" y1="-32.131" x2="45.0723" y2="-34.3535" width="0" layer="19" extent="1-1"/>
-<wire x1="40.6527" y1="-33.274" x2="45.0723" y2="-34.3535" width="0" layer="19" extent="1-1"/>
-<wire x1="39.7002" y1="-35.179" x2="40.6527" y2="-33.274" width="0" layer="19" extent="1-1"/>
+<wire x1="40.3352" y1="-33.274" x2="45.0723" y2="-34.3535" width="0" layer="19" extent="1-1"/>
+<wire x1="39.7002" y1="-35.179" x2="40.3352" y2="-33.274" width="0" layer="19" extent="1-1"/>
 <wire x1="40.9448" y1="-38.7985" x2="39.7002" y2="-35.179" width="0" layer="19" extent="1-1"/>
 <wire x1="40.259" y1="-43.0657" x2="40.9448" y2="-38.7985" width="0" layer="19" extent="1-1"/>
 <wire x1="41.529" y1="-43.0657" x2="40.259" y2="-43.0657" width="0" layer="19" extent="1-1"/>
@@ -4797,7 +4797,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SIP" pad="R14"/>
 <contactref element="U8" pad="K5"/>
 <contactref element="R94" pad="1"/>
-<wire x1="41.7703" y1="-33.274" x2="42.9895" y2="-33.655" width="0" layer="19" extent="1-16"/>
+<wire x1="41.4528" y1="-33.274" x2="42.9895" y2="-33.655" width="0" layer="19" extent="1-16"/>
 <wire x1="45.827" y1="-46.6925" x2="42.9895" y2="-33.655" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$99">
@@ -4937,22 +4937,22 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SIP" pad="N17"/>
 <contactref element="U1" pad="1"/>
 <contactref element="USB" pad="D+"/>
-<wire x1="41.427984375" y1="-47.0615" x2="39.1795" y2="-31.115" width="0" layer="19" extent="1-16"/>
-<wire x1="45.72" y1="-49.7915" x2="41.427984375" y2="-47.0615" width="0" layer="19" extent="1-1"/>
+<wire x1="43.027015625" y1="-48.1885" x2="39.1795" y2="-31.115" width="0" layer="19" extent="1-16"/>
+<wire x1="45.72" y1="-49.7915" x2="43.027015625" y2="-48.1885" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$118">
 <contactref element="SIP" pad="N18"/>
 <contactref element="U1" pad="2"/>
 <contactref element="USB" pad="D-"/>
-<wire x1="41.412996875" y1="-47.5615" x2="37.9095" y2="-31.115" width="0" layer="19" extent="1-16"/>
-<wire x1="45.07" y1="-49.7915" x2="41.412996875" y2="-47.5615" width="0" layer="19" extent="1-1"/>
+<wire x1="43.042003125" y1="-47.6885" x2="37.9095" y2="-31.115" width="0" layer="19" extent="1-16"/>
+<wire x1="45.07" y1="-49.7915" x2="43.042003125" y2="-47.6885" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$119">
 <contactref element="SIP" pad="P16"/>
 <contactref element="U1" pad="3"/>
 <contactref element="USB" pad="ID"/>
-<wire x1="41.412996875" y1="-48.0615" x2="40.4495" y2="-32.385" width="0" layer="19" extent="1-16"/>
-<wire x1="46.37" y1="-49.7915" x2="41.412996875" y2="-48.0615" width="0" layer="19" extent="1-1"/>
+<wire x1="43.042003125" y1="-47.1885" x2="40.4495" y2="-32.385" width="0" layer="19" extent="1-16"/>
+<wire x1="46.37" y1="-49.7915" x2="43.042003125" y2="-47.1885" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$121">
 <contactref element="SIP" pad="P15"/>
@@ -5019,8 +5019,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R154" pad="1"/>
 <contactref element="USB" pad="VBUS"/>
 <wire x1="40.132" y1="-49.8348" x2="16.5862" y2="-33.9725" width="0" layer="19" extent="1-1"/>
-<wire x1="42.153003125" y1="-47.0615" x2="40.132" y2="-49.8348" width="0" layer="19" extent="1-1"/>
-<wire x1="44.42" y1="-49.7915" x2="42.153003125" y2="-47.0615" width="0" layer="19" extent="1-1"/>
+<wire x1="42.301996875" y1="-48.1885" x2="40.132" y2="-49.8348" width="0" layer="19" extent="1-1"/>
+<wire x1="44.42" y1="-49.7915" x2="42.301996875" y2="-48.1885" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="SIP" pad="T16"/>
