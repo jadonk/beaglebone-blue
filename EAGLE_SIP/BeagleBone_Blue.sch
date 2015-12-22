@@ -14984,7 +14984,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="V_DC" library="Strawson_Eagle_Lib" deviceset="VDC" device=""/>
-<part name="VCC" library="Strawson_Eagle_Lib" deviceset="VDC" device=""/>
 <part name="LIPO" library="Strawson_Eagle_Lib" deviceset="JST_XH_3-PIN" device=""/>
 <part name="DSM2" library="Strawson_Eagle_Lib" deviceset="JST_ZH_3" device="SMD_TOP"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
@@ -15517,7 +15516,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="V_DC" gate="G$1" x="156.21" y="132.08" smashed="yes">
 <attribute name="VALUE" x="151.384" y="135.636" size="1.778" layer="96"/>
 </instance>
-<instance part="VCC" gate="G$1" x="214.63" y="248.92"/>
 <instance part="LIPO" gate="G$1" x="300.99" y="133.35" smashed="yes">
 <attribute name="NAME" x="297.18" y="137.16" size="1.778" layer="96"/>
 </instance>
@@ -16786,6 +16784,11 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="350.52" y1="137.16" x2="350.52" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="115.57" y1="41.91" x2="115.57" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <wire x1="214.63" y1="223.52" x2="214.63" y2="245.11" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="245.11" x2="214.63" y2="245.11" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="245.11" x2="233.68" y2="245.11" width="0.1524" layer="91"/>
@@ -16794,8 +16797,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="199.39" y1="245.11" x2="199.39" y2="227.33" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="245.11" x2="214.63" y2="245.11" width="0.1524" layer="91"/>
-<wire x1="214.63" y1="248.92" x2="214.63" y2="245.11" width="0.1524" layer="91"/>
-<pinref part="VCC" gate="G$1" pin="VCC"/>
 <junction x="214.63" y="245.11"/>
 <pinref part="CHGIC" gate="G$1" pin="VIN"/>
 <wire x1="214.63" y1="223.52" x2="215.9" y2="223.52" width="0.1524" layer="91"/>
@@ -16803,11 +16804,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="226.06" y1="243.84" x2="226.06" y2="245.11" width="0.1524" layer="91"/>
 <junction x="226.06" y="245.11"/>
 <label x="200.66" y="245.11" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="115.57" y1="41.91" x2="115.57" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART4_RX" class="0">
