@@ -15005,18 +15005,13 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="SIP" library="BeagleBone_Blue" deviceset="OSD3358" device=""/>
 <part name="TP1" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP2" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="TP3" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="TP4" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP5" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="R2" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
 <part name="R23" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
 <part name="D8" library="BeagleBone_Blue" deviceset="LED" device="0603" value="BLUE"/>
 <part name="R24" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.75K,1%"/>
-<part name="TP6" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP7" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="TP8" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP9" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="TP10" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP11" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP12" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="C27" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
@@ -17563,18 +17558,13 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="SIP" gate="A" x="71.12" y="182.88"/>
 <instance part="TP1" gate="G$1" x="137.16" y="243.84" rot="R90"/>
 <instance part="TP2" gate="G$1" x="45.72" y="223.52" rot="R270"/>
-<instance part="TP3" gate="G$1" x="137.16" y="223.52" rot="R90"/>
-<instance part="TP4" gate="G$1" x="137.16" y="220.98" rot="R90"/>
 <instance part="TP5" gate="G$1" x="45.72" y="210.82" rot="R270"/>
 <instance part="R2" gate="G$1" x="38.1" y="198.12" rot="R90"/>
 <instance part="R23" gate="G$1" x="48.26" y="198.12" rot="R90"/>
 <instance part="D8" gate="G$1" x="160.02" y="233.68" rot="R90"/>
 <instance part="R24" gate="G$1" x="193.04" y="233.68"/>
-<instance part="TP6" gate="G$1" x="137.16" y="203.2" rot="R90"/>
 <instance part="TP7" gate="G$1" x="137.16" y="200.66" rot="R90"/>
-<instance part="TP8" gate="G$1" x="137.16" y="195.58" rot="R90"/>
 <instance part="TP9" gate="G$1" x="137.16" y="193.04" rot="R90"/>
-<instance part="TP10" gate="G$1" x="137.16" y="187.96" rot="R90"/>
 <instance part="TP11" gate="G$1" x="137.16" y="185.42" rot="R90"/>
 <instance part="TP12" gate="G$1" x="208.28" y="243.84" rot="R90"/>
 <instance part="C27" gate="G$1" x="180.34" y="243.84" smashed="yes" rot="R90">
@@ -17852,20 +17842,6 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="SIP" gate="A" pin="VIN_BAT_1"/>
 <wire x1="60.96" y1="220.98" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="SIP" gate="A" pin="BAT_VOLT"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="124.46" y1="223.52" x2="134.62" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="SIP" gate="A" pin="BAT_TEMP"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="124.46" y1="220.98" x2="134.62" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -18273,13 +18249,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="218.44" y1="139.7" x2="208.28" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="SIP" gate="A" pin="L1_IN"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
-<wire x1="124.46" y1="203.2" x2="134.62" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="SIP" gate="A" pin="L1_OUT"/>
@@ -18287,25 +18256,11 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="124.46" y1="200.66" x2="134.62" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="SIP" gate="A" pin="L2_IN"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="124.46" y1="195.58" x2="134.62" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="SIP" gate="A" pin="L2_OUT"/>
 <pinref part="TP9" gate="G$1" pin="TP"/>
 <wire x1="124.46" y1="193.04" x2="134.62" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="SIP" gate="A" pin="L3_IN"/>
-<pinref part="TP10" gate="G$1" pin="TP"/>
-<wire x1="124.46" y1="187.96" x2="134.62" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">

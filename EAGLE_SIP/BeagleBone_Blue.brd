@@ -2669,9 +2669,6 @@ Please make sure your boards conform to these design rules.</description>
 <element name="TP1" library="testpad" package="B1,27" value="TPSQB1,27" x="55.245" y="-44.1452" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="55.245" y="-44.1452" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP10" library="testpad" package="B1,27" value="TPSQB1,27" x="35.687" y="-49.53" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="35.687" y="-49.53" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
 <element name="TP11" library="testpad" package="B1,27" value="TPSQB1,27" x="35.687" y="-52.07" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="35.687" y="-52.07" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -2707,23 +2704,11 @@ Please make sure your boards conform to these design rules.</description>
 <element name="TP20" library="testpad" package="B1,27" value="TPSQB1,27" x="48.1203" y="-17.6784">
 <attribute name="TP_SIGNAL_NAME" value="" x="48.1203" y="-17.6784" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP3" library="testpad" package="B1,27" value="TPSQB1,27" x="60.1218" y="-44.2468" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="60.1218" y="-44.2468" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="TP4" library="testpad" package="B1,27" value="TPSQB1,27" x="64.2874" y="-32.6644" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="64.2874" y="-32.6644" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
 <element name="TP5" library="testpad" package="B1,27" value="TPSQB1,27" x="51.7017" y="-19.5072">
 <attribute name="TP_SIGNAL_NAME" value="" x="51.7017" y="-19.5072" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP6" library="testpad" package="B1,27" value="TPSQB1,27" x="37.0586" y="-42.7736" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="37.0586" y="-42.7736" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
 <element name="TP7" library="testpad" package="B1,27" value="TPSQB1,27" x="38.1254" y="-44.3992" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="38.1254" y="-44.3992" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="TP8" library="testpad" package="B1,27" value="TPSQB1,27" x="35.687" y="-44.45" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="35.687" y="-44.45" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TP9" library="testpad" package="B1,27" value="TPSQB1,27" x="35.687" y="-46.99" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="35.687" y="-46.99" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4126,16 +4111,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="56.9595" y1="-40.005" x2="58.2295" y2="-40.005" width="0" layer="19" extent="16-16"/>
 <wire x1="57.7342" y1="-43.9928" x2="56.9595" y2="-40.005" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$7">
-<contactref element="SIP" pad="Y1"/>
-<contactref element="TP3" pad="TP"/>
-<wire x1="60.1218" y1="-44.2468" x2="59.4995" y2="-40.005" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$9">
-<contactref element="SIP" pad="W1"/>
-<contactref element="TP4" pad="TP"/>
-<wire x1="64.2874" y1="-32.6644" x2="59.4995" y2="-38.735" width="0" layer="19" extent="16-16"/>
-</signal>
 <signal name="N$12">
 <contactref element="SIP" pad="D19"/>
 <contactref element="SIP" pad="C6"/>
@@ -4202,30 +4177,15 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SIP" pad="B18"/>
 <wire x1="37.9095" y1="-17.145" x2="36.6395" y2="-17.145" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$13">
-<contactref element="SIP" pad="Y14"/>
-<contactref element="TP6" pad="TP"/>
-<wire x1="42.9895" y1="-40.005" x2="37.0586" y2="-42.7736" width="0" layer="19" extent="16-16"/>
-</signal>
 <signal name="N$19">
 <contactref element="SIP" pad="Y13"/>
 <contactref element="TP7" pad="TP"/>
 <wire x1="44.2595" y1="-40.005" x2="38.1254" y2="-44.3992" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$20">
-<contactref element="SIP" pad="Y17"/>
-<contactref element="TP8" pad="TP"/>
-<wire x1="39.1795" y1="-40.005" x2="35.687" y2="-44.45" width="0" layer="19" extent="16-16"/>
-</signal>
 <signal name="N$21">
 <contactref element="SIP" pad="Y16"/>
 <contactref element="TP9" pad="TP"/>
 <wire x1="40.4495" y1="-40.005" x2="35.687" y2="-46.99" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$22">
-<contactref element="SIP" pad="Y20"/>
-<contactref element="TP10" pad="TP"/>
-<wire x1="35.3695" y1="-40.005" x2="35.687" y2="-49.53" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$23">
 <contactref element="SIP" pad="Y19"/>
