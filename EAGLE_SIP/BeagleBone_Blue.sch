@@ -17932,14 +17932,6 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="U5" gate="A" pin="SDA"/>
 </segment>
 </net>
-<net name="VDD_3V3A" class="0">
-<segment>
-<pinref part="R60" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="246.38" x2="274.32" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="248.92" x2="284.48" y2="248.92" width="0.1524" layer="91"/>
-<label x="284.48" y="248.92" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="SIP" gate="A" pin="VOUT_USER_3P3V_0"/>
@@ -18039,6 +18031,12 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="20.32" y="203.2" size="1.778" layer="95"/>
 <wire x1="40.64" y1="157.48" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
 <junction x="40.64" y="165.1"/>
+</segment>
+<segment>
+<pinref part="R60" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="246.38" x2="274.32" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="248.92" x2="292.1" y2="248.92" width="0.1524" layer="91"/>
+<label x="281.94" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD_3V3AUX" class="0">
