@@ -15109,7 +15109,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R127" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R129" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R131" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
-<part name="R133" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R135" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R140" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R143" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
@@ -19211,6 +19210,7 @@ Attribution-ShareAlike 3.0 United States License.
 <plain>
 <text x="340.36" y="167.64" size="1.778" layer="91">Pulled down on page 1</text>
 <text x="340.36" y="165.1" size="1.778" layer="91">Pulled down on page 1</text>
+<text x="342.9" y="172.72" size="1.778" layer="91">Pulled down on page 1</text>
 </plain>
 <instances>
 <instance part="SIP" gate="C" x="134.62" y="99.06"/>
@@ -19287,10 +19287,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="R131" gate="G$1" x="284.48" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="282.9814" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
 <attribute name="VALUE" x="282.702" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="R133" gate="G$1" x="287.02" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="285.5214" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
-<attribute name="VALUE" x="285.242" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R135" gate="G$1" x="289.56" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="288.0614" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
@@ -19503,14 +19499,10 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="281.94" y1="132.08" x2="284.48" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="132.08" x2="284.48" y2="137.16" width="0.1524" layer="91"/>
 <junction x="281.94" y="132.08"/>
-<pinref part="R133" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="132.08" x2="287.02" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="132.08" x2="287.02" y2="137.16" width="0.1524" layer="91"/>
 <junction x="284.48" y="132.08"/>
 <pinref part="R135" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="132.08" x2="289.56" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="132.08" x2="289.56" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="132.08" x2="289.56" y2="137.16" width="0.1524" layer="91"/>
-<junction x="287.02" y="132.08"/>
 <junction x="289.56" y="132.08"/>
 <pinref part="R143" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="132.08" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
@@ -19779,11 +19771,9 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="SERVO_EN" class="0">
 <segment>
-<pinref part="R133" gate="G$1" pin="2"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA10_U3"/>
-<wire x1="287.02" y1="172.72" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="172.72" x2="287.02" y2="172.72" width="0.1524" layer="91"/>
-<label x="200.66" y="172.72" size="1.778" layer="95"/>
+<wire x1="190.5" y1="172.72" x2="337.82" y2="172.72" width="0.1524" layer="91"/>
+<label x="327.66" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$150" class="0">
