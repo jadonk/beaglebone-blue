@@ -19474,6 +19474,11 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="269.24" y1="215.9" x2="269.24" y2="226.06" width="0.1524" layer="91"/>
 <junction x="269.24" y="226.06"/>
 </segment>
+<segment>
+<pinref part="R157" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
+<label x="177.8" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$115" class="0">
 <segment>
@@ -19668,13 +19673,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="261.62" y1="198.12" x2="261.62" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="198.12" x2="261.62" y2="198.12" width="0.1524" layer="91"/>
 <label x="200.66" y="198.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VDD_3V3A" class="0">
-<segment>
-<pinref part="R157" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="93.98" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
-<label x="175.26" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MDIR_4B" class="0">
