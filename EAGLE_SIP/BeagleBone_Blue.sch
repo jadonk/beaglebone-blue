@@ -20144,37 +20144,10 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="VDD_RTC" class="0">
 <segment>
-<pinref part="SIP" gate="E" pin="VDD_RTC1"/>
-<wire x1="134.62" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SIP" gate="E" pin="VDD_RTC2"/>
-<wire x1="134.62" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="149.86" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
-<junction x="142.24" y="152.4"/>
 <pinref part="SIP" gate="E" pin="VDD_RTC3"/>
 <wire x1="134.62" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="147.32" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
-<junction x="142.24" y="149.86"/>
-<pinref part="SIP" gate="E" pin="VDD_RTC4"/>
-<wire x1="134.62" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="144.78" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
-<junction x="142.24" y="147.32"/>
-<pinref part="SIP" gate="E" pin="VDD_RTC5"/>
-<wire x1="134.62" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="142.24" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
-<junction x="142.24" y="144.78"/>
-<pinref part="SIP" gate="E" pin="VDD_RTC6"/>
-<wire x1="134.62" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="139.7" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
-<junction x="142.24" y="142.24"/>
-<pinref part="SIP" gate="E" pin="VDD_RTC7"/>
-<wire x1="134.62" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="137.16" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
-<junction x="142.24" y="139.7"/>
-<pinref part="SIP" gate="E" pin="VDD_RTC8"/>
-<wire x1="134.62" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="134.62" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
-<junction x="142.24" y="137.16"/>
+<wire x1="142.24" y1="147.32" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
 <label x="149.86" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>

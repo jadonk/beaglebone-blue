@@ -4280,21 +4280,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="VDD_RTC">
 <contactref element="U6" pad="5"/>
-<contactref element="SIP" pad="D7"/>
-<contactref element="SIP" pad="E6"/>
 <contactref element="SIP" pad="E14"/>
-<contactref element="SIP" pad="F9"/>
-<contactref element="SIP" pad="K13"/>
-<contactref element="SIP" pad="N6"/>
-<contactref element="SIP" pad="P9"/>
-<contactref element="SIP" pad="P14"/>
-<wire x1="53.1495" y1="-20.955" x2="51.8795" y2="-19.685" width="0" layer="19" extent="16-16"/>
-<wire x1="49.3395" y1="-22.225" x2="51.8795" y2="-19.685" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-20.955" x2="49.3395" y2="-22.225" width="0" layer="19" extent="16-16"/>
-<wire x1="44.2595" y1="-27.305" x2="42.9895" y2="-20.955" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-32.385" x2="44.2595" y2="-27.305" width="0" layer="19" extent="16-16"/>
-<wire x1="49.3395" y1="-32.385" x2="42.9895" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="53.1495" y1="-31.115" x2="49.3395" y2="-32.385" width="0" layer="19" extent="16-16"/>
 <wire x1="23.1924875" y1="-18.6182" x2="42.9895" y2="-20.955" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$43">
