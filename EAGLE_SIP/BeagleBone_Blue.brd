@@ -2887,6 +2887,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R116" pad="2"/>
 <contactref element="R120" pad="2"/>
 <contactref element="R122" pad="2"/>
+<contactref element="R118" pad="2"/>
 <wire x1="111.7158" y1="-23.8633" x2="110.8014" y2="-11.4554" width="0" layer="19" extent="1-1"/>
 <wire x1="81.82" y1="-13.716" x2="110.8014" y2="-11.4554" width="0" layer="19" extent="1-1"/>
 <wire x1="77.751" y1="-14.265" x2="81.82" y2="-13.716" width="0" layer="19" extent="1-16"/>
@@ -2895,7 +2896,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="82.1563" y1="-26.67" x2="78.1304" y2="-20.574" width="0" layer="19" extent="1-16"/>
 <wire x1="81.947" y1="-30.861" x2="82.1563" y2="-26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="77.6875" y1="-31.537" x2="81.947" y2="-30.861" width="0" layer="19" extent="1-16"/>
-<wire x1="74.2696" y1="-30.0228" x2="77.6875" y2="-31.537" width="0" layer="19" extent="16-16"/>
+<wire x1="74.2569" y1="-31.2928" x2="77.6875" y2="-31.537" width="0" layer="19" extent="16-16"/>
+<wire x1="74.2696" y1="-30.0228" x2="74.2569" y2="-31.2928" width="0" layer="19" extent="16-16"/>
 <wire x1="81.947" y1="-35.306" x2="81.947" y2="-30.861" width="0" layer="19" extent="1-1"/>
 <wire x1="73.0062" y1="-45.9994" x2="81.947" y2="-35.306" width="0" layer="19" extent="1-1"/>
 <wire x1="73.9046" y1="-53.1114" x2="73.0062" y2="-45.9994" width="0" layer="19" extent="1-1"/>

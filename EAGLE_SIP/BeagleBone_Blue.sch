@@ -19463,8 +19463,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="266.7" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="215.9" x2="266.7" y2="226.06" width="0.1524" layer="91"/>
 <junction x="266.7" y="226.06"/>
-<wire x1="269.24" y1="215.9" x2="269.24" y2="226.06" width="0.1524" layer="91"/>
-<junction x="269.24" y="226.06"/>
 <pinref part="R120" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="215.9" x2="271.78" y2="226.06" width="0.1524" layer="91"/>
 <junction x="271.78" y="226.06"/>
@@ -19472,6 +19470,9 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="274.32" y1="215.9" x2="274.32" y2="226.06" width="0.1524" layer="91"/>
 <junction x="274.32" y="226.06"/>
 <label x="248.92" y="226.06" size="1.778" layer="95"/>
+<pinref part="R118" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="215.9" x2="269.24" y2="226.06" width="0.1524" layer="91"/>
+<junction x="269.24" y="226.06"/>
 </segment>
 </net>
 <net name="N$115" class="0">
