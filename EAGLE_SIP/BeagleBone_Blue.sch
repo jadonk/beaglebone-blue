@@ -15004,7 +15004,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SIP" library="BeagleBone_Blue" deviceset="OSD3358" device=""/>
 <part name="TP1" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="TP2" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP5" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="R2" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
 <part name="R23" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
@@ -17557,7 +17556,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="SIP" gate="B" x="154.94" y="10.16"/>
 <instance part="SIP" gate="A" x="71.12" y="182.88"/>
 <instance part="TP1" gate="G$1" x="137.16" y="243.84" rot="R90"/>
-<instance part="TP2" gate="G$1" x="45.72" y="223.52" rot="R270"/>
 <instance part="TP5" gate="G$1" x="45.72" y="210.82" rot="R270"/>
 <instance part="R2" gate="G$1" x="38.1" y="198.12" rot="R90"/>
 <instance part="R23" gate="G$1" x="48.26" y="198.12" rot="R90"/>
@@ -17830,18 +17828,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="60.96" y1="231.14" x2="60.96" y2="233.68" width="0.1524" layer="91"/>
 <junction x="60.96" y="233.68"/>
 <label x="43.18" y="233.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="SIP" gate="A" pin="VIN_BAT_0"/>
-<wire x1="66.04" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="223.52" x2="48.26" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="223.52" x2="60.96" y2="220.98" width="0.1524" layer="91"/>
-<junction x="60.96" y="223.52"/>
-<pinref part="SIP" gate="A" pin="VIN_BAT_1"/>
-<wire x1="60.96" y1="220.98" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="N$12" class="0">
