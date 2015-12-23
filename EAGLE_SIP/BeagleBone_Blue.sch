@@ -17932,7 +17932,7 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="U5" gate="A" pin="SDA"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="VDD_3V3A" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="203.2" x2="38.1" y2="205.74" width="0.1524" layer="91"/>
@@ -17964,7 +17964,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="284.48" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD_3V3B" class="0">
+<net name="3.3V" class="0">
 <segment>
 <pinref part="SIP" gate="A" pin="VOUT_USER_3P3V_0"/>
 <wire x1="124.46" y1="238.76" x2="129.54" y2="238.76" width="0.1524" layer="91"/>
@@ -19450,7 +19450,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="55.88" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD_3V3B" class="0">
+<net name="3.3V" class="0">
 <segment>
 <wire x1="55.88" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R109" gate="G$1" pin="1"/>
@@ -19652,7 +19652,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="200.66" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="VDD_3V3A" class="0">
 <segment>
 <wire x1="233.68" y1="226.06" x2="266.7" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="R140" gate="G$1" pin="2"/>
@@ -20193,7 +20193,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="172.72" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="VDD_3V3A" class="0">
 <segment>
 <pinref part="SIP" gate="E" pin="VDD_3V3A1"/>
 <wire x1="53.34" y1="226.06" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
