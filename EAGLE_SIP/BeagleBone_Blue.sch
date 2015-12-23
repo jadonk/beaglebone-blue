@@ -17934,30 +17934,6 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="VDD_3V3A" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="203.2" x2="38.1" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="205.74" x2="38.1" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="205.74" x2="48.26" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="205.74" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
-<junction x="38.1" y="205.74"/>
-<label x="20.32" y="205.74" size="1.778" layer="95"/>
-<wire x1="48.26" y1="205.74" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
-<junction x="48.26" y="205.74"/>
-<wire x1="53.34" y1="205.74" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="VCC"/>
-<wire x1="53.34" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
-<junction x="53.34" y="165.1"/>
-<wire x1="40.64" y1="165.1" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R58" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="165.1" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
-<junction x="40.64" y="165.1"/>
-</segment>
-<segment>
 <pinref part="R60" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="246.38" x2="274.32" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="248.92" x2="284.48" y2="248.92" width="0.1524" layer="91"/>
@@ -18041,6 +18017,28 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="292.1" y1="210.82" x2="292.1" y2="208.28" width="0.1524" layer="91"/>
 <junction x="279.4" y="210.82"/>
 <label x="236.22" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R58" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="VCC"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="165.1" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="165.1" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="165.1" x2="58.42" y2="203.2" width="0.1524" layer="91"/>
+<junction x="58.42" y="165.1"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="203.2" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="203.2" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
+<junction x="48.26" y="203.2"/>
+<wire x1="38.1" y1="203.2" x2="20.32" y2="203.2" width="0.1524" layer="91"/>
+<junction x="38.1" y="203.2"/>
+<label x="20.32" y="203.2" size="1.778" layer="95"/>
+<wire x1="40.64" y1="157.48" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
+<junction x="40.64" y="165.1"/>
 </segment>
 </net>
 <net name="VDD_3V3AUX" class="0">
