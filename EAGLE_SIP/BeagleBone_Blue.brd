@@ -4161,49 +4161,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="36.6395" y1="-18.415" x2="39.1795" y2="-18.415" width="0" layer="19" extent="16-16"/>
 <wire x1="18.923" y1="-23.0632" x2="36.6395" y2="-18.415" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="VDD_3V3A">
-<contactref element="SIP" pad="E10"/>
-<contactref element="SIP" pad="E11"/>
-<contactref element="SIP" pad="E12"/>
-<contactref element="SIP" pad="E13"/>
-<contactref element="SIP" pad="F14"/>
-<contactref element="SIP" pad="G14"/>
-<contactref element="SIP" pad="H14"/>
-<contactref element="SIP" pad="J14"/>
-<contactref element="SIP" pad="K14"/>
-<contactref element="SIP" pad="L14"/>
-<contactref element="SIP" pad="N5"/>
-<contactref element="SIP" pad="N15"/>
-<contactref element="SIP" pad="P5"/>
-<contactref element="SIP" pad="P6"/>
-<contactref element="SIP" pad="P7"/>
-<contactref element="SIP" pad="P8"/>
-<contactref element="SIP" pad="P10"/>
-<contactref element="SIP" pad="P11"/>
-<contactref element="SIP" pad="P12"/>
-<contactref element="SIP" pad="P13"/>
-<contactref element="SIP" pad="R15"/>
-<wire x1="46.7995" y1="-20.955" x2="48.0695" y2="-20.955" width="0" layer="19" extent="16-16"/>
-<wire x1="45.5295" y1="-20.955" x2="46.7995" y2="-20.955" width="0" layer="19" extent="16-16"/>
-<wire x1="44.2595" y1="-20.955" x2="45.5295" y2="-20.955" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-22.225" x2="44.2595" y2="-20.955" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-23.495" x2="42.9895" y2="-22.225" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-24.765" x2="42.9895" y2="-23.495" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-26.035" x2="42.9895" y2="-24.765" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-27.305" x2="42.9895" y2="-26.035" width="0" layer="19" extent="16-16"/>
-<wire x1="42.9895" y1="-28.575" x2="42.9895" y2="-27.305" width="0" layer="19" extent="16-16"/>
-<wire x1="41.7195" y1="-31.115" x2="42.9895" y2="-28.575" width="0" layer="19" extent="16-16"/>
-<wire x1="41.7195" y1="-33.655" x2="41.7195" y2="-31.115" width="0" layer="19" extent="16-16"/>
-<wire x1="44.2595" y1="-32.385" x2="41.7195" y2="-31.115" width="0" layer="19" extent="16-16"/>
-<wire x1="45.5295" y1="-32.385" x2="44.2595" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="46.7995" y1="-32.385" x2="45.5295" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="48.0695" y1="-32.385" x2="46.7995" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="50.6095" y1="-32.385" x2="48.0695" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="51.8795" y1="-32.385" x2="50.6095" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="53.1495" y1="-32.385" x2="51.8795" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="54.4195" y1="-32.385" x2="53.1495" y2="-32.385" width="0" layer="19" extent="16-16"/>
-<wire x1="54.4195" y1="-31.115" x2="54.4195" y2="-32.385" width="0" layer="19" extent="16-16"/>
-</signal>
 <signal name="VDD_3V3AUX">
 <contactref element="SIP" pad="Y11"/>
 <contactref element="D8" pad="A"/>
