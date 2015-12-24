@@ -14887,12 +14887,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R9" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R15" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R16" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R17" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R18" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R20" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
+<part name="R16" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K"/>
+<part name="R17" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LIPO" library="Strawson_Eagle_Lib" deviceset="JST_XH_3-PIN" device=""/>
 <part name="DSM2" library="Strawson_Eagle_Lib" deviceset="JST_ZH_3" device="SMD_TOP"/>
@@ -14946,8 +14942,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="ADC" library="Strawson_Eagle_Lib" deviceset="JST_SH_6" device=""/>
 <part name="UART5" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
 <part name="UART1" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
-<part name="R26" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R35" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
 <part name="E4" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
 <part name="BAL" library="Strawson_Eagle_Lib" deviceset="BQ29209" device=""/>
 <part name="C1" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
@@ -15334,14 +15328,6 @@ Attribution-ShareAlike 3.0 United States License.
 <attribute name="VALUE" x="136.271" y="71.374" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="GND20" gate="1" x="125.73" y="64.77" rot="MR0"/>
-<instance part="R9" gate="G$1" x="246.38" y="102.87" smashed="yes" rot="MR0">
-<attribute name="NAME" x="250.19" y="104.3686" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="243.84" y="104.648" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R15" gate="G$1" x="246.38" y="109.22" smashed="yes" rot="MR0">
-<attribute name="NAME" x="250.19" y="110.7186" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="243.84" y="110.998" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="R16" gate="G$1" x="246.38" y="85.09" smashed="yes" rot="MR0">
 <attribute name="NAME" x="250.19" y="86.5886" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="243.84" y="86.868" size="1.778" layer="96" rot="MR0"/>
@@ -15349,14 +15335,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="R17" gate="G$1" x="246.38" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="250.19" y="92.9386" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="243.84" y="93.218" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R18" gate="G$1" x="246.38" y="67.31" smashed="yes" rot="MR0">
-<attribute name="NAME" x="250.19" y="68.8086" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="243.84" y="69.088" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R20" gate="G$1" x="246.38" y="73.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="250.19" y="75.1586" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="243.84" y="75.438" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND26" gate="1" x="229.87" y="233.68"/>
 <instance part="LIPO" gate="G$1" x="300.99" y="133.35" smashed="yes">
@@ -15495,14 +15473,6 @@ Attribution-ShareAlike 3.0 United States License.
 </instance>
 <instance part="UART5" gate="G$1" x="176.53" y="24.13" rot="MR0"/>
 <instance part="UART1" gate="G$1" x="176.53" y="44.45" rot="MR0"/>
-<instance part="R26" gate="G$1" x="246.38" y="120.65" smashed="yes" rot="MR0">
-<attribute name="NAME" x="250.19" y="122.1486" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="243.84" y="122.428" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R35" gate="G$1" x="246.38" y="127" smashed="yes" rot="MR0">
-<attribute name="NAME" x="250.19" y="128.4986" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="243.84" y="128.778" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="E4" gate="G$1" x="271.78" y="133.35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="275.59" y="127" size="2.54" layer="95" rot="MR180"/>
 </instance>
@@ -16531,37 +16501,13 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="17.78" y="163.83" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="120.65" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="109.22" x2="236.22" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="102.87" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="91.44" x2="236.22" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="85.09" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="67.31" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="73.66" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="67.31" x2="236.22" y2="67.31" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="85.09" x2="236.22" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="102.87" x2="236.22" y2="102.87" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="120.65" x2="236.22" y2="120.65" width="0.1524" layer="91"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="127" x2="236.22" y2="127" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="120.65" x2="236.22" y2="127" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="127" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
-<junction x="236.22" y="127"/>
-<junction x="236.22" y="120.65"/>
-<junction x="236.22" y="109.22"/>
-<junction x="236.22" y="102.87"/>
+<wire x1="236.22" y1="91.44" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
 <junction x="236.22" y="91.44"/>
-<junction x="236.22" y="85.09"/>
-<junction x="236.22" y="73.66"/>
 <wire x1="236.22" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
 <label x="231.14" y="134.62" size="1.778" layer="95"/>
 </segment>
@@ -17169,16 +17115,13 @@ Attribution-ShareAlike 3.0 United States License.
 <net name="QEP_4A" class="0">
 <segment>
 <pinref part="E4" gate="G$1" pin="3"/>
-<pinref part="R35" gate="G$1" pin="1"/>
 <label x="255.27" y="123.19" size="1.778" layer="95"/>
-<wire x1="251.46" y1="127" x2="251.46" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="123.19" x2="264.16" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="QEP_4B" class="0">
 <segment>
 <pinref part="E4" gate="G$1" pin="4"/>
-<pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="120.65" x2="251.46" y2="120.65" width="0.1524" layer="91"/>
 <label x="255.27" y="120.65" size="1.778" layer="95"/>
 </segment>
@@ -17487,8 +17430,6 @@ Attribution-ShareAlike 3.0 United States License.
 <segment>
 <wire x1="264.16" y1="105.41" x2="251.46" y2="105.41" width="0.1524" layer="91"/>
 <label x="265.43" y="105.41" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="105.41" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="E3" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -17496,7 +17437,6 @@ Attribution-ShareAlike 3.0 United States License.
 <segment>
 <wire x1="264.16" y1="102.87" x2="251.46" y2="102.87" width="0.1524" layer="91"/>
 <label x="265.43" y="102.87" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="E3" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -17504,8 +17444,6 @@ Attribution-ShareAlike 3.0 United States License.
 <segment>
 <wire x1="264.16" y1="69.85" x2="251.46" y2="69.85" width="0.1524" layer="91"/>
 <label x="265.43" y="69.85" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="73.66" x2="251.46" y2="69.85" width="0.1524" layer="91"/>
 <pinref part="E1" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -17513,7 +17451,6 @@ Attribution-ShareAlike 3.0 United States License.
 <segment>
 <wire x1="264.16" y1="67.31" x2="251.46" y2="67.31" width="0.1524" layer="91"/>
 <label x="265.43" y="67.31" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="E1" gate="G$1" pin="4"/>
 </segment>
 </net>
