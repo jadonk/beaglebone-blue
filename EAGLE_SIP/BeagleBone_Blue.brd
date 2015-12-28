@@ -2203,7 +2203,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R120" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="61.595" y="-34.4551" rot="MR180"/>
 <element name="R122" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="61.722" y="-33.7566" rot="R180"/>
 <element name="R125" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="64.6049" y="-27.8892" rot="MR0"/>
-<element name="R127" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="52.4129" y="-52.8828"/>
+<element name="R127" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="54.6989" y="-52.7304"/>
 <element name="R129" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="61.0108" y="-45.7835" rot="R180"/>
 <element name="R13" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="35.6616" y="-13.716" rot="R180"/>
 <element name="R131" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="72.6059" y="-45.7454" rot="R270"/>
@@ -2950,8 +2950,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="76.692" y1="-49.03" x2="78.3082" y2="-45.1866" width="0" layer="19" extent="16-16"/>
 <wire x1="76.692" y1="-51.73" x2="76.692" y2="-49.03" width="0" layer="19" extent="16-16"/>
 <wire x1="71.0568" y1="-4.4196" x2="72.8328" y2="-9.2964" width="0" layer="19" extent="1-1"/>
-<wire x1="51.8541" y1="-52.8828" x2="56.8579" y2="-51.4714" width="0" layer="19" extent="1-16"/>
-<wire x1="51.3964" y1="-52.9463" x2="51.8541" y2="-52.8828" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1401" y1="-52.7304" x2="56.8579" y2="-51.4714" width="0" layer="19" extent="1-16"/>
+<wire x1="51.3964" y1="-52.9463" x2="54.1401" y2="-52.7304" width="0" layer="19" extent="1-1"/>
 <wire x1="48.6464" y1="-52.9463" x2="51.3964" y2="-52.9463" width="0" layer="19" extent="1-1"/>
 <wire x1="46.1464" y1="-52.9463" x2="48.6464" y2="-52.9463" width="0" layer="19" extent="1-1"/>
 <wire x1="43.3964" y1="-52.9463" x2="46.1464" y2="-52.9463" width="0" layer="19" extent="1-1"/>
@@ -3180,7 +3180,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SIP" pad="T4"/>
 <wire x1="62.8777" y1="-19.1389" x2="64.7446" y2="-19.2024" width="0" layer="19" extent="1-1"/>
 <wire x1="55.5371" y1="-41.3258" x2="62.8777" y2="-19.1389" width="0" layer="19" extent="1-16"/>
-<wire x1="52.9717" y1="-52.8828" x2="55.5371" y2="-41.3258" width="0" layer="19" extent="1-16"/>
+<wire x1="55.2577" y1="-52.7304" x2="55.5371" y2="-41.3258" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MDIR_4A">
 <contactref element="H2" pad="17"/>
