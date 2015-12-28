@@ -14834,7 +14834,14 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.127" drill="0.254">
+<clearance class="0" value="0.127"/>
+</class>
+<class number="1" name="ground" width="0.3048" drill="0.254">
+<clearance class="1" value="0.1524"/>
+</class>
+<class number="2" name="usb" width="0.127" drill="0">
+<clearance class="2" value="0.127"/>
 </class>
 </classes>
 <parts>
@@ -19384,7 +19391,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="314.96" y1="193.04" x2="320.04" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$117" class="0">
+<net name="N$117" class="2">
 <segment>
 <pinref part="SIP" gate="C" pin="USB0_DP"/>
 <wire x1="190.5" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
@@ -19399,7 +19406,7 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="USB" gate="G$1" pin="D+"/>
 </segment>
 </net>
-<net name="N$118" class="0">
+<net name="N$118" class="2">
 <segment>
 <pinref part="SIP" gate="C" pin="USB0_DM"/>
 <wire x1="190.5" y1="137.16" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
@@ -19471,7 +19478,7 @@ Attribution-ShareAlike 3.0 United States License.
 <junction x="279.4" y="68.58"/>
 </segment>
 </net>
-<net name="N$123" class="0">
+<net name="N$123" class="2">
 <segment>
 <pinref part="SIP" gate="C" pin="USB1_DP"/>
 <wire x1="190.5" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
@@ -19486,7 +19493,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="223.52" y1="68.58" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$124" class="0">
+<net name="N$124" class="2">
 <segment>
 <pinref part="SIP" gate="C" pin="USB1_DM"/>
 <wire x1="190.5" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
