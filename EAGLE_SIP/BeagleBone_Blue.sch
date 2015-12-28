@@ -14440,8 +14440,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R135" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R140" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R143" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
-<part name="BOOT" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE"/>
-<part name="R148" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100"/>
 <part name="U1" library="BeagleBone_Blue" deviceset="TPD4S012_DRY_6" device=""/>
 <part name="U4" library="BeagleBone_Blue" deviceset="TPD4S012_DRY_6" device=""/>
 <part name="U7" library="BeagleBone_Blue" deviceset="TPS2051B_D_8" device=""/>
@@ -15474,7 +15472,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="199.39" y1="215.9" x2="204.47" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="162.56" y1="105.41" x2="172.72" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -16984,7 +16982,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="43.18" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SYS_5V" class="0">
+<net name="SYS_5V" class="3">
 <segment>
 <pinref part="SIP" gate="A" pin="VOUT_SYS_5V_1"/>
 <wire x1="124.46" y1="241.3" x2="129.54" y2="241.3" width="0.1524" layer="91"/>
@@ -16997,7 +16995,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="127" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB_DC" class="0">
+<net name="USB_DC" class="3">
 <segment>
 <pinref part="SIP" gate="A" pin="VIN_USB_0"/>
 <wire x1="66.04" y1="233.68" x2="60.96" y2="233.68" width="0.1524" layer="91"/>
@@ -17154,7 +17152,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="167.64" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
@@ -18010,9 +18008,9 @@ Attribution-ShareAlike 3.0 United States License.
 <attribute name="NAME" x="262.6614" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
 <attribute name="VALUE" x="262.382" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="R116" gate="G$1" x="266.7" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="265.2014" y="207.01" size="1.27" layer="95" rot="R90" align="center-right"/>
-<attribute name="VALUE" x="264.922" y="214.63" size="1.27" layer="96" rot="R90" align="center-left"/>
+<instance part="R116" gate="G$1" x="266.7" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="265.2014" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
+<attribute name="VALUE" x="264.922" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R118" gate="G$1" x="269.24" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="267.7414" y="207.01" size="1.27" layer="95" rot="R90" align="center-right"/>
@@ -18053,13 +18051,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="R143" gate="G$1" x="299.72" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="298.2214" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
 <attribute name="VALUE" x="297.942" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="BOOT" gate="G$1" x="325.12" y="193.04" smashed="yes">
-<attribute name="NAME" x="322.58" y="195.58" size="1.778" layer="95"/>
-</instance>
-<instance part="R148" gate="G$1" x="309.88" y="193.04" smashed="yes">
-<attribute name="NAME" x="306.07" y="194.5386" size="1.27" layer="95" align="center-right"/>
-<attribute name="VALUE" x="313.69" y="194.818" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="U1" gate="A" x="259.08" y="106.68"/>
 <instance part="U4" gate="A" x="228.6" y="68.58"/>
@@ -18170,13 +18161,9 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="R140" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="215.9" x2="297.18" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="226.06" x2="274.32" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="R116" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="226.06" x2="271.78" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="226.06" x2="269.24" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="226.06" x2="266.7" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="215.9" x2="266.7" y2="226.06" width="0.1524" layer="91"/>
-<junction x="266.7" y="226.06"/>
+<wire x1="269.24" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="R120" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="215.9" x2="271.78" y2="226.06" width="0.1524" layer="91"/>
 <junction x="271.78" y="226.06"/>
@@ -18206,7 +18193,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="81.28" y1="180.34" x2="129.54" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="R110" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="177.8" x2="96.52" y2="177.8" width="0.1524" layer="91"/>
@@ -18221,8 +18208,9 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="264.16" y1="132.08" x2="264.16" y2="137.16" width="0.1524" layer="91"/>
 <junction x="261.62" y="132.08"/>
 <junction x="264.16" y="132.08"/>
-<wire x1="264.16" y1="132.08" x2="276.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="132.08" x2="266.7" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R125" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="132.08" x2="276.86" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="132.08" x2="276.86" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R127" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="132.08" x2="279.4" y2="132.08" width="0.1524" layer="91"/>
@@ -18245,11 +18233,9 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="289.56" y1="132.08" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="132.08" x2="299.72" y2="137.16" width="0.1524" layer="91"/>
 <label x="246.38" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="BOOT" gate="G$1" pin="2"/>
-<wire x1="330.2" y1="193.04" x2="337.82" y2="193.04" width="0.1524" layer="91"/>
-<label x="332.74" y="193.04" size="1.778" layer="95"/>
+<pinref part="R116" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="137.16" x2="266.7" y2="132.08" width="0.1524" layer="91"/>
+<junction x="266.7" y="132.08"/>
 </segment>
 <segment>
 <wire x1="337.82" y1="121.92" x2="337.82" y2="83.82" width="0.1524" layer="91"/>
@@ -18400,14 +18386,11 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="MDIR_3B" class="0">
 <segment>
-<pinref part="R116" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="205.74" x2="266.7" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA2_R3"/>
 <wire x1="190.5" y1="193.04" x2="266.7" y2="193.04" width="0.1524" layer="91"/>
-<junction x="266.7" y="193.04"/>
 <label x="200.66" y="193.04" size="1.778" layer="95"/>
-<pinref part="R148" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="193.04" x2="304.8" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="R116" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="147.32" x2="266.7" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MDIR_3A" class="0">
@@ -18538,13 +18521,6 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="200.66" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$116" class="0">
-<segment>
-<pinref part="R148" gate="G$1" pin="2"/>
-<pinref part="BOOT" gate="G$1" pin="1"/>
-<wire x1="314.96" y1="193.04" x2="320.04" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$117" class="2">
 <segment>
 <pinref part="SIP" gate="C" pin="USB0_DP"/>
@@ -18597,7 +18573,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="190.5" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$122" class="0">
+<net name="N$122" class="3">
 <segment>
 <pinref part="U7" gate="A" pin="OUT"/>
 <wire x1="210.82" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
@@ -18683,7 +18659,7 @@ Attribution-ShareAlike 3.0 United States License.
 <junction x="172.72" y="83.82"/>
 </segment>
 </net>
-<net name="N$127" class="0">
+<net name="N$127" class="3">
 <segment>
 <pinref part="R152" gate="G$1" pin="2"/>
 <wire x1="127" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
@@ -18712,7 +18688,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="96.52" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SYS_5V" class="0">
+<net name="SYS_5V" class="3">
 <segment>
 <pinref part="R153" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
@@ -18737,7 +18713,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="309.88" y1="99.06" x2="320.04" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="USB_DC" class="0">
+<net name="USB_DC" class="3">
 <segment>
 <pinref part="R154" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="129.54" x2="345.44" y2="129.54" width="0.1524" layer="91"/>
@@ -18764,7 +18740,7 @@ Attribution-ShareAlike 3.0 United States License.
 <junction x="218.44" y="93.98"/>
 </segment>
 </net>
-<net name="N$128" class="0">
+<net name="N$128" class="3">
 <segment>
 <pinref part="L4" gate="L" pin="2"/>
 <pinref part="HOST" gate="G$1" pin="GND"/>
@@ -18778,7 +18754,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="190.5" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$130" class="0">
+<net name="N$130" class="3">
 <segment>
 <pinref part="L5" gate="L" pin="2"/>
 <pinref part="HOST" gate="G$1" pin="VBUS"/>
@@ -18813,7 +18789,7 @@ Attribution-ShareAlike 3.0 United States License.
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="SIP" gate="F" pin="DGND1"/>
 <wire x1="228.6" y1="170.18" x2="233.68" y2="170.18" width="0.1524" layer="91"/>
