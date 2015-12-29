@@ -2134,9 +2134,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="43.2562" y="-12.1031" size="0.4064" layer="26" rot="MR0"/>
 </element>
 <element name="RED" library="SparkFun-LED" package="LED-0603" value="RED" x="44.9199" y="-52.7939"/>
-<element name="RESET" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="5.3213" y="-15.4178" smashed="yes">
-<attribute name="PROD_ID" value="SWCH-00815" x="5.3213" y="-15.4178" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.8778" y="-15.8689" size="1.27" layer="25"/>
+<element name="RESET" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="5.1689" y="-15.4178" smashed="yes">
+<attribute name="PROD_ID" value="SWCH-00815" x="5.1689" y="-15.4178" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.7254" y="-15.8689" size="1.27" layer="25"/>
 </element>
 <element name="SIP" library="BeagleBone_Blue" package="OSD3358" value="OSD3358" x="46.6725" y="-36.9316" rot="MR270"/>
 <element name="SPI1.1" library="Strawson_Eagle_Lib" package="JST_SH_6" value="JST_SH_6" x="49.8856" y="-18.3007" smashed="yes" rot="R180">
@@ -2180,8 +2180,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="TP20" library="testpad" package="B1,27" value="TPSQB1,27" x="65.4939" y="-11.7348" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="65.4939" y="-11.7348" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP5" library="testpad" package="B1,27" value="TPSQB1,27" x="31.8516" y="-14.9352" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="31.8516" y="-14.9352" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP5" library="testpad" package="B1,27" value="TPSQB1,27" x="32.004" y="-25.146" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.004" y="-25.146" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TP7" library="testpad" package="B1,27" value="TPSQB1,27" x="45.085" y="-51.0032" rot="MR180">
 <attribute name="TP_SIGNAL_NAME" value="" x="45.085" y="-51.0032" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2765,8 +2765,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="8.0391" y1="-10.134" x2="12.9684" y2="-12.954" width="0" layer="19" extent="1-1"/>
 <wire x1="5.0391" y1="-5.334" x2="8.0391" y2="-10.134" width="0" layer="19" extent="1-1"/>
 <wire x1="2.0447" y1="-13.6784" x2="8.0391" y2="-10.134" width="0" layer="19" extent="16-16"/>
-<wire x1="2.1713" y1="-15.4178" x2="2.0447" y2="-13.6784" width="0" layer="19" extent="1-16"/>
-<wire x1="2.0447" y1="-16.4284" x2="2.1713" y2="-15.4178" width="0" layer="19" extent="1-16"/>
+<wire x1="2.0189" y1="-15.4178" x2="2.0447" y2="-13.6784" width="0" layer="19" extent="1-16"/>
+<wire x1="2.0447" y1="-16.4284" x2="2.0189" y2="-15.4178" width="0" layer="19" extent="1-16"/>
 <wire x1="2.0447" y1="-18.9284" x2="2.0447" y2="-16.4284" width="0" layer="19" extent="16-16"/>
 <wire x1="2.0189" y1="-20.5994" x2="2.0447" y2="-18.9284" width="0" layer="19" extent="1-16"/>
 <wire x1="2.0447" y1="-21.6784" x2="2.0189" y2="-20.5994" width="0" layer="19" extent="1-16"/>
@@ -3265,7 +3265,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U6" pad="4"/>
 <wire x1="34.671" y1="-12.4079" x2="37.6809" y2="-9.4742" width="0" layer="19" extent="1-1"/>
 <wire x1="21.4353125" y1="-18.3134" x2="34.671" y2="-12.4079" width="0" layer="19" extent="1-1"/>
-<wire x1="8.4713" y1="-15.4178" x2="21.4353125" y2="-18.3134" width="0" layer="19" extent="1-1"/>
+<wire x1="8.3189" y1="-15.4178" x2="21.4353125" y2="-18.3134" width="0" layer="19" extent="1-1"/>
 <wire x1="47.3075" y1="-24.8666" x2="34.671" y2="-12.4079" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SVO3">
@@ -3451,7 +3451,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SIP" pad="C6"/>
 <contactref element="TP5" pad="TP"/>
 <wire x1="35.8775" y1="-28.6766" x2="52.3875" y2="-27.4066" width="0" layer="19" extent="16-16"/>
-<wire x1="31.8516" y1="-14.9352" x2="35.8775" y2="-28.6766" width="0" layer="19" extent="16-16"/>
+<wire x1="32.004" y1="-25.146" x2="35.8775" y2="-28.6766" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="I2C0_SCL">
 <contactref element="SIP" pad="C16"/>
