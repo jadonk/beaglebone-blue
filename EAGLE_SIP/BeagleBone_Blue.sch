@@ -14740,7 +14740,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="215.9" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="3">
+<net name="3.3V" class="0">
 <segment>
 <wire x1="189.23" y1="15.24" x2="203.2" y2="15.24" width="0.1524" layer="91"/>
 <label x="190.5" y="15.24" size="1.778" layer="95"/>
@@ -15186,7 +15186,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="199.39" y1="215.9" x2="204.47" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <wire x1="162.56" y1="105.41" x2="172.72" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -16737,7 +16737,7 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="U5" gate="A" pin="SDA"/>
 </segment>
 </net>
-<net name="3.3V" class="3">
+<net name="3.3V" class="0">
 <segment>
 <pinref part="SIP" gate="A" pin="VOUT_USER_3P3V_0"/>
 <wire x1="124.46" y1="238.76" x2="129.54" y2="238.76" width="0.1524" layer="91"/>
@@ -16796,7 +16796,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="167.64" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
@@ -17687,7 +17687,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="55.88" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="3">
+<net name="3.3V" class="0">
 <segment>
 <wire x1="55.88" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R109" gate="G$1" pin="1"/>
@@ -17724,7 +17724,7 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="81.28" y1="180.34" x2="129.54" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="R110" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="177.8" x2="96.52" y2="177.8" width="0.1524" layer="91"/>
@@ -18212,7 +18212,7 @@ Attribution-ShareAlike 3.0 United States License.
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="SIP" gate="F" pin="DGND1"/>
 <wire x1="228.6" y1="170.18" x2="233.68" y2="170.18" width="0.1524" layer="91"/>
