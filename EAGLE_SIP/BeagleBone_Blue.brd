@@ -2056,11 +2056,11 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R14" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="53.4162" y="-12.9794"/>
 <element name="R140" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="77.4192" y="-41.3004" rot="R270"/>
 <element name="R143" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="58.2295" y="-52.8066" rot="R90"/>
-<element name="R149" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="36.322" y="-49.7332" rot="R270"/>
+<element name="R149" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="8.8392" y="-18.8976" rot="MR0"/>
 <element name="R150" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="27.3812" y="-26.5684" rot="R90"/>
 <element name="R152" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="15.9258" y="-30.6451"/>
 <element name="R153" library="Strawson_Eagle_Lib" package="0402-RES" value="0,DNI" x="30.861" y="-50.2158" rot="MR0"/>
-<element name="R154" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="46.7106" y="-50.4317"/>
+<element name="R154" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="8.8392" y="-20.2692" rot="MR180"/>
 <element name="R156" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="34.6964" y="-49.657" rot="R270"/>
 <element name="R158" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="62.1792" y="-13.0429" rot="MR180"/>
 <element name="R16" library="Strawson_Eagle_Lib" package="0402-RES" value="100K" x="74.4601" y="-42.7101"/>
@@ -3443,7 +3443,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SIP" pad="Y8"/>
 <contactref element="SIP" pad="Y9"/>
 <contactref element="R154" pad="2"/>
-<wire x1="48.5775" y1="-48.9966" x2="47.2694" y2="-50.4317" width="0" layer="19" extent="1-16"/>
+<wire x1="48.5775" y1="-48.9966" x2="9.398" y2="-20.2692" width="0" layer="19" extent="16-16"/>
 <wire x1="49.8475" y1="-48.9966" x2="48.5775" y2="-48.9966" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
@@ -3742,7 +3742,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$121">
 <contactref element="SIP" pad="P15"/>
 <contactref element="R149" pad="1"/>
-<wire x1="40.9575" y1="-41.3766" x2="36.322" y2="-49.1744" width="0" layer="19" extent="1-16"/>
+<wire x1="40.9575" y1="-41.3766" x2="9.398" y2="-18.8976" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$123" class="2">
 <contactref element="SIP" pad="R17"/>
@@ -3776,8 +3776,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R149" pad="2"/>
 <contactref element="R154" pad="1"/>
 <contactref element="USB" pad="VBUS"/>
-<wire x1="36.322" y1="-50.292" x2="4.8947" y2="-18.9784" width="0" layer="19" extent="1-16"/>
-<wire x1="46.1518" y1="-50.4317" x2="36.322" y2="-50.292" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2804" y1="-18.8976" x2="4.8947" y2="-18.9784" width="0" layer="19" extent="16-16"/>
+<wire x1="8.2804" y1="-20.2692" x2="8.2804" y2="-18.8976" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$128" class="3">
 <contactref element="L4" pad="2"/>
