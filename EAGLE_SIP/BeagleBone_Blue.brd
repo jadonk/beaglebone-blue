@@ -1674,20 +1674,16 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <clearance class="3" value="0.127"/>
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="SSC-EAGLE-2Lyr_v1.0.0.3">
+<description language="en">&lt;b&gt;EAGLE Design Rules for *2* Layer Designs (DS)&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
+This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requirements for our double sided products. For questions, comments, suggestions, please contact Sunstone Customer Support: &lt;p&gt;&lt;b&gt;Email:&lt;/b&gt;  mailto:support@sunstone.com&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 800-228-8198.&lt;p&gt; v1.1Mod10/16/07~Layers-core reversal.Distance C/D.Restring%.Supply G%.&lt;p&gt; v1.2 Mod12/06/07~Distance C/D to 20mils.&lt;p&gt;v1.3Mod12/12/07~Supply/Annulus Value to 12.5mils&lt;p&gt;1/15/08 SSC-EAGLE-2Lyr_v1.0.0.3~For Release&lt;p&gt;10/3/08 Description Edit.&lt;p&gt;
+
 &lt;p&gt;
-Please make sure your boards conform to these design rules.</description>
+&lt;i&gt;Attention: Upon running the design check and making modifications, please remember to save any changes before closing the application and sending in your board file to Sunstone Circuits for conversion.&lt;i&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
-<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mtCopper" value="0.0178mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0178mm"/>
+<param name="mtIsolate" value="59mil 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -1699,12 +1695,12 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="20mil"/>
+<param name="mdDrill" value="16mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="13mil"/>
-<param name="msMicroVia" value="13mil"/>
+<param name="msDrill" value="14mil"/>
+<param name="msMicroVia" value="9.9898mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -1713,20 +1709,20 @@ Please make sure your boards conform to these design rules.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="7mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="7mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="7mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="7mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="7mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rlMinPadTop" value="8mil"/>
+<param name="rlMaxPadTop" value="999mil"/>
+<param name="rlMinPadInner" value="0mil"/>
+<param name="rlMaxPadInner" value="0mil"/>
+<param name="rlMinPadBottom" value="8mil"/>
+<param name="rlMaxPadBottom" value="999mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="999mil"/>
+<param name="rlMinViaInner" value="0mil"/>
+<param name="rlMaxViaInner" value="0mil"/>
+<param name="rlMinMicroViaOuter" value="8mil"/>
+<param name="rlMaxMicroViaOuter" value="999mil"/>
+<param name="rlMinMicroViaInner" value="0mil"/>
+<param name="rlMaxMicroViaInner" value="0mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -1751,7 +1747,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
-<param name="maxErrors" value="50"/>
+<param name="maxErrors" value="500"/>
 </designrules>
 <autorouter>
 <pass name="Default">
@@ -1912,21 +1908,21 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="16.2306" y="-11.6586" size="0.508" layer="26" ratio="6" rot="SMR180"/>
 </element>
 <element name="D1" library="adafruit" package="SOD-123" value="" x="29.4132" y="-1.8288" rot="R180"/>
-<element name="D10" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="40.6273" y="-52.6796" smashed="yes" rot="R180">
-<attribute name="NAME" x="41.1988" y="-51.4096" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" x="50.0634" y="-52.1208" size="0.4064" layer="27" rot="R270"/>
+<element name="D10" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="40.6273" y="-52.5272" smashed="yes" rot="R180">
+<attribute name="NAME" x="41.1988" y="-51.2572" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="50.0634" y="-51.9684" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="D11" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="39.0398" y="-52.6796" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.6113" y="-51.4096" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" x="37.9603" y="-51.6636" size="0.4064" layer="27" rot="R270"/>
+<element name="D11" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="39.0398" y="-52.5272" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.6113" y="-51.2572" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="37.9603" y="-51.5112" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="D12" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="37.4523" y="-52.6796" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.0238" y="-51.5366" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" x="36.3728" y="-51.6636" size="0.4064" layer="27" rot="R270"/>
+<element name="D12" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="37.4523" y="-52.5272" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.0238" y="-51.3842" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="36.3728" y="-51.5112" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="D13" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="35.9156" y="-52.6288" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.4871" y="-51.3588" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" x="34.8361" y="-51.6128" size="0.4064" layer="27" rot="R270"/>
+<element name="D13" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="35.9156" y="-52.4764" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.4871" y="-51.2064" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="34.8361" y="-51.4604" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="D2" library="adafruit" package="SOD-123" value="" x="22.4282" y="-11.2395"/>
 <element name="D3" library="adafruit" package="SOD-123" value="" x="18.288" y="-13.1064" rot="R180"/>
@@ -1946,7 +1942,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="51.4477" y="-51.0032" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="52.3367" y="-53.6702" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="D8" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="44.9707" y="-52.6796"/>
+<element name="D8" library="BeagleBone_Blue" package="LED-0603" value="BLUE" x="45.0977" y="-52.6288" rot="R180"/>
 <element name="D9" library="Strawson_Eagle_Lib" package="DO-214AA" value="" x="58.674" y="-11.5824" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.3085" y="-13.1064" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="60.579" y="-8.1534" size="1.27" layer="27" rot="R180"/>
@@ -1970,7 +1966,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="GPS" library="Strawson_Eagle_Lib" package="JST_SH_6" value="JST_SH_6" x="40.3479" y="-23.6474" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.0779" y="-19.3294" size="1.016" layer="25" rot="R180"/>
 </element>
-<element name="GRN" library="SparkFun-LED" package="LED-0603" value="GRN" x="48.895" y="-52.9463" rot="R180"/>
+<element name="GRN" library="SparkFun-LED" package="LED-0603" value="GRN" x="48.895" y="-52.4891" rot="R180"/>
 <element name="H1" library="SparkFun" package="SSOP24" value="TB6621FNG" x="81.0514" y="-41.3004" rot="MR90"/>
 <element name="H2" library="SparkFun" package="SSOP24" value="TB6621FNG" x="81.0387" y="-18.034" rot="MR270"/>
 <element name="HOST" library="BeagleBone_Blue" package="87520-0010BLF" value="87520-0010BLF" x="4.4069" y="-45.6184" rot="R270"/>
@@ -2067,10 +2063,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R17" library="Strawson_Eagle_Lib" package="0402-RES" value="100K" x="77.1906" y="-43.3197" rot="R180"/>
 <element name="R19" library="Strawson_Eagle_Lib" package="0402-RES" value="47k" x="56.388" y="-15.5448" rot="R180"/>
 <element name="R2" library="Strawson_Eagle_Lib" package="0402-RES" value="1.5K,1%" x="18.923" y="-23.622" rot="R270"/>
-<element name="R21" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="46.736" y="-52.705" rot="MR270"/>
+<element name="R21" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="46.8376" y="-52.6034" rot="MR90"/>
 <element name="R22" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="48.8188" y="-52.8828" rot="MR90"/>
 <element name="R23" library="Strawson_Eagle_Lib" package="0402-RES" value="1.5K,1%" x="40.6654" y="-10.16" rot="R90"/>
-<element name="R24" library="Strawson_Eagle_Lib" package="0402-RES" value="4.75K,1%" x="44.7548" y="-52.6542" rot="MR270"/>
+<element name="R24" library="Strawson_Eagle_Lib" package="0402-RES" value="4.75K,1%" x="45.0088" y="-52.6542" rot="MR90"/>
 <element name="R25" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="53.6448" y="-14.6304" rot="R180"/>
 <element name="R27" library="Strawson_Eagle_Lib" package="0402-RES" value="160" x="47.3964" y="-9.4488" rot="MR270"/>
 <element name="R28" library="Strawson_Eagle_Lib" package="0402-RES" value="160" x="46.482" y="-6.7056" rot="MR270"/>
@@ -2117,23 +2113,23 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R59" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7K,1%" x="43.7388" y="-10.668" rot="MR180"/>
 <element name="R6" library="Strawson_Eagle_Lib" package="0402-RES" value="10k" x="14.0208" y="-10.2108" rot="MR270"/>
 <element name="R60" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="38.2397" y="-9.4742"/>
-<element name="R61" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="40.6908" y="-52.7304" smashed="yes" rot="MR270">
-<attribute name="NAME" x="40.2463" y="-52.2224" size="0.4064" layer="26" rot="MR270"/>
+<element name="R61" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="40.6908" y="-52.578" smashed="yes" rot="MR270">
+<attribute name="NAME" x="40.2463" y="-52.07" size="0.4064" layer="26" rot="MR270"/>
 </element>
-<element name="R62" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="39.1414" y="-52.578" smashed="yes" rot="MR270">
-<attribute name="NAME" x="39.5859" y="-53.086" size="0.4064" layer="26" rot="MR90"/>
+<element name="R62" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="39.1414" y="-52.4256" smashed="yes" rot="MR270">
+<attribute name="NAME" x="39.5859" y="-52.9336" size="0.4064" layer="26" rot="MR90"/>
 </element>
-<element name="R63" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="37.465" y="-52.578" smashed="yes" rot="MR270">
-<attribute name="NAME" x="37.9095" y="-53.086" size="0.4064" layer="26" rot="MR90"/>
+<element name="R63" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="37.465" y="-52.4256" smashed="yes" rot="MR270">
+<attribute name="NAME" x="37.9095" y="-52.9336" size="0.4064" layer="26" rot="MR90"/>
 </element>
-<element name="R64" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="36.0172" y="-52.578" smashed="yes" rot="MR270">
-<attribute name="NAME" x="35.1917" y="-53.086" size="0.4064" layer="26" rot="MR90"/>
+<element name="R64" library="Strawson_Eagle_Lib" package="0402-RES" value="261" x="36.0172" y="-52.4256" smashed="yes" rot="MR270">
+<attribute name="NAME" x="35.1917" y="-52.9336" size="0.4064" layer="26" rot="MR90"/>
 </element>
 <element name="R7" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="46.6344" y="-11.8872" rot="MR0"/>
 <element name="R8" library="Strawson_Eagle_Lib" package="0402-RES" value="10k" x="41.3004" y="-11.8872" smashed="yes" rot="MR0">
 <attribute name="NAME" x="43.2562" y="-12.1031" size="0.4064" layer="26" rot="MR0"/>
 </element>
-<element name="RED" library="SparkFun-LED" package="LED-0603" value="RED" x="46.7487" y="-52.7939"/>
+<element name="RED" library="SparkFun-LED" package="LED-0603" value="RED" x="46.8249" y="-52.5145" rot="R180"/>
 <element name="RESET" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="5.1689" y="-15.4178" smashed="yes">
 <attribute name="PROD_ID" value="SWCH-00815" x="5.1689" y="-15.4178" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.7254" y="-15.8689" size="1.27" layer="25"/>
@@ -2448,7 +2444,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="LED_GRN">
 <contactref element="GRN" pad="A"/>
 <contactref element="SIP" pad="T7"/>
-<wire x1="48.895" y1="-52.1963" x2="51.1175" y2="-43.9166" width="0" layer="19" extent="1-16"/>
+<wire x1="48.895" y1="-51.7391" x2="51.1175" y2="-43.9166" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MODE_BTN">
 <contactref element="MODE" pad="2"/>
@@ -2763,16 +2759,16 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="51.2191" y1="-53.0987" x2="52.8955" y2="-53.0987" width="0" layer="19" extent="16-16"/>
 <wire x1="58.2295" y1="-53.3654" x2="56.0832" y2="-52.9463" width="0" layer="19" extent="1-16"/>
 <wire x1="48.8188" y1="-52.324" x2="51.2191" y2="-53.0987" width="0" layer="19" extent="16-16"/>
-<wire x1="46.736" y1="-53.2638" x2="48.8188" y2="-52.324" width="0" layer="19" extent="16-16"/>
-<wire x1="44.7548" y1="-53.213" x2="46.736" y2="-53.2638" width="0" layer="19" extent="16-16"/>
-<wire x1="40.6908" y1="-52.1716" x2="44.7548" y2="-53.213" width="0" layer="19" extent="16-16"/>
-<wire x1="39.1414" y1="-52.0192" x2="40.6908" y2="-52.1716" width="0" layer="19" extent="16-16"/>
-<wire x1="37.465" y1="-52.0192" x2="39.1414" y2="-52.0192" width="0" layer="19" extent="16-16"/>
-<wire x1="36.0172" y1="-52.0192" x2="37.465" y2="-52.0192" width="0" layer="19" extent="16-16"/>
-<wire x1="37.1475" y1="-48.9966" x2="37.465" y2="-52.0192" width="0" layer="19" extent="16-16"/>
+<wire x1="46.8376" y1="-52.0446" x2="48.8188" y2="-52.324" width="0" layer="19" extent="16-16"/>
+<wire x1="45.0088" y1="-52.0954" x2="46.8376" y2="-52.0446" width="0" layer="19" extent="16-16"/>
+<wire x1="40.6908" y1="-52.0192" x2="45.0088" y2="-52.0954" width="0" layer="19" extent="16-16"/>
+<wire x1="39.1414" y1="-51.8668" x2="40.6908" y2="-52.0192" width="0" layer="19" extent="16-16"/>
+<wire x1="37.465" y1="-51.8668" x2="39.1414" y2="-51.8668" width="0" layer="19" extent="16-16"/>
+<wire x1="36.0172" y1="-51.8668" x2="37.465" y2="-51.8668" width="0" layer="19" extent="16-16"/>
+<wire x1="37.1475" y1="-48.9966" x2="37.465" y2="-51.8668" width="0" layer="19" extent="16-16"/>
 <wire x1="34.6075" y1="-47.7266" x2="37.1475" y2="-48.9966" width="0" layer="19" extent="16-16"/>
 <wire x1="35.8775" y1="-46.4566" x2="34.6075" y2="-47.7266" width="0" layer="19" extent="16-16"/>
-<wire x1="46.0375" y1="-47.7266" x2="48.8188" y2="-52.324" width="0" layer="19" extent="16-16"/>
+<wire x1="46.0375" y1="-47.7266" x2="46.8376" y2="-52.0446" width="0" layer="19" extent="16-16"/>
 <wire x1="18.8976" y1="-8.4328" x2="26.046" y2="-9.4488" width="0" layer="19" extent="1-16"/>
 <wire x1="17.6022" y1="-8.509" x2="18.8976" y2="-8.4328" width="0" layer="19" extent="1-1"/>
 <wire x1="19.0356" y1="-6.096" x2="18.8976" y2="-8.4328" width="0" layer="19" extent="1-1"/>
@@ -2815,7 +2811,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$6">
 <contactref element="RED" pad="C"/>
 <contactref element="R21" pad="1"/>
-<wire x1="46.736" y1="-52.1462" x2="46.7487" y2="-52.0439" width="0" layer="19" extent="1-16"/>
+<wire x1="46.8376" y1="-53.1622" x2="46.8249" y2="-53.2645" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MOT_STBY">
 <contactref element="H1" pad="19"/>
@@ -2851,7 +2847,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$3">
 <contactref element="GRN" pad="C"/>
 <contactref element="R22" pad="1"/>
-<wire x1="48.8188" y1="-53.4416" x2="48.895" y2="-53.6963" width="0" layer="19" extent="1-16"/>
+<wire x1="48.895" y1="-53.2391" x2="48.8188" y2="-53.4416" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$48">
 <contactref element="D5" pad="C"/>
@@ -2897,7 +2893,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="LED_RED">
 <contactref element="RED" pad="A"/>
 <contactref element="SIP" pad="R7"/>
-<wire x1="46.7487" y1="-53.5439" x2="51.1175" y2="-42.6466" width="0" layer="19" extent="1-16"/>
+<wire x1="46.8249" y1="-51.7645" x2="51.1175" y2="-42.6466" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="PAUSE_BTN">
 <contactref element="PAUSE" pad="2"/>
@@ -3474,12 +3470,12 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="VDD_3V3AUX">
 <contactref element="SIP" pad="Y11"/>
 <contactref element="D8" pad="A"/>
-<wire x1="46.0375" y1="-48.9966" x2="44.9707" y2="-53.5566" width="0" layer="19" extent="1-16"/>
+<wire x1="46.0375" y1="-48.9966" x2="45.0977" y2="-51.7518" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="PWR_LEDR">
 <contactref element="D8" pad="C"/>
 <contactref element="R24" pad="1"/>
-<wire x1="44.7548" y1="-52.0954" x2="44.9707" y2="-51.8026" width="0" layer="19" extent="1-16"/>
+<wire x1="45.0088" y1="-53.213" x2="45.0977" y2="-53.5058" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_1V8">
 <contactref element="SIP" pad="N16"/>
@@ -3621,42 +3617,42 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$43">
 <contactref element="SIP" pad="V16"/>
 <contactref element="D13" pad="A"/>
-<wire x1="39.6875" y1="-46.4566" x2="35.9156" y2="-51.7518" width="0" layer="19" extent="1-16"/>
+<wire x1="39.6875" y1="-46.4566" x2="35.9156" y2="-51.5994" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$44">
 <contactref element="SIP" pad="T15"/>
 <contactref element="D12" pad="A"/>
-<wire x1="40.9575" y1="-43.9166" x2="37.4523" y2="-51.8026" width="0" layer="19" extent="1-16"/>
+<wire x1="40.9575" y1="-43.9166" x2="37.4523" y2="-51.6502" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$45">
 <contactref element="SIP" pad="U15"/>
 <contactref element="D11" pad="A"/>
-<wire x1="40.9575" y1="-45.1866" x2="39.0398" y2="-51.8026" width="0" layer="19" extent="1-16"/>
+<wire x1="40.9575" y1="-45.1866" x2="39.0398" y2="-51.6502" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$46">
 <contactref element="SIP" pad="V15"/>
 <contactref element="D10" pad="A"/>
-<wire x1="40.9575" y1="-46.4566" x2="40.6273" y2="-51.8026" width="0" layer="19" extent="1-16"/>
+<wire x1="40.9575" y1="-46.4566" x2="40.6273" y2="-51.6502" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$47">
 <contactref element="D10" pad="C"/>
 <contactref element="R61" pad="2"/>
-<wire x1="40.6908" y1="-53.2892" x2="40.6273" y2="-53.5566" width="0" layer="19" extent="1-16"/>
+<wire x1="40.6908" y1="-53.1368" x2="40.6273" y2="-53.4042" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$57">
 <contactref element="D11" pad="C"/>
 <contactref element="R62" pad="2"/>
-<wire x1="39.1414" y1="-53.1368" x2="39.0398" y2="-53.5566" width="0" layer="19" extent="1-16"/>
+<wire x1="39.1414" y1="-52.9844" x2="39.0398" y2="-53.4042" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$58">
 <contactref element="D12" pad="C"/>
 <contactref element="R63" pad="2"/>
-<wire x1="37.465" y1="-53.1368" x2="37.4523" y2="-53.5566" width="0" layer="19" extent="1-16"/>
+<wire x1="37.465" y1="-52.9844" x2="37.4523" y2="-53.4042" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$59">
 <contactref element="D13" pad="C"/>
 <contactref element="R64" pad="2"/>
-<wire x1="36.0172" y1="-53.1368" x2="35.9156" y2="-53.5058" width="0" layer="19" extent="1-16"/>
+<wire x1="36.0172" y1="-52.9844" x2="35.9156" y2="-53.3534" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$74">
 <contactref element="SIP" pad="G18"/>
