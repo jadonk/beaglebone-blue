@@ -9,7 +9,7 @@
 <grid distance="0.006" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="$GND" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="$GND" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1674,37 +1674,33 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <clearance class="3" value="0.127"/>
 </class>
 </classes>
-<designrules name="OSHPark-4layer">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="SSC-EAGLE-2Lyr_v1.0.0.3">
+<description language="en">&lt;b&gt;EAGLE Design Rules for *2* Layer Designs (DS)&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
+This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requirements for our double sided products. For questions, comments, suggestions, please contact Sunstone Customer Support: &lt;p&gt;&lt;b&gt;Email:&lt;/b&gt;  mailto:support@sunstone.com&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 800-228-8198.&lt;p&gt; v1.1Mod10/16/07~Layers-core reversal.Distance C/D.Restring%.Supply G%.&lt;p&gt; v1.2 Mod12/06/07~Distance C/D to 20mils.&lt;p&gt;v1.3Mod12/12/07~Supply/Annulus Value to 12.5mils&lt;p&gt;1/15/08 SSC-EAGLE-2Lyr_v1.0.0.3~For Release&lt;p&gt;10/3/08 Description Edit.&lt;p&gt;
+
 &lt;p&gt;
-Please make sure your boards conform to these design rules.</description>
-<param name="layerSetup" value="(1*2*15*16)"/>
-<param name="mtCopper" value="0.035559375mm 0.01778125mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.01778125mm 0.035559375mm"/>
-<param name="mtIsolate" value="0.17018125mm 47mil 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.17018125mm"/>
-<param name="mdWireWire" value="5mil"/>
-<param name="mdWirePad" value="5mil"/>
-<param name="mdWireVia" value="5mil"/>
-<param name="mdPadPad" value="5mil"/>
-<param name="mdPadVia" value="5mil"/>
-<param name="mdViaVia" value="5mil"/>
-<param name="mdSmdPad" value="5mil"/>
-<param name="mdSmdVia" value="5mil"/>
-<param name="mdSmdSmd" value="5mil"/>
+&lt;i&gt;Attention: Upon running the design check and making modifications, please remember to save any changes before closing the application and sending in your board file to Sunstone Circuits for conversion.&lt;i&gt;</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.0178mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0178mm"/>
+<param name="mtIsolate" value="59mil 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="20mil"/>
+<param name="mdDrill" value="16mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="5mil"/>
-<param name="msDrill" value="10mil"/>
-<param name="msMicroVia" value="10mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="14mil"/>
+<param name="msMicroVia" value="9.9898mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -1713,20 +1709,20 @@ Please make sure your boards conform to these design rules.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="4mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="4mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="4mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="4mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="4mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rlMinPadTop" value="8mil"/>
+<param name="rlMaxPadTop" value="999mil"/>
+<param name="rlMinPadInner" value="0mil"/>
+<param name="rlMaxPadInner" value="0mil"/>
+<param name="rlMinPadBottom" value="8mil"/>
+<param name="rlMaxPadBottom" value="999mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="999mil"/>
+<param name="rlMinViaInner" value="0mil"/>
+<param name="rlMaxViaInner" value="0mil"/>
+<param name="rlMinMicroViaOuter" value="8mil"/>
+<param name="rlMaxMicroViaOuter" value="999mil"/>
+<param name="rlMinMicroViaInner" value="0mil"/>
+<param name="rlMaxMicroViaInner" value="0mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -1734,8 +1730,8 @@ Please make sure your boards conform to these design rules.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2.5mil"/>
-<param name="mlMaxStopFrame" value="2.5mil"/>
+<param name="mlMinStopFrame" value="3mil"/>
+<param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -1751,7 +1747,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
-<param name="maxErrors" value="50"/>
+<param name="maxErrors" value="500"/>
 </designrules>
 <autorouter>
 <pass name="Default">
@@ -1879,7 +1875,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C24" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="60.3504" y="-7.9248" rot="MR180"/>
 <element name="C25" library="SparkFun-Capacitors" package="0805" value="10uF 25V" x="25.146" y="-9.4488" rot="MR180"/>
 <element name="C26" library="SparkFun-Capacitors" package="0805" value="10uF 25V" x="25.4508" y="-1.8288" rot="MR180"/>
-<element name="C27" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="13.4112" y="-28.6512" rot="R180"/>
+<element name="C27" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="32.004" y="-36.2712" rot="R270"/>
 <element name="C28" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="37.0332" y="-19.3548" rot="MR90"/>
 <element name="C29" library="Strawson_Eagle_Lib" package="0402-CAP" value="18PF,50V" x="31.1531" y="-36.1696" rot="MR0"/>
 <element name="C3" library="SparkFun-Capacitors" package="0805" value="10uF 25V" x="26.3652" y="-12.192" rot="R270"/>
@@ -1903,7 +1899,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C45" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1UF,6.3V" x="18.7071" y="-41.8973" rot="MR90"/>
 <element name="C46" library="Strawson_Eagle_Lib" package="0805" value="10UF,10V" x="17.0307" y="-41.783" rot="MR90"/>
 <element name="C5" library="SparkFun-Capacitors" package="0805" value="10uF 25V" x="31.3944" y="-12.192"/>
-<element name="C6" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="14.9352" y="-31.242" rot="R180"/>
+<element name="C6" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="15.6972" y="-31.0896" rot="R180"/>
 <element name="C7" library="SparkFun-Capacitors" package="0805" value="10uF 25V" x="17.6784" y="-5.1816" rot="R90"/>
 <element name="C8" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="12.7" y="-26.416" rot="R270"/>
 <element name="C9" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="18.9484" y="-24.9174" rot="R90"/>
@@ -2057,7 +2053,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R140" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="80.6196" y="-40.8432" rot="R90"/>
 <element name="R143" library="Strawson_Eagle_Lib" package="0402-RES" value="100K,1%" x="58.2295" y="-52.8066" rot="R90"/>
 <element name="R149" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="7.0104" y="-32.9184" rot="MR0"/>
-<element name="R150" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="31.9024" y="-39.9796" rot="R180"/>
+<element name="R150" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="31.75" y="-40.5892" rot="R180"/>
 <element name="R152" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="21.336" y="-41.4528" rot="MR0"/>
 <element name="R153" library="Strawson_Eagle_Lib" package="0402-RES" value="0,DNI" x="30.861" y="-50.2158" rot="MR0"/>
 <element name="R154" library="Strawson_Eagle_Lib" package="0402-RES" value="0" x="21.336" y="-42.672" rot="MR180"/>
@@ -2151,10 +2147,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="TP11" library="testpad" package="B1,27" value="TPSQB1,27" x="30.1498" y="-52.0192" rot="MR180">
 <attribute name="TP_SIGNAL_NAME" value="" x="30.1498" y="-52.0192" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="TP12" library="testpad" package="B1,27" value="TPSQB1,27" x="13.5128" y="-30.6578" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" value="" x="12.8778" y="-32.5628" size="1" layer="37"/>
-<attribute name="NAME" x="12.8778" y="-29.6418" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="12.8778" y="-31.4198" size="0.0254" layer="27"/>
+<element name="TP12" library="testpad" package="B1,27" value="TPSQB1,27" x="32.4612" y="-39.624" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="33.0962" y="-41.529" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="33.0962" y="-38.608" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="33.0962" y="-40.386" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="TP13" library="testpad" package="B1,27" value="TPSQB1,27" x="33.9852" y="-10.5156" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="33.9852" y="-10.5156" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2311,6 +2307,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="47.9618" y1="-32.7152" x2="62.1538" y2="-34.4551" width="0" layer="19" extent="1-16"/>
 <wire x1="47.8602" y1="-37.973" x2="47.9618" y2="-32.7152" width="0" layer="19" extent="1-1"/>
 <wire x1="39.9354" y1="-37.973" x2="47.8602" y2="-37.973" width="0" layer="19" extent="1-1"/>
+<wire x1="32.004" y1="-35.7124" x2="39.9354" y2="-37.973" width="0" layer="19" extent="1-1"/>
 <wire x1="34.6075" y1="-45.1866" x2="39.9354" y2="-37.973" width="0" layer="19" extent="1-16"/>
 <wire x1="34.6075" y1="-46.4566" x2="34.6075" y2="-45.1866" width="0" layer="19" extent="16-16"/>
 <wire x1="29.6672" y1="-44.958" x2="34.6075" y2="-45.1866" width="0" layer="19" extent="1-16"/>
@@ -2335,8 +2332,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="14.275" y1="-26.305" x2="15.675" y2="-25.705" width="0" layer="19" extent="1-1"/>
 <wire x1="12.7" y1="-25.8572" x2="14.275" y2="-26.305" width="0" layer="19" extent="1-1"/>
 <wire x1="12.9794" y1="-23.9522" x2="12.7" y2="-25.8572" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="-28.6512" x2="14.275" y2="-26.305" width="0" layer="19" extent="1-1"/>
-<wire x1="15.275" y1="-28.905" x2="13.97" y2="-28.6512" width="0" layer="19" extent="1-1"/>
+<wire x1="15.275" y1="-28.905" x2="14.275" y2="-26.305" width="0" layer="19" extent="1-1"/>
 <wire x1="17.475" y1="-28.305" x2="15.275" y2="-28.905" width="0" layer="19" extent="1-1"/>
 <wire x1="19.3802" y1="-28.2956" x2="17.475" y2="-28.305" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2768,8 +2764,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="38.9354" y1="-37.973" x2="46.8602" y2="-37.973" width="0" layer="19" extent="1-1"/>
 <wire x1="35.8775" y1="-37.5666" x2="38.9354" y2="-37.973" width="0" layer="19" extent="1-16"/>
 <wire x1="35.8775" y1="-38.8366" x2="35.8775" y2="-37.5666" width="0" layer="19" extent="16-16"/>
-<wire x1="31.3436" y1="-39.9796" x2="35.8775" y2="-38.8366" width="0" layer="19" extent="1-16"/>
-<wire x1="31.1658" y1="-44.958" x2="31.3436" y2="-39.9796" width="0" layer="19" extent="1-1"/>
+<wire x1="32.4612" y1="-39.624" x2="35.8775" y2="-38.8366" width="0" layer="19" extent="16-16"/>
+<wire x1="31.1912" y1="-40.5892" x2="32.4612" y2="-39.624" width="0" layer="19" extent="1-16"/>
+<wire x1="32.004" y1="-36.83" x2="32.4612" y2="-39.624" width="0" layer="19" extent="1-16"/>
+<wire x1="31.1658" y1="-44.958" x2="31.1912" y2="-40.5892" width="0" layer="19" extent="1-1"/>
 <wire x1="34.6075" y1="-47.7266" x2="31.1658" y2="-44.958" width="0" layer="19" extent="1-16"/>
 <wire x1="35.8775" y1="-46.4566" x2="34.6075" y2="-47.7266" width="0" layer="19" extent="16-16"/>
 <wire x1="37.1475" y1="-48.9966" x2="34.6075" y2="-47.7266" width="0" layer="19" extent="16-16"/>
@@ -2796,15 +2794,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="67.2564" y1="-47.3964" x2="69.2277" y2="-53.2257" width="0" layer="19" extent="1-1"/>
 <wire x1="14.8844" y1="-35.052" x2="7.9629" y2="-39.0484" width="0" layer="19" extent="1-1"/>
 <wire x1="15.0732" y1="-33.3756" x2="14.8844" y2="-35.052" width="0" layer="19" extent="1-1"/>
-<wire x1="14.3764" y1="-31.242" x2="15.0732" y2="-33.3756" width="0" layer="19" extent="1-1"/>
-<wire x1="13.5128" y1="-30.6578" x2="14.3764" y2="-31.242" width="0" layer="19" extent="1-1"/>
-<wire x1="12.8524" y1="-28.6512" x2="13.5128" y2="-30.6578" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="-26.9748" x2="12.8524" y2="-28.6512" width="0" layer="19" extent="1-1"/>
-<wire x1="15.675" y1="-28.905" x2="14.3764" y2="-31.242" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1384" y1="-31.0896" x2="15.0732" y2="-33.3756" width="0" layer="19" extent="1-1"/>
+<wire x1="15.675" y1="-28.905" x2="15.1384" y2="-31.0896" width="0" layer="19" extent="1-1"/>
 <wire x1="15.875" y1="-27.305" x2="15.675" y2="-28.905" width="0" layer="19" extent="1-1"/>
 <wire x1="16.475" y1="-25.705" x2="15.875" y2="-27.305" width="0" layer="19" extent="1-1"/>
 <wire x1="17.475" y1="-26.305" x2="16.475" y2="-25.705" width="0" layer="19" extent="1-1"/>
 <wire x1="18.9484" y1="-25.4762" x2="17.475" y2="-26.305" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="-26.9748" x2="15.875" y2="-27.305" width="0" layer="19" extent="1-1"/>
 <wire x1="17.0307" y1="-40.883" x2="14.8844" y2="-35.052" width="0" layer="19" extent="1-16"/>
 <wire x1="18.7071" y1="-41.3385" x2="17.0307" y2="-40.883" width="0" layer="19" extent="16-16"/>
 <wire x1="15.2781" y1="-48.0568" x2="17.0307" y2="-40.883" width="0" layer="19" extent="16-16"/>
@@ -3365,7 +3361,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$14">
 <contactref element="IMU" pad="10"/>
 <contactref element="C6" pad="1"/>
-<wire x1="16.075" y1="-28.905" x2="15.494" y2="-31.242" width="0" layer="19" extent="1-1"/>
+<wire x1="16.075" y1="-28.905" x2="16.256" y2="-31.0896" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="CHGIC" pad="15"/>
@@ -3757,7 +3753,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$126">
 <contactref element="SIP" pad="P17"/>
 <contactref element="R150" pad="1"/>
-<wire x1="38.4175" y1="-41.3766" x2="32.4612" y2="-39.9796" width="0" layer="19" extent="1-16"/>
+<wire x1="38.4175" y1="-41.3766" x2="32.3088" y2="-40.5892" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$127" class="3">
 <contactref element="R152" pad="2"/>
