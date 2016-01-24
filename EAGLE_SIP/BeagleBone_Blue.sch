@@ -13961,33 +13961,33 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="C6" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C8" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="R10" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R11" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R12" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R13" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
+<part name="R10" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R11" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R12" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R13" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="C4" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="BOURNS_SRN6045" value="6.8uH"/>
 <part name="RED" library="SparkFun-LED" deviceset="LED" device="0603" value="RED"/>
 <part name="PAUSE" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE"/>
 <part name="MODE" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE"/>
-<part name="R21" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
+<part name="R21" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GRN" library="SparkFun-LED" deviceset="LED" device="0603" value="GRN"/>
-<part name="R22" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
+<part name="R22" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
 <part name="C14" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C11" library="adafruit" deviceset="CPOL-US" device="D" value="100uF 16V"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="R19" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="47k"/>
-<part name="R25" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
+<part name="R19" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="59k"/>
+<part name="R25" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
+<part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R16" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K"/>
 <part name="R17" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K"/>
@@ -13995,19 +13995,19 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="LIPO" library="Strawson_Eagle_Lib" deviceset="JST_XH_3-PIN" device=""/>
 <part name="DSM2" library="Strawson_Eagle_Lib" deviceset="JST_ZH_3" device="SMD_TOP"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
-<part name="R29" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
+<part name="R29" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="0603" value="RED"/>
-<part name="R31" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
+<part name="R31" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="D7" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
-<part name="R32" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
+<part name="R32" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D6" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
-<part name="R33" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
+<part name="R33" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
-<part name="R1" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="47k"/>
-<part name="R14" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
+<part name="R1" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="59k"/>
+<part name="R14" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="BMP" library="SparkFun-Sensors" deviceset="BMP180" device=""/>
 <part name="C13" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
@@ -14019,14 +14019,14 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="U$1" library="Strawson_Eagle_Lib" deviceset="SERVO_HEADERS_8X" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R36" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R37" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R38" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R39" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R40" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R41" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R42" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R43" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
+<part name="R36" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R37" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R38" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R39" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R40" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R41" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R42" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R43" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="E3" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
 <part name="E2" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
 <part name="E1" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
@@ -14034,10 +14034,10 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="SPI1.1" library="Strawson_Eagle_Lib" deviceset="JST_SH_6" device=""/>
 <part name="SPI1.2" library="Strawson_Eagle_Lib" deviceset="JST_SH_6" device=""/>
 <part name="GPS" library="Strawson_Eagle_Lib" deviceset="JST_SH_6" device=""/>
-<part name="R27" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="160"/>
-<part name="R28" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="160"/>
-<part name="R30" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
-<part name="R34" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="160"/>
+<part name="R27" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="150"/>
+<part name="R28" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="150"/>
+<part name="R30" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
+<part name="R34" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="150"/>
 <part name="C17" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C18" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C19" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
@@ -14051,7 +14051,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="C15" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="R44" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1k"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R45" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="47k"/>
+<part name="R45" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="59k"/>
 <part name="POWER" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE"/>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE"/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -14063,27 +14063,27 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D9" library="Strawson_Eagle_Lib" deviceset="DIODE" device="DO214AA"/>
 <part name="6V_REG" library="Strawson_Eagle_Lib" deviceset="AOZ1284" device=""/>
-<part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
-<part name="C21" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="2.2nF 50V"/>
+<part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C21" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="1nF"/>
 <part name="C22" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="R47" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100k"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R48" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10k"/>
-<part name="R49" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="65k"/>
-<part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
+<part name="R49" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="59k"/>
+<part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="C24" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="L3" library="Strawson_Eagle_Lib" deviceset="INDUCTOR" device="" value="3.6"/>
 <part name="IMU" library="Strawson_Eagle_Lib" deviceset="MPU-9250" device="" value="MPU-9250"/>
 <part name="C9" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="R46" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R50" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R51" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R52" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R53" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R54" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R55" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R56" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
-<part name="R57" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
+<part name="R50" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R51" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R52" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R53" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R54" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R55" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R56" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R57" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="CHGIC" library="Strawson_Eagle_Lib" deviceset="MP2615" device=""/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -14093,9 +14093,9 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
-<part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF 25V"/>
-<part name="R7" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7k"/>
+<part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="R7" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="R8" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SIP" library="BeagleBone_Blue" deviceset="OSD3358" device=""/>
@@ -14104,22 +14104,22 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R2" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
 <part name="R23" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
 <part name="D8" library="BeagleBone_Blue" deviceset="LED" device="0603" value="BLUE"/>
-<part name="R24" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.75K,1%"/>
+<part name="R24" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="TP7" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP9" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP11" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP12" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="C27" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
+<part name="C27" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="Y1" library="CM200C-32.768KAZF-UT" deviceset="CM200C-32.768KAZF-UT" device=""/>
 <part name="U5" library="Microchip-24LCxxx" deviceset="24LC_" device="" technology="32AT-I/OT"/>
 <part name="R58" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K,1%"/>
 <part name="TP13" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="C28" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
-<part name="C29" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="18PF,50V"/>
-<part name="C30" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="18PF,50V"/>
+<part name="C28" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C29" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
+<part name="C30" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
 <part name="Y2" library="445C33D24M00000" deviceset="445C33D24M00000" device=""/>
-<part name="C31" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="18PF,50V"/>
-<part name="C32" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="18PF,50V"/>
+<part name="C31" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
+<part name="C32" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
 <part name="TP14" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP15" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP16" library="testpad" deviceset="TPSQ" device="B1,27"/>
@@ -14127,26 +14127,26 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="TP18" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP19" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP20" library="testpad" deviceset="TPSQ" device="B1,27"/>
-<part name="R59" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.7K,1%"/>
-<part name="C33" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="2.2UF,6.3V"/>
+<part name="R59" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="C33" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="1uF"/>
 <part name="R60" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="10K,1%"/>
 <part name="D10" library="BeagleBone_Blue" deviceset="LED" device="0603" value="BLUE"/>
 <part name="D11" library="BeagleBone_Blue" deviceset="LED" device="0603" value="BLUE"/>
 <part name="D12" library="BeagleBone_Blue" deviceset="LED" device="0603" value="BLUE"/>
 <part name="D13" library="BeagleBone_Blue" deviceset="LED" device="0603" value="BLUE"/>
-<part name="R61" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
-<part name="R62" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
-<part name="R63" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
-<part name="R64" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="261"/>
-<part name="C34" library="Strawson_Eagle_Lib" deviceset="CAP" device="0805" value="10UF,10V"/>
-<part name="C35" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
+<part name="R61" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
+<part name="R62" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
+<part name="R63" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
+<part name="R64" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="240"/>
+<part name="C34" library="Strawson_Eagle_Lib" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C35" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="UART0" library="Strawson_Eagle_Lib" deviceset="JST_SH_4" device=""/>
-<part name="R109" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.75K,1%"/>
-<part name="R110" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.75K,1%"/>
+<part name="R109" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R110" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="R111" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="C42" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.001UF,16V"/>
-<part name="C43" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
-<part name="C44" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
+<part name="C43" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C44" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="R113" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R115" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="R116" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
@@ -14169,8 +14169,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="L4" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'" value="120"/>
 <part name="L5" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'" value="120"/>
 <part name="R156" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
-<part name="C45" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1UF,6.3V"/>
-<part name="C46" library="Strawson_Eagle_Lib" deviceset="CAP" device="0805" value="10UF,10V"/>
+<part name="C45" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
+<part name="C46" library="Strawson_Eagle_Lib" deviceset="CAP" device="0805" value="10uF"/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="FRAME3" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
@@ -18317,19 +18317,13 @@ Attribution-ShareAlike 3.0 United States License.
 <approved hash="104,2,66.04,241.3,SIPA,VIN_AC_1,5.0V,,,"/>
 <approved hash="104,2,66.04,233.68,SIPA,VIN_USB_0,USB_DC,,,"/>
 <approved hash="104,2,66.04,231.14,SIPA,VIN_USB_1,USB_DC,,,"/>
-<approved hash="104,2,66.04,223.52,SIPA,VIN_BAT_0,N$5,,,"/>
-<approved hash="104,2,66.04,220.98,SIPA,VIN_BAT_1,N$5,,,"/>
+<approved hash="204,2,66.04,223.52,SIPA,VIN_BAT_0,,,,"/>
+<approved hash="204,2,66.04,220.98,SIPA,VIN_BAT_1,,,,"/>
 <approved hash="104,2,124.46,243.84,SIPA,VOUT_SYS_5V_0,SYS_5V,,,"/>
 <approved hash="104,2,124.46,241.3,SIPA,VOUT_SYS_5V_1,SYS_5V,,,"/>
-<approved hash="104,2,124.46,238.76,SIPA,VOUT_USER_3P3V_0,VDD_3V3B,,,"/>
-<approved hash="104,2,124.46,236.22,SIPA,VOUT_USER_3P3V_1,VDD_3V3B,,,"/>
 <approved hash="104,2,124.46,231.14,SIPA,VOUT_LDO3_1P8V_0,VDD_1V8,,,"/>
 <approved hash="104,2,124.46,228.6,SIPA,VOUT_LDO3_1P8V_1,VDD_1V8,,,"/>
 <approved hash="104,2,124.46,233.68,SIPA,VOUT_LDO2_3P3V,VDD_3V3AUX,,,"/>
-<approved hash="104,2,63.5,165.1,U5,VCC,VDD_3V3A,,,"/>
-<approved hash="104,3,210.82,66.04,U7,OUT_2,N$122,,,"/>
-<approved hash="104,3,210.82,68.58,U7,OUT_3,N$122,,,"/>
-<approved hash="104,3,210.82,71.12,U7,OUT,N$122,,,"/>
 <approved hash="104,2,251.46,236.22,U6,VCC,VDD_RTC,,,"/>
 <approved hash="104,1,193.04,125.73,5VREG,FB,5.0V,,,"/>
 <approved hash="104,1,185.42,105.41,5VREG,GND3,GND,,,"/>
