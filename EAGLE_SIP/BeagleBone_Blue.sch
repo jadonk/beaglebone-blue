@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -161,159 +161,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="BMP180">
-<smd name="1" x="1.5" y="1.45" dx="0.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0" y="1.45" dx="0.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="-1.5" y="1.45" dx="0.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-1.5" y="-1.45" dx="0.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="0" y="-1.45" dx="0.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="6" x="1.5" y="-1.45" dx="0.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="1.5" y="0" dx="0.5" dy="0.6" layer="1" rot="R180"/>
-<wire x1="-1.9" y1="1.8" x2="-1.9" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="-1.9" y1="-1.8" x2="1.9" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="1.9" y1="-1.8" x2="1.9" y2="1.8" width="0.127" layer="51"/>
-<wire x1="1.9" y1="1.8" x2="-1.9" y2="1.8" width="0.127" layer="51"/>
-<circle x="0.75" y="0.75" radius="0.125" width="0.6096" layer="21"/>
-<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1" x2="-1" y2="-1.5" width="0.127" layer="51" curve="90"/>
-<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1" y1="-1.5" x2="1.5" y2="-1" width="0.127" layer="51" curve="90"/>
-<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1" x2="1" y2="1.5" width="0.127" layer="51" curve="90"/>
-<wire x1="1" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1" y1="1.5" x2="-1.5" y2="1" width="0.127" layer="51" curve="90"/>
-<wire x1="-2" y1="1.875" x2="-2" y2="-1.875" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.875" x2="2" y2="-1.875" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.875" x2="2" y2="1.875" width="0.127" layer="21"/>
-<wire x1="2" y1="1.875" x2="-2" y2="1.875" width="0.127" layer="21"/>
-<circle x="0.75" y="0.75" radius="0.125" width="0.6096" layer="21"/>
-<text x="-2" y="2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2" y="-3.375" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="0.75" y="0.75" radius="0.125" width="0.6096" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BMP180">
-<description>BOSCH BMP180 DIGITAL BAROMETRIC PRESSURE SENSOR&lt;p&gt;
-
-Web page: &lt;a href="http://www.bosch-sensortec.com/en/homepage/products_3/environmental_sensors_1/bmp180_1/bmp180"&gt;http://www.bosch-sensortec.com/en/homepage/products_3/environmental_sensors_1/bmp180_1/bmp180&lt;/a&gt;&lt;br&gt;
-Datasheet: &lt;a href="http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-09.pdf"&gt; http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-09.pdf&lt;/a&gt;&lt;p&gt;
-
-The BMP180 is the function compatible successor of the BMP085, a new generation of high
-precision digital pressure sensors for consumer applications.&lt;p&gt;
-The ultra-low power, low voltage electronics of the BMP180 is optimized for use in mobile phones,
-PDAs, GPS navigation devices and outdoor equipment. With a low altitude noise of merely 0.25m at
-fast conversion time, the BMP180 offers superior performance. The I2C interface allows for easy
-system integration with a microcontroller.&lt;p&gt;
-The BMP180 is based on piezo-resistive technology for EMC robustness, high accuracy and linearity as
-well as long term stability.&lt;p&gt;
-
-Key features:&lt;p&gt;
-
-- Temperature measurement included&lt;br&gt;
-- I2C interface&lt;br&gt;
-- Fully calibrated&lt;br&gt;
-- Pb-free, halogen-free and RoHS compliant,&lt;br&gt;
-- MSL 1&lt;p&gt;
-
-Basic specs:&lt;p&gt;
-
-Pressure range: 300 to 1100hPa (+9000m to -500m relating to sea level)&lt;br&gt;
-Supply voltage: 1.8 to 3.6V (VDD), 1.62V to 3.6V (VDDIO)&lt;br&gt;
-Package: LGA package with metal lid&lt;br&gt;
-Small footprint: 3.6mm x 3.8mm&lt;br&gt;
-Super-flat: 0.93mm height&lt;br&gt;
-Low power: 5μA at 1 sample / sec. in standard mode&lt;br&gt;
-Low noise: 0.06hPa (0.5m) in ultra low power mode, 0.02hPa (0.17m) advanced resolution mode&lt;p&gt;
-
-Typical applications:&lt;p&gt;
-
-- Enhancement of GPS navigation (dead-reckoning, slope detection, etc.)&lt;br&gt;
-- In- and out-door navigation&lt;br&gt;
-- Leisure and sports&lt;br&gt;
-- Weather forecast&lt;br&gt;
-- Vertical velocity indication (rise/sink speed)</description>
-<pin name="VDD" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDIO" x="15.24" y="0" length="middle" direction="pwr" rot="R180"/>
-<pin name="SCL" x="-15.24" y="-2.54" length="middle" direction="in"/>
-<pin name="SDA" x="-15.24" y="2.54" length="middle"/>
-<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-10.16" y="8.255" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BMP180" prefix="U">
-<description>BOSCH BMP180 DIGITAL BAROMETRIC PRESSURE SENSOR&lt;p&gt;
-
-Web page: &lt;a href="http://www.bosch-sensortec.com/en/homepage/products_3/environmental_sensors_1/bmp180_1/bmp180"&gt;http://www.bosch-sensortec.com/en/homepage/products_3/environmental_sensors_1/bmp180_1/bmp180&lt;/a&gt;&lt;br&gt;
-Datasheet: &lt;a href="http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-09.pdf"&gt; http://ae-bst.resource.bosch.com/media/products/dokumente/bmp180/BST-BMP180-DS000-09.pdf&lt;/a&gt;&lt;p&gt;
-
-The BMP180 is the function compatible successor of the BMP085, a new generation of high
-precision digital pressure sensors for consumer applications.&lt;p&gt;
-The ultra-low power, low voltage electronics of the BMP180 is optimized for use in mobile phones,
-PDAs, GPS navigation devices and outdoor equipment. With a low altitude noise of merely 0.25m at
-fast conversion time, the BMP180 offers superior performance. The I2C interface allows for easy
-system integration with a microcontroller.&lt;p&gt;
-The BMP180 is based on piezo-resistive technology for EMC robustness, high accuracy and linearity as
-well as long term stability.&lt;p&gt;
-
-Key features:&lt;p&gt;
-
-- Temperature measurement included&lt;br&gt;
-- I2C interface&lt;br&gt;
-- Fully calibrated&lt;br&gt;
-- Pb-free, halogen-free and RoHS compliant,&lt;br&gt;
-- MSL 1&lt;p&gt;
-
-Basic specs:&lt;p&gt;
-
-Pressure range: 300 to 1100hPa (+9000m to -500m relating to sea level)&lt;br&gt;
-Supply voltage: 1.8 to 3.6V (VDD), 1.62V to 3.6V (VDDIO)&lt;br&gt;
-Package: LGA package with metal lid&lt;br&gt;
-Small footprint: 3.6mm x 3.8mm&lt;br&gt;
-Super-flat: 0.93mm height&lt;br&gt;
-Low power: 5μA at 1 sample / sec. in standard mode&lt;br&gt;
-Low noise: 0.06hPa (0.5m) in ultra low power mode, 0.02hPa (0.17m) advanced resolution mode&lt;p&gt;
-
-Typical applications:&lt;p&gt;
-
-- Enhancement of GPS navigation (dead-reckoning, slope detection, etc.)&lt;br&gt;
-- In- and out-door navigation&lt;br&gt;
-- Leisure and sports&lt;br&gt;
-- Weather forecast&lt;br&gt;
-- Vertical velocity indication (rise/sink speed)</description>
-<gates>
-<gate name="G$1" symbol="BMP180" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BMP180">
-<connects>
-<connect gate="G$1" pin="GND" pad="7"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SDA" pad="6"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
-<connect gate="G$1" pin="VDDIO" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun">
 <packages>
 <package name="SSOP24">
@@ -9368,6 +9215,20 @@ chip</description>
 <text x="-1.27" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="BMP280">
+<circle x="0.3" y="0.975" radius="0.1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.25" x2="1" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.25" x2="-1" y2="-1.25" width="0.127" layer="21"/>
+<smd name="1" x="0.8" y="0.975" dx="0.5" dy="0.35" layer="1"/>
+<smd name="2" x="0.8" y="0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="3" x="0.8" y="-0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="4" x="0.8" y="-0.975" dx="0.5" dy="0.35" layer="1"/>
+<smd name="5" x="-0.8" y="-0.975" dx="0.5" dy="0.35" layer="1"/>
+<smd name="6" x="-0.8" y="-0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="7" x="-0.8" y="0.325" dx="0.5" dy="0.35" layer="1"/>
+<smd name="8" x="-0.8" y="0.975" dx="0.5" dy="0.35" layer="1"/>
+<text x="0" y="1.3462" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="JST_XH_3-PIN">
@@ -9702,6 +9563,22 @@ chip</description>
 <pin name="SHIELD" x="-5.08" y="-7.62" visible="pad" length="short"/>
 <text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BMP280">
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="CSB" x="15.24" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="GND@1" x="-15.24" y="0" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
+<pin name="SCK" x="15.24" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDI" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="SDO" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-15.24" y="2.54" length="middle" direction="in"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10419,6 +10296,29 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="SHIELD" pad="SHIELD1 SHIELD2 SHIELD3 SHIELD4"/>
 <connect gate="G$1" pin="USBID" pad="ID"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMP280" prefix="IC">
+<description>BOSCH BMP280 Digital Pressure Sensor</description>
+<gates>
+<gate name="G$1" symbol="BMP280" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMP280">
+<connects>
+<connect gate="G$1" pin="CSB" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SDI" pad="3"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14009,7 +13909,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R1" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="59k"/>
 <part name="R14" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BMP" library="SparkFun-Sensors" deviceset="BMP180" device=""/>
 <part name="C13" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="M1" library="Strawson_Eagle_Lib" deviceset="JST_ZH_2" device="" value="JST_ZH_2"/>
@@ -14179,6 +14078,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="5VREG" library="BeagleBone_Blue" deviceset="AP1509" device="SOIC-8-TIGHT" value="AP1509SOIC-8-TIGHT"/>
 <part name="USB" library="Strawson_Eagle_Lib" deviceset="USB-AB" device="" value="USB-MICRO-SMD"/>
 <part name="J1" library="BeagleBone_Blue" deviceset="USD_CONNECTOR" device=""/>
+<part name="BMP" library="Strawson_Eagle_Lib" deviceset="BMP280" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14456,15 +14356,11 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="R1" gate="G$1" x="115.57" y="35.56" rot="R270"/>
 <instance part="R14" gate="G$1" x="115.57" y="25.4" rot="R270"/>
 <instance part="GND13" gate="1" x="115.57" y="16.51"/>
-<instance part="BMP" gate="G$1" x="332.74" y="40.64" smashed="yes">
-<attribute name="NAME" x="322.58" y="48.895" size="1.778" layer="95"/>
-<attribute name="VALUE" x="322.58" y="30.48" size="1.778" layer="96"/>
+<instance part="C13" gate="G$1" x="311.15" y="40.64" smashed="yes">
+<attribute name="NAME" x="303.784" y="43.561" size="1.778" layer="95"/>
+<attribute name="VALUE" x="303.784" y="38.481" size="1.778" layer="96"/>
 </instance>
-<instance part="C13" gate="G$1" x="354.33" y="39.37" smashed="yes">
-<attribute name="NAME" x="357.124" y="42.291" size="1.778" layer="95"/>
-<attribute name="VALUE" x="357.124" y="37.211" size="1.778" layer="96"/>
-</instance>
-<instance part="GND17" gate="1" x="360.68" y="31.75"/>
+<instance part="GND17" gate="1" x="311.15" y="31.75"/>
 <instance part="M1" gate="G$1" x="173.99" y="176.53" rot="MR180"/>
 <instance part="M2" gate="G$1" x="173.99" y="191.77" rot="MR180"/>
 <instance part="M4" gate="G$1" x="172.72" y="237.49"/>
@@ -14646,36 +14542,36 @@ Attribution-ShareAlike 3.0 United States License.
 <attribute name="VALUE" x="300.99" y="80.772" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R50" gate="G$1" x="198.12" y="83.82" smashed="yes">
-<attribute name="NAME" x="196.85" y="87.63" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="195.58" y="87.63" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="203.2" y="87.63" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R51" gate="G$1" x="198.12" y="77.47" smashed="yes">
-<attribute name="NAME" x="196.85" y="81.28" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="195.58" y="81.28" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="203.2" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R52" gate="G$1" x="198.12" y="71.12" smashed="yes">
-<attribute name="NAME" x="196.85" y="74.93" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="195.58" y="74.93" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="203.2" y="74.93" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R53" gate="G$1" x="198.12" y="64.77" smashed="yes">
-<attribute name="NAME" x="196.85" y="68.58" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="195.58" y="68.58" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="203.2" y="68.58" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R54" gate="G$1" x="210.82" y="83.82" smashed="yes">
 <attribute name="NAME" x="209.55" y="87.63" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="215.9" y="87.63" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="217.17" y="87.63" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R55" gate="G$1" x="210.82" y="77.47" smashed="yes">
 <attribute name="NAME" x="209.55" y="81.28" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="215.9" y="81.28" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="217.17" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R56" gate="G$1" x="210.82" y="71.12" smashed="yes">
 <attribute name="NAME" x="209.55" y="74.93" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="215.9" y="74.93" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="217.17" y="74.93" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R57" gate="G$1" x="210.82" y="64.77" smashed="yes">
 <attribute name="NAME" x="209.55" y="68.58" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="215.9" y="68.58" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="217.17" y="68.58" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND22" gate="1" x="204.47" y="60.96" smashed="yes">
 <attribute name="VALUE" x="207.01" y="60.96" size="1.778" layer="96"/>
@@ -14709,6 +14605,7 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="GND9" gate="1" x="355.6" y="218.44"/>
 <instance part="UART0" gate="G$1" x="36.83" y="168.91" rot="MR0"/>
 <instance part="5VREG" gate="G$1" x="180.34" y="120.65"/>
+<instance part="BMP" gate="G$1" x="335.28" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -14835,19 +14732,19 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="101.6" y="245.11" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BMP" gate="G$1" pin="VDDIO"/>
-<wire x1="347.98" y1="40.64" x2="349.25" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="349.25" y1="40.64" x2="349.25" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="BMP" gate="G$1" pin="VDD"/>
-<wire x1="349.25" y1="45.72" x2="347.98" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="349.25" y1="45.72" x2="354.33" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="354.33" y1="45.72" x2="360.68" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="45.72" x2="360.68" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="311.15" y1="45.72" x2="311.15" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="354.33" y1="44.45" x2="354.33" y2="45.72" width="0.1524" layer="91"/>
-<junction x="354.33" y="45.72"/>
-<junction x="349.25" y="45.72"/>
-<label x="360.68" y="46.99" size="1.778" layer="95"/>
+<label x="312.42" y="52.07" size="1.778" layer="95"/>
+<pinref part="BMP" gate="G$1" pin="VDD"/>
+<wire x1="311.15" y1="48.26" x2="311.15" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="45.72" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="45.72" x2="317.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="48.26" x2="311.15" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="BMP" gate="G$1" pin="VDDIO"/>
+<wire x1="320.04" y1="43.18" x2="317.5" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="43.18" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
+<junction x="317.5" y="45.72"/>
+<junction x="311.15" y="48.26"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="RESV"/>
@@ -14874,6 +14771,12 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="67.31" y1="43.18" x2="90.17" y2="43.18" width="0.1524" layer="91"/>
 <junction x="90.17" y="43.18"/>
 <label x="90.17" y="49.53" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BMP" gate="G$1" pin="CSB"/>
+<wire x1="350.52" y1="43.18" x2="359.41" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="359.41" y1="43.18" x2="359.41" y2="52.07" width="0.1524" layer="91"/>
+<label x="356.87" y="52.07" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C1_SDA" class="0">
@@ -15027,9 +14930,9 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="165.1" y="74.93" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BMP" gate="G$1" pin="SCL"/>
-<wire x1="317.5" y1="38.1" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
-<label x="303.53" y="38.1" size="1.778" layer="95"/>
+<wire x1="375.92" y1="38.1" x2="350.52" y2="38.1" width="0.1524" layer="91"/>
+<label x="361.95" y="38.1" size="1.778" layer="95"/>
+<pinref part="BMP" gate="G$1" pin="SCK"/>
 </segment>
 </net>
 <net name="I2C2_SDA" class="0">
@@ -15044,9 +14947,9 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="165.1" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BMP" gate="G$1" pin="SDA"/>
-<wire x1="317.5" y1="43.18" x2="302.26" y2="43.18" width="0.1524" layer="91"/>
-<label x="303.53" y="43.18" size="1.778" layer="95"/>
+<wire x1="375.92" y1="40.64" x2="350.52" y2="40.64" width="0.1524" layer="91"/>
+<label x="361.95" y="40.64" size="1.778" layer="95"/>
+<pinref part="BMP" gate="G$1" pin="SDI"/>
 </segment>
 </net>
 <net name="PWM_2B" class="0">
@@ -15332,14 +15235,19 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="115.57" y1="19.05" x2="115.57" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BMP" gate="G$1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="347.98" y1="35.56" x2="354.33" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="354.33" y1="35.56" x2="354.33" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="354.33" y1="35.56" x2="360.68" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="360.68" y1="35.56" x2="360.68" y2="34.29" width="0.1524" layer="91"/>
-<junction x="354.33" y="35.56"/>
+<wire x1="311.15" y1="38.1" x2="311.15" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="BMP" gate="G$1" pin="GND@1"/>
+<wire x1="311.15" y1="35.56" x2="311.15" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="40.64" x2="317.5" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="40.64" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="BMP" gate="G$1" pin="GND@2"/>
+<wire x1="317.5" y1="38.1" x2="320.04" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="38.1" x2="317.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="35.56" x2="311.15" y2="35.56" width="0.1524" layer="91"/>
+<junction x="317.5" y="38.1"/>
+<junction x="311.15" y="35.56"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -15588,6 +15496,12 @@ Attribution-ShareAlike 3.0 United States License.
 <junction x="236.22" y="91.44"/>
 <wire x1="236.22" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
 <label x="231.14" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="BMP" gate="G$1" pin="SDO"/>
+<wire x1="350.52" y1="45.72" x2="351.79" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="351.79" y1="45.72" x2="351.79" y2="52.07" width="0.1524" layer="91"/>
+<label x="349.25" y="52.07" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
