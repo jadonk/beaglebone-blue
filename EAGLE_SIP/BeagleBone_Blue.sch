@@ -14149,7 +14149,7 @@ Style Connector</text>
 <text x="252.73" y="231.14" size="1.778" layer="91">0.1 Ohm resistor
 for 1A charge</text>
 <text x="208.28" y="154.94" size="1.778" layer="91">CELL pin left open: 2S
-SEL pin pulled HIGH: charge to 4.1V per cell</text>
+SEL pin left open, 4.2V per cell</text>
 <text x="41.91" y="154.94" size="1.778" layer="91" rot="R90">JST-SH</text>
 <text x="5.08" y="198.12" size="1.778" layer="91">This schematic is *NOT SUPPORTED* and DOES NOT constitute 
 a reference design. Only *community* support is allowed via 
@@ -16364,11 +16364,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="195.58" y1="204.47" x2="186.69" y2="204.47" width="0.1524" layer="91"/>
 <label x="186.69" y="204.47" size="1.778" layer="95"/>
 <junction x="195.58" y="204.47"/>
-</segment>
-<segment>
-<pinref part="CHGIC" gate="G$1" pin="SEL"/>
-<wire x1="246.38" y1="185.42" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
-<label x="247.65" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$71" class="0">
