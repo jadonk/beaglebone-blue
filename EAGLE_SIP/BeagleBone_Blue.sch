@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13975,14 +13975,10 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="IMU" library="Strawson_Eagle_Lib" deviceset="MPU-9250" device="" value="MPU-9250"/>
 <part name="C9" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="R46" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1K"/>
-<part name="R50" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
-<part name="R51" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
-<part name="R52" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
-<part name="R53" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
-<part name="R54" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
-<part name="R55" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
-<part name="R56" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
-<part name="R57" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
+<part name="R50" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100k"/>
+<part name="R51" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100k"/>
+<part name="R52" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100k"/>
+<part name="R53" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100k"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="CHGIC" library="Strawson_Eagle_Lib" deviceset="MP2615" device=""/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -14556,22 +14552,6 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="R53" gate="G$1" x="198.12" y="64.77" smashed="yes">
 <attribute name="NAME" x="195.58" y="68.58" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="203.2" y="68.58" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R54" gate="G$1" x="210.82" y="83.82" smashed="yes">
-<attribute name="NAME" x="209.55" y="87.63" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="217.17" y="87.63" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R55" gate="G$1" x="210.82" y="77.47" smashed="yes">
-<attribute name="NAME" x="209.55" y="81.28" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="217.17" y="81.28" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R56" gate="G$1" x="210.82" y="71.12" smashed="yes">
-<attribute name="NAME" x="209.55" y="74.93" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="217.17" y="74.93" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R57" gate="G$1" x="210.82" y="64.77" smashed="yes">
-<attribute name="NAME" x="209.55" y="68.58" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="217.17" y="68.58" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND22" gate="1" x="204.47" y="60.96" smashed="yes">
 <attribute name="VALUE" x="207.01" y="60.96" size="1.778" layer="96"/>
@@ -15408,27 +15388,18 @@ Attribution-ShareAlike 3.0 United States License.
 </segment>
 <segment>
 <pinref part="R50" gate="G$1" pin="2"/>
-<pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="83.82" x2="204.47" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R51" gate="G$1" pin="2"/>
-<pinref part="R55" gate="G$1" pin="1"/>
-<wire x1="204.47" y1="83.82" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="77.47" x2="204.47" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="77.47" x2="205.74" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="204.47" y1="83.82" x2="204.47" y2="77.47" width="0.1524" layer="91"/>
 <pinref part="R52" gate="G$1" pin="2"/>
-<pinref part="R56" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="71.12" x2="204.47" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="204.47" y1="77.47" x2="204.47" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R53" gate="G$1" pin="2"/>
-<pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="64.77" x2="204.47" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="64.77" x2="205.74" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="204.47" y1="71.12" x2="204.47" y2="64.77" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="204.47" y1="64.77" x2="204.47" y2="63.5" width="0.1524" layer="91"/>
-<junction x="204.47" y="83.82"/>
 <junction x="204.47" y="77.47"/>
 <junction x="204.47" y="71.12"/>
 <junction x="204.47" y="64.77"/>
@@ -15684,11 +15655,6 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="356.87" y="100.33" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="R55" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="77.47" x2="222.25" y2="77.47" width="0.1524" layer="91"/>
-<label x="215.9" y="77.47" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="QEP_2B" class="0">
 <segment>
@@ -15741,22 +15707,12 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="356.87" y="97.79" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="R56" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="71.12" x2="222.25" y2="71.12" width="0.1524" layer="91"/>
-<label x="215.9" y="71.12" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SVO8" class="0">
 <segment>
 <wire x1="355.6" y1="95.25" x2="347.98" y2="95.25" width="0.1524" layer="91"/>
 <label x="356.87" y="95.25" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R43" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="R57" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="64.77" x2="223.52" y2="64.77" width="0.1524" layer="91"/>
-<label x="215.9" y="64.77" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI1_SS2" class="0">
@@ -16210,11 +16166,6 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="355.6" y1="102.87" x2="347.98" y2="102.87" width="0.1524" layer="91"/>
 <label x="356.87" y="102.87" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R40" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="R54" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="83.82" x2="222.25" y2="83.82" width="0.1524" layer="91"/>
-<label x="215.9" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
