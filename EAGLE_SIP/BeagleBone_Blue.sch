@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14960,7 +14960,7 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="43.18" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LED_1" class="0">
+<net name="BATT_LED_1" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="105.41" y1="129.54" x2="105.41" y2="137.16" width="0.1524" layer="91"/>
@@ -15458,15 +15458,15 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="17.78" y="163.83" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="91.44" x2="236.22" y2="85.09" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="85.09" x2="236.22" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="91.44" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
-<junction x="236.22" y="91.44"/>
-<wire x1="236.22" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
-<label x="231.14" y="134.62" size="1.778" layer="95"/>
+<wire x1="236.22" y1="91.44" x2="236.22" y2="85.09" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="85.09" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="81.28" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
+<label x="231.14" y="81.28" size="1.778" layer="95"/>
+<junction x="236.22" y="85.09"/>
 </segment>
 <segment>
 <pinref part="BMP" gate="G$1" pin="SDO"/>
@@ -15628,21 +15628,21 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="52.07" y="81.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LED_2" class="0">
+<net name="BATT_LED_2" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="115.57" y1="129.54" x2="115.57" y2="137.16" width="0.1524" layer="91"/>
 <label x="114.3" y="133.35" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LED_3" class="0">
+<net name="BATT_LED_3" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="125.73" y1="129.54" x2="125.73" y2="137.16" width="0.1524" layer="91"/>
 <label x="124.46" y="133.35" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LED_4" class="0">
+<net name="BATT_LED_4" class="0">
 <segment>
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="135.89" y1="129.54" x2="135.89" y2="137.16" width="0.1524" layer="91"/>
@@ -15656,7 +15656,7 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="R41" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="QEP_2B" class="0">
+<net name="EQEP_1B" class="0">
 <segment>
 <wire x1="264.16" y1="85.09" x2="251.46" y2="85.09" width="0.1524" layer="91"/>
 <label x="265.43" y="85.09" size="1.778" layer="95" rot="MR0"/>
@@ -15664,7 +15664,7 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="E2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="QEP_2A" class="0">
+<net name="EQEP_1A" class="0">
 <segment>
 <wire x1="264.16" y1="87.63" x2="251.46" y2="87.63" width="0.1524" layer="91"/>
 <label x="265.43" y="87.63" size="1.778" layer="95" rot="MR0"/>
@@ -16060,18 +16060,18 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="157.48" y="11.43" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_4A" class="0">
+<net name="PRU_E_A" class="0">
 <segment>
 <pinref part="E4" gate="G$1" pin="3"/>
-<label x="255.27" y="123.19" size="1.778" layer="95"/>
+<label x="252.73" y="123.19" size="1.778" layer="95"/>
 <wire x1="251.46" y1="123.19" x2="264.16" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_4B" class="0">
+<net name="PRU_E_B" class="0">
 <segment>
 <pinref part="E4" gate="G$1" pin="4"/>
 <wire x1="264.16" y1="120.65" x2="251.46" y2="120.65" width="0.1524" layer="91"/>
-<label x="255.27" y="120.65" size="1.778" layer="95"/>
+<label x="252.73" y="120.65" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -16364,28 +16364,28 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="17.78" y="156.21" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_3A" class="0">
+<net name="EQEP_2A" class="0">
 <segment>
 <wire x1="264.16" y1="105.41" x2="251.46" y2="105.41" width="0.1524" layer="91"/>
 <label x="265.43" y="105.41" size="1.778" layer="95" rot="MR0"/>
 <pinref part="E3" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="QEP_3B" class="0">
+<net name="EQEP_2B" class="0">
 <segment>
 <wire x1="264.16" y1="102.87" x2="251.46" y2="102.87" width="0.1524" layer="91"/>
 <label x="265.43" y="102.87" size="1.778" layer="95" rot="MR0"/>
 <pinref part="E3" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="QEP_1A" class="0">
+<net name="EQEP_0A" class="0">
 <segment>
 <wire x1="264.16" y1="69.85" x2="251.46" y2="69.85" width="0.1524" layer="91"/>
 <label x="265.43" y="69.85" size="1.778" layer="95" rot="MR0"/>
 <pinref part="E1" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="QEP_1B" class="0">
+<net name="EQEP_0B" class="0">
 <segment>
 <wire x1="264.16" y1="67.31" x2="251.46" y2="67.31" width="0.1524" layer="91"/>
 <label x="265.43" y="67.31" size="1.778" layer="95" rot="MR0"/>
@@ -17246,49 +17246,49 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="231.14" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED_3" class="0">
+<net name="BATT_LED_3" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="GPIO1_29_V6"/>
 <wire x1="208.28" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
 <label x="231.14" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED_4" class="0">
+<net name="BATT_LED_4" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="GPIO0_26_T11"/>
 <wire x1="208.28" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 <label x="231.14" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED_1" class="0">
+<net name="BATT_LED_1" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="GPIO0_27_U12"/>
 <wire x1="208.28" y1="53.34" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
 <label x="231.14" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_3B" class="0">
+<net name="EQEP_2B" class="0">
 <segment>
 <label x="231.14" y="48.26" size="1.778" layer="95"/>
 <pinref part="SIP" gate="B" pin="GPIO1_13_R12"/>
 <wire x1="208.28" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_3A" class="0">
+<net name="EQEP_2A" class="0">
 <segment>
 <label x="231.14" y="50.8" size="1.778" layer="95"/>
 <pinref part="SIP" gate="B" pin="GPIO1_12_T12"/>
 <wire x1="208.28" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_4A" class="0">
+<net name="PRU_E_A" class="0">
 <segment>
 <label x="231.14" y="45.72" size="1.778" layer="95"/>
 <pinref part="SIP" gate="B" pin="GPIO1_14_V13"/>
 <wire x1="208.28" y1="45.72" x2="231.14" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_4B" class="0">
+<net name="PRU_E_B" class="0">
 <segment>
 <label x="231.14" y="43.18" size="1.778" layer="95"/>
 <pinref part="SIP" gate="B" pin="GPIO1_15_U13"/>
@@ -17302,14 +17302,14 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="231.14" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEP_1A" class="0">
+<net name="EQEP_0A" class="0">
 <segment>
 <label x="231.14" y="30.48" size="1.778" layer="95"/>
 <pinref part="SIP" gate="B" pin="GPIO3_18_B12"/>
 <wire x1="208.28" y1="30.48" x2="231.14" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_1B" class="0">
+<net name="EQEP_0B" class="0">
 <segment>
 <label x="231.14" y="27.94" size="1.778" layer="95"/>
 <pinref part="SIP" gate="B" pin="GPIO3_19_C13"/>
@@ -17814,24 +17814,17 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="327.66" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$150" class="0">
+<net name="MDIR_2B" class="0">
 <segment>
 <pinref part="R135" gate="G$1" pin="2"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA11_U4"/>
 <wire x1="289.56" y1="170.18" x2="289.56" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="170.18" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="170.18" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
+<label x="327.66" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MDIR_2B" class="0">
-<segment>
-<pinref part="R140" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="205.74" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="SIP" gate="C" pin="LCD_DATA14_V4"/>
-<wire x1="190.5" y1="162.56" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
-<label x="200.66" y="162.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED_2" class="0">
+<net name="BATT_LED_2" class="0">
 <segment>
 <pinref part="R143" gate="G$1" pin="2"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA15_T5"/>
@@ -18044,18 +18037,27 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="309.88" y1="68.58" x2="312.42" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_2A" class="0">
+<net name="EQEP_1A" class="0">
 <segment>
 <label x="327.66" y="167.64" size="1.778" layer="95"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA12_V2"/>
 <wire x1="190.5" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QEP_2B" class="0">
+<net name="EQEP_1B" class="0">
 <segment>
 <label x="327.66" y="165.1" size="1.778" layer="95"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA13_V3"/>
 <wire x1="190.5" y1="165.1" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LCD_DATA_14" class="0">
+<segment>
+<pinref part="R140" gate="G$1" pin="1"/>
+<wire x1="297.18" y1="205.74" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="SIP" gate="C" pin="LCD_DATA14_V4"/>
+<wire x1="190.5" y1="162.56" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
+<label x="200.66" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

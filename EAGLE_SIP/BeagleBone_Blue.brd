@@ -2423,7 +2423,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="U6"/>
 <wire x1="52.3875" y1="-45.1866" x2="24.7142" y2="-46.5451" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="LED_1">
+<signal name="BATT_LED_1">
 <contactref element="D4" pad="A"/>
 <contactref element="SIP" pad="U12"/>
 <wire x1="44.7675" y1="-45.1866" x2="56.0197" y2="-53.4042" width="0" layer="19" extent="1-16"/>
@@ -2868,19 +2868,19 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="T6"/>
 <wire x1="52.3875" y1="-43.9166" x2="19.685" y2="-46.5451" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="LED_2">
+<signal name="BATT_LED_2">
 <contactref element="D5" pad="A"/>
 <contactref element="R143" pad="2"/>
 <contactref element="SIP" pad="T5"/>
 <wire x1="58.2295" y1="-52.2478" x2="53.6575" y2="-43.9166" width="0" layer="19" extent="1-16"/>
 <wire x1="54.4322" y1="-53.4042" x2="58.2295" y2="-52.2478" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LED_3">
+<signal name="BATT_LED_3">
 <contactref element="D6" pad="A"/>
 <contactref element="SIP" pad="V6"/>
 <wire x1="52.8447" y1="-53.4042" x2="52.3875" y2="-46.4566" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="LED_4">
+<signal name="BATT_LED_4">
 <contactref element="D7" pad="A"/>
 <contactref element="SIP" pad="T11"/>
 <wire x1="46.0375" y1="-43.9166" x2="51.2572" y2="-53.4042" width="0" layer="19" extent="1-16"/>
@@ -3014,10 +3014,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </signal>
 <signal name="MDIR_2B">
 <contactref element="H1" pad="16"/>
-<contactref element="R140" pad="1"/>
-<contactref element="SIP" pad="V4"/>
-<wire x1="77.2938" y1="-41.7062" x2="80.6196" y2="-41.402" width="0" layer="19" extent="1-16"/>
-<wire x1="54.9275" y1="-46.4566" x2="77.2938" y2="-41.7062" width="0" layer="19" extent="16-16"/>
+<contactref element="R135" pad="2"/>
+<contactref element="SIP" pad="U4"/>
+<wire x1="61.5188" y1="-38.1762" x2="77.2938" y2="-41.7062" width="0" layer="19" extent="1-16"/>
+<wire x1="54.9275" y1="-45.1866" x2="61.5188" y2="-38.1762" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="P$1"/>
@@ -3173,12 +3173,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="73.9394" y1="-52.5526" x2="77.1652" y2="-52.6669" width="0" layer="19" extent="1-1"/>
 <wire x1="58.7375" y1="-45.1866" x2="73.9394" y2="-52.5526" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="QEP_4A">
+<signal name="PRU_E_A">
 <contactref element="E4" pad="3"/>
 <contactref element="SIP" pad="V13"/>
 <wire x1="43.4975" y1="-46.4566" x2="73.0664" y2="-46.7868" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="QEP_4B">
+<signal name="PRU_E_B">
 <contactref element="E4" pad="4"/>
 <contactref element="SIP" pad="U13"/>
 <wire x1="43.4975" y1="-45.1866" x2="74.0664" y2="-46.7868" width="0" layer="19" extent="1-16"/>
@@ -3673,11 +3673,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="58.6994" y1="-16.8021" x2="60.3123" y2="-17.4625" width="0" layer="19" extent="1-1"/>
 <wire x1="48.5775" y1="-26.1366" x2="58.6994" y2="-16.8021" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="N$150">
-<contactref element="R135" pad="2"/>
-<contactref element="SIP" pad="U4"/>
-<wire x1="54.9275" y1="-45.1866" x2="61.5188" y2="-38.1762" width="0" layer="19" extent="1-16"/>
-</signal>
 <signal name="N$117" class="2">
 <contactref element="SIP" pad="N17"/>
 <contactref element="USB" pad="D+"/>
@@ -3765,38 +3760,38 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="N$135">
 <via x="80.645" y="-48.26" extent="1-16" drill="3.175"/>
 </signal>
-<signal name="QEP_3A">
+<signal name="EQEP_2A">
 <contactref element="E3" pad="3"/>
 <contactref element="SIP" pad="T12"/>
 <wire x1="44.7675" y1="-43.9166" x2="73.0918" y2="-42.0878" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="QEP_3B">
+<signal name="EQEP_2B">
 <contactref element="E3" pad="4"/>
 <contactref element="SIP" pad="R12"/>
 <wire x1="44.7675" y1="-42.6466" x2="74.0918" y2="-42.0878" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="QEP_2A">
+<signal name="EQEP_1A">
 <contactref element="R17" pad="1"/>
 <contactref element="E2" pad="3"/>
 <contactref element="SIP" pad="V2"/>
 <wire x1="65.421" y1="-52.3494" x2="82.1055" y2="-39.0398" width="0" layer="19" extent="1-1"/>
 <wire x1="57.4675" y1="-46.4566" x2="65.421" y2="-52.3494" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="QEP_2B">
+<signal name="EQEP_1B">
 <contactref element="R16" pad="1"/>
 <contactref element="E2" pad="4"/>
 <contactref element="SIP" pad="V3"/>
 <wire x1="66.421" y1="-52.3494" x2="68.1101" y2="-53.2257" width="0" layer="19" extent="1-1"/>
 <wire x1="56.1975" y1="-46.4566" x2="66.421" y2="-52.3494" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="QEP_1A">
+<signal name="EQEP_0A">
 <contactref element="E1" pad="3"/>
 <contactref element="SIP" pad="B12"/>
 <wire x1="44.7675" y1="-26.1366" x2="65.2686" y2="-46.736" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="QEP_1B">
-<contactref element="E1" pad="4"/>
+<signal name="EQEP_0B">
 <contactref element="SIP" pad="C13"/>
+<contactref element="E1" pad="4"/>
 <wire x1="43.4975" y1="-27.4066" x2="66.2686" y2="-46.736" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VIN_BAT_0">
@@ -3814,6 +3809,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J1" pad="CD/DAT3"/>
 <contactref element="SIP" pad="F17"/>
 <wire x1="38.4175" y1="-31.2166" x2="6.3116" y2="-17.0012" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="LCD_DATA_14">
+<contactref element="SIP" pad="V4"/>
+<contactref element="R140" pad="1"/>
+<wire x1="54.9275" y1="-46.4566" x2="80.6196" y2="-41.402" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>
