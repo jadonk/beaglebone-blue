@@ -15,7 +15,7 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>10180</WindowHeight>
+  <WindowHeight>6420</WindowHeight>
   <WindowWidth>25600</WindowWidth>
   <WindowTopX>700</WindowTopX>
   <WindowTopY>0</WindowTopY>
@@ -31,7 +31,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s24">
+  <Style ss:ID="s62">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
   </Style>
  </Styles>
@@ -44,8 +44,8 @@
    x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
    <Column ss:Index="2" ss:Width="131"/>
    <Column ss:Index="5" ss:Width="131"/>
-   <Column ss:Index="7" ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="121"/>
-   <Row>
+   <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="121"/>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Qty</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Line Item</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -90,14 +90,14 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Notes</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">PCB</Data></Cell>
     <Cell><Data ss:Type="Number">0.5</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">2.4&quot;X3.1&quot; 4 layer, mechanical drill</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">0_PCB_0</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">AP1509-50SG-13</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.82299999999999995</Data></Cell>
@@ -124,7 +124,7 @@
     <Cell><Data ss:Type="Number">0.82299999999999995</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.newark.com%2F79R5874&amp;ppid=665163&amp;sig=0eb804c&amp;sid=2402&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">AOZ1284PI</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">1</Data></Cell>
@@ -142,7 +142,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0d08753&amp;sid=459&amp;ppid=28164899&amp;vpid=127355778&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="String">BM06B-SRSS-TB(LF)(SN)</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">1.4039999999999999</Data></Cell>
@@ -164,7 +164,7 @@
     <Cell><Data ss:Type="Number">0.35099999999999998</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0e11216&amp;sid=2025&amp;ppid=289295&amp;vpid=11263934&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">BQ29209DRBR</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.88</Data></Cell>
@@ -191,14 +191,14 @@
     <Cell><Data ss:Type="Number">0.88</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.mouser.com%2FSearch%2FProductDetail.aspx%3Fqs%3DhEBn5lgDlCoqdeLwAzko8w%253d%253d%26utm_source%3Dmousersearchapi%26utm_medium%3Dapi-aggregator%26utm_campaign%3DBQ29209DRBR%26utm_term%3DBQ29209DRBR%26utm_content%3DTexas+Instruments&amp;ppid=18670770&amp;sig=03f8f7e&amp;sid=2401&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">BMP280</Data></Cell>
     <Cell><Data ss:Type="Number">1.51</Data></Cell>
     <Cell><Data ss:Type="String">Bosch</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">BMP</Data></Cell>
    </Row>
-   <Row ss:Height="60">
+   <Row ss:AutoFitHeight="0" ss:Height="60">
     <Cell><Data ss:Type="Number">19</Data></Cell>
     <Cell><Data ss:Type="String">C0402C104K9PACTU</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.63839999999999997</Data></Cell>
@@ -224,7 +224,7 @@
     <Cell><Data ss:Type="Number">3.3599999999999998E-2</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=https%3A%2F%2Fwww.arrow.com%2Fen%2Fproducts%2Fc0402c104k9pactu%2Fkemet-corporation%2F&amp;ppid=145835&amp;sig=0c0ee2f&amp;sid=1106&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:Height="30">
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="Number">11</Data></Cell>
     <Cell><Data ss:Type="String">GRM219R61E106KA12D</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">1.0009999999999999</Data></Cell>
@@ -251,7 +251,7 @@
     <Cell><Data ss:Type="Number">9.0999999999999998E-2</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.newark.com%2F68X2791&amp;ppid=24933439&amp;sig=0781d41&amp;sid=2402&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="String">JMK105BJ105KV-F</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">1.14E-2</Data></Cell>
@@ -278,7 +278,7 @@
     <Cell><Data ss:Type="Number">5.7000000000000002E-3</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0d793bb&amp;sid=8821&amp;ppid=198495&amp;vpid=44666813&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">EMVA160ADA101MF55G</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.14799999999999999</Data></Cell>
@@ -305,7 +305,7 @@
     <Cell><Data ss:Type="Number">0.14799999999999999</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=04db88f&amp;sid=2429&amp;ppid=204877&amp;vpid=12939356&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">CL05B222KB5NNNC</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">8.0000000000000004E-4</Data></Cell>
@@ -324,7 +324,7 @@
     <Cell><Data ss:Type="Number">8.0000000000000004E-4</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0bed614&amp;sid=5822&amp;ppid=8376245&amp;vpid=144938234&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="String">C1005C0G1H180J</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">1.8800000000000001E-2</Data></Cell>
@@ -339,7 +339,7 @@
     <Cell><Data ss:Type="Number">4.7000000000000002E-3</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=08ae19d&amp;sid=2429&amp;ppid=193708&amp;vpid=11535266&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">C1005X5R0J225K050BC</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">6.7000000000000004E-2</Data></Cell>
@@ -366,7 +366,7 @@
     <Cell><Data ss:Type="Number">6.7000000000000004E-2</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.newark.com%2F04X3209&amp;ppid=26013204&amp;sig=046574e&amp;sid=2402&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">CC0402KRX7R7BB102</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">2E-3</Data></Cell>
@@ -393,7 +393,7 @@
     <Cell><Data ss:Type="Number">2E-3</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.newark.com%2F68R4638&amp;ppid=11543552&amp;sig=0896b15&amp;sid=2402&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">MP2615GQ-Z</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0</Data></Cell>
@@ -409,7 +409,7 @@
     <Cell><Data ss:Type="String">MP2615GQ-Z</Data></Cell>
     <Cell ss:Index="25"><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0b8e19d&amp;sid=5822&amp;ppid=38805508&amp;vpid=112821918&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="String">MBR230LSFT1G</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.36</Data></Cell>
@@ -435,7 +435,7 @@
     <Cell><Data ss:Type="Number">0.12</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0befdc8&amp;sid=5832&amp;ppid=7995895&amp;vpid=84981818&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="String">LS Q971-KN-1</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.16</Data></Cell>
@@ -450,7 +450,7 @@
     <Cell><Data ss:Type="Number">0.08</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0a3705b&amp;sid=14182&amp;ppid=52823777&amp;vpid=178926427&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:Height="30">
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="String">LG Q971-KN-1</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.4</Data></Cell>
@@ -465,7 +465,7 @@
     <Cell><Data ss:Type="Number">0.08</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=010b612&amp;sid=14182&amp;ppid=34198631&amp;vpid=178496442&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">SSB44-E3/52T</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.13</Data></Cell>
@@ -491,7 +491,7 @@
     <Cell><Data ss:Type="Number">0.13</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=03ff61b&amp;sid=14&amp;ppid=39552938&amp;vpid=161803275&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:Height="30">
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell><Data ss:Type="String">LTST-C191TBKT</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.49699999999999994</Data></Cell>
@@ -514,7 +514,7 @@
     <Cell><Data ss:Type="Number">7.0999999999999994E-2</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=077bbee&amp;sid=1532&amp;ppid=550005&amp;vpid=217079013&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">B3B-ZR-SM4-TF(LF)(SN)</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.59499999999999997</Data></Cell>
@@ -532,7 +532,7 @@
     <Cell><Data ss:Type="Number">0.59499999999999997</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=099c38c&amp;sid=8933&amp;ppid=248846&amp;vpid=179856295&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:Height="30">
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell><Data ss:Type="String">BM04B-SRSS-TB(LF)(SN)</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">3.2498999999999998</Data></Cell>
@@ -554,7 +554,7 @@
     <Cell><Data ss:Type="Number">0.36109999999999998</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=006d1ce&amp;sid=2454&amp;ppid=289293&amp;vpid=15664725&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:Height="30">
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="String">TB6612FNG(O,C8,EL)</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">2.74</Data></Cell>
@@ -577,7 +577,7 @@
     <Cell><Data ss:Type="Number">1.37</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.mouser.com%2FSearch%2FProductDetail.aspx%3Fqs%3DVMlqFFbv3sQEQqYF0HJbow%253d%253d%26utm_source%3Dmousersearchapi%26utm_medium%3Dapi-aggregator%26utm_campaign%3DTB6612FNG%28O%2CC%2C8%2CEL%26utm_term%3DTB6612FNG%28O%2CC%2C8%2CEL%26utm_content%3DToshiba&amp;ppid=24612485&amp;sig=02fb373&amp;sid=2401&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">87520-0010BLF</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.49399999999999999</Data></Cell>
@@ -603,7 +603,7 @@
     <Cell><Data ss:Type="Number">0.49399999999999999</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0c3ce55&amp;sid=14&amp;ppid=39545382&amp;vpid=120274799&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">MPU-9250</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">6.62</Data></Cell>
@@ -622,7 +622,7 @@
     <Cell><Data ss:Type="Number">6.62</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=04a4d19&amp;sid=2025&amp;ppid=33342822&amp;vpid=97296111&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">USD_CONNECTOR</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0</Data></Cell>
@@ -630,7 +630,7 @@
     <Cell><Data ss:Type="String">USD_CONNECTOR</Data></Cell>
     <Cell><Data ss:Type="String">microSD Socket</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">PJ-102A</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.96</Data></Cell>
@@ -653,7 +653,7 @@
     <Cell><Data ss:Type="Number">0.96</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0ddd603&amp;sid=2412&amp;ppid=286936&amp;vpid=33510544&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">SRN6045-6R8Y</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.219</Data></Cell>
@@ -680,7 +680,7 @@
     <Cell><Data ss:Type="Number">0.219</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.newark.com%2F64T2389&amp;ppid=20579217&amp;sig=01ac38e&amp;sid=2402&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">SRN8040-3R6Y</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.1893</Data></Cell>
@@ -707,7 +707,7 @@
     <Cell><Data ss:Type="Number">0.1893</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=048f82a&amp;sid=5822&amp;ppid=20579228&amp;vpid=71910558&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="String">BK0603HS330-T</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.28000000000000003</Data></Cell>
@@ -732,7 +732,7 @@
     <Cell><Data ss:Type="Number">0.14000000000000001</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.digikey.com%2Fproduct-detail%2Fen%2FBK0603HS330-T%2F587-1828-1-ND%2F1465298&amp;ppid=368458&amp;sig=04bf5b2&amp;sid=459&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">B3B-XH-A(LF)(SN)</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">4.8739999999999999E-2</Data></Cell>
@@ -749,7 +749,7 @@
     <Cell><Data ss:Type="Number">4.8739999999999999E-2</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0ca889c&amp;sid=7803&amp;ppid=3990185&amp;vpid=177295262&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="String">B2B-ZR(LF)(SN)</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.2</Data></Cell>
@@ -771,7 +771,7 @@
     <Cell><Data ss:Type="Number">0.05</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0fd3f6f&amp;sid=2025&amp;ppid=248821&amp;vpid=11263914&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:Height="30">
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="String">RS-032G05A3-SM RT</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">1.9</Data></Cell>
@@ -794,7 +794,7 @@
     <Cell><Data ss:Type="Number">0.47499999999999998</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.digikey.com%2Fproduct-detail%2Fen%2FRS-032G05A3-SM%2BRT%2FCKN10388CT-ND%2F2747197&amp;ppid=20490403&amp;sig=0d02249&amp;sid=459&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">S-8261AAJMD-G2JT2G</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.373</Data></Cell>
@@ -816,7 +816,7 @@
     <Cell><Data ss:Type="Number">0.373</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=0161401&amp;sid=2429&amp;ppid=873984&amp;vpid=35157680&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">SI4778DY-T1-GE3</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.65</Data></Cell>
@@ -842,14 +842,14 @@
     <Cell><Data ss:Type="Number">0.65</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.digikey.com%2Fproduct-detail%2Fen%2FSI4778DY-T1-GE3%2FSI4778DY-T1-GE3CT-ND%2F2441976&amp;ppid=19184512&amp;sig=048af57&amp;sid=459&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:Height="255">
+   <Row ss:AutoFitHeight="0" ss:Height="255">
     <Cell ss:Index="2"><Data ss:Type="String">RESISTOR0402-RES</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">R1,R2,R3,R5,R6,R7,R8,R10,R11,R12,R13,R14,R16,R17,R19,R21,R22,R23,R24,R25,R27,R28,R29,R30,R31,R32,R33,R34,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R109,R110,R111,R113,R115,R116,R118,R120,R122,R125,R127,R129,R131,R135,R140,R143,R149,R150,R152,R153,R154,R156,R158</Data></Cell>
     <Cell><Data ss:Type="String">Various</Data></Cell>
     <Cell><Data ss:Type="String">Resistor</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">RESISTOR0603</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0</Data></Cell>
@@ -857,7 +857,7 @@
     <Cell><Data ss:Type="Number">0.1</Data></Cell>
     <Cell><Data ss:Type="String">Resistor</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">OSD3358</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
@@ -865,7 +865,7 @@
     <Cell><Data ss:Type="String">OSD3358</Data></Cell>
     <Cell><Data ss:Type="String">Octavo Systems LLC - OSD3358 Rev A</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">24LC_32AT-I/OT</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.32</Data></Cell>
@@ -892,7 +892,7 @@
     <Cell><Data ss:Type="Number">0.32</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=07b35d5&amp;sid=459&amp;ppid=9565804&amp;vpid=34017723&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">SN74LVC1G07DCKR</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.08</Data></Cell>
@@ -918,7 +918,7 @@
     <Cell><Data ss:Type="Number">0.08</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=05d1915&amp;sid=5832&amp;ppid=423609&amp;vpid=182239153&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">MISB-SW-5AB</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0</Data></Cell>
@@ -926,7 +926,7 @@
     <Cell><Data ss:Type="String">USB-MICRO-SMD</Data></Cell>
     <Cell><Data ss:Type="String">This is a USB AB connector that is compatible with USB OTG. i.e. this connector can serve as a host or device</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">CM200C-32.768KAZF-UT</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.83</Data></Cell>
@@ -944,7 +944,7 @@
     <Cell><Data ss:Type="Number">0.83</Data></Cell>
     <Cell><Data ss:Type="String">/click/track?url=http%3A%2F%2Fwww.mouser.com%2FSearch%2FProductDetail.aspx%3Fqs%3Dvdxo3%252fQC0bfZQZlRDu%252fwIg%253d%253d%26utm_source%3Dmousersearchapi%26utm_medium%3Dapi-aggregator%26utm_campaign%3DCM200C-32.768KAZF-UT%26utm_term%3DCM200C-32.768KAZF-UT%26utm_content%3DCitizen+FineDevice&amp;ppid=18639003&amp;sig=0034273&amp;sid=2401&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">7A-24.000MAAJ-T</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.60416999999999998</Data></Cell>
@@ -970,7 +970,7 @@
     <Cell><Data ss:Type="Number">0.60416999999999998</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=08ec570&amp;sid=13512&amp;ppid=18785507&amp;vpid=164350002&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="String">87224-8</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">2.5245000000000002</Data></Cell>
@@ -994,42 +994,48 @@
     <Cell><Data ss:Type="Number">0.84150000000000003</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=05d5cdc&amp;sid=8821&amp;ppid=39406203&amp;vpid=222258286&amp;ct=offers</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">WL1835MODGBMOCT</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">WILINK</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">7XZ-32.768KCE-T</Data></Cell>
     <Cell><Data ss:Type="Number">0.5</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">OSC3</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="String">BLM18KG221SN1D</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="String">U.FL-R-SMT(01)</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">ANT016008LCD2442MA1</Data></Cell>
     <Cell><Data ss:Type="Number">0.25</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="String">TXS0108EPWRG4</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:Index="58">
-    <Cell ss:Index="3" ss:Formula="=SUM(R[-56]C:R[-1]C)"><Data ss:Type="Number">49.479010000000002</Data></Cell>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MTFC4GACAANA-4M IT</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Index="58" ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:Formula="=SUM(R[-56]C:R[-1]C)"><Data ss:Type="Number">57.479010000000002</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>-4</HorizontalResolution>
@@ -1037,10 +1043,12 @@
    </Print>
    <PageLayoutZoom>0</PageLayoutZoom>
    <Selected/>
+   <TopRowVisible>42</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>2</ActiveRow>
+     <ActiveRow>51</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
