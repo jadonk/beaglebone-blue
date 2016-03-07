@@ -18731,8 +18731,12 @@ Attribution-ShareAlike 3.0 United States License.
 <net name="MDIR_2B" class="0">
 <segment>
 <pinref part="SIP" gate="C" pin="LCD_DATA11_U4"/>
-<wire x1="190.5" y1="170.18" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="170.18" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
 <label x="327.66" y="170.18" size="1.778" layer="95"/>
+<pinref part="R135" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="170.18" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="147.32" x2="289.56" y2="170.18" width="0.1524" layer="91"/>
+<junction x="289.56" y="170.18"/>
 </segment>
 </net>
 <net name="BATT_LED_2" class="0">
@@ -18952,11 +18956,7 @@ Attribution-ShareAlike 3.0 United States License.
 <segment>
 <label x="327.66" y="167.64" size="1.778" layer="95"/>
 <pinref part="SIP" gate="C" pin="LCD_DATA12_V2"/>
-<wire x1="190.5" y1="167.64" x2="289.56" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R135" gate="G$1" pin="2"/>
-<wire x1="289.56" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="167.64" x2="289.56" y2="147.32" width="0.1524" layer="91"/>
-<junction x="289.56" y="167.64"/>
+<wire x1="190.5" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EQEP_1B" class="0">

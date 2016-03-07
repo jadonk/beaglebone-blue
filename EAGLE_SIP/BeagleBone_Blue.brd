@@ -3790,7 +3790,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="MDIR_2B">
 <contactref element="H1" pad="16"/>
 <contactref element="SIP" pad="U4"/>
-<wire x1="54.9275" y1="-45.1866" x2="77.2938" y2="-41.7062" width="0" layer="19" extent="16-16"/>
+<contactref element="R135" pad="2"/>
+<wire x1="61.5188" y1="-38.1762" x2="77.2938" y2="-41.7062" width="0" layer="19" extent="1-16"/>
+<wire x1="54.9275" y1="-45.1866" x2="61.5188" y2="-38.1762" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="P$1"/>
@@ -4547,10 +4549,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="R17" pad="1"/>
 <contactref element="E2" pad="3"/>
 <contactref element="SIP" pad="V2"/>
-<contactref element="R135" pad="2"/>
-<wire x1="61.5188" y1="-38.1762" x2="82.1055" y2="-39.0398" width="0" layer="19" extent="1-1"/>
-<wire x1="57.4675" y1="-46.4566" x2="61.5188" y2="-38.1762" width="0" layer="19" extent="1-16"/>
-<wire x1="65.421" y1="-52.3494" x2="57.4675" y2="-46.4566" width="0" layer="19" extent="1-16"/>
+<wire x1="65.421" y1="-52.3494" x2="82.1055" y2="-39.0398" width="0" layer="19" extent="1-1"/>
+<wire x1="57.4675" y1="-46.4566" x2="65.421" y2="-52.3494" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="EQEP_1B">
 <contactref element="R16" pad="1"/>
