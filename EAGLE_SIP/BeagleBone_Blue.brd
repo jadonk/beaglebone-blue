@@ -3789,10 +3789,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </signal>
 <signal name="MDIR_2B">
 <contactref element="H1" pad="16"/>
-<contactref element="R135" pad="2"/>
 <contactref element="SIP" pad="U4"/>
-<wire x1="61.5188" y1="-38.1762" x2="77.2938" y2="-41.7062" width="0" layer="19" extent="1-16"/>
-<wire x1="54.9275" y1="-45.1866" x2="61.5188" y2="-38.1762" width="0" layer="19" extent="1-16"/>
+<wire x1="54.9275" y1="-45.1866" x2="77.2938" y2="-41.7062" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="P$1"/>
@@ -4549,8 +4547,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="R17" pad="1"/>
 <contactref element="E2" pad="3"/>
 <contactref element="SIP" pad="V2"/>
-<wire x1="65.421" y1="-52.3494" x2="82.1055" y2="-39.0398" width="0" layer="19" extent="1-1"/>
-<wire x1="57.4675" y1="-46.4566" x2="65.421" y2="-52.3494" width="0" layer="19" extent="1-16"/>
+<contactref element="R135" pad="2"/>
+<wire x1="61.5188" y1="-38.1762" x2="82.1055" y2="-39.0398" width="0" layer="19" extent="1-1"/>
+<wire x1="57.4675" y1="-46.4566" x2="61.5188" y2="-38.1762" width="0" layer="19" extent="1-16"/>
+<wire x1="65.421" y1="-52.3494" x2="57.4675" y2="-46.4566" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="EQEP_1B">
 <contactref element="R16" pad="1"/>
@@ -4704,12 +4704,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="39.6875" y1="-33.7566" x2="0.353390625" y2="-71.549209375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MMC2_DAT0">
-<contactref element="U$3" pad="16"/>
 <contactref element="SIP" pad="J17"/>
-<wire x1="38.4175" y1="-35.0266" x2="0.353390625" y2="-69.5492125" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$92">
-<contactref element="U$3" pad="18"/>
+<contactref element="U$3" pad="15"/>
+<wire x1="38.4175" y1="-35.0266" x2="0.353390625" y2="-70.0491875" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$93">
 <contactref element="U$3" pad="20"/>
@@ -4757,14 +4754,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="MMC2_DAT1">
 <contactref element="SIP" pad="J18"/>
 <contactref element="U$3" pad="14"/>
-<contactref element="U$3" pad="15"/>
-<wire x1="0.353390625" y1="-70.0491875" x2="0.353390625" y2="-70.5492125" width="0" layer="19" extent="1-1"/>
-<wire x1="37.1475" y1="-35.0266" x2="0.353390625" y2="-70.0491875" width="0" layer="19" extent="1-16"/>
+<wire x1="37.1475" y1="-35.0266" x2="0.353390625" y2="-70.5492125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MMC2_CMD">
 <contactref element="SIP" pad="J16"/>
-<contactref element="U$3" pad="17"/>
-<wire x1="39.6875" y1="-35.0266" x2="0.353390625" y2="-69.0491875" width="0" layer="19" extent="1-16"/>
+<contactref element="U$3" pad="16"/>
+<wire x1="39.6875" y1="-35.0266" x2="0.353390625" y2="-69.5492125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$109">
 <contactref element="SIP" pad="L18"/>
@@ -4792,6 +4787,13 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </signal>
 <signal name="MCASP0_FSR">
 <contactref element="SIP" pad="V12"/>
+<contactref element="U$3" pad="17"/>
+<wire x1="44.7675" y1="-46.4566" x2="0.353390625" y2="-69.0491875" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="MCASP0_ACLKR">
+<contactref element="SIP" pad="U18"/>
+<contactref element="U$3" pad="18"/>
+<wire x1="37.1475" y1="-45.1866" x2="0.353390625" y2="-68.549190625" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>
