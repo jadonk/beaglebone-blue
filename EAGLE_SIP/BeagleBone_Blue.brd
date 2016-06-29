@@ -3212,6 +3212,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="IC1" library="WL1835MODGBMOCT" package="MOC-100" value="WL1835MODGBMOCT" x="25.2984" y="-28.3464"/>
 <element name="U1" library="LOGIC-TXS0102DCTR_MSOP8_" package="MSOP8-0.65-3X3MM" value="LOGIC-TXS0102DCTR(MSOP8)" x="15.24" y="-34.7472"/>
 <element name="R9" library="Strawson_Eagle_Lib" package="0402-RES" value="4.87k" x="16.002" y="-31.242"/>
+<element name="R15" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="-3.9624" y="-58.8264"/>
 </elements>
 <signals>
 <signal name="5.0V" class="3">
@@ -5089,9 +5090,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="69.6014" y1="-46.5095" x2="48.7299" y2="-36.8554" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$97">
-<contactref element="SIP" pad="U9"/>
 <contactref element="U8" pad="M6"/>
-<wire x1="69.1014" y1="-46.5095" x2="48.7299" y2="-35.5854" width="0" layer="19" extent="16-16"/>
+<contactref element="R15" pad="2"/>
+<wire x1="69.1014" y1="-46.5095" x2="-3.4036" y2="-58.8264" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$98">
 <contactref element="SIP" pad="R14"/>
@@ -5464,6 +5465,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="35.6735875" y1="-36.667390625" x2="17.59" y2="-35.0722" width="0" layer="19" extent="1-1"/>
 <wire x1="35.8259875" y1="-29.656990625" x2="35.6735875" y2="-36.667390625" width="0" layer="19" extent="1-1"/>
 <wire x1="37.1475" y1="-37.5666" x2="35.8259875" y2="-29.656990625" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$85">
+<contactref element="SIP" pad="U9"/>
+<contactref element="R15" pad="1"/>
+<wire x1="48.5775" y1="-45.1866" x2="-4.5212" y2="-58.8264" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>

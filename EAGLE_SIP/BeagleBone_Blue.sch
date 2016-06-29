@@ -15841,6 +15841,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="4.87k"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="R15" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
 </parts>
 <sheets>
 <sheet>
@@ -18284,6 +18285,10 @@ Attribution-ShareAlike 3.0 United States License.
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="U6" gate="A" x="218.44" y="236.22"/>
 <instance part="J1" gate="1" x="43.18" y="78.74"/>
+<instance part="R15" gate="G$1" x="218.44" y="78.74" smashed="yes">
+<attribute name="NAME" x="224.79" y="80.2386" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="232.41" y="80.518" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19249,11 +19254,11 @@ Attribution-ShareAlike 3.0 United States License.
 </net>
 <net name="N$97" class="0">
 <segment>
-<pinref part="SIP" gate="B" pin="MMC1_CLK_U9"/>
-<wire x1="208.28" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="78.74" x2="256.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="CLK"/>
 <wire x1="256.54" y1="38.1" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$98" class="0">
@@ -19422,6 +19427,13 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="SIP" gate="B" pin="GPIO1_28_U18"/>
 <wire x1="208.28" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
 <label x="231.14" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="SIP" gate="B" pin="MMC1_CLK_U9"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="78.74" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
