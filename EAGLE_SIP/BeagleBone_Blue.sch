@@ -19117,16 +19117,11 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="231.14" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$86" class="0">
-<segment>
-<pinref part="SIP" gate="B" pin="GPIO0_19_A15"/>
-<wire x1="208.28" y1="132.08" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SPI1_SS2" class="0">
 <segment>
-<wire x1="226.06" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
 <label x="231.14" y="132.08" size="1.778" layer="95"/>
+<pinref part="SIP" gate="B" pin="GPIO0_19_A15"/>
+<wire x1="233.68" y1="132.08" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_GRN" class="0">
@@ -19171,7 +19166,6 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="231.14" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-=======
 <net name="N$88" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT7_T9"/>

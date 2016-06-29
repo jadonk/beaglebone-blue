@@ -4331,6 +4331,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="SPI1_SS2">
 <contactref element="SPI1.2" pad="6"/>
 <contactref element="SIP" pad="A15"/>
+<contactref element="SIP" pad="A15"/>
 <wire x1="40.9575" y1="-24.8666" x2="49.8856" y2="-22.7457" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="IMU_INT">
@@ -5041,9 +5042,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="C15"/>
 <contactref element="J1" pad="CD1"/>
 <wire x1="16.2116" y1="-22.7912" x2="40.9575" y2="-27.4066" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$86">
-<contactref element="SIP" pad="A15"/>
 </signal>
 <signal name="N$88">
 <contactref element="SIP" pad="T9"/>
