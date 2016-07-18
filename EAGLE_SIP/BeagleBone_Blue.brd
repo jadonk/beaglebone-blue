@@ -3213,6 +3213,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="U1" library="LOGIC-TXS0102DCTR_MSOP8_" package="MSOP8-0.65-3X3MM" value="LOGIC-TXS0102DCTR(MSOP8)" x="15.24" y="-34.7472"/>
 <element name="R9" library="Strawson_Eagle_Lib" package="0402-RES" value="4.87k" x="16.002" y="-31.242"/>
 <element name="R15" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="-3.9624" y="-58.8264"/>
+<element name="R18" library="Strawson_Eagle_Lib" package="0402-RES" value="1M" x="-3.9624" y="-61.1124"/>
+<element name="R20" library="Strawson_Eagle_Lib" package="0402-RES" value="1M" x="-3.9624" y="-63.3984"/>
 </elements>
 <signals>
 <signal name="5.0V" class="3">
@@ -4830,8 +4832,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="C19"/>
 <contactref element="SIP" pad="C17"/>
 <contactref element="R2" pad="1"/>
-<contactref element="U5" pad="3"/>
-<wire x1="38.4175" y1="-27.4066" x2="38.3921" y2="-7.62" width="0" layer="19" extent="1-16"/>
 <wire x1="35.8775" y1="-27.4066" x2="38.4175" y2="-27.4066" width="0" layer="19" extent="16-16"/>
 <wire x1="16.2814" y1="-29.5148" x2="35.8775" y2="-27.4066" width="0" layer="19" extent="1-16"/>
 </signal>
@@ -4899,13 +4899,17 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="Y1" pad="2"/>
 <contactref element="C30" pad="1"/>
 <contactref element="SIP" pad="M20"/>
-<wire x1="28.3722" y1="-37.7698" x2="27.7241" y2="-36.0934" width="0" layer="19" extent="16-16"/>
+<contactref element="R20" pad="2"/>
+<wire x1="28.3722" y1="-37.7698" x2="-3.4036" y2="-63.3984" width="0" layer="19" extent="1-16"/>
+<wire x1="27.7241" y1="-36.0934" x2="28.3722" y2="-37.7698" width="0" layer="19" extent="16-16"/>
 <wire x1="34.6075" y1="-38.8366" x2="28.3722" y2="-37.7698" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$27">
 <contactref element="SIP" pad="K20"/>
 <contactref element="Y1" pad="1"/>
 <contactref element="C29" pad="1"/>
+<contactref element="R20" pad="1"/>
+<wire x1="31.5722" y1="-37.7698" x2="-4.5212" y2="-63.3984" width="0" layer="19" extent="1-16"/>
 <wire x1="31.7119" y1="-36.1696" x2="31.5722" y2="-37.7698" width="0" layer="19" extent="16-16"/>
 <wire x1="34.6075" y1="-36.2966" x2="31.7119" y2="-36.1696" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -4927,6 +4931,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="H20"/>
 <contactref element="C31" pad="1"/>
 <contactref element="Y2" pad="2"/>
+<contactref element="R18" pad="2"/>
+<wire x1="29.0576" y1="-33.6042" x2="-3.4036" y2="-61.1124" width="0" layer="19" extent="1-16"/>
 <wire x1="31.3944" y1="-33.518" x2="29.0576" y2="-33.6042" width="0" layer="19" extent="16-16"/>
 <wire x1="34.6075" y1="-33.7566" x2="31.3944" y2="-33.518" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -4934,8 +4940,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="F20"/>
 <contactref element="C32" pad="2"/>
 <contactref element="Y2" pad="1"/>
-<wire x1="31.3944" y1="-29.718" x2="34.6075" y2="-31.2166" width="0" layer="19" extent="16-16"/>
-<wire x1="29.21" y1="-29.6418" x2="31.3944" y2="-29.718" width="0" layer="19" extent="16-16"/>
+<contactref element="R18" pad="1"/>
+<wire x1="29.21" y1="-29.6418" x2="-4.5212" y2="-61.1124" width="0" layer="19" extent="1-16"/>
+<wire x1="31.3944" y1="-29.718" x2="29.21" y2="-29.6418" width="0" layer="19" extent="16-16"/>
+<wire x1="34.6075" y1="-31.2166" x2="31.3944" y2="-29.718" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$34">
 <contactref element="C32" pad="1"/>
@@ -5484,6 +5492,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="U9"/>
 <contactref element="R15" pad="1"/>
 <wire x1="48.5775" y1="-45.1866" x2="-4.5212" y2="-58.8264" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$86">
+<contactref element="U5" pad="3"/>
 </signal>
 </signals>
 </board>
