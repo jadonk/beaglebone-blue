@@ -2901,7 +2901,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="C30" library="Strawson_Eagle_Lib" package="0402-CAP" value="20pF" x="28.2829" y="-36.0934" rot="MR180"/>
 <element name="C31" library="Strawson_Eagle_Lib" package="0402-CAP" value="20pF" x="28.4988" y="-33.6042" rot="MR0"/>
 <element name="C32" library="Strawson_Eagle_Lib" package="0402-CAP" value="20pF" x="28.6512" y="-29.6418" rot="MR180"/>
-<element name="C33" library="Strawson_Eagle_Lib" package="0402-CAP" value="1uF" x="11.1252" y="-15.0876"/>
+<element name="C33" library="Strawson_Eagle_Lib" package="0402-CAP" value="2.2uF" x="11.1252" y="-15.0876"/>
 <element name="C34" library="Strawson_Eagle_Lib" package="0805" value="10uF" x="1.8288" y="-20.8788" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.1844" y="-20.2311" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="3.2258" y="-21.8948" size="0.4064" layer="27" rot="R90"/>
@@ -3130,24 +3130,24 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="R58" library="Strawson_Eagle_Lib" package="0402-RES" value="1.5K,1%" x="35.052" y="-10.9728"/>
 <element name="R59" library="Strawson_Eagle_Lib" package="0402-RES" value="4.87k" x="40.2336" y="-8.9916" rot="R270"/>
 <element name="R6" library="Strawson_Eagle_Lib" package="0402-RES" value="10k" x="21.0312" y="-13.716" rot="R180"/>
-<element name="R60" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="11.2776" y="-17.6784" rot="R180"/>
-<element name="R61" library="Strawson_Eagle_Lib" package="0402-RES" value="240" x="40.6908" y="-52.578" smashed="yes" rot="MR270">
+<element name="R60" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="11.2776" y="-17.6784" rot="R180"/>
+<element name="R61" library="Strawson_Eagle_Lib" package="0402-RES" value="1K" x="40.6908" y="-52.578" smashed="yes" rot="MR270">
 <attribute name="NAME" x="40.2463" y="-52.07" size="0.4064" layer="26" rot="MR270"/>
 </element>
-<element name="R62" library="Strawson_Eagle_Lib" package="0402-RES" value="240" x="39.1414" y="-52.4256" smashed="yes" rot="MR270">
+<element name="R62" library="Strawson_Eagle_Lib" package="0402-RES" value="1K" x="39.1414" y="-52.4256" smashed="yes" rot="MR270">
 <attribute name="NAME" x="39.5859" y="-52.9336" size="0.4064" layer="26" rot="MR90"/>
 </element>
-<element name="R63" library="Strawson_Eagle_Lib" package="0402-RES" value="240" x="37.465" y="-52.4256" smashed="yes" rot="MR270">
+<element name="R63" library="Strawson_Eagle_Lib" package="0402-RES" value="1K" x="37.465" y="-52.4256" smashed="yes" rot="MR270">
 <attribute name="NAME" x="37.9095" y="-52.9336" size="0.4064" layer="26" rot="MR90"/>
 </element>
-<element name="R64" library="Strawson_Eagle_Lib" package="0402-RES" value="240" x="36.0172" y="-52.4256" smashed="yes" rot="MR270">
+<element name="R64" library="Strawson_Eagle_Lib" package="0402-RES" value="1K" x="36.0172" y="-52.4256" smashed="yes" rot="MR270">
 <attribute name="NAME" x="35.1917" y="-52.9336" size="0.4064" layer="26" rot="MR90"/>
 </element>
 <element name="R7" library="Strawson_Eagle_Lib" package="0402-RES" value="4.87k" x="13.8684" y="-12.6492" rot="R90"/>
 <element name="R8" library="Strawson_Eagle_Lib" package="0402-RES" value="10k" x="12.192" y="-12.6492" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.9761" y="-10.6934" size="0.4064" layer="25" rot="R270"/>
 </element>
-<element name="R94" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="49.0728" y="-52.578" rot="R180"/>
+<element name="R94" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="49.0728" y="-52.578" rot="R180"/>
 <element name="RED" library="SparkFun-LED" package="LED-0603" value="RED" x="46.8249" y="-52.5145" rot="R180"/>
 <element name="RESET" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="5.0165" y="-13.2842" smashed="yes">
 <attribute name="PROD_ID" value="SWCH-00815" x="5.0165" y="-13.2842" size="1.778" layer="27" display="off"/>
@@ -3264,23 +3264,23 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="UART5" library="Seeed-Connector -2016" package="HW4-SMD-2.0" value="H4P-SMD-2.0" x="2.7432" y="-90.9828"/>
 <element name="I2C1" library="Seeed-Connector -2016" package="HW4-SMD-2.0" value="H4P-SMD-2.0" x="28.194" y="-68.7324"/>
 <element name="GPIO1" library="Seeed-Connector -2016" package="HW4-SMD-2.0" value="H4P-SMD-2.0" x="28.194" y="-77.2668"/>
-<element name="R26" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="22.7076" y="-80.1624"/>
-<element name="R35" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="22.7076" y="-82.4484"/>
-<element name="R54" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="22.7076" y="-84.7344"/>
-<element name="R55" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="22.7076" y="-87.0204"/>
-<element name="R56" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="22.7076" y="-89.3064"/>
-<element name="R57" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="22.7076" y="-91.5924"/>
-<element name="R65" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="22.7076" y="-93.8784"/>
-<element name="R66" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-65.3796"/>
-<element name="R67" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-67.6656"/>
-<element name="R68" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-69.9516"/>
-<element name="R69" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-72.2376"/>
-<element name="R70" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-74.5236"/>
-<element name="R71" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-76.8096"/>
-<element name="R72" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-79.0956"/>
-<element name="R73" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-81.3816"/>
-<element name="R74" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-83.6676"/>
-<element name="R75" library="Strawson_Eagle_Lib" package="0402-RES" value="10K,1%" x="50.7492" y="-85.9536"/>
+<element name="R26" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="22.7076" y="-80.1624"/>
+<element name="R35" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="22.7076" y="-82.4484"/>
+<element name="R54" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="22.7076" y="-84.7344"/>
+<element name="R55" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="22.7076" y="-87.0204"/>
+<element name="R56" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="22.7076" y="-89.3064"/>
+<element name="R57" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="22.7076" y="-91.5924"/>
+<element name="R65" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="22.7076" y="-93.8784"/>
+<element name="R66" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-65.3796"/>
+<element name="R67" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-67.6656"/>
+<element name="R68" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-69.9516"/>
+<element name="R69" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-72.2376"/>
+<element name="R70" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-74.5236"/>
+<element name="R71" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-76.8096"/>
+<element name="R72" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-79.0956"/>
+<element name="R73" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-81.3816"/>
+<element name="R74" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-83.6676"/>
+<element name="R75" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="50.7492" y="-85.9536"/>
 <element name="R76" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="50.7492" y="-88.2396"/>
 <element name="R77" library="Strawson_Eagle_Lib" package="0402-RES" value="100" x="50.7492" y="-90.5256"/>
 </elements>
@@ -5648,6 +5648,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="U4"/>
 <contactref element="R135" pad="2"/>
 <wire x1="54.9275" y1="-45.1866" x2="61.5188" y2="-38.1762" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$43">
 </signal>
 </signals>
 </board>
