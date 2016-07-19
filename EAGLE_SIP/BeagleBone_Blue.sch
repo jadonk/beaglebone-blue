@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12397,6 +12397,22 @@ Renamed DAT2 from NC to RSV to remove the implication that you should leave it n
 <wire x1="13.462" y1="-5.08" x2="14.732" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="13.462" y1="-10.16" x2="14.732" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
+<symbol name="TCAN1050HV">
+<pin name="TXD" x="0" y="-2.54" direction="in"/>
+<pin name="GND" x="0" y="-12.7" direction="pwr"/>
+<pin name="VCC" x="0" y="2.54" direction="pwr"/>
+<pin name="RXD" x="0" y="-5.08" direction="out"/>
+<pin name="VIO" x="38.1" y="2.54" direction="pwr" rot="R180"/>
+<pin name="CANL" x="38.1" y="-12.7" rot="R180"/>
+<pin name="CANH" x="38.1" y="-2.54" rot="R180"/>
+<pin name="S" x="0" y="-7.62" direction="in"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="-15.24" x2="30.48" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="30.48" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="7.9756" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="17.1958" y="-18.8214" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OSD3358">
@@ -13261,6 +13277,39 @@ NOTE: CD1 and CD2 are connected internally</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-07820"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TCAN1051HV" prefix="U">
+<gates>
+<gate name="G$1" symbol="TCAN1050HV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D8">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="S" pad="8"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VIO" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEETURL" value="http://www.ti.com/lit/ds/symlink/tcan1051hv.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="CAN Transceiver" constant="no"/>
+<attribute name="FAMILY_NAME" value="CAN Transceiver" constant="no"/>
+<attribute name="GENERIC_PART_NUMBER" value="TCAN1051HV" constant="no"/>
+<attribute name="INDUSTRY_STD_PKG_TYPE" value="SOIC" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TCAN1051HVD" constant="no"/>
+<attribute name="PACKAGE_DESIGNATOR" value="D" constant="no"/>
+<attribute name="PIN_COUNT" value="8" constant="no"/>
+<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -26446,6 +26495,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R96" library="rcl" deviceset="R-US_" device="R0402" value="33"/>
 <part name="R97" library="rcl" deviceset="R-US_" device="R0402" value="33"/>
 <part name="R100" library="rcl" deviceset="R-US_" device="R0402" value="33"/>
+<part name="U1" library="BeagleBone_Blue" deviceset="TCAN1051HV" device=""/>
+<part name="R104" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="120, DNP"/>
+<part name="GND55" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28934,14 +28986,14 @@ Attribution-ShareAlike 3.0 United States License.
 <label x="177.8" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$101" class="0">
+<net name="CANH" class="0">
 <segment>
 <pinref part="CAN" gate="G$1" pin="3"/>
 <wire x1="157.48" y1="12.7" x2="144.78" y2="12.7" width="0.1524" layer="91"/>
 <label x="146.05" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$102" class="0">
+<net name="CANL" class="0">
 <segment>
 <pinref part="CAN" gate="G$1" pin="4"/>
 <wire x1="157.48" y1="10.16" x2="144.78" y2="10.16" width="0.1524" layer="91"/>
@@ -29152,6 +29204,12 @@ Attribution-ShareAlike 3.0 United States License.
 <attribute name="NAME" x="277.2664" y="106.68" size="1.778" layer="95" rot="R90" align="top-left"/>
 <attribute name="VALUE" x="277.3045" y="119.38" size="1.778" layer="96" rot="R90" align="top-left"/>
 </instance>
+<instance part="U1" gate="G$1" x="80.645" y="31.115" rot="MR0"/>
+<instance part="R104" gate="G$1" x="33.655" y="23.495" smashed="yes" rot="R90">
+<attribute name="NAME" x="42.3164" y="25.4" size="1.778" layer="95" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="48.0695" y="22.86" size="1.778" layer="96" rot="R180" align="top-left"/>
+</instance>
+<instance part="GND55" gate="1" x="83.185" y="8.89"/>
 </instances>
 <busses>
 </busses>
@@ -29166,6 +29224,13 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="60.96" y1="243.84" x2="43.18" y2="243.84" width="0.1524" layer="91"/>
 <junction x="60.96" y="243.84"/>
 <label x="43.18" y="243.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="80.645" y1="33.655" x2="83.185" y2="33.655" width="0.1524" layer="91"/>
+<wire x1="83.185" y1="33.655" x2="83.185" y2="42.545" width="0.1524" layer="91"/>
+<wire x1="83.185" y1="42.545" x2="79.375" y2="42.545" width="0.1524" layer="91"/>
+<label x="76.835" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SYS_5V" class="3">
@@ -29444,6 +29509,13 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="R57" gate="G$1" pin="2"/>
 <pinref part="R65" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<wire x1="40.005" y1="33.655" x2="40.005" y2="42.545" width="0.1524" layer="91"/>
+<wire x1="40.005" y1="42.545" x2="44.45" y2="42.545" width="0.1524" layer="91"/>
+<label x="40.64" y="43.18" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="VIO"/>
+<wire x1="40.005" y1="33.655" x2="42.545" y2="33.655" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VDD_3V3AUX" class="0">
 <segment>
@@ -29582,6 +29654,12 @@ Attribution-ShareAlike 3.0 United States License.
 <wire x1="292.1" y1="198.12" x2="292.1" y2="200.66" width="0.1524" layer="91"/>
 <junction x="279.4" y="198.12"/>
 <label x="236.22" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="80.645" y1="18.415" x2="83.185" y2="18.415" width="0.1524" layer="91"/>
+<wire x1="83.185" y1="18.415" x2="83.185" y2="11.43" width="0.1524" layer="91"/>
+<pinref part="GND55" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VDD_1V8" class="0">
@@ -30366,15 +30444,21 @@ Attribution-ShareAlike 3.0 United States License.
 <net name="DCAN1_TX" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="UART0_CTSN_E18"/>
-<wire x1="149.86" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="45.72" x2="98.425" y2="45.72" width="0.1524" layer="91"/>
 <label x="114.3" y="45.72" size="1.778" layer="95"/>
+<wire x1="98.425" y1="45.72" x2="98.425" y2="28.575" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="TXD"/>
+<wire x1="98.425" y1="28.575" x2="80.645" y2="28.575" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DCAN1_RX" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="UART0_RTSN_E17"/>
-<wire x1="149.86" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="43.18" x2="100.965" y2="43.18" width="0.1524" layer="91"/>
 <label x="114.3" y="43.18" size="1.778" layer="95"/>
+<wire x1="100.965" y1="43.18" x2="100.965" y2="26.035" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="RXD"/>
+<wire x1="100.965" y1="26.035" x2="80.645" y2="26.035" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART1_TX" class="0">
@@ -30424,6 +30508,33 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="SIP" gate="B" pin="GPIO0_7_C18"/>
 <wire x1="208.28" y1="68.58" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
 <label x="218.44" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CANH" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CANH"/>
+<wire x1="42.545" y1="28.575" x2="33.655" y2="28.575" width="0.1524" layer="91"/>
+<pinref part="R104" gate="G$1" pin="2"/>
+<wire x1="33.655" y1="28.575" x2="18.415" y2="28.575" width="0.1524" layer="91"/>
+<junction x="33.655" y="28.575"/>
+<label x="20.32" y="28.575" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CANL" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CANL"/>
+<wire x1="42.545" y1="18.415" x2="33.655" y2="18.415" width="0.1524" layer="91"/>
+<pinref part="R104" gate="G$1" pin="1"/>
+<wire x1="33.655" y1="18.415" x2="18.415" y2="18.415" width="0.1524" layer="91"/>
+<junction x="33.655" y="18.415"/>
+<label x="20.32" y="18.415" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DCAN1_SILENT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="S"/>
+<wire x1="80.645" y1="23.495" x2="103.505" y2="23.495" width="0.1524" layer="91"/>
+<label x="83.185" y="23.495" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -31266,6 +31377,13 @@ Attribution-ShareAlike 3.0 United States License.
 <pinref part="SIP" gate="C" pin="HDMIINT_GPIO1_25_U16"/>
 <wire x1="190.5" y1="144.78" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
 <label x="200.66" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DCAN1_SILENT" class="0">
+<segment>
+<pinref part="SIP" gate="C" pin="M16"/>
+<wire x1="129.54" y1="121.92" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="73.66" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

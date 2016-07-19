@@ -2997,6 +2997,19 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="R96" library="rcl" package="R0402" value="33" x="-4.1148" y="-207.4164"/>
 <element name="R97" library="rcl" package="R0402" value="33" x="-4.1148" y="-212.4456"/>
 <element name="R100" library="rcl" package="R0402" value="33" x="-4.1148" y="-217.4748"/>
+<element name="U1" library="BeagleBone_Blue" package="D8" value="TCAN1051HV" x="-1.3716" y="-222.8088">
+<attribute name="GENERIC_PART_NUMBER" value="TCAN1051HV" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE_DESIGNATOR" value="D" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="FAMILY_NAME" value="CAN Transceiver" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="PIN_COUNT" value="8" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Texas Instruments" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TCAN1051HVD" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="INDUSTRY_STD_PKG_TYPE" value="SOIC" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEETURL" value="http://www.ti.com/lit/ds/symlink/tcan1051hv.pdf" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAN Transceiver" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="-1.3716" y="-222.8088" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R104" library="Strawson_Eagle_Lib" package="0402-RES" value="120, DNP" x="-3.9624" y="-226.6188"/>
 </elements>
 <signals>
 <signal name="5.0V" class="3">
@@ -3008,8 +3021,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="C5" pad="1"/>
 <contactref element="5VREG" pad="3"/>
 <contactref element="L1" pad="2"/>
-<wire x1="53.6575" y1="-48.9966" x2="73.0758" y2="-36.6522" width="0" layer="19" extent="1-16"/>
-<wire x1="52.3875" y1="-48.9966" x2="53.6575" y2="-48.9966" width="0" layer="19" extent="16-16"/>
+<contactref element="U1" pad="3"/>
+<wire x1="52.3875" y1="-48.9966" x2="-3.8354" y2="-223.4438" width="0" layer="19" extent="1-16"/>
+<wire x1="53.6575" y1="-48.9966" x2="52.3875" y2="-48.9966" width="0" layer="19" extent="16-16"/>
+<wire x1="73.0758" y1="-36.6522" x2="53.6575" y2="-48.9966" width="0" layer="19" extent="1-16"/>
 <wire x1="39.0431" y1="-21.971" x2="52.3875" y2="-48.9966" width="0" layer="19" extent="1-16"/>
 <wire x1="30.319" y1="-17.0914" x2="39.0431" y2="-21.971" width="0" layer="19" extent="1-1"/>
 <wire x1="30.4944" y1="-12.192" x2="30.319" y2="-17.0914" width="0" layer="19" extent="1-1"/>
@@ -3110,6 +3125,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="C53" pad="1"/>
 <contactref element="IC11" pad="19"/>
 <contactref element="C52" pad="1"/>
+<contactref element="U1" pad="5"/>
+<wire x1="-4.1148" y1="-196.8634" x2="1.0922" y2="-224.7138" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.1148" y1="-193.8154" x2="-4.1148" y2="-196.8634" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.7672" y1="-185.4708" x2="-4.1148" y2="-193.8154" width="0" layer="19" extent="1-1"/>
 <wire x1="2.7004" y1="-185.4708" x2="-4.7672" y2="-185.4708" width="0" layer="19" extent="1-1"/>
@@ -3686,6 +3703,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="R89" pad="2"/>
 <contactref element="T3" pad="S"/>
 <contactref element="T4" pad="S"/>
+<contactref element="U1" pad="2"/>
+<wire x1="-3.7672" y1="-185.4708" x2="-3.8354" y2="-222.1738" width="0" layer="19" extent="1-1"/>
 <wire x1="3.7004" y1="-185.4708" x2="-3.7672" y2="-185.4708" width="0" layer="19" extent="1-1"/>
 <wire x1="8.5772" y1="-180.4416" x2="3.7004" y2="-185.4708" width="0" layer="19" extent="1-1"/>
 <wire x1="11.93" y1="-176.022" x2="8.5772" y2="-180.4416" width="0" layer="19" extent="1-1"/>
@@ -5285,12 +5304,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="SIP" pad="C18"/>
 <wire x1="37.1475" y1="-27.4066" x2="-2.8956" y2="-67.056" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="N$101">
-<contactref element="CAN" pad="3"/>
-</signal>
-<signal name="N$102">
-<contactref element="CAN" pad="4"/>
-</signal>
 <signal name="UART1_RX">
 <contactref element="UART1" pad="3"/>
 <contactref element="SIP" pad="D16"/>
@@ -5327,9 +5340,13 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </signal>
 <signal name="DCAN1_TX">
 <contactref element="SIP" pad="E18"/>
+<contactref element="U1" pad="1"/>
+<wire x1="37.1475" y1="-29.9466" x2="-3.8354" y2="-220.9038" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DCAN1_RX">
 <contactref element="SIP" pad="E17"/>
+<contactref element="U1" pad="4"/>
+<wire x1="38.4175" y1="-29.9466" x2="-3.8354" y2="-224.7138" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MMC2_CLK">
 <contactref element="R76" pad="1"/>
@@ -5589,6 +5606,25 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="MOD1" pad="57"/>
 <contactref element="R96" pad="1"/>
 <wire x1="-4.4712" y1="-103.1748" x2="-4.6148" y2="-207.4164" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CANH">
+<contactref element="U1" pad="7"/>
+<contactref element="R104" pad="2"/>
+<contactref element="CAN" pad="3"/>
+<wire x1="1.0922" y1="-222.1738" x2="-3.4036" y2="-226.6188" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.8448" y1="-72.9488" x2="1.0922" y2="-222.1738" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CANL">
+<contactref element="U1" pad="6"/>
+<contactref element="R104" pad="1"/>
+<contactref element="CAN" pad="4"/>
+<wire x1="1.0922" y1="-223.4438" x2="-4.5212" y2="-226.6188" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.8448" y1="-72.9488" x2="1.0922" y2="-223.4438" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DCAN1_SILENT">
+<contactref element="U1" pad="8"/>
+<contactref element="SIP" pad="M16"/>
+<wire x1="39.6875" y1="-38.8366" x2="1.0922" y2="-220.9038" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 </board>
