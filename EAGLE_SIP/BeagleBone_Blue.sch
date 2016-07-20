@@ -15724,11 +15724,11 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R58" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K"/>
 <part name="TP13" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="C28" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="C29" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
-<part name="C30" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
+<part name="C29" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
+<part name="C30" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
 <part name="Y2" library="445C33D24M00000" deviceset="445C33D24M00000" device=""/>
-<part name="C31" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
-<part name="C32" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="20pF"/>
+<part name="C31" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
+<part name="C32" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
 <part name="TP14" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP15" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP16" library="testpad" deviceset="TPSQ" device="B1,27"/>
