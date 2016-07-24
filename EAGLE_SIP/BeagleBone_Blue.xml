@@ -17,8 +17,8 @@
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <WindowHeight>8440</WindowHeight>
   <WindowWidth>25600</WindowWidth>
-  <WindowTopX>700</WindowTopX>
-  <WindowTopY>0</WindowTopY>
+  <WindowTopX>460</WindowTopX>
+  <WindowTopY>880</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -45,6 +45,9 @@
    <Column ss:Index="2" ss:Width="131"/>
    <Column ss:Index="5" ss:Width="131"/>
    <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="121"/>
+   <Column ss:Width="192"/>
+   <Column ss:Index="10" ss:Width="129"/>
+   <Column ss:Width="131"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Qty</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Line Item</Data><NamedCell
@@ -869,7 +872,7 @@
     <Cell><Data ss:Type="Number">0.14799999999999999</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=04db88f&amp;sid=2429&amp;ppid=204877&amp;vpid=12939356&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="255">
+   <Row>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">SSB44-E3/52T</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0.13</Data></Cell>
@@ -963,7 +966,7 @@
     <Cell><Data ss:Type="String">USD_CONNECTOR</Data></Cell>
     <Cell><Data ss:Type="String">microSD Socket</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:Height="255">
     <Cell ss:Index="2"><Data ss:Type="String">RESISTOR0402-RES</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">R1,R2,R3,R5,R6,R7,R8,R10,R11,R12,R13,R14,R16,R17,R19,R21,R22,R23,R24,R25,R27,R28,R29,R30,R31,R32,R33,R34,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R109,R110,R111,R113,R115,R116,R118,R120,R122,R125,R127,R129,R131,R135,R140,R143,R149,R150,R152,R153,R154,R156,R158</Data></Cell>
@@ -1043,12 +1046,11 @@
    </Print>
    <PageLayoutZoom>0</PageLayoutZoom>
    <Selected/>
-   <TopRowVisible>37</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>48</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>9</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
