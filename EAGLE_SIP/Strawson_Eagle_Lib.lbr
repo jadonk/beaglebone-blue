@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3305,10 +3305,10 @@ Source: www.ti.com .. TI-bq24125.pdf</description>
 <wire x1="-3.302" y1="0.508" x2="-3.302" y2="1.524" width="0.254" layer="21"/>
 <wire x1="-3.302" y1="1.524" x2="3.175" y2="1.524" width="0.254" layer="21"/>
 <wire x1="3.175" y1="1.524" x2="3.175" y2="-1.524" width="0.254" layer="21"/>
-<text x="-2.159" y="1.778" size="0.8128" layer="21" rot="R90">100%</text>
-<text x="-0.508" y="1.778" size="0.8128" layer="21" rot="R90">75%</text>
-<text x="1.143" y="1.778" size="0.8128" layer="21" rot="R90">50%</text>
-<text x="2.794" y="1.778" size="0.8128" layer="21" rot="R90">25%</text>
+<text x="-2.159" y="1.778" size="0.8128" layer="21" rot="R90">100</text>
+<text x="-0.508" y="1.778" size="0.8128" layer="21" rot="R90">75</text>
+<text x="1.143" y="1.778" size="0.8128" layer="21" rot="R90">50</text>
+<text x="2.794" y="1.778" size="0.8128" layer="21" rot="R90">25</text>
 </package>
 <package name="BEAGLEBONE_BLUE">
 <wire x1="54.61" y1="73.66" x2="54.61" y2="6.35" width="0.127" layer="20"/>
