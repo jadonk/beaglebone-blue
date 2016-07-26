@@ -14038,48 +14038,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="CM200C-32.768KAZF-UT">
-<packages>
-<package name="CM200C-32.768KAZF-UT">
-<smd name="1" x="1.27" y="2.54" dx="1.3" dy="1.9" layer="1"/>
-<smd name="3" x="6.77" y="2.54" dx="1.3" dy="1.9" layer="1"/>
-<smd name="2" x="1.27" y="5.74" dx="1.3" dy="1.9" layer="1"/>
-<smd name="4" x="6.77" y="5.74" dx="1.3" dy="1.9" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CM200C-32.768KAZF-UT">
-<wire x1="-49.53" y1="15.24" x2="-46.863" y2="15.24" width="0.4064" layer="94"/>
-<wire x1="-46.863" y1="15.24" x2="-46.863" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-46.863" y1="10.16" x2="-49.53" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-49.53" y1="15.24" x2="-49.53" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-45.9232" y1="15.24" x2="-45.9232" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-50.546" y1="15.24" x2="-50.546" y2="10.16" width="0.4064" layer="94"/>
-<text x="-50.8" y="16.51" size="1.778" layer="95">Y1</text>
-<text x="-53.34" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="-43.18" y="12.7" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-53.34" y="12.7" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CM200C-32.768KAZF-UT">
-<gates>
-<gate name="G$1" symbol="CM200C-32.768KAZF-UT" x="10.16" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="CM200C-32.768KAZF-UT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Microchip-24LCxxx">
 <description>&lt;b&gt; Developed By element14 &lt;/b&gt;&lt;p&gt; 
 
@@ -14188,45 +14146,6 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <attribute name="PACKAGE" value="SOT-23-5 " constant="no"/>
 <attribute name="SUPPLIER" value="MICROCHIP" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="445C33D24M00000">
-<packages>
-<package name="445C33D24M00000">
-<smd name="1" x="1.27" y="2.54" dx="1.8" dy="2.4" layer="1"/>
-<smd name="2" x="5.07" y="2.54" dx="1.8" dy="2.4" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="445C33D24M00000">
-<wire x1="-44.45" y1="12.7" x2="-41.783" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="-41.783" y1="12.7" x2="-41.783" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-41.783" y1="7.62" x2="-44.45" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-44.45" y1="12.7" x2="-44.45" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-40.8432" y1="12.7" x2="-40.8432" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-45.466" y1="12.7" x2="-45.466" y2="7.62" width="0.4064" layer="94"/>
-<text x="-48.26" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="-38.1" y="10.16" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-48.26" y="10.16" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="445C33D24M00000">
-<gates>
-<gate name="G$1" symbol="445C33D24M00000" x="20.32" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="445C33D24M00000">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15541,6 +15460,80 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="GHI2">
+<packages>
+<package name="CRYSTAL_3.2X1.5">
+<wire x1="-0.53125" y1="-0.796875" x2="-0.53125" y2="0.796875" width="0.127" layer="21"/>
+<wire x1="-0.53125" y1="0.796875" x2="0.53125" y2="0.796875" width="0.127" layer="21"/>
+<wire x1="0.53125" y1="0.796875" x2="0.53125" y2="-0.796875" width="0.127" layer="21"/>
+<wire x1="0.53125" y1="-0.796875" x2="-0.53125" y2="-0.796875" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<smd name="P$2" x="1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<text x="-2.246875" y="1.115625" size="1.016" layer="25" ratio="12">&gt;NAME</text>
+<text x="-2.48125" y="-2.125" size="1.016" layer="27" ratio="12">&gt;VALUE</text>
+</package>
+<package name="CRYSTAL_5X3.2MM">
+<wire x1="-2.6" y1="-1.7" x2="2.6" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.7" x2="2.6" y2="-1.37" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.37" x2="2.6" y2="1.7" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.7" x2="-2.6" y2="1.7" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.7" x2="-2.6" y2="1.37" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.37" x2="-2.6" y2="-1.7" width="0.127" layer="21"/>
+<smd name="1" x="-1.95" y="0" dx="1.9" dy="2.4" layer="1"/>
+<smd name="2" x="1.95" y="0" dx="1.9" dy="2.4" layer="1"/>
+<text x="-2.794" y="2.032" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3.048" y="-2.794" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CRYSTAL.2PAD">
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRYSTAL_3.2X1.5" prefix="Q">
+<gates>
+<gate name="G$1" symbol="CRYSTAL.2PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CRYSTAL_3.2X1.5">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL_5X3.2MM" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CRYSTAL.2PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CRYSTAL_5X3.2MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15719,14 +15712,12 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="TP11" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="TP12" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="C27" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="Y1" library="CM200C-32.768KAZF-UT" deviceset="CM200C-32.768KAZF-UT" device=""/>
 <part name="U5" library="Microchip-24LCxxx" deviceset="24LC_" device="" technology="32AT-I/OT"/>
 <part name="R58" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="1.5K"/>
 <part name="TP13" library="testpad" deviceset="TPSQ" device="B1,27"/>
 <part name="C28" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C29" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
 <part name="C30" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
-<part name="Y2" library="445C33D24M00000" deviceset="445C33D24M00000" device=""/>
 <part name="C31" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
 <part name="C32" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="10pF"/>
 <part name="TP14" library="testpad" deviceset="TPSQ" device="B1,27"/>
@@ -15941,6 +15932,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="R104" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120, DNP"/>
 <part name="R119" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="R121" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0, DNP"/>
+<part name="Y2" library="GHI2" deviceset="CRYSTAL_3.2X1.5" device="" value="32.768kHz"/>
+<part name="Y1" library="GHI2" deviceset="CRYSTAL_5X3.2MM" device="" value="24 MHz"/>
 </parts>
 <sheets>
 <sheet>
@@ -18486,9 +18479,6 @@ pins. See Pg
 <attribute name="NAME" x="177.419" y="245.364" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="182.499" y="245.364" size="1.778" layer="96"/>
 </instance>
-<instance part="Y1" gate="G$1" x="177.8" y="149.86" smashed="yes">
-<attribute name="VALUE" x="132.715" y="166.37" size="1.778" layer="96"/>
-</instance>
 <instance part="U5" gate="A" x="63.5" y="165.1" smashed="yes">
 <attribute name="NAME" x="70.0786" y="170.7896" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="69.2404" y="144.8562" size="2.0828" layer="96" ratio="10" rot="SR0"/>
@@ -18506,9 +18496,6 @@ pins. See Pg
 <instance part="C30" gate="G$1" x="142.24" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.589" y="153.924" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="143.129" y="153.924" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="Y2" gate="G$1" x="149.86" y="106.68" smashed="yes">
-<attribute name="VALUE" x="95.25" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="C31" gate="G$1" x="119.38" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.729" y="119.634" size="1.778" layer="95" rot="R90"/>
@@ -18666,6 +18653,8 @@ pins. See Pg
 <attribute name="NAME" x="38.1" y="25.1714" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="38.1" y="22.6695" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="Y2" gate="G$1" x="106.68" y="116.84"/>
+<instance part="Y1" gate="G$1" x="129.54" y="162.56"/>
 </instances>
 <busses>
 </busses>
@@ -19197,17 +19186,17 @@ pins. See Pg
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="Y1" gate="G$1" pin="2"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="162.56" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="162.56" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
-<junction x="137.16" y="162.56"/>
 <pinref part="SIP" gate="B" pin="OSC0_IN"/>
 <wire x1="137.16" y1="149.86" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="149.86" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
 <junction x="137.16" y="149.86"/>
+<pinref part="Y1" gate="G$1" pin="P$2"/>
+<wire x1="134.62" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
+<junction x="137.16" y="162.56"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -19215,14 +19204,14 @@ pins. See Pg
 <pinref part="SIP" gate="B" pin="OSC0_OUT"/>
 <wire x1="149.86" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="144.78" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="149.86" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="162.56" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<junction x="121.92" y="162.56"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <junction x="121.92" y="149.86"/>
+<pinref part="Y1" gate="G$1" pin="P$1"/>
+<wire x1="124.46" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
+<junction x="121.92" y="162.56"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -19255,13 +19244,13 @@ pins. See Pg
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="137.16" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="Y2" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="124.46" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="116.84" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
 <junction x="114.3" y="116.84"/>
 <junction x="114.3" y="124.46"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -19270,13 +19259,13 @@ pins. See Pg
 <pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="134.62" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="Y2" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="124.46" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="116.84" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
 <junction x="99.06" y="116.84"/>
 <junction x="99.06" y="124.46"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$34" class="0">
