@@ -8,7 +8,7 @@
   <Author>Jason Kridner</Author>
   <LastAuthor>Jason Kridner</LastAuthor>
   <Created>2016-01-28T16:22:33Z</Created>
-  <LastSaved>2016-03-16T16:00:36Z</LastSaved>
+  <LastSaved>2016-07-15T06:19:30Z</LastSaved>
   <Version>14.0</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -43,7 +43,8 @@
   <Table ss:ExpandedColumnCount="26" ss:ExpandedRowCount="58" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
    <Column ss:Index="2" ss:Width="131"/>
-   <Column ss:Index="5" ss:Width="131"/>
+   <Column ss:Index="4" ss:Width="160"/>
+   <Column ss:Width="131"/>
    <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="121"/>
    <Column ss:Width="192"/>
    <Column ss:Index="10" ss:Width="129"/>
@@ -348,7 +349,7 @@
     <Cell><Data ss:Type="Number">0.59499999999999997</Data></Cell>
     <Cell><Data ss:Type="String">https://octopart-clicks.com/click/track?country=US&amp;ak=68b25f31&amp;sig=099c38c&amp;sid=8933&amp;ppid=248846&amp;vpid=179856295&amp;ct=offers</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:Height="30">
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell><Data ss:Type="String">BM04B-SRSS-TB(LF)(SN)</Data></Cell>
     <Cell ss:Formula="=RC[-2]*RC[21]"><Data ss:Type="Number">3.2498999999999998</Data></Cell>
@@ -1046,11 +1047,12 @@
    </Print>
    <PageLayoutZoom>0</PageLayoutZoom>
    <Selected/>
+   <TopRowVisible>32</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>4</ActiveRow>
-     <ActiveCol>9</ActiveCol>
+     <ActiveRow>51</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
