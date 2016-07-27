@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9102,31 +9102,30 @@ chip</description>
 <wire x1="1.5" y1="1.5" x2="1.3" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-1.2" y1="1.5" x2="-1.3" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-1.3" y1="1.5" x2="-1.5" y2="1.3" width="0.127" layer="21"/>
-<smd name="1" x="-1.6" y="1" dx="0.6" dy="0.2" layer="1"/>
-<smd name="2" x="-1.6" y="0.6" dx="0.6" dy="0.2" layer="1"/>
-<smd name="3" x="-1.6" y="0.2" dx="0.6" dy="0.2" layer="1"/>
-<smd name="4" x="-1.6" y="-0.2" dx="0.6" dy="0.2" layer="1"/>
-<smd name="5" x="-1.6" y="-0.6" dx="0.6" dy="0.2" layer="1"/>
-<smd name="6" x="-1.6" y="-1" dx="0.6" dy="0.2" layer="1"/>
-<smd name="7" x="-1" y="-1.6" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="8" x="-0.6" y="-1.6" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="9" x="-0.2" y="-1.6" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="10" x="0.2" y="-1.6" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="11" x="0.6" y="-1.6" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="12" x="1" y="-1.6" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="13" x="1.6" y="-1" dx="0.6" dy="0.2" layer="1" rot="R180"/>
-<smd name="14" x="1.6" y="-0.6" dx="0.6" dy="0.2" layer="1" rot="R180"/>
-<smd name="15" x="1.6" y="-0.2" dx="0.6" dy="0.2" layer="1" rot="R180"/>
-<smd name="16" x="1.6" y="0.2" dx="0.6" dy="0.2" layer="1" rot="R180"/>
-<smd name="17" x="1.6" y="0.6" dx="0.6" dy="0.2" layer="1" rot="R180"/>
-<smd name="18" x="1.6" y="1" dx="0.6" dy="0.2" layer="1" rot="R180"/>
-<smd name="19" x="1" y="1.6" dx="0.6" dy="0.2" layer="1" rot="R270"/>
-<smd name="20" x="0.6" y="1.6" dx="0.6" dy="0.2" layer="1" rot="R270"/>
-<smd name="21" x="0.2" y="1.6" dx="0.6" dy="0.2" layer="1" rot="R270"/>
-<smd name="22" x="-0.2" y="1.6" dx="0.6" dy="0.2" layer="1" rot="R270"/>
-<smd name="23" x="-0.6" y="1.6" dx="0.6" dy="0.2" layer="1" rot="R270"/>
-<smd name="24" x="-1" y="1.6" dx="0.6" dy="0.2" layer="1" rot="R270"/>
-<smd name="25" x="0" y="0" dx="1.7" dy="1.54" layer="1" roundness="50"/>
+<smd name="1" x="-1.5" y="1" dx="0.6" dy="0.2" layer="1" roundness="75"/>
+<smd name="2" x="-1.5" y="0.6" dx="0.6" dy="0.2" layer="1" roundness="75"/>
+<smd name="3" x="-1.5" y="0.2" dx="0.6" dy="0.2" layer="1" roundness="75"/>
+<smd name="4" x="-1.5" y="-0.2" dx="0.6" dy="0.2" layer="1" roundness="75"/>
+<smd name="5" x="-1.5" y="-0.6" dx="0.6" dy="0.2" layer="1" roundness="75"/>
+<smd name="6" x="-1.5" y="-1" dx="0.6" dy="0.2" layer="1" roundness="75"/>
+<smd name="7" x="-1" y="-1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="8" x="-0.6" y="-1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="9" x="-0.2" y="-1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="10" x="0.2" y="-1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="11" x="0.6" y="-1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="12" x="1" y="-1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R90"/>
+<smd name="13" x="1.5" y="-1" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="14" x="1.5" y="-0.6" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="15" x="1.5" y="-0.2" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="16" x="1.5" y="0.2" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="17" x="1.5" y="0.6" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="18" x="1.5" y="1" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R180"/>
+<smd name="19" x="1" y="1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="20" x="0.6" y="1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="21" x="0.2" y="1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="22" x="-0.2" y="1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="23" x="-0.6" y="1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R270"/>
+<smd name="24" x="-1" y="1.5" dx="0.6" dy="0.2" layer="1" roundness="75" rot="R270"/>
 </package>
 <package name="MP2615">
 <wire x1="-1.524" y1="1.27" x2="-1.27" y2="1.524" width="0.1524" layer="21"/>
@@ -9464,7 +9463,6 @@ chip</description>
 <wire x1="-12.7" y1="-10.16" x2="-11.43" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="-12.7" x2="-11.43" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="-13.97" y1="-15.24" x2="-11.43" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="0" y1="-19.05" x2="0" y2="-17.78" width="0.1524" layer="94"/>
 <wire x1="11.43" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-12.7" x2="10.16" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="11.43" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
@@ -9495,7 +9493,6 @@ chip</description>
 <pin name="NC@7" x="13.97" y="-7.62" length="short" rot="R180"/>
 <pin name="NC@8" x="13.97" y="-5.08" length="short" rot="R180"/>
 <pin name="NCS" x="13.97" y="7.62" length="short" rot="R180"/>
-<pin name="PAD" x="0" y="-21.59" length="short" rot="R90"/>
 <pin name="REGOUT" x="-15.24" y="-10.16" length="short"/>
 <pin name="RESV" x="-15.24" y="12.7" length="short"/>
 <pin name="RESV@1" x="13.97" y="0" length="short" rot="R180"/>
@@ -10196,7 +10193,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="NC@7" pad="16"/>
 <connect gate="G$1" pin="NC@8" pad="17"/>
 <connect gate="G$1" pin="NCS" pad="22"/>
-<connect gate="G$1" pin="PAD" pad="25"/>
 <connect gate="G$1" pin="REGOUT" pad="10"/>
 <connect gate="G$1" pin="RESV" pad="1"/>
 <connect gate="G$1" pin="RESV@1" pad="19"/>
@@ -17286,8 +17282,6 @@ pins. See Pg
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="IMU" gate="G$1" pin="PAD"/>
-<wire x1="53.34" y1="66.04" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IMU" gate="G$1" pin="AD0/SDO"/>
 <wire x1="38.1" y1="82.55" x2="10.16" y2="82.55" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="82.55" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
