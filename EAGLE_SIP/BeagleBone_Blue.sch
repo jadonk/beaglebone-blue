@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16969,6 +16969,17 @@ pins. See Pg
 <wire x1="135.89" y1="133.35" x2="135.89" y2="132.08" width="0.1524" layer="91"/>
 <label x="132.08" y="133.35" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="99.06" x2="294.64" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="102.87" x2="294.64" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="102.87" x2="304.8" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="102.87" x2="304.8" y2="95.25" width="0.1524" layer="91"/>
+<pinref part="6VREG" gate="G$1" pin="VIN"/>
+<wire x1="304.8" y1="95.25" x2="308.61" y2="95.25" width="0.1524" layer="91"/>
+<label x="294.64" y="106.68" size="1.778" layer="95"/>
+<junction x="294.64" y="102.87"/>
+</segment>
 </net>
 <net name="N$79" class="0">
 <segment>
@@ -17462,17 +17473,6 @@ pins. See Pg
 <wire x1="350.52" y1="134.62" x2="364.49" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="137.16" x2="350.52" y2="134.62" width="0.1524" layer="91"/>
 <label x="350.52" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="6VREG" gate="G$1" pin="VIN"/>
-<wire x1="308.61" y1="95.25" x2="304.8" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="95.25" x2="304.8" y2="100.33" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="100.33" x2="294.64" y2="100.33" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="100.33" x2="294.64" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="100.33" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
-<junction x="294.64" y="100.33"/>
-<label x="294.64" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
