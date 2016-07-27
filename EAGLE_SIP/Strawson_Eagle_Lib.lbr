@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3474,6 +3474,20 @@ Source: DCJ0303.pdf</description>
 <smd name="7" x="-0.8" y="0.325" dx="0.5" dy="0.35" layer="1"/>
 <smd name="8" x="-0.8" y="0.975" dx="0.5" dy="0.35" layer="1"/>
 <text x="0" y="1.3462" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="BATTERY_INDICATOR_LEFT">
+<wire x1="3.175" y1="-1.524" x2="-3.302" y2="-1.524" width="0.254" layer="21"/>
+<wire x1="-3.302" y1="-1.524" x2="-3.302" y2="-0.508" width="0.254" layer="21"/>
+<wire x1="-3.302" y1="-0.508" x2="-3.683" y2="-0.508" width="0.254" layer="21"/>
+<wire x1="-3.683" y1="-0.508" x2="-3.683" y2="0.508" width="0.254" layer="21"/>
+<wire x1="-3.683" y1="0.508" x2="-3.302" y2="0.508" width="0.254" layer="21"/>
+<wire x1="-3.302" y1="0.508" x2="-3.302" y2="1.524" width="0.254" layer="21"/>
+<wire x1="-3.302" y1="1.524" x2="3.175" y2="1.524" width="0.254" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.175" y2="-1.524" width="0.254" layer="21"/>
+<text x="-2.921" y="-1.778" size="0.8128" layer="21" rot="R270">100</text>
+<text x="-1.27" y="-1.778" size="0.8128" layer="21" rot="R270">75</text>
+<text x="0.381" y="-1.778" size="0.8128" layer="21" rot="R270">50</text>
+<text x="2.032" y="-1.778" size="0.8128" layer="21" rot="R270">25</text>
 </package>
 </packages>
 <symbols>
