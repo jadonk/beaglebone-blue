@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17627,6 +17627,75 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="BeagleBoneBlack">
+<packages>
+<package name="MOUNTING_HOLE">
+<pad name="P$1" x="0" y="0" drill="3.175" diameter="4.445"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOUNTING_HOLE">
+<pin name="P$1" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
+<circle x="0" y="2.54" radius="2.54" width="0.254" layer="94"/>
+<text x="0.762" y="-2.032" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNTING_HOLE" prefix="MGT">
+<description>Chassis Mounting Hole w/GND connection ability</description>
+<gates>
+<gate name="G$1" symbol="MOUNTING_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOUNTING_HOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="GHI">
+<packages>
+<package name="FIDUCIAL_40MIL">
+<circle x="0" y="0" radius="0.762" width="0.6096" layer="29"/>
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100"/>
+<circle x="0" y="0" radius="1.04726875" width="0.127" layer="41"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="0" visible="off" length="point" direction="nc"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FUD">
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_40MIL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18034,6 +18103,20 @@ type 0309, grid 2.5 mm</description>
 <part name="SUPPLY9" library="GHI-PowerGoundSupply" deviceset="CGND" device=""/>
 <part name="SUPPLY85" library="GHI-PowerGoundSupply" deviceset="CGND" device=""/>
 <part name="TP10" library="GHI2" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
+<part name="MGT1" library="BeagleBoneBlack" deviceset="MOUNTING_HOLE" device=""/>
+<part name="MGT2" library="BeagleBoneBlack" deviceset="MOUNTING_HOLE" device=""/>
+<part name="MGT3" library="BeagleBoneBlack" deviceset="MOUNTING_HOLE" device=""/>
+<part name="MGT4" library="BeagleBoneBlack" deviceset="MOUNTING_HOLE" device=""/>
+<part name="SUPPLY81" library="GHI-PowerGoundSupply" deviceset="CGND" device=""/>
+<part name="SUPPLY82" library="GHI-PowerGoundSupply" deviceset="CGND" device=""/>
+<part name="SUPPLY83" library="GHI-PowerGoundSupply" deviceset="CGND" device=""/>
+<part name="SUPPLY84" library="GHI-PowerGoundSupply" deviceset="CGND" device=""/>
+<part name="FUD1" library="GHI" deviceset="FIDUCIAL" device=""/>
+<part name="FUD2" library="GHI" deviceset="FIDUCIAL" device=""/>
+<part name="FUD3" library="GHI" deviceset="FIDUCIAL" device=""/>
+<part name="FUD4" library="GHI" deviceset="FIDUCIAL" device=""/>
+<part name="FUD5" library="GHI" deviceset="FIDUCIAL" device=""/>
+<part name="FUD6" library="GHI" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23072,6 +23155,20 @@ pins. See Pg
 <attribute name="NAME" x="165.1" y="129.54" size="1.778" layer="95" rot="MR0"/>
 <attribute name="TP_SIGNAL_NAME" x="156.845" y="127" size="1.778" layer="97" rot="MR270"/>
 </instance>
+<instance part="MGT1" gate="G$1" x="71.12" y="43.18"/>
+<instance part="MGT2" gate="G$1" x="81.28" y="43.18"/>
+<instance part="MGT3" gate="G$1" x="93.98" y="43.18"/>
+<instance part="MGT4" gate="G$1" x="104.14" y="43.18"/>
+<instance part="SUPPLY81" gate="G$1" x="71.12" y="35.56"/>
+<instance part="SUPPLY82" gate="G$1" x="81.28" y="35.56"/>
+<instance part="SUPPLY83" gate="G$1" x="93.98" y="35.56"/>
+<instance part="SUPPLY84" gate="G$1" x="104.14" y="35.56"/>
+<instance part="FUD1" gate="G$1" x="53.34" y="20.32"/>
+<instance part="FUD2" gate="G$1" x="66.04" y="20.32"/>
+<instance part="FUD3" gate="G$1" x="78.74" y="20.32"/>
+<instance part="FUD4" gate="G$1" x="91.44" y="20.32"/>
+<instance part="FUD5" gate="G$1" x="104.14" y="20.32"/>
+<instance part="FUD6" gate="G$1" x="116.84" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -23493,6 +23590,24 @@ pins. See Pg
 <pinref part="SIP" gate="E" pin="VDDS_DDR1"/>
 <pinref part="TP8" gate="G$1" pin="TP"/>
 <wire x1="134.62" y1="129.54" x2="153.035" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CGND" class="0">
+<segment>
+<pinref part="MGT1" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY81" gate="G$1" pin="CGND"/>
+</segment>
+<segment>
+<pinref part="MGT2" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY82" gate="G$1" pin="CGND"/>
+</segment>
+<segment>
+<pinref part="MGT3" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY83" gate="G$1" pin="CGND"/>
+</segment>
+<segment>
+<pinref part="MGT4" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY84" gate="G$1" pin="CGND"/>
 </segment>
 </net>
 </nets>
