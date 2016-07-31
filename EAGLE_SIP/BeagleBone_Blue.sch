@@ -17705,13 +17705,13 @@ type 0309, grid 2.5 mm</description>
 <class number="0" name="default" width="0.1524" drill="0.254">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="ground" width="0.254" drill="0.254">
+<class number="1" name="ground" width="0.1524" drill="0.254">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="usb" width="0.1524" drill="0">
+<class number="2" name="usb" width="0.1524" drill="0.254">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="power" width="0.254" drill="0.254">
+<class number="3" name="power" width="0.1524" drill="0.254">
 <clearance class="3" value="0.1524"/>
 </class>
 </classes>
@@ -21760,7 +21760,7 @@ pins. See Pg
 <label x="218.44" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$88" class="0">
+<net name="MMC1_DAT7" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT7_T9"/>
 <wire x1="208.28" y1="101.6" x2="279.4" y2="101.6" width="0.1524" layer="91"/>
@@ -21770,9 +21770,10 @@ pins. See Pg
 <junction x="279.4" y="101.6"/>
 <wire x1="279.4" y1="110.49" x2="279.4" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R75" gate="G$1" pin="1"/>
+<label x="284.48" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$89" class="0">
+<net name="MMC1_DAT6" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="DAT6"/>
 <wire x1="309.88" y1="58.42" x2="276.86" y2="58.42" width="0.1524" layer="91"/>
@@ -21782,9 +21783,10 @@ pins. See Pg
 <junction x="276.86" y="99.06"/>
 <wire x1="276.86" y1="110.49" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R74" gate="G$1" pin="1"/>
+<label x="284.48" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$90" class="0">
+<net name="MMC1_DAT5" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT5_V8"/>
 <wire x1="208.28" y1="96.52" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
@@ -21794,9 +21796,10 @@ pins. See Pg
 <junction x="274.32" y="96.52"/>
 <wire x1="274.32" y1="110.49" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R73" gate="G$1" pin="1"/>
+<label x="284.48" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$91" class="0">
+<net name="MMC1_DAT4" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT4_U8"/>
 <wire x1="208.28" y1="93.98" x2="271.78" y2="93.98" width="0.1524" layer="91"/>
@@ -21806,9 +21809,10 @@ pins. See Pg
 <junction x="271.78" y="93.98"/>
 <wire x1="271.78" y1="110.49" x2="271.78" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R72" gate="G$1" pin="1"/>
+<label x="284.48" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$92" class="0">
+<net name="MMC1_DAT3" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT3_T8"/>
 <wire x1="208.28" y1="91.44" x2="269.24" y2="91.44" width="0.1524" layer="91"/>
@@ -21818,9 +21822,10 @@ pins. See Pg
 <junction x="269.24" y="91.44"/>
 <wire x1="269.24" y1="110.49" x2="269.24" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R71" gate="G$1" pin="1"/>
+<label x="284.48" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$93" class="0">
+<net name="MMC1_DAT2" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT2_R8"/>
 <wire x1="208.28" y1="88.9" x2="266.7" y2="88.9" width="0.1524" layer="91"/>
@@ -21830,9 +21835,10 @@ pins. See Pg
 <junction x="266.7" y="88.9"/>
 <wire x1="266.7" y1="110.49" x2="266.7" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R70" gate="G$1" pin="1"/>
+<label x="284.48" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$94" class="0">
+<net name="MMC1_DAT1" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT1_V7"/>
 <wire x1="208.28" y1="86.36" x2="264.16" y2="86.36" width="0.1524" layer="91"/>
@@ -21842,9 +21848,10 @@ pins. See Pg
 <junction x="264.16" y="86.36"/>
 <wire x1="264.16" y1="110.49" x2="264.16" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R69" gate="G$1" pin="1"/>
+<label x="284.48" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$95" class="0">
+<net name="MMC1_DAT0" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_DAT0_U7"/>
 <wire x1="208.28" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
@@ -21854,9 +21861,10 @@ pins. See Pg
 <junction x="261.62" y="83.82"/>
 <wire x1="261.62" y1="110.49" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R68" gate="G$1" pin="1"/>
+<label x="284.48" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$96" class="0">
+<net name="MMC1_CMD" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="MMC1_CMD_V9"/>
 <wire x1="208.28" y1="81.28" x2="259.08" y2="81.28" width="0.1524" layer="91"/>
@@ -21866,9 +21874,10 @@ pins. See Pg
 <junction x="259.08" y="81.28"/>
 <wire x1="259.08" y1="110.49" x2="259.08" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R67" gate="G$1" pin="1"/>
+<label x="284.48" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$97" class="0">
+<net name="MMC1_CLK" class="0">
 <segment>
 <wire x1="256.54" y1="78.74" x2="256.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="CLK"/>
@@ -21878,9 +21887,10 @@ pins. See Pg
 <junction x="256.54" y="78.74"/>
 <wire x1="256.54" y1="110.49" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R66" gate="G$1" pin="1"/>
+<label x="284.48" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$98" class="0">
+<net name="EMMC_RST" class="0">
 <segment>
 <pinref part="SIP" gate="B" pin="EMMCRST_GPIO1_20_R14"/>
 <wire x1="208.28" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
@@ -21890,6 +21900,7 @@ pins. See Pg
 <pinref part="R94" gate="G$1" pin="1"/>
 <wire x1="254" y1="110.49" x2="254" y2="76.2" width="0.1524" layer="91"/>
 <junction x="254" y="76.2"/>
+<label x="284.48" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BATT_LED_3" class="0">
