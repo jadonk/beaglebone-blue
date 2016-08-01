@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17576,7 +17576,6 @@ type 0309, grid 2.5 mm</description>
 <part name="R143" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K"/>
 <part name="R149" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="R150" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
-<part name="R154" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="0"/>
 <part name="L4" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'" value="120"/>
 <part name="L5" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'" value="120"/>
 <part name="R156" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="33"/>
@@ -17763,6 +17762,7 @@ type 0309, grid 2.5 mm</description>
 <part name="FUD5" library="GHI" deviceset="FIDUCIAL" device=""/>
 <part name="FUD6" library="GHI" deviceset="FIDUCIAL" device=""/>
 <part name="U13" library="GHI-IC" deviceset="EMMC04G-S100-B08U" device="" value="EMMC"/>
+<part name="R112" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -21938,10 +21938,6 @@ pins. See Pg
 <attribute name="NAME" x="201.93" y="115.4811" size="1.27" layer="95" align="center-right"/>
 <attribute name="VALUE" x="209.8675" y="115.443" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="R154" gate="G$1" x="326.39" y="127" smashed="yes">
-<attribute name="NAME" x="322.58" y="128.1811" size="1.27" layer="95" align="center-right"/>
-<attribute name="VALUE" x="330.5175" y="128.143" size="1.27" layer="96" align="center-left"/>
-</instance>
 <instance part="L4" gate="L" x="314.96" y="53.34"/>
 <instance part="L5" gate="L" x="314.96" y="60.96"/>
 <instance part="R156" gate="G$1" x="205.74" y="109.22" smashed="yes">
@@ -21995,6 +21991,7 @@ pins. See Pg
 <instance part="X3" gate="G$1" x="344.17" y="55.88" rot="MR270"/>
 <instance part="SUPPLY9" gate="G$1" x="339.09" y="40.64"/>
 <instance part="SUPPLY85" gate="G$1" x="339.09" y="73.66" rot="R180"/>
+<instance part="R112" gate="G$1" x="326.39" y="127" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -22375,9 +22372,9 @@ pins. See Pg
 </net>
 <net name="USB_DC" class="3">
 <segment>
-<pinref part="R154" gate="G$1" pin="2"/>
 <wire x1="331.47" y1="127" x2="346.71" y2="127" width="0.1524" layer="91"/>
 <label x="341.63" y="127" size="1.778" layer="95"/>
+<pinref part="R112" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$128" class="3">
@@ -22730,7 +22727,6 @@ pins. See Pg
 <junction x="269.24" y="93.345"/>
 <pinref part="R149" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="127" x2="269.24" y2="127" width="0.1524" layer="91"/>
-<pinref part="R154" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="127" x2="321.31" y2="127" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="93.345" x2="269.24" y2="109.22" width="0.1524" layer="91"/>
 <junction x="269.24" y="127"/>
@@ -22740,6 +22736,7 @@ pins. See Pg
 <pinref part="C54" gate="G$1" pin="1"/>
 <pinref part="X4" gate="G$1" pin="VBUS"/>
 <label x="299.72" y="109.22" size="1.778" layer="95"/>
+<pinref part="R112" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CGND" class="0">
