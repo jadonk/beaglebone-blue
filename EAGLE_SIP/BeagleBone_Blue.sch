@@ -24115,28 +24115,28 @@ pins. See Pg
 <pinref part="U2" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="ANT2_B" class="0">
 <segment>
 <pinref part="ANT2" gate="G$1" pin="SIG"/>
 <wire x1="332.74" y1="118.11" x2="345.44" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="C58" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="ANT1_B" class="0">
 <segment>
 <pinref part="ANT1" gate="G$1" pin="SIG"/>
 <wire x1="332.74" y1="153.67" x2="345.44" y2="153.67" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="ANT1_A" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="RF_ANT1"/>
 <wire x1="325.12" y1="153.67" x2="317.5" y2="153.67" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="ANT2_A" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="RF_ANT2"/>
 <wire x1="325.12" y1="118.11" x2="317.5" y2="118.11" width="0.1524" layer="91"/>
