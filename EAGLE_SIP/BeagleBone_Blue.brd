@@ -9,7 +9,7 @@
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1247,6 +1247,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 <circle x="-1.6002" y="-1.016" radius="0.127" width="0" layer="21"/>
+</package>
+<package name="B0,65">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+<text x="-0.635" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
 </packages>
 </library>
@@ -2999,11 +3008,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="58.674" y="-14.7828" size="0.4064" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="58.674" y="-13.0048" size="0.0254" layer="28" rot="MR180"/>
 </element>
-<element name="TP11" library="testpad" package="B1,27" value="TPSQB1,27" x="46.0756" y="-13.8176" smashed="yes" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="45.4406" y="-11.9126" size="1" layer="38" rot="MR180"/>
-<attribute name="NAME" x="45.4406" y="-14.8336" size="0.4064" layer="26" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="45.4406" y="-13.0556" size="0.0254" layer="28" rot="MR180"/>
-</element>
 <element name="TP12" library="testpad" package="B1,27" value="TPSQB1,27" x="69.3166" y="-49.911" smashed="yes" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="69.9516" y="-51.816" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="69.9516" y="-48.895" size="0.4064" layer="26" ratio="10" rot="MR0"/>
@@ -3048,16 +3052,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="TP_SIGNAL_NAME" value="" x="38.0746" y="-36.322" size="1" layer="38" rot="MR0"/>
 <attribute name="NAME" x="38.0746" y="-33.401" size="0.4064" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="38.0746" y="-35.179" size="0.0254" layer="28" rot="MR0"/>
-</element>
-<element name="TP7" library="testpad" package="B1,27" value="TPSQB1,27" x="49.2252" y="-13.8176" smashed="yes" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="48.5902" y="-11.9126" size="1" layer="38" rot="MR180"/>
-<attribute name="NAME" x="35.0012" y="-23.7236" size="0.4064" layer="26" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="48.5902" y="-13.0556" size="0.0254" layer="28" rot="MR180"/>
-</element>
-<element name="TP9" library="testpad" package="B1,27" value="TPSQB1,27" x="47.5488" y="-13.8176" smashed="yes" rot="MR180">
-<attribute name="TP_SIGNAL_NAME" value="" x="46.9138" y="-11.9126" size="1" layer="38" rot="MR180"/>
-<attribute name="NAME" x="46.9138" y="-14.8336" size="0.4064" layer="26" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="46.9138" y="-13.0556" size="0.0254" layer="28" rot="MR180"/>
 </element>
 <element name="J2" library="Strawson_Eagle_Lib" package="3X8_0.1&quot;_HEADER" value="SERVO_HEADERS_8X" x="72.263" y="-8.382" smashed="yes"/>
 <element name="U5" library="Microchip-24LCxxx" package="SOT95P290X145-5N" value="24LC_32AT-I/OT" x="29.4767" y="-38.9382" smashed="yes" rot="MR0">
@@ -3236,31 +3230,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="MANUFACTURER" value="Texas Instruments" x="47.4726" y="-48.0314" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="44.6024" y="-47.3964" size="0.6096" layer="26" ratio="6" rot="SMR180"/>
 <attribute name="VALUE" x="44.0182" y="-47.3964" size="1.27" layer="28" ratio="6" rot="SMR180"/>
-</element>
-<element name="TP2" library="testpad" package="B1,27" value="TPSQB1,27" x="48.26" y="-23.876" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="48.895" y="-25.781" size="1" layer="38" rot="MR0"/>
-<attribute name="NAME" x="49.149" y="-24.892" size="0.4064" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="48.895" y="-24.638" size="0.0254" layer="28" rot="MR0"/>
-</element>
-<element name="TP3" library="testpad" package="B1,27" value="TPSQB1,27" x="49.022" y="-30.734" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="49.657" y="-32.639" size="1" layer="38" rot="MR0"/>
-<attribute name="NAME" x="49.657" y="-29.718" size="0.4064" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="49.657" y="-31.496" size="0.0254" layer="28" rot="MR0"/>
-</element>
-<element name="TP4" library="testpad" package="B1,27" value="TPSQB1,27" x="47.371" y="-30.734" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="48.006" y="-32.639" size="1" layer="38" rot="MR0"/>
-<attribute name="NAME" x="48.006" y="-29.718" size="0.4064" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="48.006" y="-31.496" size="0.0254" layer="28" rot="MR0"/>
-</element>
-<element name="TP6" library="testpad" package="B1,27" value="TPSQB1,27" x="49.911" y="-22.987" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="50.546" y="-24.892" size="1" layer="38" rot="MR0"/>
-<attribute name="NAME" x="50.546" y="-21.971" size="0.4064" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="50.546" y="-23.749" size="0.0254" layer="28" rot="MR0"/>
-</element>
-<element name="TP8" library="testpad" package="B1,27" value="TPSQB1,27" x="57.4802" y="-31.6484" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="58.1152" y="-33.5534" size="1" layer="38" rot="MR0"/>
-<attribute name="NAME" x="58.1152" y="-30.6324" size="0.4064" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="58.1152" y="-32.4104" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="U2" library="BeagleBone_Blue" package="SOT23-5" value="SN74LV1T126DBVR" x="23.3426" y="-14.0208" smashed="yes">
 <attribute name="NAME" x="22.4536" y="-11.8618" size="0.4064" layer="25"/>
@@ -3452,6 +3421,14 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="FUD6" library="GHI" package="FIDUCIAL_40MIL" value="FIDUCIAL" x="17.78" y="-48.768" rot="MR0"/>
 <element name="U13" library="GHI-IC" package="MICRON_EMMC_153" value="EMMC" x="34.29" y="-20.4724" rot="MR0"/>
 <element name="R112" library="SparkFun-Resistors" package="0603-RES" value="0" x="7.62" y="-17.6784" rot="MR0"/>
+<element name="TP7" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="49.1236" y="-13.5128" rot="MR0"/>
+<element name="TP9" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="45.974" y="-13.8684" rot="MR0"/>
+<element name="TP11" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="47.3964" y="-13.8176" rot="MR0"/>
+<element name="TP2" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="45.3136" y="-22.4536" rot="MR0"/>
+<element name="TP3" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="49.022" y="-27.3558" rot="MR0"/>
+<element name="TP4" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="45.8216" y="-29.2862" rot="MR0"/>
+<element name="TP6" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="49.276" y="-23.0378" rot="MR0"/>
+<element name="TP8" library="BeagleBone_Blue" package="B0,65" value="TPB0,65" x="60.2234" y="-32.7914" rot="MR0"/>
 </elements>
 <signals>
 <signal name="5.0V" class="3">
@@ -6034,31 +6011,31 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </signal>
 <signal name="N$19">
 <contactref element="SIP" pad="Y13"/>
-<contactref element="TP7" pad="TP"/>
 <wire x1="48.641" y1="-13.589" x2="48.0822" y2="-13.0302" width="0.1524" layer="1"/>
 <wire x1="48.0822" y1="-13.0302" x2="48.2854" y2="-13.081" width="0.1524" layer="1"/>
 <via x="48.2854" y="-13.081" extent="1-16" drill="0.254" diameter="0.4572"/>
-<wire x1="48.641" y1="-13.589" x2="49.2252" y2="-13.8176" width="0" layer="19" extent="1-16"/>
+<contactref element="TP7" pad="TP"/>
+<wire x1="48.0822" y1="-13.0302" x2="49.1236" y2="-13.5128" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="SIP" pad="Y16"/>
-<contactref element="TP9" pad="TP"/>
 <wire x1="44.831" y1="-13.589" x2="45.2882" y2="-13.1318" width="0.1524" layer="1"/>
 <wire x1="45.2882" y1="-13.1318" x2="45.2882" y2="-13.081" width="0.1524" layer="1"/>
 <via x="45.2882" y="-13.081" extent="1-16" drill="0.254" diameter="0.4572"/>
-<wire x1="45.2882" y1="-13.081" x2="45.4406" y2="-12.9286" width="0.1524" layer="16"/>
-<wire x1="45.4406" y1="-12.9286" x2="46.5836" y2="-12.9286" width="0.1524" layer="16"/>
-<wire x1="46.5836" y1="-12.9286" x2="47.4726" y2="-13.8176" width="0.1524" layer="16"/>
-<wire x1="47.4726" y1="-13.8176" x2="47.5488" y2="-13.8176" width="0.1524" layer="16"/>
+<wire x1="45.2882" y1="-13.081" x2="45.4406" y2="-12.9286" width="0" layer="19" extent="1-16"/>
+<wire x1="45.4406" y1="-12.9286" x2="46.5836" y2="-12.9286" width="0" layer="19" extent="1-16"/>
+<wire x1="46.5836" y1="-12.9286" x2="47.4726" y2="-13.8176" width="0" layer="19" extent="1-16"/>
+<contactref element="TP9" pad="TP"/>
+<wire x1="44.831" y1="-13.589" x2="45.974" y2="-13.8684" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="SIP" pad="Y19"/>
-<contactref element="TP11" pad="TP"/>
 <wire x1="41.021" y1="-13.589" x2="41.529" y2="-13.081" width="0.1524" layer="1"/>
 <wire x1="41.529" y1="-13.081" x2="44.323" y2="-13.081" width="0.1524" layer="1"/>
 <via x="44.323" y="-13.081" extent="1-16" drill="0.254" diameter="0.4572"/>
-<wire x1="44.323" y1="-13.081" x2="45.0596" y2="-13.8176" width="0.1524" layer="16"/>
-<wire x1="45.0596" y1="-13.8176" x2="46.0756" y2="-13.8176" width="0.1524" layer="16"/>
+<wire x1="44.323" y1="-13.081" x2="45.0596" y2="-13.8176" width="0" layer="19" extent="1-16"/>
+<contactref element="TP11" pad="TP"/>
+<wire x1="41.021" y1="-13.589" x2="47.3964" y2="-13.8176" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="C30" pad="1"/>
@@ -7528,27 +7505,27 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="N$72">
 <contactref element="SIP" pad="N15"/>
 <contactref element="TP2" pad="TP"/>
-<wire x1="48.26" y1="-23.876" x2="46.101" y2="-22.479" width="0" layer="19" extent="1-16"/>
+<wire x1="46.101" y1="-22.479" x2="45.3136" y2="-22.4536" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$73">
 <contactref element="SIP" pad="J13"/>
 <contactref element="TP3" pad="TP"/>
-<wire x1="49.022" y1="-30.734" x2="48.641" y2="-27.559" width="0" layer="19" extent="1-16"/>
+<wire x1="48.641" y1="-27.559" x2="49.022" y2="-27.3558" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="SIP" pad="H15"/>
 <contactref element="TP4" pad="TP"/>
-<wire x1="47.371" y1="-30.734" x2="46.101" y2="-28.829" width="0" layer="19" extent="1-16"/>
+<wire x1="46.101" y1="-28.829" x2="45.8216" y2="-29.2862" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$78">
 <contactref element="SIP" pad="N13"/>
 <contactref element="TP6" pad="TP"/>
-<wire x1="49.911" y1="-22.987" x2="48.641" y2="-22.479" width="0" layer="19" extent="1-16"/>
+<wire x1="48.641" y1="-22.479" x2="49.276" y2="-23.0378" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$80">
 <contactref element="SIP" pad="E5"/>
 <contactref element="TP8" pad="TP"/>
-<wire x1="57.4802" y1="-31.6484" x2="58.801" y2="-32.639" width="0" layer="19" extent="1-16"/>
+<wire x1="58.801" y1="-32.639" x2="60.2234" y2="-32.7914" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB.CLIENT.D-">
 <contactref element="U3" pad="2"/>
