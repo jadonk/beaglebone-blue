@@ -5274,9 +5274,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <via x="41.7068" y="-41.9608" extent="1-16" drill="0.254" diameter="0.4572"/>
 <wire x1="54.102" y1="-42.672" x2="54.435" y2="-42.339" width="0.254" layer="1"/>
 <wire x1="54.435" y1="-42.339" x2="54.435" y2="-41.275" width="0.254" layer="1"/>
-<wire x1="49.8348" y1="-43.8404" x2="49.0474" y2="-43.8404" width="0.1524" layer="16"/>
-<wire x1="49.0474" y1="-43.8404" x2="48.6918" y2="-43.4848" width="0.1524" layer="16"/>
 <via x="48.6918" y="-43.4848" extent="1-16" drill="0.254" diameter="0.4572"/>
+<wire x1="49.8348" y1="-43.8404" x2="49.3522" y2="-43.8404" width="0.1524" layer="16"/>
+<wire x1="49.3522" y1="-43.8404" x2="49.2506" y2="-43.7388" width="0.1524" layer="16"/>
+<wire x1="49.2506" y1="-43.7388" x2="49.2506" y2="-43.5864" width="0.1524" layer="16"/>
+<wire x1="49.2506" y1="-43.5864" x2="49.149" y2="-43.4848" width="0.1524" layer="16"/>
+<wire x1="49.149" y1="-43.4848" x2="48.6918" y2="-43.4848" width="0.1524" layer="16"/>
 <wire x1="31.7246" y1="-28.4988" x2="30.71" y2="-27.505" width="0" layer="19" extent="1-1"/>
 <wire x1="31.3182" y1="-29.7688" x2="31.7246" y2="-28.4988" width="0" layer="19" extent="1-1"/>
 <wire x1="29.7636" y1="-29.553" x2="31.3182" y2="-29.7688" width="0" layer="19" extent="1-1"/>
@@ -5337,13 +5340,13 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="55.626" y1="-31.1912" x2="55.626" y2="-31.8516" width="0.1524" layer="16"/>
 <wire x1="55.626" y1="-31.8516" x2="55.2958" y2="-32.1818" width="0.1524" layer="16"/>
 <wire x1="55.2958" y1="-32.1818" x2="53.086" y2="-32.1818" width="0.1524" layer="16"/>
-<wire x1="47.371" y1="-33.909" x2="47.8282" y2="-33.909" width="0.1524" layer="1"/>
-<wire x1="47.8282" y1="-33.909" x2="48.006" y2="-33.7312" width="0.1524" layer="1"/>
-<via x="48.006" y="-33.7312" extent="1-16" drill="0.254" diameter="0.4572"/>
+<wire x1="47.371" y1="-33.909" x2="47.8282" y2="-33.909" width="0" layer="19" extent="1-16"/>
+<wire x1="47.8282" y1="-33.909" x2="48.4886" y2="-33.274" width="0" layer="19" extent="1-16"/>
+<via x="48.4886" y="-33.274" extent="1-16" drill="0.254" diameter="0.4572"/>
 <wire x1="53.086" y1="-32.1818" x2="52.2224" y2="-33.0454" width="0.1524" layer="16"/>
 <wire x1="52.2224" y1="-33.0454" x2="52.2224" y2="-33.4518" width="0.1524" layer="16"/>
 <wire x1="52.2224" y1="-33.4518" x2="51.943" y2="-33.7312" width="0.1524" layer="16"/>
-<wire x1="51.943" y1="-33.7312" x2="48.006" y2="-33.7312" width="0.1524" layer="16"/>
+<wire x1="51.943" y1="-33.7312" x2="48.4886" y2="-33.274" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VCC">
 <contactref element="CHG" pad="A"/>
@@ -6686,7 +6689,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="61.4172" y1="-49.6316" x2="60.7822" y2="-48.9966" width="0.1524" layer="1"/>
 <wire x1="60.7822" y1="-48.9966" x2="60.7822" y2="-44.7802" width="0.1524" layer="1"/>
 <wire x1="60.7822" y1="-44.7802" x2="60.2234" y2="-44.2214" width="0.1524" layer="1"/>
-<wire x1="59.4106" y1="-44.2214" x2="46.101" y2="-32.639" width="0" layer="19" extent="1-1"/>
+<wire x1="46.101" y1="-33.0962" x2="47.1678" y2="-33.2994" width="0" layer="19" extent="1-16"/>
+<via x="47.1678" y="-33.2994" extent="1-16" drill="0.254" diameter="0.4572"/>
+<wire x1="47.1678" y1="-33.2994" x2="59.4106" y2="-44.2214" width="0" layer="19" extent="1-16"/>
+<wire x1="46.101" y1="-32.639" x2="46.609" y2="-32.639" width="0.1524" layer="1"/>
+<wire x1="46.609" y1="-32.639" x2="46.7614" y2="-32.7914" width="0.1524" layer="1"/>
+<wire x1="46.7614" y1="-32.7914" x2="47.1678" y2="-33.2994" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="UART0_TX">
 <contactref element="UART0" pad="4"/>
@@ -7181,7 +7189,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="40.6295875" y1="-41.8442125" x2="41.1988" y2="-41.275" width="0.1524" layer="1"/>
 <via x="41.1988" y="-41.0718" extent="1-16" drill="0.254" diameter="0.4572"/>
 <wire x1="41.1988" y1="-41.275" x2="41.1988" y2="-41.0718" width="0.1524" layer="1"/>
-<wire x1="41.1988" y1="-41.0718" x2="47.371" y2="-32.639" width="0" layer="19" extent="1-1"/>
+<wire x1="47.371" y1="-32.639" x2="47.8282" y2="-32.639" width="0" layer="19" extent="1-16"/>
+<wire x1="47.8282" y1="-32.639" x2="48.006" y2="-32.8168" width="0" layer="19" extent="1-16"/>
+<wire x1="48.006" y1="-32.8168" x2="47.8282" y2="-33.2994" width="0" layer="19" extent="1-16"/>
+<via x="47.8282" y="-33.2994" extent="1-16" drill="0.254" diameter="0.4572"/>
+<wire x1="47.8282" y1="-33.2994" x2="41.1988" y2="-41.0718" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USR_LED3">
 <contactref element="SIP" pad="V16"/>
@@ -8406,7 +8418,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="64.881" y1="-44.0022" x2="63.7794" y2="-42.9006" width="0.1524" layer="1"/>
 <wire x1="63.7794" y1="-42.9006" x2="59.4106" y2="-42.9006" width="0.1524" layer="1"/>
 <via x="59.4106" y="-42.9006" extent="1-16" drill="0.254" diameter="0.4572"/>
-<wire x1="44.831" y1="-33.909" x2="59.4106" y2="-42.9006" width="0" layer="19" extent="1-1"/>
+<via x="46.736" y="-35.0012" extent="1-16" drill="0.254" diameter="0.4572"/>
+<wire x1="44.831" y1="-33.909" x2="45.6184" y2="-34.6964" width="0.1524" layer="1"/>
+<wire x1="45.6184" y1="-34.6964" x2="46.4312" y2="-34.6964" width="0.1524" layer="1"/>
+<wire x1="46.4312" y1="-34.6964" x2="46.736" y2="-35.0012" width="0.1524" layer="1"/>
+<wire x1="46.736" y1="-35.0012" x2="59.4106" y2="-42.9006" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART1_TX">
 <contactref element="UART1" pad="4"/>
@@ -8415,7 +8431,12 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="63.881" y1="-44.1198" x2="63.3222" y2="-43.561" width="0.1524" layer="1"/>
 <wire x1="63.3222" y1="-43.561" x2="59.4106" y2="-43.561" width="0.1524" layer="1"/>
 <via x="59.4106" y="-43.561" extent="1-16" drill="0.254" diameter="0.4572"/>
-<wire x1="46.101" y1="-33.909" x2="59.4106" y2="-43.561" width="0" layer="19" extent="1-1"/>
+<via x="47.625" y="-34.544" extent="1-16" drill="0.254" diameter="0.4572"/>
+<wire x1="46.101" y1="-33.909" x2="46.482" y2="-34.29" width="0.1524" layer="1"/>
+<wire x1="46.482" y1="-34.29" x2="46.8376" y2="-34.29" width="0.1524" layer="1"/>
+<wire x1="46.8376" y1="-34.29" x2="47.0916" y2="-34.544" width="0.1524" layer="1"/>
+<wire x1="47.0916" y1="-34.544" x2="47.625" y2="-34.544" width="0.1524" layer="1"/>
+<wire x1="47.625" y1="-34.544" x2="59.4106" y2="-43.561" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART5_RX">
 <contactref element="UART5" pad="1"/>
@@ -9617,19 +9638,19 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <approved hash="19,16,682cc73cc8a0f493"/>
 <approved hash="19,16,78b6f5b5e73179fc"/>
 <approved hash="19,16,c197eb13f11c002d"/>
-<approved hash="19,16,49c452ad2ea1a925"/>
-<approved hash="19,16,7ec661b5a1b9bec6"/>
-<approved hash="19,16,4cef5ed69ea48d1d"/>
-<approved hash="19,16,40e15b4c9b4680d3"/>
-<approved hash="19,16,73396fa4afaeb33b"/>
-<approved hash="19,16,71686ad3aadbb164"/>
-<approved hash="19,16,424e5d1d9d11825e"/>
-<approved hash="19,16,c23379ad7ec83887"/>
 <approved hash="19,16,a04ea42083ca1b47"/>
-<approved hash="19,16,77d36842a848b7d9"/>
-<approved hash="19,16,4fa4507790678fa8"/>
+<approved hash="19,16,c23379ad7ec83887"/>
+<approved hash="19,16,40e15b4c9b4680d3"/>
+<approved hash="19,16,424e5d1d9d11825e"/>
 <approved hash="19,16,497555d895ea897f"/>
+<approved hash="19,16,4fa4507790678fa8"/>
+<approved hash="19,16,4cef5ed69ea48d1d"/>
+<approved hash="19,16,77d36842a848b7d9"/>
 <approved hash="19,16,740256e996e5b40a"/>
+<approved hash="19,16,7ec661b5a1b9bec6"/>
+<approved hash="19,16,73396fa4afaeb33b"/>
+<approved hash="19,16,49c452ad2ea1a925"/>
+<approved hash="19,16,71686ad3aadbb164"/>
 <approved hash="19,16,7818eee1fc4cd25e"/>
 <approved hash="19,16,fa46602f8430041b"/>
 <approved hash="19,16,636618de65a73310"/>
@@ -9654,9 +9675,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <approved hash="19,16,c381851babea2416"/>
 <approved hash="19,16,00f72ccb8d0160bf"/>
 <approved hash="19,16,558adf7e18fa552e"/>
-<approved hash="19,16,630e85bebdc4476e"/>
 <approved hash="19,16,2b62ac70e2a62f0a"/>
 <approved hash="19,16,af296b84040b2f46"/>
+<approved hash="19,16,630e85bebdc4476e"/>
 <approved hash="19,16,2d0ce53f8c168342"/>
 <approved hash="19,16,10d0bd6b7d74d0cf"/>
 <approved hash="19,16,2550141a0f22fb90"/>
@@ -9672,10 +9693,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <approved hash="19,16,6a010d1f1ab1028f"/>
 <approved hash="19,16,b3f6963fd4e6e155"/>
 <approved hash="19,16,e5e52074c9ad2f58"/>
-<approved hash="19,16,6731060644f2842e"/>
 <approved hash="19,16,dfef1cc47084744e"/>
-<approved hash="19,16,4eff839983954ef3"/>
+<approved hash="19,16,6731060644f2842e"/>
 <approved hash="19,16,aef422807d51de08"/>
+<approved hash="19,16,4eff839983954ef3"/>
 <approved hash="19,16,c1eba0bb3e46e030"/>
 <approved hash="19,16,371cf2017f1dd656"/>
 </errors>
