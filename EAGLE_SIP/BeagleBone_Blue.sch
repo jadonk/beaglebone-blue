@@ -22473,8 +22473,8 @@ pins. See Pg
 <attribute name="NAME" x="201.93" y="115.4811" size="1.27" layer="95" align="center-right"/>
 <attribute name="VALUE" x="209.8675" y="115.443" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="L4" gate="L" x="314.96" y="53.34"/>
-<instance part="L5" gate="L" x="314.96" y="60.96"/>
+<instance part="L4" gate="L" x="320.04" y="53.34"/>
+<instance part="L5" gate="L" x="320.04" y="60.96"/>
 <instance part="R156" gate="G$1" x="205.74" y="109.22" smashed="yes">
 <attribute name="NAME" x="201.93" y="110.4011" size="1.27" layer="95" align="center-right"/>
 <attribute name="VALUE" x="209.8675" y="110.363" size="1.27" layer="96" align="center-left"/>
@@ -22666,7 +22666,7 @@ pins. See Pg
 <wire x1="292.1" y1="45.72" x2="297.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="45.72" x2="297.18" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="L4" gate="L" pin="1"/>
-<wire x1="297.18" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="53.34" x2="314.96" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="2"/>
 <junction x="292.1" y="45.72"/>
 <pinref part="C46" gate="G$1" pin="2"/>
@@ -22916,7 +22916,7 @@ pins. See Pg
 <segment>
 <pinref part="L4" gate="L" pin="2"/>
 <pinref part="X3" gate="G$1" pin="GND"/>
-<wire x1="331.47" y1="53.34" x2="320.04" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="331.47" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$129" class="0">
@@ -22930,7 +22930,7 @@ pins. See Pg
 <segment>
 <pinref part="L5" gate="L" pin="2"/>
 <pinref part="X3" gate="G$1" pin="VBUS"/>
-<wire x1="331.47" y1="60.96" x2="320.04" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="331.47" y1="60.96" x2="325.12" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EQEP_1A" class="0">
@@ -23152,7 +23152,7 @@ pins. See Pg
 <label x="73.66" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB.CLIENT.D-" class="0">
+<net name="USB0_D_N" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="D-"/>
 <wire x1="241.3" y1="90.805" x2="236.22" y2="90.805" width="0.1524" layer="91"/>
@@ -23166,7 +23166,7 @@ pins. See Pg
 <label x="299.72" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB.CLIENT.D+" class="0">
+<net name="USB0_D_P" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="D+"/>
 <wire x1="241.3" y1="93.345" x2="238.76" y2="93.345" width="0.1524" layer="91"/>
@@ -23180,7 +23180,7 @@ pins. See Pg
 <label x="299.72" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB.CLIENT.ID" class="0">
+<net name="USB0_ID" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="ID"/>
 <wire x1="241.3" y1="88.265" x2="233.68" y2="88.265" width="0.1524" layer="91"/>
@@ -23194,7 +23194,7 @@ pins. See Pg
 <label x="299.72" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB.CLIENT.D-1" class="0">
+<net name="USB1_D_N" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="D-"/>
 <wire x1="233.68" y1="45.085" x2="228.6" y2="45.085" width="0.1524" layer="91"/>
@@ -23205,9 +23205,10 @@ pins. See Pg
 <wire x1="228.6" y1="45.085" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
 <junction x="228.6" y="58.42"/>
 <pinref part="X3" gate="G$1" pin="D-"/>
+<label x="236.22" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB.CLIENT.D+1" class="0">
+<net name="USB1_D_P" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="D+"/>
 <wire x1="233.68" y1="47.625" x2="231.14" y2="47.625" width="0.1524" layer="91"/>
@@ -23218,6 +23219,7 @@ pins. See Pg
 <wire x1="231.14" y1="55.88" x2="331.47" y2="55.88" width="0.1524" layer="91"/>
 <junction x="231.14" y="55.88"/>
 <pinref part="X3" gate="G$1" pin="D+"/>
+<label x="236.22" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB1_VBUS" class="0">
@@ -23240,7 +23242,7 @@ pins. See Pg
 <pinref part="L5" gate="L" pin="1"/>
 <pinref part="C45" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="60.96" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="60.96" x2="314.96" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="53.34" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
 <junction x="292.1" y="60.96"/>
 <pinref part="C46" gate="G$1" pin="1"/>
@@ -23252,6 +23254,7 @@ pins. See Pg
 <pinref part="C55" gate="G$1" pin="1"/>
 <pinref part="R119" gate="G$1" pin="1"/>
 <pinref part="R121" gate="G$1" pin="1"/>
+<label x="236.22" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB0_VBUS" class="0">
