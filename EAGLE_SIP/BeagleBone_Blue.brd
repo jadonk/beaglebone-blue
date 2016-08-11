@@ -6039,7 +6039,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="SPI1_SS2">
 <contactref element="S1.2" pad="6"/>
 <contactref element="SIP" pad="A15"/>
-<contactref element="SIP" pad="A15"/>
 <wire x1="53.34" y1="-45.72" x2="53.34" y2="-46.9138" width="0.1524" layer="1"/>
 <via x="53.34" y="-46.9138" extent="1-16" drill="0.254" diameter="0.4572"/>
 <via x="45.72" y="-40.0812" extent="1-16" drill="0.254" diameter="0.4572"/>
@@ -6973,7 +6972,6 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="17.399" y1="-4.191" x2="17.399" y2="-5.207" width="0.254" layer="16"/>
 </signal>
 <signal name="N$67">
-<contactref element="R4" pad="2"/>
 <contactref element="R4" pad="2"/>
 <contactref element="L2" pad="2"/>
 <contactref element="CHGIC" pad="10"/>
