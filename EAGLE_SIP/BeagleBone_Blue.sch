@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -19447,6 +19447,7 @@ pins. See Pg
 <wire x1="367.03" y1="132.08" x2="363.22" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="12V" gate="G$1" pin="OUT"/>
 <wire x1="367.03" y1="132.08" x2="368.3" y2="132.08" width="0.1524" layer="91"/>
+<junction x="367.03" y="132.08"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
