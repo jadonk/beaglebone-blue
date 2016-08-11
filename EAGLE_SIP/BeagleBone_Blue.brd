@@ -170,7 +170,7 @@
 <text x="8.7122" y="-7.7978" size="1.4224" layer="16" font="vector" ratio="20" rot="MR0">e</text>
 <text x="7.5438" y="-6.9596" size="0.8128" layer="16" font="vector" ratio="20" rot="MR0">jw</text>
 <text x="71.4248" y="-45.0596" size="1.4224" layer="22" ratio="20" rot="MR90">BeagleBone Blue
-Rev 1.0</text>
+Rev A1</text>
 </plain>
 <libraries>
 <library name="Strawson_Eagle_Lib">
