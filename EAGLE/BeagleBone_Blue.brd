@@ -3169,11 +3169,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="10.2462" y="-35.362" size="0.8128" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="ANT1" library="GHI-Connectors" package="U.FL-R-SMT-1" value="U.FL-R-SMT-1(10)" x="3.937" y="-34.163" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.0016" y="-35.7154" size="1.27" layer="25" ratio="12" rot="R180"/>
+<attribute name="NAME" x="1.1968" y="-28.0852" size="1.27" layer="25" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="6.527" y="-30.913" size="0.8128" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="ANT2" library="GHI-Connectors" package="U.FL-R-SMT-1" value="U.FL-R-SMT-1(10)" x="3.937" y="-13.335" smashed="yes">
-<attribute name="NAME" x="1.4" y="-14.9534" size="1.27" layer="25" ratio="12" rot="R270"/>
+<attribute name="NAME" x="1.1206" y="-15.3598" size="1.27" layer="25" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="1.347" y="-16.585" size="0.8128" layer="27" ratio="12"/>
 </element>
 <element name="T1" library="GHI Transistors" package="SOT-323(DIODES)" value="BSS138W-7-F" x="18.796" y="-36.195" smashed="yes" rot="MR90">
