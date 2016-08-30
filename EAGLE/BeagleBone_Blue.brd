@@ -28,28 +28,28 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -88,7 +88,7 @@
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
 <layer number="114" name="GND" color="11" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
@@ -105,7 +105,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
@@ -181,7 +181,7 @@ Rev A1a</text>
 <wire x1="68.1228" y1="-6.1976" x2="68.1228" y2="-5.1308" width="0.127" layer="21"/>
 <wire x1="68.1228" y1="-5.1308" x2="68.6562" y2="-5.1308" width="0.127" layer="21"/>
 <wire x1="68.6562" y1="-5.1308" x2="68.6562" y2="-4.6228" width="0.127" layer="21"/>
-<text x="75.4888" y="-6.858" size="1.778" layer="21">J2</text>
+<text x="75.7428" y="-6.8326" size="1.27" layer="21">J2</text>
 <wire x1="49.5808" y1="-36.322" x2="49.5808" y2="-41.8846" width="0.127" layer="22"/>
 <wire x1="51.308" y1="-41.783" x2="51.308" y2="-36.1442" width="0.127" layer="22"/>
 <wire x1="47.7266" y1="-41.8338" x2="47.7266" y2="-36.2458" width="0.127" layer="22"/>
@@ -2465,7 +2465,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="26.162" y="-2.9083" size="0.8128" layer="25"/>
 </element>
 <element name="C11" library="adafruit" package="PANASONIC_D" value="100uF 16V" x="72.8472" y="-31.3944" smashed="yes" rot="R180">
-<attribute name="NAME" x="67.421" y="-30.3302" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="68.7096" y="-28.7434" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="74.5972" y="-29.4194" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="C12" library="SparkFun-Capacitors" package="0805" value="10uF" x="14.097" y="-7.874" smashed="yes" rot="R270">
@@ -2669,7 +2669,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="63.881" y="-6.858" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="E1" library="Strawson_Eagle_Lib" package="JST_SH_4_SMD" value="JST_SH_4" x="83.058" y="-20.955" smashed="yes">
-<attribute name="NAME" x="85.9409" y="-21.0947" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="86.0425" y="-20.6883" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="E2" library="Strawson_Eagle_Lib" package="JST_SH_4_SMD" value="JST_SH_4" x="83.058" y="-16.256" smashed="yes">
 <attribute name="NAME" x="85.9536" y="-16.3576" size="1.27" layer="25" rot="R90"/>
@@ -2678,13 +2678,13 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="79.7433" y="-11.1125" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="E4" library="Strawson_Eagle_Lib" package="JST_SH_4_SMD" value="JST_SH_4" x="74.803" y="-46.99" smashed="yes">
-<attribute name="NAME" x="77.9907" y="-47.0662" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="77.8891" y="-46.6598" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="GPS" library="Strawson_Eagle_Lib" package="JST_SH_6" value="JST_SH_6" x="43.18" y="-50.038" smashed="yes">
-<attribute name="NAME" x="51.4477" y="-53.2003" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="47.5615" y="-53.1495" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="H1" library="SparkFun" package="SSOP24" value="TB6621FNG" x="72.7202" y="-39.4716" smashed="yes" rot="R90">
-<attribute name="NAME" x="72.263" y="-44.7294" size="0.8128" layer="25"/>
+<attribute name="NAME" x="69.1134" y="-34.9758" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="72.7202" y="-43.2816" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="H2" library="SparkFun" package="SSOP24" value="TB6621FNG" x="81.5848" y="-28.4353" smashed="yes">
@@ -2718,7 +2718,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="15.748" y="-43.7515" size="0.8128" layer="28" ratio="11" rot="MR0"/>
 </element>
 <element name="LIPO" library="Strawson_Eagle_Lib" package="JST_XH_3-PIN" value="BATTERY" x="40.5384" y="-3.0988" smashed="yes">
-<attribute name="NAME" x="33.1978" y="-3.6068" size="1.27" layer="21"/>
+<attribute name="NAME" x="32.8676" y="-2.54" size="1.27" layer="21"/>
 </element>
 <element name="M1" library="Strawson_Eagle_Lib" package="JST_ZH_2" value="JST_ZH_2" x="83.947" y="-40.894" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.0105" y="-44.7802" size="1.27" layer="21" rot="R180"/>
@@ -2734,15 +2734,15 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="MOD" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="31.623" y="-52.451" smashed="yes">
 <attribute name="PROD_ID" value="SWCH-00815" x="31.623" y="-52.451" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="25.2702" y="-54.4388" size="1.016" layer="25"/>
+<attribute name="NAME" x="37.3192" y="-54.562" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="PAU" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="31.623" y="-48.641" smashed="yes">
 <attribute name="PROD_ID" value="SWCH-00815" x="31.623" y="-48.641" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="25.5242" y="-50.7558" size="1.016" layer="25"/>
+<attribute name="NAME" x="33.3474" y="-46.6156" size="1.27" layer="25"/>
 </element>
 <element name="POW" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="21.971" y="-52.451" smashed="yes">
 <attribute name="PROD_ID" value="SWCH-00815" x="21.971" y="-52.451" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.5702" y="-53.562" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="19.0528" y="-53.435" size="1.016" layer="25" rot="R180"/>
 </element>
 <element name="PROT" library="Strawson_Eagle_Lib" package="SOT-236" value="S-8261" x="35.0139" y="-11.1379" smashed="yes" rot="MR270">
 <attribute name="NAME" x="37.7444" y="-9.6647" size="0.8128" layer="26" rot="MR270"/>
@@ -2981,11 +2981,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="RST" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="21.971" y="-48.641" smashed="yes">
 <attribute name="PROD_ID" value="SWCH-00815" x="21.971" y="-48.641" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.4272" y="-47.466" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="14.2974" y="-48.6984" size="1.27" layer="25"/>
 </element>
 <element name="SIP" library="BeagleBone_Blue" package="OSD3358" value="OSD3358" x="51.816" y="-25.654" smashed="yes" rot="R90"/>
 <element name="S1.1" library="Strawson_Eagle_Lib" package="JST_SH_6" value="JST_SH_6" x="53.34" y="-50.038" smashed="yes">
-<attribute name="NAME" x="61.7347" y="-53.1749" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="57.8739" y="-53.1495" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="S1.2" library="Strawson_Eagle_Lib" package="JST_SH_6" value="JST_SH_6" x="53.34" y="-45.72" smashed="yes">
 <attribute name="NAME" x="61.7347" y="-48.9331" size="1.27" layer="25" rot="R90"/>
@@ -3064,10 +3064,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="36.83" y="-43.18" size="0.8128" layer="25" ratio="6" rot="SR90"/>
 </element>
 <element name="UT0" library="Strawson_Eagle_Lib" package="JST_SH_4_SMD" value="JST_SH_4" x="66.421" y="-51.308" smashed="yes">
-<attribute name="NAME" x="70.1929" y="-53.2511" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="66.9925" y="-53.1495" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="UT1" library="Strawson_Eagle_Lib" package="JST_SH_4_SMD" value="JST_SH_4" x="66.421" y="-46.99" smashed="yes">
-<attribute name="NAME" x="70.2056" y="-49.6824" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="70.2056" y="-49.8856" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="U$5" library="Strawson_Eagle_Lib" package="XYZ_BIG" value="" x="32.2326" y="-24.0792" smashed="yes" rot="R90"/>
 <element name="BOARD" library="Strawson_Eagle_Lib" package="BEAGLEBONE_BLUE_NO_HOLES" value="" x="0" y="0" smashed="yes" rot="R270"/>
@@ -3087,7 +3087,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="36.9697" y="-23.9522" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="GP0" library="Strawson_Eagle_Lib" package="JST_SH_6" value="JST_SH_6" x="43.18" y="-45.72" smashed="yes">
-<attribute name="NAME" x="51.4096" y="-47.752" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="51.308" y="-48.4378" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="CAN" library="Strawson_Eagle_Lib" package="JST_SH_4_SMD" value="JST_SH_4" x="45.72" y="-42.545" smashed="yes">
 <attribute name="NAME" x="49.4538" y="-44.2214" size="1.27" layer="25" rot="R90"/>
@@ -3106,7 +3106,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="17.526" y="-42.672" size="0.8128" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="GP1" library="Seeed-Connector -2016" package="HW4-SMD-2.0" value="H4P-SMD-2.0" x="32.766" y="-39.3954" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.4744" y="-39.3446" size="1.27" layer="25" ratio="20" rot="R90"/>
+<attribute name="NAME" x="35.8394" y="-40.6146" size="1.27" layer="25" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="30.353" y="-41.3004" size="0.8128" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="R26" library="Strawson_Eagle_Lib" package="0402-RES" value="10K" x="4.0386" y="-39.116" smashed="yes" rot="MR270">
@@ -3276,7 +3276,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="39.751" y="-50.0253" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="DSM2" library="Strawson_Eagle_Lib" package="JST_ZH_3" value="JST_ZH_3" x="72.263" y="-50.927" smashed="yes">
-<attribute name="NAME" x="77.089" y="-48.7934" size="1.27" layer="21" rot="R270"/>
+<attribute name="NAME" x="69.3674" y="-54.483" size="1.27" layer="21"/>
 </element>
 <element name="R93" library="Strawson_Eagle_Lib" package="0402-RES" value="33" x="23.241" y="-18.161" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.1046" y="-18.5801" size="0.8128" layer="25"/>
