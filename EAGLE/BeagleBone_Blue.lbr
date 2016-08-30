@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -12100,7 +12100,7 @@ type V526-0, grid 2.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_AP1509" prefix="IC">
+<deviceset name="AP1509" prefix="IC">
 <description>&lt;b&gt;150KHz, 2A PWM BUCK DC/DC CONVERTER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BEAGLEBONE_BLUE_AP1509" x="0" y="0"/>
@@ -12143,7 +12143,7 @@ type V526-0, grid 2.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_LED" prefix="D" uservalue="yes">
+<deviceset name="LED" prefix="D" uservalue="yes">
 <description>&lt;b&gt;LEDs&lt;/b&gt;
 Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. 5mm - Spark Fun Electronics SKU : COM-00529 (and others)</description>
 <gates>
@@ -12235,7 +12235,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_OSD3358">
+<deviceset name="OSD3358">
 <description>Octavo Systems LLC - OSD3358 Rev A</description>
 <gates>
 <gate name="A" symbol="BEAGLEBONE_BLUE_A" x="-17.78" y="124.46"/>
@@ -12655,7 +12655,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_SN74LV1T126DBVR" prefix="U">
+<deviceset name="SN74LV1T126DBVR" prefix="U">
 <gates>
 <gate name="G$1" symbol="BEAGLEBONE_BLUE_SN74LVC1T126" x="0" y="2.54"/>
 </gates>
@@ -12674,7 +12674,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_SN74LVC1G07_DCK_5" prefix="U">
+<deviceset name="SN74LVC1G07_DCK_5" prefix="U">
 <gates>
 <gate name="A" symbol="BEAGLEBONE_BLUE_SN74LVC1G07_DCK_5" x="0" y="0"/>
 </gates>
@@ -12704,7 +12704,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_TCAN1051HV" prefix="U">
+<deviceset name="TCAN1051HV" prefix="U">
 <gates>
 <gate name="G$1" symbol="BEAGLEBONE_BLUE_TCAN1050HV" x="0" y="0"/>
 </gates>
@@ -12737,7 +12737,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_TP" prefix="TP">
+<deviceset name="TP" prefix="TP">
 <description>&lt;b&gt;Test pad&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BEAGLEBONE_BLUE_TP" x="0" y="0"/>
@@ -13073,7 +13073,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_TPD4S012_DRY_6" prefix="U">
+<deviceset name="TPD4S012_DRY_6" prefix="U">
 <gates>
 <gate name="A" symbol="BEAGLEBONE_BLUE_TPD4S012_DRY_6" x="0" y="0"/>
 </gates>
@@ -13104,7 +13104,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="BEAGLEBONE_BLUE_TPS2051B_D_8" prefix="U">
+<deviceset name="TPS2051B_D_8" prefix="U">
 <gates>
 <gate name="A" symbol="BEAGLEBONE_BLUE_TPS2051B_D_8" x="0" y="0"/>
 </gates>
@@ -15336,7 +15336,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADAFRUIT_CPOL-US" prefix="C" uservalue="yes">
+<deviceset name="CPOL-US" prefix="C" uservalue="yes">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="ADAFRUIT_CPOL-US" x="0" y="0"/>
@@ -16523,7 +16523,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADAFRUIT_DIODE" prefix="D" uservalue="yes">
+<deviceset name="DIODE" prefix="D" uservalue="yes">
 <description>&lt;b&gt;Diode&lt;/b&gt;
 &lt;p&gt;
 &lt;b&gt;SMADIODE&lt;/b&gt; - SMA Surface Mount Package
