@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22324,7 +22324,7 @@ pins. See Pg
 <text x="309.88" y="172.72" size="1.778" layer="91">Pulled down on Pg 1</text>
 <text x="57.15" y="144.78" size="1.778" layer="91">GPIO3_9</text>
 <text x="57.15" y="142.24" size="1.778" layer="91">GPIO0_28</text>
-<text x="57.15" y="139.7" size="1.778" layer="91">GPIO0_29</text>
+<text x="57.15" y="139.7" size="1.778" layer="91">GPIO0_21</text>
 <text x="57.15" y="124.46" size="1.778" layer="91">GPIO3_10</text>
 </plain>
 <instances>
