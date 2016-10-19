@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -19068,9 +19068,9 @@ pins. See Pg
 <pinref part="G" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="GP1" gate="G$1" pin="5"/>
-<wire x1="146.05" y1="13.97" x2="132.08" y2="13.97" width="0.1524" layer="91"/>
-<label x="133.35" y="13.97" size="1.778" layer="95"/>
+<pinref part="GP1" gate="G$1" pin="6"/>
+<wire x1="146.05" y1="11.43" x2="132.08" y2="11.43" width="0.1524" layer="91"/>
+<label x="133.35" y="11.43" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MODE_BTN" class="0">
@@ -19753,9 +19753,9 @@ pins. See Pg
 <pinref part="R" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="GP1" gate="G$1" pin="6"/>
-<wire x1="146.05" y1="11.43" x2="132.08" y2="11.43" width="0.1524" layer="91"/>
-<label x="133.35" y="11.43" size="1.778" layer="95"/>
+<pinref part="GP1" gate="G$1" pin="5"/>
+<wire x1="146.05" y1="13.97" x2="132.08" y2="13.97" width="0.1524" layer="91"/>
+<label x="133.35" y="13.97" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PAUSE_BTN" class="0">

@@ -9,7 +9,7 @@
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -4077,9 +4077,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="65.9638" y1="-33.02" x2="66.675" y2="-33.7312" width="0.1524" layer="16"/>
 <wire x1="66.675" y1="-33.7312" x2="66.675" y2="-38.6588" width="0.1524" layer="16"/>
 <wire x1="41.021" y1="-50.4698" x2="40.8432" y2="-50.292" width="0.1524" layer="16"/>
-<contactref element="GP1" pad="5"/>
-<wire x1="34.02" y1="-50.038" x2="29.706" y2="-47.6758" width="0" layer="19" extent="1-1"/>
-<wire x1="40.8432" y1="-50.292" x2="34.02" y2="-50.038" width="0" layer="19" extent="1-1"/>
+<contactref element="GP1" pad="6"/>
+<wire x1="33.02" y1="-50.038" x2="29.706" y2="-47.6758" width="0" layer="19" extent="1-1"/>
+<wire x1="40.8432" y1="-50.292" x2="33.02" y2="-50.038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MODE_BTN">
 <contactref element="MOD" pad="2"/>
@@ -5589,9 +5589,9 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="41.275" y1="-50.0634" x2="41.275" y2="-49.8602" width="0.1524" layer="16"/>
 <wire x1="41.275" y1="-49.8602" x2="41.0464" y2="-49.6316" width="0.1524" layer="16"/>
 <wire x1="41.0464" y1="-49.6316" x2="40.8432" y2="-49.6316" width="0.1524" layer="16"/>
-<contactref element="GP1" pad="6"/>
-<wire x1="33.02" y1="-50.038" x2="29.706" y2="-46.2026" width="0" layer="19" extent="1-1"/>
-<wire x1="40.8432" y1="-49.6316" x2="33.02" y2="-50.038" width="0" layer="19" extent="1-1"/>
+<contactref element="GP1" pad="5"/>
+<wire x1="34.02" y1="-50.038" x2="29.706" y2="-46.2026" width="0" layer="19" extent="1-1"/>
+<wire x1="40.8432" y1="-49.6316" x2="34.02" y2="-50.038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PAUSE_BTN">
 <contactref element="PAU" pad="2"/>
@@ -6921,8 +6921,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <polygon width="0.254" layer="16" thermals="no" rank="2">
 <vertex x="17.145" y="-44.323"/>
 <vertex x="17.145" y="-46.736"/>
-<vertex x="20.193" y="-46.736"/>
-<vertex x="20.193" y="-44.831"/>
+<vertex x="20.066" y="-46.736"/>
+<vertex x="20.066" y="-44.831"/>
 <vertex x="18.669" y="-44.831"/>
 <vertex x="18.669" y="-44.323"/>
 </polygon>
@@ -10320,28 +10320,17 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <vertex x="17.145" y="-42.4942"/>
 <vertex x="14.7066" y="-42.4942"/>
 </polygon>
-<via x="82.5246" y="-22.1742" extent="1-16" drill="0.6"/>
-<wire x1="82.5246" y1="-22.1742" x2="82.5246" y2="-37.211" width="0.6096" layer="2"/>
-<via x="81.407" y="-38.3286" extent="1-16" drill="0.6"/>
-<wire x1="81.407" y1="-38.3286" x2="81.407" y2="-42.3418" width="0.6096" layer="16"/>
-<wire x1="81.407" y1="-42.3418" x2="77.089" y2="-46.6598" width="0.6096" layer="16"/>
-<wire x1="77.089" y1="-46.6598" x2="73.3044" y2="-46.6598" width="0.6096" layer="16"/>
-<wire x1="73.3044" y1="-46.6598" x2="70.8152" y2="-49.149" width="0.6096" layer="16"/>
-<wire x1="70.8152" y1="-49.149" x2="70.8152" y2="-50.6222" width="0.6096" layer="16"/>
-<wire x1="70.8152" y1="-50.6222" x2="69.0626" y2="-52.3748" width="0.6096" layer="16"/>
-<wire x1="69.0626" y1="-52.3748" x2="23.114" y2="-52.3748" width="0.6096" layer="16"/>
-<wire x1="82.9818" y1="-15.6972" x2="82.9818" y2="-20.2438" width="0.6096" layer="16"/>
-<wire x1="82.9818" y1="-20.2438" x2="82.5246" y2="-20.701" width="0.6096" layer="16"/>
-<wire x1="82.5246" y1="-20.701" x2="82.5246" y2="-22.1742" width="0.6096" layer="16"/>
-<wire x1="81.407" y1="-38.3286" x2="82.5246" y2="-37.211" width="0.6096" layer="2"/>
-<wire x1="76.962" y1="-9.6774" x2="82.9818" y2="-15.6972" width="0.6096" layer="16"/>
 <wire x1="7.874" y1="-45.593" x2="6.985" y2="-46.482" width="0.254" layer="1"/>
 <wire x1="6.985" y1="-46.482" x2="6.477" y2="-46.482" width="0.254" layer="1"/>
 <contactref element="C61" pad="2"/>
-<wire x1="76.962" y1="-9.6774" x2="69.0626" y2="-9.6774" width="0.6096" layer="16"/>
-<wire x1="69.0626" y1="-9.6774" x2="67.056" y2="-11.684" width="0.6096" layer="16"/>
 <contactref element="U8" pad="4"/>
-<wire x1="19.751" y1="-43.5102" x2="23.114" y2="-52.3748" width="0" layer="19" extent="16-16"/>
+<wire x1="16.4338" y1="-42.037" x2="15.113" y2="-42.037" width="0" layer="19" extent="16-16"/>
+<wire x1="17.8689" y1="-42.048" x2="16.4719" y2="-41.9989" width="0" layer="19" extent="16-16"/>
+<wire x1="17.907" y1="-43.3206" x2="17.8689" y2="-42.048" width="0" layer="19" extent="16-16"/>
+<wire x1="19.3294" y1="-42.1132" x2="17.8689" y2="-42.048" width="0" layer="19" extent="16-16"/>
+<wire x1="20.447" y1="-42.1132" x2="19.3294" y2="-42.1132" width="0" layer="19" extent="16-16"/>
+<wire x1="21.7306" y1="-41.656" x2="20.447" y2="-42.1132" width="0" layer="19" extent="16-16"/>
+<wire x1="19.751" y1="-43.5102" x2="19.3294" y2="-42.1132" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USB0_VBUS">
 <contactref element="U3" pad="6"/>
