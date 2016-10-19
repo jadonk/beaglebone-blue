@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -24,10 +24,10 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -1814,7 +1814,7 @@ by exp-lbrs.ulp</description>
 <text x="-3.048" y="-2.794" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 </package>
 <package name="GHI2_TESTPAD/W_HOLE_1X1">
-<pad name="P$1" x="0" y="0" drill="0.8128" diameter="1.6256"/>
+<pad name="P$1" x="0" y="0" drill="1" diameter="1.6256"/>
 <text x="-1.27" y="-2.54" size="1.016" layer="27" ratio="12">&gt;VALUE</text>
 <text x="1.27" y="-0.508" size="1.016" layer="25" ratio="12">&gt;NAME</text>
 </package>
@@ -3614,14 +3614,6 @@ chip</description>
 <wire x1="-3.81" y1="-8.89" x2="3.81" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-6.35" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-13.97" x2="-3.81" y2="-11.43" width="0.127" layer="21"/>
-<wire x1="-2.159" y1="1.524" x2="-2.159" y2="2.032" width="0.127" layer="21"/>
-<wire x1="-2.159" y1="2.032" x2="-2.921" y2="2.032" width="0.127" layer="21"/>
-<wire x1="-2.921" y1="2.032" x2="-2.921" y2="2.921" width="0.127" layer="21"/>
-<wire x1="-2.921" y1="2.921" x2="-2.159" y2="2.921" width="0.127" layer="21"/>
-<wire x1="-2.159" y1="2.921" x2="-2.159" y2="3.429" width="0.127" layer="21"/>
-<wire x1="0" y1="3.302" x2="0" y2="1.524" width="0.1778" layer="21"/>
-<wire x1="0.889" y1="2.413" x2="-0.889" y2="2.413" width="0.1778" layer="21"/>
-<wire x1="2.54" y1="3.302" x2="2.54" y2="1.524" width="0.1778" layer="21"/>
 <wire x1="3.81" y1="-6.35" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-3.81" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
@@ -3655,14 +3647,6 @@ chip</description>
 <pad name="P$22" x="0" y="0" drill="1" rot="R180"/>
 <pad name="P$23" x="2.54" y="-2.54" drill="1" rot="R180"/>
 <pad name="P$24" x="2.54" y="0" drill="1" rot="R180"/>
-<text x="4.064" y="0.635" size="1.524" layer="21" rot="R270">8</text>
-<text x="4.064" y="-1.905" size="1.524" layer="21" rot="R270">7</text>
-<text x="4.064" y="-4.572" size="1.524" layer="21" rot="R270">6</text>
-<text x="4.064" y="-7.112" size="1.524" layer="21" rot="R270">5</text>
-<text x="4.064" y="-9.652" size="1.524" layer="21" rot="R270">4</text>
-<text x="4.064" y="-12.065" size="1.524" layer="21" rot="R270">3</text>
-<text x="4.064" y="-14.732" size="1.016" layer="21" rot="R270">2</text>
-<text x="4.064" y="-17.145" size="1.016" layer="21" rot="R270">1</text>
 </package>
 <package name="STRAWSON_EAGLE_LIB_8-SON_3X3MM">
 <circle x="-1.508" y="-1.762" radius="0.05" width="0.127" layer="21"/>
