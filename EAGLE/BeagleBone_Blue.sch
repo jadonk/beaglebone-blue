@@ -17826,7 +17826,7 @@ type 0309, grid 2.5 mm</description>
 <part name="D9" library="Strawson_Eagle_Lib" deviceset="DIODE" device="DO214AA"/>
 <part name="6VREG" library="Strawson_Eagle_Lib" deviceset="AOZ1284" device=""/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
-<part name="C21" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="1nF"/>
+<part name="C21" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="C22" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="R47" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100k"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
