@@ -169,7 +169,7 @@
 <plain>
 <text x="9.144" y="-7.366" size="2.1844" layer="16" font="vector" ratio="15" rot="MR0">e</text>
 <text x="7.747" y="-5.461" size="1.4224" layer="16" font="vector" ratio="15" rot="MR0">jw</text>
-<text x="71.374" y="-47.371" size="1.6764" layer="22" ratio="20" rot="MR90">BeagleBone Blue
+<text x="71.374" y="-47.371" size="1.524" layer="22" ratio="20" rot="MR90">BeagleBone Blue
 Rev A2</text>
 <wire x1="19.7104" y1="-16.3068" x2="19.3802" y2="-16.3068" width="0.127" layer="21"/>
 <wire x1="19.3802" y1="-16.3068" x2="19.3802" y2="-20.8788" width="0.127" layer="21"/>
@@ -184,8 +184,6 @@ Rev A2</text>
 <wire x1="49.53" y1="-36.576" x2="49.53" y2="-41.91" width="0.127" layer="22"/>
 <wire x1="51.308" y1="-41.783" x2="51.308" y2="-36.576" width="0.127" layer="22"/>
 <wire x1="47.752" y1="-41.783" x2="47.752" y2="-36.576" width="0.127" layer="22"/>
-<wire x1="37.211" y1="-39.9034" x2="38.2016" y2="-39.9034" width="0.127" layer="22"/>
-<wire x1="38.2016" y1="-39.9034" x2="38.2016" y2="-44.5008" width="0.127" layer="22"/>
 <text x="28.2956" y="-12.2936" size="0.9144" layer="22" rot="MR0">BAL</text>
 <wire x1="57.15" y1="-6.35" x2="56.642" y2="-5.842" width="0.127" layer="22"/>
 <wire x1="56.642" y1="-5.842" x2="56.134" y2="-5.842" width="0.127" layer="22"/>
@@ -2440,7 +2438,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="31.8389" y="-46.2026" size="0.8128" layer="26" rot="MR270"/>
 </element>
 <element name="C28" library="Strawson_Eagle_Lib" package="0402-CAP" value="0.1uF" x="20.447" y="-36.8808" smashed="yes" rot="MR180">
-<attribute name="NAME" x="17.018" y="-36.5633" size="0.8128" layer="26" rot="MR180"/>
+<attribute name="NAME" x="16.764" y="-36.5633" size="0.8128" layer="26" rot="MR180"/>
 </element>
 <element name="C29" library="Strawson_Eagle_Lib" package="0402-CAP" value="10pF" x="37.719" y="-26.162" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.084" y="-27.432" size="0.6096" layer="25" rot="R90"/>
@@ -2531,19 +2529,19 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="24.892" y="-7.62" size="0.8128" layer="25" ratio="6" rot="SR90"/>
 </element>
 <element name="0" library="BeagleBone_Blue" package="BEAGLEBONE_BLUE_LED-0603" value="BLUE" x="25.4" y="-49.149" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.908" y="-46.228" size="1.4224" layer="25" rot="R180"/>
+<attribute name="NAME" x="26.162" y="-46.228" size="1.4224" layer="25" rot="R180"/>
 <attribute name="VALUE" x="24.8793" y="-44.0944" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="1" library="BeagleBone_Blue" package="BEAGLEBONE_BLUE_LED-0603" value="BLUE" x="26.924" y="-49.149" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.432" y="-46.228" size="1.4224" layer="25" rot="R180"/>
+<attribute name="NAME" x="27.686" y="-46.228" size="1.4224" layer="25" rot="R180"/>
 <attribute name="VALUE" x="25.8445" y="-48.133" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="2" library="BeagleBone_Blue" package="BEAGLEBONE_BLUE_LED-0603" value="BLUE" x="28.448" y="-49.149" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.956" y="-46.228" size="1.4224" layer="25" rot="R180"/>
+<attribute name="NAME" x="29.21" y="-46.228" size="1.4224" layer="25" rot="R180"/>
 <attribute name="VALUE" x="27.3685" y="-48.133" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="3" library="BeagleBone_Blue" package="BEAGLEBONE_BLUE_LED-0603" value="BLUE" x="29.972" y="-49.149" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.48" y="-46.228" size="1.4224" layer="25" rot="R180"/>
+<attribute name="NAME" x="30.734" y="-46.228" size="1.4224" layer="25" rot="R180"/>
 <attribute name="VALUE" x="28.8925" y="-48.133" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="B0" library="SparkFun-LED" package="LED-0603" value="RED" x="34.544" y="-9.398" smashed="yes">
@@ -2620,7 +2618,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="PAU" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="32.639" y="-39.37" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="SWCH-00815" x="32.639" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.115" y="-45.212" size="1.4224" layer="25"/>
+<attribute name="NAME" x="30.861" y="-45.212" size="1.4224" layer="25"/>
 </element>
 <element name="POW" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2SMD-1101NE" x="17.399" y="-39.37" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="SWCH-00815" x="17.399" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2723,7 +2721,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="68.8594" y="-46.2915" size="0.8128" layer="26" rot="MR0"/>
 </element>
 <element name="R2" library="Strawson_Eagle_Lib" package="0402-RES" value="1.5K" x="23.6728" y="-36.1696" smashed="yes" rot="MR270">
-<attribute name="NAME" x="25.2095" y="-35.6362" size="0.8128" layer="26" rot="MR270"/>
+<attribute name="NAME" x="24.765" y="-36.449" size="0.8128" layer="26" rot="MR90"/>
 </element>
 <element name="R21" library="Strawson_Eagle_Lib" package="0402-RES" value="240" x="24.5872" y="-51.816" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.034" y="-48.641" size="0.8128" layer="25"/>
@@ -2732,10 +2730,10 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="18.034" y="-47.625" size="0.8128" layer="25"/>
 </element>
 <element name="R23" library="Strawson_Eagle_Lib" package="0402-RES" value="1.5K" x="23.6728" y="-33.782" smashed="yes" rot="MR90">
-<attribute name="NAME" x="24.3713" y="-34.671" size="0.8128" layer="26" rot="MR90"/>
+<attribute name="NAME" x="24.765" y="-34.671" size="0.8128" layer="26" rot="MR90"/>
 </element>
 <element name="R24" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="13.4112" y="-11.049" smashed="yes" rot="MR180">
-<attribute name="NAME" x="12.4714" y="-11.7221" size="0.8128" layer="26" rot="MR180"/>
+<attribute name="NAME" x="13.716" y="-12.573" size="0.8128" layer="26" rot="MR0"/>
 </element>
 <element name="R25" library="Strawson_Eagle_Lib" package="0402-RES" value="4.7k" x="67.945" y="-43.688" smashed="yes" rot="MR180">
 <attribute name="NAME" x="68.9864" y="-43.1165" size="0.8128" layer="26" rot="MR0"/>
@@ -3058,7 +3056,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="DATASHEETURL" value="http://www.ti.com/lit/ds/symlink/tcan1051hv.pdf" x="37.2364" y="-42.926" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DESCRIPTION" value="CAN Transceiver" x="37.2364" y="-42.926" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="37.2364" y="-42.926" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="35.2806" y="-39.5986" size="0.8128" layer="26" ratio="6" rot="SMR180"/>
+<attribute name="NAME" x="35.5854" y="-40.1574" size="0.8128" layer="26" ratio="6" rot="SMR0"/>
 <attribute name="VALUE" x="33.782" y="-42.291" size="0.8128" layer="28" ratio="6" rot="SMR180"/>
 </element>
 <element name="U2" library="BeagleBone_Blue" package="BEAGLEBONE_BLUE_SOT23-5" value="SN74LV1T126DBVR" x="23.3426" y="-14.0208" smashed="yes">
@@ -3105,7 +3103,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="11.303" y="-32.893" size="0.6096" layer="25"/>
 </element>
 <element name="C48" library="Strawson_Eagle_Lib" package="0402-CAP" value="10pF" x="3.937" y="-30.353" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.2799" y="-29.1084" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="4.2799" y="-27.5844" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="C58" library="Strawson_Eagle_Lib" package="0402-CAP" value="10pF" x="3.937" y="-16.891" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.3909" y="-18.2372" size="0.8128" layer="25" rot="R270"/>
@@ -3115,7 +3113,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="21.2725" y="-48.133" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="R" library="BeagleBone_Blue" package="BEAGLEBONE_BLUE_LED-0603" value="RED" x="23.876" y="-49.149" smashed="yes" rot="R180">
-<attribute name="NAME" x="24.384" y="-46.228" size="1.4224" layer="25" rot="R180"/>
+<attribute name="NAME" x="24.638" y="-46.228" size="1.4224" layer="25" rot="R180"/>
 <attribute name="VALUE" x="22.7965" y="-48.133" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="DSM2" library="Strawson_Eagle_Lib" package="JST_ZH_3" value="JST_ZH_3" x="72.263" y="-50.927" smashed="yes">
@@ -3213,7 +3211,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="40.6654" y="-43.7134" size="0.8128" layer="28" font="vector" ratio="20" rot="MR90"/>
 </element>
 <element name="R119" library="SparkFun-Resistors" package="0603-RES" value="0, DNP" x="22.5806" y="-41.656" smashed="yes" rot="MR180">
-<attribute name="NAME" x="24.257" y="-41.402" size="0.8128" layer="26" ratio="20" rot="MR180"/>
+<attribute name="NAME" x="24.638" y="-41.402" size="0.8128" layer="26" ratio="20" rot="MR180"/>
 <attribute name="VALUE" x="21.5646" y="-40.513" size="0.8128" layer="28" font="vector" ratio="20" rot="MR180"/>
 </element>
 <element name="R121" library="SparkFun-Resistors" package="0603-RES" value="0, DNP" x="17.907" y="-44.2722" smashed="yes" rot="MR270">
@@ -3250,7 +3248,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="-0.0022" y="-10.056" size="0.8128" layer="28" ratio="12" rot="MR180"/>
 </element>
 <element name="X3" library="GHI2" package="USB_HOST_HORIZONTAL_W/CHASSIS_GND" value="USB1" x="-2.54" y="-45.593" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.9601" y="-39.0929" size="0.8128" layer="25" ratio="12" rot="R270"/>
+<attribute name="NAME" x="4.0871" y="-37.9951" size="0.8128" layer="25" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="7.46" y="-41.0929" size="0.8128" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="WP" library="BeagleBone_Blue" package="GHI2_TESTPAD/W_HOLE_1X1" value="GHI2_TESTPAD/W_HOLE_1X1" x="25.019" y="-37.465" smashed="yes" rot="MR0">
@@ -3272,11 +3270,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="VALUE" x="37.123" y="-27.4176" size="0.8128" layer="28" ratio="12" rot="MR0" align="center-left"/>
 </element>
 <element name="R112" library="SparkFun-Resistors" package="0603-RES" value="0" x="7.62" y="-17.6784" smashed="yes" rot="MR0">
-<attribute name="NAME" x="11.7094" y="-18.0086" size="0.8128" layer="26" ratio="20" rot="MR0"/>
+<attribute name="NAME" x="12.0904" y="-18.0086" size="0.8128" layer="26" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="8.636" y="-18.8214" size="0.8128" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="12V" library="GHI" package="PJ-102B_POWER_CON" value="PJ-102B_POWER_CON" x="4.4704" y="-5.2578" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.334" y="-10.1656" size="1.6764" layer="25" rot="R180"/>
+<attribute name="NAME" x="4.842" y="-10.1656" size="1.6764" layer="25" rot="R180"/>
 <attribute name="VALUE" x="3.4704" y="1.7422" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="BeagleBone_Blue" package="ADAFRUIT_SOD-123FL" value="" x="51.435" y="-9.652" smashed="yes" rot="MR270">
