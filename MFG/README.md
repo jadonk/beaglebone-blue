@@ -1,7 +1,8 @@
 
-# PCB fabriaction information
-* 1.6 mm thick of PCB
-* 1 oz cooper thick 
+# PCB fabrication information
+* 1.6 mm PCB thickness
+* 1 oz copper thickness on outer layers
+* 0.5 oz copper on internal layers
 * Solder mask as blue
 * Silk print as white
 
@@ -9,7 +10,7 @@
 * bb_blue_4layer.cam      
 * BeagleBone_Blue.dri     
 * BeagleBone_Blue.G15L    
-* BeagleBone_Blue.G2L     
+* BeagleBone_Blue.G2L
 * BeagleBone_Blue.GBL     
 * BeagleBone_Blue.GBO     
 * BeagleBone_Blue.GBP     
