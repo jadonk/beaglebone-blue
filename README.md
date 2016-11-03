@@ -3,7 +3,7 @@ _BeagleBone optimized for robotics and machine control_
 
 To optimize BeagleBone for education, BeagleBone Blue was created that integrates many components for robotics and machine control, including connectors for off-the-shelf robotic components. For education, this means you can quickly start talking about topics such as programming and control theory, without needing to spend so much time on electronics. The goal is to still be very hackable for learning electronics as well, including being fully open hardware.
 
-BeagleBone Blue's legacy is primarily from contributions to BeagleBone Black robotics by [UCSD Flow Control and Coordinated Robotics Lab](http://fccr.ucsd.edu/), [Strawson Design](http://www.strawsondesign.com/), [Octavo Systems](http://octavosystems.com), [WowWee](http://www.wowwee.com/mip/), [National Instruments LabVIEW](http://www.ni.com/labview/) and of course the [BeagleBoard.org Foundation](http://beagleboard.org/about).
+BeagleBone Blue's legacy is primarily from contributions to BeagleBone Black robotics by [UCSD Flow Control and Coordinated Robotics Lab](http://robotics.ucsd.edu/), [Strawson Design](http://www.strawsondesign.com/), [Octavo Systems](http://octavosystems.com), [WowWee](http://www.wowwee.com/mip/), [National Instruments LabVIEW](http://www.ni.com/labview/) and of course the [BeagleBoard.org Foundation](http://beagleboard.org/about).
 
 # Terms
 These design materials are *NOT SUPPORTED* and *DO NOT* constitute a reference design. Only “community” support is allowed via resources at [BeagleBoard.org/discuss](https://beagleboard.org/discuss).
