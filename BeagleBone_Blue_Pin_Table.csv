@@ -1,9 +1,9 @@
 Use on Blue,Use on RC,P8 pin,Ball,Blue Name,Black Name,MODE0,MODE1,MODE2,MODE3,MODE4,MODE5,MODE6,MODE7
 GND,GND,"1,2",,,,,,,,,,,
-eMMC_DAT6,purple,3,R9,MMC1_DAT6,GPIO1_6,gpmc_ad6,mmc1_dat6,,,,-,-,gpio1[6]
-eMMC_DAT7,purple,4,T9,MMC1_DAT7,GPIO1_7,gpmc_ad7,mmc1_dat7,,,,-,-,gpio1[7]
-eMMC_DAT2,purple,5,R8,MMC1_DAT2,GPIO1_2,gpmc_ad2,mmc1_dat2,,,,-,-,gpio1[2]
-eMMC_DAT3,purple,6,T8,MMC1_DAT3,GPIO1_3,gpmc_ad3,mmc1_dat3,,,,-,-,gpio1[3]
+eMMC_DAT6,N/C,3,R9,MMC1_DAT6,GPIO1_6,gpmc_ad6,mmc1_dat6,,,,-,-,gpio1[6]
+eMMC_DAT7,N/C,4,T9,MMC1_DAT7,GPIO1_7,gpmc_ad7,mmc1_dat7,,,,-,-,gpio1[7]
+eMMC_DAT2,N/C,5,R8,MMC1_DAT2,GPIO1_2,gpmc_ad2,mmc1_dat2,,,,-,-,gpio1[2]
+eMMC_DAT3,N/C,6,T8,MMC1_DAT3,GPIO1_3,gpmc_ad3,mmc1_dat3,,,,-,-,gpio1[3]
 LED_RED,LED_RED,7,R7,GPIO2_2,TIMER4,gpmc_advn_ale,,timer4,,,-,-,gpio2[2]
 LED_GRN,LED_GRN,8,T7,GPIO2_3,TIMER7,gpmc_oen_ren,,timer7,,,-,-,gpio2[3]
 PAUSE_BTN,PAUSE_BTN,9,T6,GPIO2_5,TIMER5,gpmc_be0n_cle,,timer5,,,-,-,gpio2[5]
@@ -17,12 +17,12 @@ QEP_4A,QEP_4A,16*,V13,PR1_PRU0_PRU_R31_14,GPIO1_14,gpmc_ad14,lcd_data17,mmc1_dat
 BATT_LED_1 (gpio 27),BATT_LED_1 (gpio 27),17*,U12,GPIO0_27,GPIO0_27,gpmc_ad11,lcd_data20,mmc1_dat3*,mmc2_dat7,ehrpwm0_synco,pr1_mii0_txd3,-,gpio0[27]
 ***A2DP_FSYNC,***A2DP_FSYNC,18,V12,GPIO2_1,GPIO2_1,gpmc_clk_mux0,lcd_memory_clk,gpmc_wait1,mmc2_clk,,pr1_mdio_mdclk,mcasp0_fsr,gpio2[1]
 PWM_2A (Mot3),PWM_2A (Mot3),19*,U10,EHRPWM2A,EHRPWM2A,gpmc_ad8,lcd_data23,mmc1_dat0*,mmc2_dat4,ehrpwm2A,pr1_mii_mt0_clk,-,gpio0[22]
-eMMC_CMD,purple,20*,V9,MMC1_CMD,GPIO1_31,gpmc_csn2,gpmc_be1n,mmc1_cmd*,,pr1_edio_data_out7,pr1_pru1_pru_r30_13,pr1_pru1_pru_r31_13,gpio1[31]
-eMMC_CLK,purple,21*,U9,MMC1_CLK,GPIO1_30,gpmc_csn1,gpmc_clk,mmc1_clk*,,pr1_edio_data_out6,pr1_pru1_pru_r30_12,pr1_pru1_pru_r31_12,gpio1[30]
-eMMC_DAT5,purple,22,V8,MMC1_DAT5,GPIO1_5,gpmc_ad5,mmc1_dat5,,,-,-,-,gpio1[5]
-eMMC_DAT4,purple,23,U8,MMC1_DAT4,GPIO1_4,gpmc_ad4,mmc1_dat4,,,-,-,-,gpio1[4]
-eMMC_DAT1,purple,24,V7,MMC1_DAT1,GPIO1_1,gpmc_ad1,mmc1_dat1,,,-,-,-,gpio1[1]
-eMMC_DAT0,purple,25,U7,MMC1_DAT0,GPIO1_0,gpmc_ad0,mmc1_dat0,,,-,-,-,gpio1[0]
+eMMC_CMD,N/C,20*,V9,MMC1_CMD,GPIO1_31,gpmc_csn2,gpmc_be1n,mmc1_cmd*,,pr1_edio_data_out7,pr1_pru1_pru_r30_13,pr1_pru1_pru_r31_13,gpio1[31]
+eMMC_CLK,N/C,21*,U9,MMC1_CLK,GPIO1_30,gpmc_csn1,gpmc_clk,mmc1_clk*,,pr1_edio_data_out6,pr1_pru1_pru_r30_12,pr1_pru1_pru_r31_12,gpio1[30]
+eMMC_DAT5,N/C,22,V8,MMC1_DAT5,GPIO1_5,gpmc_ad5,mmc1_dat5,,,-,-,-,gpio1[5]
+eMMC_DAT4,N/C,23,U8,MMC1_DAT4,GPIO1_4,gpmc_ad4,mmc1_dat4,,,-,-,-,gpio1[4]
+eMMC_DAT1,N/C,24,V7,MMC1_DAT1,GPIO1_1,gpmc_ad1,mmc1_dat1,,,-,-,-,gpio1[1]
+eMMC_DAT0,N/C,25,U7,MMC1_DAT0,GPIO1_0,gpmc_ad0,mmc1_dat0,,,-,-,-,gpio1[0]
 BATT_LED_3 (gpio 61),BATT_LED_3 (gpio 61),26,V6,GPIO1_29,GPIO1_29,gpmc_csn0,,,,-,-,-,gpio1[29]
 SERVO_1,SERVO_1,27*,U5,GPIO2_22,GPIO2_22,lcd_vsync*,gpmc_a8,,,pr1_edio_data_out2,pr1_pru1_pru_r30_8,pr1_pru1_pru_r31_8,gpio2[22]
 SERVO_2,SERVO_2,28*,V5,GPIO2_24,GPIO2_24,lcd_pclk*,gpmc_a10,,,pr1_edio_data_out4,pr1_pru1_pru_r30_10,pr1_pru1_pru_r31_10,gpio2[24]
@@ -85,7 +85,7 @@ AIN0,AIN0,39,B6,AIN0,AIN0,AIN0,,,,,,,
 AIN1,AIN1,40,C7,AIN1,AIN1,AIN1,,,,,,,
 MOT_STBY,MOT_STBY,41#,D14,GPIO0_20,,xdma_event_intr1,,tclkin,clkout2,timer7_mux1,EMU3_mux0,,gpio0[20]
 ***N/C,yellow,,D13,GPIO3_20,,mcasp0_axr1,eQEP0_index,,Mcasp1_axr0,emu3,,,gpio3[20]
-** N/C,purple,42@,C18,GPIO0_7,GPIO0_7SRC,eCAP0_in_PWM0_out,uart3_txd,spi1_cs1,pr1_ecap0_ecap,spi1_sclk,xdma_event_intr2,,gpio0[7]
+** N/C,N/C,42@,C18,GPIO0_7,GPIO0_7SRC,eCAP0_in_PWM0_out,uart3_txd,spi1_cs1,pr1_ecap0_ecap,spi1_sclk,xdma_event_intr2,,gpio0[7]
 ,green,,,,,,,,_capin_apwm_o,,,,
 QEP_1A,QEP_1A,,B12,EQEP0A_IN,GPIO3_18,Mcasp0_aclkr,eQEP0A_in,Mcaspo_axr2,Mcasp1_aclkx,,,,gpio3[18]
 GND,GND,43-46,GND,,,,,,,,,,
