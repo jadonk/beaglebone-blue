@@ -2571,11 +2571,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="GPS" library="Strawson_Eagle_Lib" package="JST_SH_6" value="JST_SH_6" x="43.18" y="-50.038" smashed="yes">
 <attribute name="NAME" x="47.5615" y="-53.1495" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="H1" library="SparkFun" package="SSOP24" value="TB6621FNG" x="72.7202" y="-39.4716" smashed="yes" rot="R90">
+<element name="H1" library="SparkFun" package="SSOP24" value="TB6612FNG" x="72.7202" y="-39.4716" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.1134" y="-34.9758" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="72.7202" y="-43.2816" size="0.8128" layer="27" rot="R90"/>
 </element>
-<element name="H2" library="SparkFun" package="SSOP24" value="TB6621FNG" x="81.5848" y="-28.4353" smashed="yes">
+<element name="H2" library="SparkFun" package="SSOP24" value="TB6612FNG" x="81.5848" y="-28.4353" smashed="yes">
 <attribute name="NAME" x="77.1525" y="-29.0068" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="77.7748" y="-28.4353" size="0.8128" layer="27"/>
 </element>

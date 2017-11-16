@@ -13883,7 +13883,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPARKFUN_TB6621FNG">
+<deviceset name="SPARKFUN_TB6612FNG">
 <description>Toshiba 1A motor driver</description>
 <gates>
 <gate name="G$1" symbol="SPARKFUN_TB6612FNG" x="0" y="0"/>
