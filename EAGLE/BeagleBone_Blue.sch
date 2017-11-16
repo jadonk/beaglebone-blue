@@ -243,7 +243,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TB6621FNG">
+<deviceset name="TB6612FNG">
 <description>Toshiba 1A motor driver</description>
 <gates>
 <gate name="G$1" symbol="TB6612FNG" x="0" y="0"/>
@@ -17714,9 +17714,9 @@ type 0309, grid 2.5 mm</description>
 </class>
 </classes>
 <parts>
-<part name="H1" library="SparkFun" deviceset="TB6621FNG" device=""/>
+<part name="H1" library="SparkFun" deviceset="TB6612FNG" device=""/>
 <part name="C2" library="Strawson_Eagle_Lib" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="H2" library="SparkFun" deviceset="TB6621FNG" device=""/>
+<part name="H2" library="SparkFun" deviceset="TB6612FNG" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
