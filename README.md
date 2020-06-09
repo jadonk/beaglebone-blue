@@ -1,6 +1,8 @@
 # BeagleBoard.org BeagleBone Blue
 _BeagleBone optimized for robotics and machine control_
 
+Home on Github: https://github.com/beagleboard/beaglebone-blue
+
 [![Join the chat at https://gitter.im/beagleboard/beaglebone-blue](https://badges.gitter.im/beagleboard/beaglebone-blue.svg)](https://gitter.im/beagleboard/beaglebone-blue?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 To optimize BeagleBone for education, BeagleBone Blue was created that integrates many components for robotics and machine control, including connectors for off-the-shelf robotic components. For education, this means you can quickly start talking about topics such as programming and control theory, without needing to spend so much time on electronics. The goal is to still be very hackable for learning electronics as well, including being fully open hardware.
